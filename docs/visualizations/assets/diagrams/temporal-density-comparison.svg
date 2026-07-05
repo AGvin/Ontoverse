@@ -1,75 +1,33 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
   <title id="title">Temporal Density Comparison</title>
-  <desc id="desc">Two trajectories share the same frontal-time interval, but one has sparse event-nodes while the other has dense event-nodes.</desc>
+  <desc id="desc">Two trajectories share the same frontal-time interval, but one has sparse event-nodes while the other has dense event-nodes. Both terminate at the ruby frontal time plane.</desc>
   <defs>
-    <linearGradient id="lineA" x1="300" y1="360" x2="1280" y2="360" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#37dcff"/>
-      <stop offset="0.55" stop-color="#e9f6ff"/>
-      <stop offset="1" stop-color="#d36cff"/>
-    </linearGradient>
-    <linearGradient id="lineB" x1="300" y1="560" x2="1280" y2="560" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#37dcff"/>
-      <stop offset="0.55" stop-color="#f2f5ff"/>
-      <stop offset="1" stop-color="#ff65e9"/>
-    </linearGradient>
-    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
-      <feGaussianBlur stdDeviation="4" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-    <marker id="arrow-red" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
-      <path d="M0 0 10 5 0 10z" fill="#ff3b56"/>
-    </marker>
-    <marker id="arrow-red-start" viewBox="0 0 10 10" refX="2" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
-      <path d="M10 0 0 5 10 10z" fill="#ff3b56"/>
-    </marker>
+    <radialGradient id="bg" cx="45%" cy="50%" r="80%"><stop offset="0" stop-color="#07152a"/><stop offset="0.58" stop-color="#020713"/><stop offset="1" stop-color="#00030a"/></radialGradient>
+    <linearGradient id="low" x1="230" y1="310" x2="1260" y2="330" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#18eaff"/><stop offset="0.55" stop-color="#dffaff"/><stop offset="1" stop-color="#b76cff"/></linearGradient>
+    <linearGradient id="high" x1="230" y1="585" x2="1260" y2="585" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#20eaff"/><stop offset="0.48" stop-color="#ffffff"/><stop offset="1" stop-color="#ff5de1"/></linearGradient>
+    <linearGradient id="plane" x1="1255" y1="170" x2="1350" y2="730" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#ff5870" stop-opacity="0.06"/><stop offset="0.5" stop-color="#ff214a" stop-opacity="0.32"/><stop offset="1" stop-color="#ff5870" stop-opacity="0.08"/></linearGradient>
+    <filter id="cyanGlow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="5" result="b"/><feColorMatrix in="b" type="matrix" values="0 0 0 0 0.05 0 0 0 0 0.65 0 0 0 0 1 0 0 0 .9 0" result="c"/><feMerge><feMergeNode in="c"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="rubyGlow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="7" result="b"/><feColorMatrix in="b" type="matrix" values="1 0 0 0 1 0 0 0 0 .04 0 0 0 0 .12 0 0 0 .9 0" result="c"/><feMerge><feMergeNode in="c"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="whiteGlow" x="-50%" y="-50%" width="200%" height="200%"><feDropShadow dx="0" dy="0" stdDeviation="3" flood-color="#ffffff" flood-opacity="0.45"/></filter>
   </defs>
-  <rect width="1600" height="900" fill="#05070d"/>
-  <text x="450" y="120" fill="#f8fbff" font-size="42" font-family="Inter, Segoe UI, Arial, sans-serif">Temporal density</text>
-  <text x="780" y="120" fill="#f8fbff" font-size="42" font-family="Inter, Segoe UI, Arial, sans-serif">~</text>
-  <text x="900" y="92" fill="#54dcff" font-size="34" font-family="Inter, Segoe UI, Arial, sans-serif">event-nodes</text>
-  <line x1="870" y1="112" x2="1120" y2="112" stroke="#c9ceda"/>
-  <text x="855" y="158" fill="#ff4b63" font-size="34" font-family="Inter, Segoe UI, Arial, sans-serif">frontal-time interval</text>
-  <line x1="110" y1="450" x2="1490" y2="450" stroke="#ff3b56" stroke-width="2" marker-end="url(#arrow-red)" opacity="0.85"/>
-  <text x="80" y="425" fill="#ff5668" font-size="36" font-family="Inter, Segoe UI, Arial, sans-serif">Frontal time</text>
-  <text x="1510" y="465" fill="#ff5668" font-size="46" font-style="italic" font-family="Inter, Segoe UI, Arial, sans-serif">t</text>
-  <g filter="url(#glow)">
-    <polygon points="250,250 305,220 305,690 250,720" fill="#ff243a" opacity="0.22" stroke="#ff3b56" stroke-width="3"/>
-    <polygon points="1295,220 1350,250 1350,720 1295,690" fill="#ff243a" opacity="0.22" stroke="#ff3b56" stroke-width="3"/>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <text x="92" y="88" fill="#f7fbff" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="44">Temporal Density Comparison</text>
+  <text x="92" y="126" fill="#8ea6c8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22">same frontal-time interval, different accumulated event-nodes</text>
+  <g opacity=".22" stroke="#1b67c9" fill="none"><path d="M120 170 H1350 V735 H120 Z"/><path d="M120 450 H1350"/><path d="M300 170 V735"/><path d="M520 170 V735"/><path d="M740 170 V735"/><path d="M960 170 V735"/><path d="M1180 170 V735"/></g>
+  <g filter="url(#rubyGlow)"><polygon points="1260,185 1335,145 1335,755 1260,715" fill="url(#plane)" stroke="#ff4562" stroke-width="4"/><line x1="1335" y1="145" x2="1335" y2="755" stroke="#ff6b7d" stroke-width="5"/></g>
+  <text x="1185" y="130" fill="#ff6b7d" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="26">frontal time plane</text>
+  <line x1="160" y1="770" x2="1335" y2="770" stroke="#ff4562" stroke-width="2" filter="url(#rubyGlow)"/><path d="M1335 770 L1314 759 L1314 781 Z" fill="#ff4562" filter="url(#rubyGlow)"/><text x="1365" y="782" fill="#ff6b7d" font-size="32" font-family="Inter, Segoe UI, Arial, sans-serif" font-style="italic">t</text>
+  <text x="155" y="298" fill="#20eaff" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="30">Low temporal density</text>
+  <path d="M220 330 C370 302 460 350 600 330 C760 306 880 350 1020 330 C1135 314 1210 330 1260 330" stroke="url(#low)" stroke-width="5" fill="none" filter="url(#cyanGlow)"/>
+  <g stroke="#45e9ff" stroke-dasharray="3 11" stroke-linecap="round" opacity=".75" fill="none"><path d="M350 315 C400 250 480 260 530 315"/><path d="M595 330 C650 385 735 380 790 332"/><path d="M1015 330 C1065 270 1140 285 1195 326"/></g>
+  <g filter="url(#cyanGlow)" fill="#f8fbff" stroke-width="4"><circle cx="220" cy="330" r="10" stroke="#20eaff"/><circle cx="600" cy="330" r="10" stroke="#8befff"/><circle cx="1020" cy="330" r="10" stroke="#c290ff"/><circle cx="1260" cy="330" r="9" stroke="#ff8ce7"/></g>
+  <text x="155" y="560" fill="#ff78e6" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="30">High temporal density</text>
+  <path d="M220 585 C390 570 535 605 700 585 C870 565 1030 605 1260 585" stroke="url(#high)" stroke-width="5" fill="none" filter="url(#cyanGlow)"/>
+  <g stroke="#dd69ff" stroke-dasharray="3 10" stroke-linecap="round" opacity=".72" fill="none">
+    <path d="M250 585 C282 540 322 540 354 584"/><path d="M350 585 C382 630 430 630 462 586"/><path d="M455 585 C490 540 535 540 570 585"/><path d="M565 585 C600 630 650 630 685 586"/><path d="M690 585 C725 540 775 540 810 585"/><path d="M810 585 C850 630 905 630 945 586"/><path d="M940 585 C985 540 1040 540 1085 585"/><path d="M1085 585 C1130 630 1190 630 1235 585"/>
   </g>
-  <line x1="305" y1="235" x2="1295" y2="235" stroke="#ff3b56" stroke-width="2" stroke-dasharray="8 10" marker-start="url(#arrow-red-start)" marker-end="url(#arrow-red)"/>
-  <text x="615" y="220" fill="#ff5668" font-size="34" font-family="Inter, Segoe UI, Arial, sans-serif">Equal frontal-time interval</text>
-  <text x="650" y="315" fill="#1ee7f0" font-size="34" font-family="Inter, Segoe UI, Arial, sans-serif">Low temporal density</text>
-  <text x="640" y="515" fill="#b6b9ff" font-size="34" font-family="Inter, Segoe UI, Arial, sans-serif">High temporal density</text>
-  <path d="M305 360 C510 360 650 360 820 360 C1030 360 1140 360 1295 360" stroke="url(#lineA)" stroke-width="3" fill="none" filter="url(#glow)"/>
-  <path d="M305 560 C520 560 730 560 920 560 C1070 560 1180 560 1295 560" stroke="url(#lineB)" stroke-width="3" fill="none" filter="url(#glow)"/>
-  <g fill="none" stroke="#44e2ff" stroke-dasharray="3 8" stroke-width="2" opacity="0.85">
-    <path d="M360 360 C410 310 450 315 490 345"/>
-    <path d="M360 360 C410 410 450 405 490 375"/>
-    <path d="M610 360 C650 315 695 325 735 355"/>
-    <path d="M610 360 C650 405 695 395 735 365"/>
-    <path d="M970 360 C1010 315 1050 325 1090 350"/>
-    <path d="M970 360 C1010 405 1050 395 1090 370"/>
+  <g filter="url(#cyanGlow)" fill="#f8fbff" stroke-width="3">
+    <circle cx="220" cy="585" r="8" stroke="#20eaff"/><circle cx="295" cy="580" r="7" stroke="#20eaff"/><circle cx="370" cy="590" r="7" stroke="#51caff"/><circle cx="445" cy="582" r="7" stroke="#74aaff"/><circle cx="520" cy="594" r="7" stroke="#9690ff"/><circle cx="595" cy="586" r="7" stroke="#b87dff"/><circle cx="670" cy="590" r="7" stroke="#e6e8ff"/><circle cx="745" cy="582" r="7" stroke="#f3f8ff"/><circle cx="820" cy="576" r="7" stroke="#f8fbff"/><circle cx="895" cy="585" r="7" stroke="#d687ff"/><circle cx="970" cy="595" r="7" stroke="#d26cff"/><circle cx="1045" cy="590" r="7" stroke="#ed61ff"/><circle cx="1120" cy="582" r="7" stroke="#ff61e7"/><circle cx="1195" cy="584" r="7" stroke="#ff77e9"/><circle cx="1260" cy="585" r="8" stroke="#ff8ce7"/>
   </g>
-  <g fill="none" stroke="#d96cff" stroke-dasharray="3 8" stroke-width="2" opacity="0.8">
-    <path d="M345 560 C375 520 405 522 430 550"/><path d="M400 560 C430 520 460 522 485 550"/>
-    <path d="M455 560 C485 520 515 522 540 550"/><path d="M510 560 C540 520 570 522 595 550"/>
-    <path d="M565 560 C595 520 625 522 650 550"/><path d="M620 560 C650 520 680 522 705 550"/>
-    <path d="M675 560 C705 520 735 522 760 550"/><path d="M730 560 C760 520 790 522 815 550"/>
-    <path d="M785 560 C815 520 845 522 870 550"/><path d="M840 560 C870 520 900 522 925 550"/>
-    <path d="M895 560 C925 520 955 522 980 550"/><path d="M950 560 C980 520 1010 522 1035 550"/>
-    <path d="M1005 560 C1035 520 1065 522 1090 550"/><path d="M1060 560 C1090 520 1120 522 1145 550"/>
-    <path d="M1115 560 C1145 520 1175 522 1200 550"/><path d="M1170 560 C1200 520 1230 522 1255 550"/>
-  </g>
-  <g filter="url(#glow)">
-    <g fill="#e7f6ff" stroke="#47dfff" stroke-width="4"><circle cx="305" cy="360" r="10"/><circle cx="600" cy="360" r="10"/><circle cx="965" cy="360" r="10"/><circle cx="1295" cy="360" r="10"/></g>
-    <g fill="#fff6ff" stroke="#d86cff" stroke-width="4">
-      <circle cx="305" cy="560" r="9"/><circle cx="355" cy="560" r="8"/><circle cx="405" cy="560" r="8"/><circle cx="455" cy="560" r="8"/><circle cx="505" cy="560" r="8"/><circle cx="555" cy="560" r="8"/><circle cx="605" cy="560" r="8"/><circle cx="655" cy="560" r="8"/><circle cx="705" cy="560" r="8"/><circle cx="755" cy="560" r="8"/><circle cx="805" cy="560" r="8"/><circle cx="855" cy="560" r="8"/><circle cx="905" cy="560" r="8"/><circle cx="955" cy="560" r="8"/><circle cx="1005" cy="560" r="8"/><circle cx="1055" cy="560" r="8"/><circle cx="1105" cy="560" r="8"/><circle cx="1155" cy="560" r="8"/><circle cx="1205" cy="560" r="8"/><circle cx="1255" cy="560" r="8"/><circle cx="1295" cy="560" r="8"/>
-    </g>
-  </g>
-  <g transform="translate(520 765)">
-    <circle cx="0" cy="0" r="13" fill="#f5faff" stroke="#69dfff" stroke-width="5" filter="url(#glow)"/>
-    <text x="45" y="10" fill="#f8fbff" font-size="28" font-family="Inter, Segoe UI, Arial, sans-serif">Event-nodes</text>
-    <line x1="340" y1="0" x2="435" y2="0" stroke="#f8fbff" stroke-dasharray="4 8" stroke-width="2"/>
-    <text x="460" y="10" fill="#f8fbff" font-size="28" font-family="Inter, Segoe UI, Arial, sans-serif">Potential branches</text>
-  </g>
+  <g font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22"><text x="470" y="820" fill="#f7fbff">temporal density ~ event-nodes / frontal-time interval</text><text x="470" y="850" fill="#8ea6c8">realized nodes stop at the frontal time plane</text></g>
 </svg>
