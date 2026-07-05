@@ -1,140 +1,86 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
   <title id="title">Temporal Density Comparison</title>
-  <desc id="desc">Clean SVG comparison of low and high temporal density. Nodes are placed only on realized strings, dotted branches are node-free, and no path continues beyond the frontal time plane.</desc>
+  <desc id="desc">Minimal SVG comparison of low and high temporal density. Nodes are only on realized strings and both strings end at the frontal time plane.</desc>
   <defs>
-    <radialGradient id="bg" cx="50%" cy="50%" r="80%">
+    <radialGradient id="bg" cx="50%" cy="50%" r="82%">
       <stop offset="0" stop-color="#07152a"/>
-      <stop offset="0.62" stop-color="#020713"/>
+      <stop offset="0.65" stop-color="#020713"/>
       <stop offset="1" stop-color="#00030a"/>
     </radialGradient>
-    <linearGradient id="lowLine" x1="285" y1="400" x2="1230" y2="400" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#0eeaff"/>
-      <stop offset="0.5" stop-color="#f8fbff"/>
-      <stop offset="1" stop-color="#c778ff"/>
+    <linearGradient id="low" x1="260" y1="405" x2="1260" y2="405" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#14eaff"/>
+      <stop offset="0.55" stop-color="#f8fbff"/>
+      <stop offset="1" stop-color="#b778ff"/>
     </linearGradient>
-    <linearGradient id="highLine" x1="285" y1="600" x2="1230" y2="600" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#0eeaff"/>
-      <stop offset="0.5" stop-color="#b9c9ff"/>
-      <stop offset="1" stop-color="#ff60e8"/>
+    <linearGradient id="high" x1="260" y1="605" x2="1260" y2="605" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#14eaff"/>
+      <stop offset="0.5" stop-color="#9eb1ff"/>
+      <stop offset="1" stop-color="#ff5ee7"/>
     </linearGradient>
-    <linearGradient id="planeFill" x1="1265" y1="230" x2="1345" y2="735" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#ff6578" stop-opacity="0.06"/>
-      <stop offset="0.52" stop-color="#ff2149" stop-opacity="0.34"/>
-      <stop offset="1" stop-color="#ff6578" stop-opacity="0.08"/>
+    <linearGradient id="plane" x1="1260" y1="230" x2="1340" y2="760" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ff6076" stop-opacity="0.10"/>
+      <stop offset="0.5" stop-color="#ff244b" stop-opacity="0.36"/>
+      <stop offset="1" stop-color="#ff6076" stop-opacity="0.12"/>
     </linearGradient>
-    <filter id="lineGlow" x="-40%" y="-50%" width="180%" height="200%">
-      <feGaussianBlur stdDeviation="3" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-    <filter id="nodeGlow" x="-120%" y="-120%" width="340%" height="340%">
-      <feGaussianBlur stdDeviation="4" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-    <filter id="rubyGlow" x="-80%" y="-80%" width="260%" height="260%">
-      <feGaussianBlur stdDeviation="7" result="blur"/>
-      <feColorMatrix in="blur" type="matrix" values="1 0 0 0 1 0 0 0 0 .04 0 0 0 0 .12 0 0 0 .92 0" result="color"/>
-      <feMerge><feMergeNode in="color"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
   </defs>
-
   <rect width="1600" height="900" fill="url(#bg)"/>
-
-  <text x="800" y="78" fill="#f8fbff" font-family="Orbitron, Rajdhani, Segoe UI, Arial, sans-serif" font-size="52" text-anchor="middle">Temporal Density Comparison</text>
-
-  <rect x="365" y="105" width="870" height="116" rx="16" fill="#050a16" stroke="#264c7a" stroke-width="1.4" opacity="0.92"/>
-  <g font-family="Inter, Segoe UI, Arial, sans-serif" font-size="25">
-    <text x="435" y="152" fill="#f8fbff">temporal density</text>
-    <text x="665" y="152" fill="#f8fbff">~</text>
-    <text x="720" y="152" fill="#12eaff">event-nodes</text>
-    <text x="910" y="152" fill="#f8fbff">/</text>
-    <text x="965" y="152" fill="#ff526b">frontal-time interval</text>
-    <line x1="430" y1="175" x2="1175" y2="175" stroke="#34425d"/>
-    <text x="505" y="203" fill="#f8fbff">local time</text>
-    <text x="665" y="203" fill="#f8fbff">~</text>
-    <text x="720" y="203" fill="#99b4ff">accumulated significant</text>
-    <text x="1008" y="203" fill="#c778ff">event-nodes</text>
+  <text x="800" y="85" fill="#f8fbff" font-family="Segoe UI, Arial, sans-serif" font-size="52" text-anchor="middle">Temporal Density Comparison</text>
+  <rect x="390" y="115" width="820" height="92" rx="14" fill="#050a16" stroke="#264c7a"/>
+  <text x="465" y="154" fill="#f8fbff" font-family="Segoe UI, Arial, sans-serif" font-size="24">temporal density</text>
+  <text x="668" y="154" fill="#f8fbff" font-family="Segoe UI, Arial, sans-serif" font-size="24">~</text>
+  <text x="720" y="154" fill="#14eaff" font-family="Segoe UI, Arial, sans-serif" font-size="24">event-nodes</text>
+  <text x="905" y="154" fill="#f8fbff" font-family="Segoe UI, Arial, sans-serif" font-size="24">/</text>
+  <text x="955" y="154" fill="#ff526b" font-family="Segoe UI, Arial, sans-serif" font-size="24">frontal-time interval</text>
+  <line x1="430" y1="174" x2="1170" y2="174" stroke="#34425d"/>
+  <text x="528" y="197" fill="#f8fbff" font-family="Segoe UI, Arial, sans-serif" font-size="24">local time</text>
+  <text x="668" y="197" fill="#f8fbff" font-family="Segoe UI, Arial, sans-serif" font-size="24">~</text>
+  <text x="720" y="197" fill="#9eb1ff" font-family="Segoe UI, Arial, sans-serif" font-size="24">accumulated significant event-nodes</text>
+  <g opacity="0.12" stroke="#1a63bd" fill="none">
+    <path d="M260 300 H1340 V715 H260 Z"/>
+    <path d="M260 505 H1340"/>
+    <path d="M520 300 V715"/>
+    <path d="M780 300 V715"/>
+    <path d="M1040 300 V715"/>
   </g>
-
-  <g opacity="0.18" stroke="#1a63bd" fill="none" stroke-width="1">
-    <path d="M285 270 H1340 V730 H285 Z"/>
-    <path d="M285 500 H1340"/>
-    <path d="M500 270 V730"/>
-    <path d="M715 270 V730"/>
-    <path d="M930 270 V730"/>
-    <path d="M1145 270 V730"/>
+  <polygon points="1260,265 1340,220 1340,760 1260,715" fill="url(#plane)" stroke="#ff4562" stroke-width="4"/>
+  <line x1="1340" y1="220" x2="1340" y2="760" stroke="#ff6b7d" stroke-width="5"/>
+  <text x="1370" y="420" fill="#ff5d73" font-family="Segoe UI, Arial, sans-serif" font-size="28">frontal</text>
+  <text x="1370" y="455" fill="#ff5d73" font-family="Segoe UI, Arial, sans-serif" font-size="28">time</text>
+  <text x="1370" y="490" fill="#ff5d73" font-family="Segoe UI, Arial, sans-serif" font-size="28">plane</text>
+  <line x1="260" y1="285" x2="1260" y2="285" stroke="#ff4562" stroke-width="2" stroke-dasharray="9 10"/>
+  <text x="760" y="268" fill="#ff526b" font-family="Segoe UI, Arial, sans-serif" font-size="30" text-anchor="middle">Equal frontal-time interval</text>
+  <text x="220" y="397" fill="#14eaff" font-family="Segoe UI, Arial, sans-serif" font-size="28" text-anchor="end">Low temporal</text>
+  <text x="220" y="432" fill="#14eaff" font-family="Segoe UI, Arial, sans-serif" font-size="28" text-anchor="end">density</text>
+  <text x="220" y="597" fill="#b781ff" font-family="Segoe UI, Arial, sans-serif" font-size="28" text-anchor="end">High temporal</text>
+  <text x="220" y="632" fill="#b781ff" font-family="Segoe UI, Arial, sans-serif" font-size="28" text-anchor="end">density</text>
+  <path d="M260 405 H1260" stroke="url(#low)" stroke-width="6"/>
+  <path d="M260 605 H1260" stroke="url(#high)" stroke-width="6"/>
+  <g fill="#07152a" stroke-width="4">
+    <circle cx="260" cy="405" r="10" stroke="#14eaff"/>
+    <circle cx="510" cy="405" r="10" stroke="#8edcff"/>
+    <circle cx="760" cy="405" r="10" stroke="#f8fbff"/>
+    <circle cx="1010" cy="405" r="10" stroke="#b778ff"/>
+    <circle cx="1260" cy="405" r="10" stroke="#ff5ee7"/>
+    <circle cx="260" cy="605" r="9" stroke="#14eaff"/>
+    <circle cx="315" cy="605" r="9" stroke="#1bdcff"/>
+    <circle cx="370" cy="605" r="9" stroke="#35caff"/>
+    <circle cx="425" cy="605" r="9" stroke="#4db8ff"/>
+    <circle cx="480" cy="605" r="9" stroke="#65a7ff"/>
+    <circle cx="535" cy="605" r="9" stroke="#7c98ff"/>
+    <circle cx="590" cy="605" r="9" stroke="#928bff"/>
+    <circle cx="645" cy="605" r="9" stroke="#aa82ff"/>
+    <circle cx="700" cy="605" r="9" stroke="#c082ff"/>
+    <circle cx="755" cy="605" r="9" stroke="#d18dff"/>
+    <circle cx="810" cy="605" r="9" stroke="#e09aff"/>
+    <circle cx="865" cy="605" r="9" stroke="#df78ff"/>
+    <circle cx="920" cy="605" r="9" stroke="#e96cff"/>
+    <circle cx="975" cy="605" r="9" stroke="#f466f3"/>
+    <circle cx="1030" cy="605" r="9" stroke="#ff60e8"/>
+    <circle cx="1085" cy="605" r="9" stroke="#ff60e8"/>
+    <circle cx="1140" cy="605" r="9" stroke="#ff60e8"/>
+    <circle cx="1195" cy="605" r="9" stroke="#ff60e8"/>
+    <circle cx="1260" cy="605" r="9" stroke="#ff60e8"/>
   </g>
-
-  <g filter="url(#rubyGlow)">
-    <polygon points="1265,255 1345,210 1345,765 1265,720" fill="url(#planeFill)" stroke="#ff4562" stroke-width="4"/>
-    <line x1="1345" y1="210" x2="1345" y2="765" stroke="#ff6b7d" stroke-width="5"/>
-    <line x1="1265" y1="255" x2="1265" y2="720" stroke="#ff294f" stroke-width="2" opacity="0.75"/>
-  </g>
-  <text x="1370" y="404" fill="#ff5d73" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="27">frontal</text>
-  <text x="1370" y="438" fill="#ff5d73" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="27">time</text>
-  <text x="1370" y="472" fill="#ff5d73" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="27">plane</text>
-
-  <line x1="285" y1="275" x2="1265" y2="275" stroke="#ff4562" stroke-width="2" stroke-dasharray="8 10"/>
-  <path d="M285 275 L305 264 L305 286 Z" fill="#ff4562"/>
-  <path d="M1265 275 L1245 264 L1245 286 Z" fill="#ff4562"/>
-  <text x="800" y="257" fill="#ff526b" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="29" text-anchor="middle">Equal frontal-time interval</text>
-
-  <g font-family="Inter, Segoe UI, Arial, sans-serif" font-size="27">
-    <text x="215" y="392" fill="#0eeaff" text-anchor="end">Low temporal</text>
-    <text x="215" y="426" fill="#0eeaff" text-anchor="end">density</text>
-    <text x="215" y="592" fill="#b881ff" text-anchor="end">High temporal</text>
-    <text x="215" y="626" fill="#b881ff" text-anchor="end">density</text>
-  </g>
-
-  <path d="M285 400 H1265" stroke="url(#lowLine)" stroke-width="4" filter="url(#lineGlow)"/>
-  <path d="M285 600 H1265" stroke="url(#highLine)" stroke-width="4" filter="url(#lineGlow)"/>
-
-  <g fill="none" stroke-linecap="round" stroke-width="2.2" stroke-dasharray="3 10" opacity="0.82">
-    <path d="M285 400 C330 360 380 360 425 400" stroke="#0eeaff"/>
-    <path d="M570 400 C615 360 665 360 710 400" stroke="#8dcfff"/>
-    <path d="M855 400 C900 360 950 360 995 400" stroke="#e8eaff"/>
-    <path d="M1140 400 C1185 360 1235 360 1265 400" stroke="#c778ff"/>
-    <path d="M285 400 C330 440 380 440 425 400" stroke="#0eeaff"/>
-    <path d="M570 400 C615 440 665 440 710 400" stroke="#8dcfff"/>
-    <path d="M855 400 C900 440 950 440 995 400" stroke="#e8eaff"/>
-    <path d="M1140 400 C1185 440 1235 440 1265 400" stroke="#c778ff"/>
-
-    <path d="M342 600 C382 560 422 560 462 600" stroke="#0eeaff"/>
-    <path d="M456 600 C496 560 536 560 576 600" stroke="#33caff"/>
-    <path d="M570 600 C610 560 650 560 690 600" stroke="#63aaff"/>
-    <path d="M684 600 C724 560 764 560 804 600" stroke="#918dff"/>
-    <path d="M798 600 C838 560 878 560 918 600" stroke="#c884ff"/>
-    <path d="M912 600 C952 560 992 560 1032 600" stroke="#df72ff"/>
-    <path d="M1026 600 C1066 560 1106 560 1146 600" stroke="#f466f3"/>
-    <path d="M1140 600 C1180 560 1220 560 1265 600" stroke="#ff60e8"/>
-  </g>
-
-  <g filter="url(#nodeGlow)" fill="#07152a" stroke-width="4">
-    <circle cx="285" cy="400" r="10" stroke="#0eeaff"/>
-    <circle cx="570" cy="400" r="10" stroke="#8dcfff"/>
-    <circle cx="855" cy="400" r="10" stroke="#e8eaff"/>
-    <circle cx="1140" cy="400" r="10" stroke="#c778ff"/>
-    <circle cx="1265" cy="400" r="10" stroke="#ff60e8"/>
-
-    <circle cx="285" cy="600" r="9" stroke="#0eeaff"/>
-    <circle cx="342" cy="600" r="9" stroke="#0eeaff"/>
-    <circle cx="399" cy="600" r="9" stroke="#1bd8ff"/>
-    <circle cx="456" cy="600" r="9" stroke="#33caff"/>
-    <circle cx="513" cy="600" r="9" stroke="#4fbbff"/>
-    <circle cx="570" cy="600" r="9" stroke="#63aaff"/>
-    <circle cx="627" cy="600" r="9" stroke="#779bff"/>
-    <circle cx="684" cy="600" r="9" stroke="#918dff"/>
-    <circle cx="741" cy="600" r="9" stroke="#aa82ff"/>
-    <circle cx="798" cy="600" r="9" stroke="#c884ff"/>
-    <circle cx="855" cy="600" r="9" stroke="#d98cff"/>
-    <circle cx="912" cy="600" r="9" stroke="#df72ff"/>
-    <circle cx="969" cy="600" r="9" stroke="#e76afe"/>
-    <circle cx="1026" cy="600" r="9" stroke="#f466f3"/>
-    <circle cx="1083" cy="600" r="9" stroke="#ff60e8"/>
-    <circle cx="1140" cy="600" r="9" stroke="#ff60e8"/>
-    <circle cx="1197" cy="600" r="9" stroke="#ff60e8"/>
-    <circle cx="1265" cy="600" r="9" stroke="#ff60e8"/>
-  </g>
-
-  <rect x="325" y="775" width="950" height="72" rx="14" fill="#050a16" stroke="#29354f" opacity="0.92"/>
-  <text x="800" y="815" fill="#aab6d8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" text-anchor="middle">Event-nodes are placed only on realized strings. Dotted curves are potential branches and contain no separate nodes.</text>
+  <rect x="355" y="775" width="890" height="64" rx="13" fill="#050a16" stroke="#29354f"/>
+  <text x="800" y="815" fill="#aab6d8" font-family="Segoe UI, Arial, sans-serif" font-size="22" text-anchor="middle">Only realized strings carry event-nodes. No decorative dots or detached nodes.</text>
 </svg>
