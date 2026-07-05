@@ -1,0 +1,52 @@
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editors and local IDE state
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+.history/
+*.swp
+*.swo
+*~
+
+# Environment and local overrides
+.env
+.env.*
+!.env.example
+*.local
+
+# Logs
+logs/
+*.log
+
+# Dependencies
+node_modules/
+
+# Build, cache, and coverage output
+dist/
+build/
+coverage/
+.cache/
+tmp/
+
+# Python cache and virtual environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Package output
+*.tgz
+
+# Temporary backups
+*.tmp
+*.bak
