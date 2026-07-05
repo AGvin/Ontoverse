@@ -1,5 +1,7 @@
 # Ontoverse
 
+![Ontoverse logo](./assets/images/ontoverse-logo-frontal-plane-rectangular.svg)
+
 A conceptual framework for reality, time, histories, causality, and compatible worlds.
 
 Ontoverse explores speculative models of **history-space**, **frontal time**, **temporal density**, **event-nodes**, **compatibility channels**, and **observer-compatible worlds**. It is intended as a structured research notebook for developing, comparing, and refining ideas about how reality may be organized.
@@ -44,15 +46,15 @@ The purpose of this repository is to organize and refine models, definitions, hy
 - [`glossary/`](./docs/glossary/) — working definitions for Ontoverse terminology.
 - [`notes/`](./docs/notes/) — exploratory notes and inspiration sources.
 
+### Branding
+
+- [`branding/`](./docs/branding/) — primary and alternative Ontoverse logo directions.
+
 ## Authorship and AI Assistance
 
 The conceptual ideas presented in Ontoverse — including its hypotheses, models, terminology proposals, and interpretive directions — originate from the author.
 
 AI tools were used to assist with terminology refinement, document structuring, wording improvement, translation, language polishing, and drafting repository documentation. AI assistance should therefore be understood as editorial and organizational support, not as authorship of the core concepts.
-
-## Branding Status
-
-The project logo and icon are intentionally not included in this PR until the approved raster artwork can be added exactly as approved by the author.
 
 ## Reuse
 
