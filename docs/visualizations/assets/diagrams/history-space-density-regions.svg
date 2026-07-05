@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">History-Space Density Regions</title>
+  <desc id="desc">A history-space volume with sparse, medium, and dense temporal-density regions ending at the frontal time plane.</desc>
+  <defs>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="4" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="1600" height="900" fill="#05070d"/>
+  <text x="720" y="64" fill="#cfe7ff" font-size="30" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif">History-space</text>
+  <path d="M300 90 H1140" stroke="#9ab6d9" opacity="0.45"/><path d="M300 90 C300 78 1140 78 1140 90" stroke="#9ab6d9" fill="none" opacity="0.65"/>
+  <g filter="url(#glow)"><polygon points="1255,110 1315,150 1315,760 1255,800" fill="#ff233c" opacity="0.24" stroke="#ff3b56" stroke-width="3"/></g>
+  <text x="1190" y="72" fill="#ff5668" font-size="30" font-family="Inter, Segoe UI, Arial, sans-serif">Frontal time plane</text>
+  <text x="1280" y="850" fill="#ff5668" font-size="28" font-family="Inter, Segoe UI, Arial, sans-serif">Frontal time</text>
+  <text x="210" y="210" fill="#39e6ff" font-size="26" text-anchor="end" font-family="Inter, Segoe UI, Arial, sans-serif">Low temporal</text><text x="210" y="242" fill="#39e6ff" font-size="26" text-anchor="end" font-family="Inter, Segoe UI, Arial, sans-serif">density region</text>
+  <text x="210" y="420" fill="#b89dff" font-size="26" text-anchor="end" font-family="Inter, Segoe UI, Arial, sans-serif">Medium temporal</text><text x="210" y="452" fill="#b89dff" font-size="26" text-anchor="end" font-family="Inter, Segoe UI, Arial, sans-serif">density region</text>
+  <text x="210" y="635" fill="#ffb64d" font-size="26" text-anchor="end" font-family="Inter, Segoe UI, Arial, sans-serif">High temporal</text><text x="210" y="667" fill="#ffb64d" font-size="26" text-anchor="end" font-family="Inter, Segoe UI, Arial, sans-serif">density region</text>
+  <g stroke="#546a8a" opacity="0.45" fill="none"><path d="M250 120 L1255 110 L1255 800 L250 770 Z"/><path d="M250 330 L1255 325"/><path d="M250 545 L1255 540"/><path d="M250 120 V770"/></g>
+  <g fill="none" stroke-width="2" stroke-linecap="round">
+    <path d="M310 180 C480 180 580 150 760 180 C940 210 1060 190 1255 190" stroke="#2bdfff"/>
+    <path d="M300 245 C510 255 660 220 820 250 C980 280 1100 240 1255 250" stroke="#6fb7ff"/>
+    <path d="M360 145 C560 145 760 170 980 150 C1100 140 1185 162 1255 170" stroke="#4a8dff" stroke-dasharray="3 8"/>
+    <path d="M300 375 C480 360 600 390 780 380 C960 370 1080 430 1255 405" stroke="#4adfff"/>
+    <path d="M300 420 C480 445 630 410 780 440 C935 470 1070 420 1255 450" stroke="#827cff"/>
+    <path d="M300 465 C520 455 640 490 800 470 C980 445 1120 480 1255 485" stroke="#d46cff"/>
+    <path d="M300 395 C520 500 700 330 910 450 C1040 520 1140 455 1255 430" stroke="#9b87ff" stroke-dasharray="3 8"/>
+    <path d="M300 590 C500 585 640 610 790 600 C945 590 1080 610 1255 620" stroke="#47dfff"/>
+    <path d="M300 630 C520 660 660 625 810 655 C975 690 1080 640 1255 660" stroke="#be78ff"/>
+    <path d="M300 670 C520 700 690 655 830 700 C990 750 1105 695 1255 710" stroke="#ffb64d"/>
+    <path d="M300 705 C540 680 690 730 850 705 C1020 680 1120 742 1255 745" stroke="#ff7edb"/>
+  </g>
+  <g filter="url(#glow)">
+    <g fill="#48dfff"><circle cx="480" cy="180" r="4"/><circle cx="760" cy="180" r="4"/><circle cx="1060" cy="190" r="4"/><circle cx="510" cy="255" r="4"/><circle cx="820" cy="250" r="4"/></g>
+    <g fill="#b89dff"><circle cx="410" cy="375" r="5"/><circle cx="560" cy="390" r="5"/><circle cx="720" cy="380" r="5"/><circle cx="875" cy="370" r="5"/><circle cx="1020" cy="430" r="5"/><circle cx="1150" cy="405" r="5"/><circle cx="450" cy="420" r="5"/><circle cx="620" cy="410" r="5"/><circle cx="780" cy="440" r="5"/><circle cx="930" cy="470" r="5"/><circle cx="1090" cy="420" r="5"/></g>
+    <g fill="#ffb64d"><circle cx="330" cy="590" r="5"/><circle cx="380" cy="590" r="5"/><circle cx="430" cy="590" r="5"/><circle cx="480" cy="585" r="5"/><circle cx="530" cy="592" r="5"/><circle cx="580" cy="600" r="5"/><circle cx="630" cy="605" r="5"/><circle cx="680" cy="602" r="5"/><circle cx="730" cy="600" r="5"/><circle cx="780" cy="600" r="5"/><circle cx="830" cy="600" r="5"/><circle cx="880" cy="596" r="5"/><circle cx="930" cy="592" r="5"/><circle cx="980" cy="596" r="5"/><circle cx="1030" cy="602" r="5"/><circle cx="1080" cy="610" r="5"/><circle cx="1130" cy="615" r="5"/><circle cx="1180" cy="618" r="5"/><circle cx="1230" cy="620" r="5"/></g>
+  </g>
+  <path d="M280 825 H140" stroke="#5ea0ff" marker-end="url(#none)"/><text x="150" y="835" fill="#67a8ff" font-size="26" font-family="Inter, Segoe UI, Arial, sans-serif">Past</text>
+</svg>
