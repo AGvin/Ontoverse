@@ -1,36 +1,33 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
   <title id="title">History-Space Density Regions</title>
-  <desc id="desc">Sparse, medium, dense, and burst-like strings inside history-space. All event-nodes are placed directly on the realized strings.</desc>
+  <desc id="desc">Minimal SVG diagram with four clean strings showing low, medium, high, and burst temporal density. Nodes sit on strings only.</desc>
   <defs>
     <radialGradient id="bg" cx="50%" cy="50%" r="82%"><stop offset="0" stop-color="#07152a"/><stop offset="0.65" stop-color="#020713"/><stop offset="1" stop-color="#00030a"/></radialGradient>
-    <linearGradient id="plane" x1="1240" y1="140" x2="1330" y2="760" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#ff6076" stop-opacity="0.06"/><stop offset="0.5" stop-color="#ff244b" stop-opacity="0.33"/><stop offset="1" stop-color="#ff6076" stop-opacity="0.08"/></linearGradient>
-    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
-    <filter id="ruby" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="7" result="b"/><feColorMatrix in="b" type="matrix" values="1 0 0 0 1 0 0 0 0 .04 0 0 0 0 .12 0 0 0 .9 0" result="c"/><feMerge><feMergeNode in="c"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <linearGradient id="plane" x1="1260" y1="180" x2="1340" y2="750" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#ff6076" stop-opacity="0.10"/><stop offset="0.5" stop-color="#ff244b" stop-opacity="0.36"/><stop offset="1" stop-color="#ff6076" stop-opacity="0.12"/></linearGradient>
   </defs>
   <rect width="1600" height="900" fill="url(#bg)"/>
-  <text x="800" y="78" fill="#f8fbff" font-family="Orbitron, Rajdhani, Segoe UI, Arial, sans-serif" font-size="48" text-anchor="middle">History-Space Density Regions</text>
-  <text x="800" y="122" fill="#8ea6c8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="23" text-anchor="middle">different strings accumulate different event-node densities before the same frontal boundary</text>
-  <g opacity=".18" stroke="#1a63bd" fill="none"><path d="M190 170 H1330 V745 H190 Z"/><path d="M190 315 H1330"/><path d="M190 450 H1330"/><path d="M190 585 H1330"/><path d="M410 170 V745"/><path d="M650 170 V745"/><path d="M890 170 V745"/><path d="M1130 170 V745"/></g>
-  <g filter="url(#ruby)"><polygon points="1240,190 1330,140 1330,780 1240,730" fill="url(#plane)" stroke="#ff4562" stroke-width="4"/><line x1="1330" y1="140" x2="1330" y2="780" stroke="#ff6b7d" stroke-width="5"/></g>
-  <text x="1360" y="395" fill="#ff5d73" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="25">frontal time plane</text>
-  <text x="80" y="245" fill="#20e8ff" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="24">Low density</text><text x="80" y="380" fill="#76b5ff" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="24">Medium density</text><text x="80" y="515" fill="#b97cff" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="24">High density</text><text x="80" y="650" fill="#ff67d8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="24">Burst density</text>
-  <g fill="none" stroke-linecap="round" stroke-width="4" filter="url(#glow)">
-    <path d="M240 245 C420 205 600 235 780 215 C960 195 1110 230 1240 220" stroke="#20e8ff"/>
-    <path d="M240 380 C420 345 600 370 780 360 C960 350 1110 382 1240 375" stroke="#76b5ff"/>
-    <path d="M240 515 C420 500 600 535 780 510 C960 485 1110 518 1240 510" stroke="#b97cff"/>
-    <path d="M240 650 C420 640 600 682 780 645 C960 608 1110 650 1240 640" stroke="#ff67d8"/>
+  <text x="800" y="86" fill="#f8fbff" font-family="Segoe UI, Arial, sans-serif" font-size="52" text-anchor="middle">History-Space Density Regions</text>
+  <text x="800" y="126" fill="#8ea6c8" font-family="Segoe UI, Arial, sans-serif" font-size="22" text-anchor="middle">different strings accumulate different event-node densities before the same frontal boundary</text>
+  <g opacity="0.12" stroke="#1a63bd" fill="none"><path d="M260 200 H1340 V735 H260 Z"/><path d="M260 330 H1340"/><path d="M260 465 H1340"/><path d="M260 600 H1340"/><path d="M520 200 V735"/><path d="M780 200 V735"/><path d="M1040 200 V735"/></g>
+  <polygon points="1260,230 1340,185 1340,760 1260,715" fill="url(#plane)" stroke="#ff4562" stroke-width="4"/>
+  <line x1="1340" y1="185" x2="1340" y2="760" stroke="#ff6b7d" stroke-width="5"/>
+  <text x="1360" y="430" fill="#ff5d73" font-family="Segoe UI, Arial, sans-serif" font-size="27">frontal time plane</text>
+  <text x="210" y="290" fill="#14eaff" font-family="Segoe UI, Arial, sans-serif" font-size="24" text-anchor="end">Low density</text>
+  <text x="210" y="420" fill="#70b7ff" font-family="Segoe UI, Arial, sans-serif" font-size="24" text-anchor="end">Medium density</text>
+  <text x="210" y="550" fill="#b781ff" font-family="Segoe UI, Arial, sans-serif" font-size="24" text-anchor="end">High density</text>
+  <text x="210" y="680" fill="#ff67d8" font-family="Segoe UI, Arial, sans-serif" font-size="24" text-anchor="end">Burst density</text>
+  <g fill="none" stroke-linecap="round" stroke-width="5">
+    <path d="M260 285 C500 245 760 260 1000 245 C1130 237 1210 250 1260 250" stroke="#14eaff"/>
+    <path d="M260 415 C500 390 760 405 1000 395 C1130 390 1210 400 1260 400" stroke="#70b7ff"/>
+    <path d="M260 545 C500 535 760 560 1000 535 C1130 523 1210 535 1260 535" stroke="#b781ff"/>
+    <path d="M260 675 C500 665 760 700 1000 665 C1130 650 1210 665 1260 665" stroke="#ff67d8"/>
   </g>
-  <g fill="none" stroke-linecap="round" stroke-dasharray="3 10" stroke-width="2.2" opacity=".78">
-    <path d="M780 215 C835 165 895 165 950 205" stroke="#20e8ff"/><path d="M1060 226 C1115 175 1180 178 1230 220" stroke="#20e8ff"/>
-    <path d="M600 370 C660 325 725 325 780 360" stroke="#76b5ff"/><path d="M960 350 C1020 310 1090 315 1150 374" stroke="#76b5ff"/>
-    <path d="M460 505 C520 460 590 465 650 528" stroke="#b97cff"/><path d="M780 510 C850 455 930 460 1000 493" stroke="#b97cff"/><path d="M1060 515 C1120 465 1190 470 1235 510" stroke="#b97cff"/>
-    <path d="M540 670 C600 610 675 615 740 652" stroke="#ff67d8"/><path d="M805 638 C870 585 950 592 1020 620" stroke="#ff67d8"/><path d="M1040 640 C1105 585 1180 592 1235 640" stroke="#ffbd56"/>
+  <g fill="#07152a" stroke-width="4">
+    <circle cx="260" cy="285" r="9" stroke="#14eaff"/><circle cx="620" cy="255" r="8" stroke="#14eaff"/><circle cx="1000" cy="245" r="8" stroke="#14eaff"/><circle cx="1260" cy="250" r="9" stroke="#14eaff"/>
+    <circle cx="260" cy="415" r="9" stroke="#70b7ff"/><circle cx="500" cy="390" r="8" stroke="#70b7ff"/><circle cx="760" cy="405" r="8" stroke="#70b7ff"/><circle cx="1000" cy="395" r="8" stroke="#70b7ff"/><circle cx="1260" cy="400" r="9" stroke="#70b7ff"/>
+    <circle cx="260" cy="545" r="9" stroke="#b781ff"/><circle cx="420" cy="535" r="8" stroke="#b781ff"/><circle cx="580" cy="542" r="8" stroke="#b781ff"/><circle cx="740" cy="558" r="8" stroke="#b781ff"/><circle cx="900" cy="548" r="8" stroke="#b781ff"/><circle cx="1060" cy="530" r="8" stroke="#b781ff"/><circle cx="1260" cy="535" r="9" stroke="#b781ff"/>
+    <circle cx="260" cy="675" r="9" stroke="#ff67d8"/><circle cx="420" cy="668" r="8" stroke="#ff67d8"/><circle cx="500" cy="667" r="8" stroke="#ff67d8"/><circle cx="540" cy="672" r="8" stroke="#ff67d8"/><circle cx="580" cy="678" r="8" stroke="#ff67d8"/><circle cx="620" cy="685" r="8" stroke="#ff67d8"/><circle cx="660" cy="690" r="8" stroke="#ff67d8"/><circle cx="700" cy="694" r="8" stroke="#ff67d8"/><circle cx="760" cy="700" r="8" stroke="#ff67d8"/><circle cx="900" cy="682" r="8" stroke="#ff67d8"/><circle cx="1040" cy="660" r="8" stroke="#ff67d8"/><circle cx="1160" cy="660" r="8" stroke="#ffbd56"/><circle cx="1260" cy="665" r="9" stroke="#ffbd56"/>
   </g>
-  <g filter="url(#glow)" fill="#07152a" stroke-width="3.5">
-    <circle cx="240" cy="245" r="8" stroke="#20e8ff"/><circle cx="600" cy="235" r="7" stroke="#20e8ff"/><circle cx="900" cy="202" r="7" stroke="#20e8ff"/><circle cx="1240" cy="220" r="8" stroke="#20e8ff"/>
-    <circle cx="240" cy="380" r="8" stroke="#76b5ff"/><circle cx="420" cy="345" r="7" stroke="#76b5ff"/><circle cx="600" cy="370" r="7" stroke="#76b5ff"/><circle cx="780" cy="360" r="7" stroke="#76b5ff"/><circle cx="960" cy="350" r="7" stroke="#76b5ff"/><circle cx="1110" cy="382" r="7" stroke="#76b5ff"/><circle cx="1240" cy="375" r="8" stroke="#76b5ff"/>
-    <circle cx="240" cy="515" r="8" stroke="#b97cff"/><circle cx="330" cy="507" r="7" stroke="#b97cff"/><circle cx="420" cy="500" r="7" stroke="#b97cff"/><circle cx="510" cy="516" r="7" stroke="#b97cff"/><circle cx="600" cy="535" r="7" stroke="#b97cff"/><circle cx="690" cy="523" r="7" stroke="#b97cff"/><circle cx="780" cy="510" r="7" stroke="#b97cff"/><circle cx="870" cy="497" r="7" stroke="#b97cff"/><circle cx="960" cy="485" r="7" stroke="#b97cff"/><circle cx="1050" cy="504" r="7" stroke="#b97cff"/><circle cx="1140" cy="516" r="7" stroke="#b97cff"/><circle cx="1240" cy="510" r="8" stroke="#b97cff"/>
-    <circle cx="240" cy="650" r="8" stroke="#ff67d8"/><circle cx="420" cy="640" r="7" stroke="#ff67d8"/><circle cx="480" cy="654" r="7" stroke="#ff67d8"/><circle cx="520" cy="662" r="7" stroke="#ff67d8"/><circle cx="560" cy="670" r="7" stroke="#ff67d8"/><circle cx="600" cy="682" r="7" stroke="#ff67d8"/><circle cx="640" cy="676" r="7" stroke="#ff67d8"/><circle cx="680" cy="666" r="7" stroke="#ff67d8"/><circle cx="720" cy="655" r="7" stroke="#ff67d8"/><circle cx="780" cy="645" r="7" stroke="#ff67d8"/><circle cx="900" cy="620" r="7" stroke="#ff67d8"/><circle cx="1020" cy="622" r="7" stroke="#ff67d8"/><circle cx="1110" cy="650" r="7" stroke="#ffbd56"/><circle cx="1240" cy="640" r="8" stroke="#ffbd56"/>
-  </g>
-  <text x="480" y="820" fill="#8ea6c8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22">No decorative free-floating points: every node belongs to its string.</text>
+  <rect x="430" y="785" width="740" height="58" rx="13" fill="#050a16" stroke="#29354f"/>
+  <text x="800" y="821" fill="#aab6d8" font-family="Segoe UI, Arial, sans-serif" font-size="21" text-anchor="middle">Every event-node belongs to a visible realized string.</text>
 </svg>
