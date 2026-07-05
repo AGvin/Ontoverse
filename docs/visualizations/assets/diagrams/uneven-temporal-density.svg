@@ -1,38 +1,39 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
   <title id="title">Uneven Temporal Density Across History-Space</title>
-  <desc id="desc">Representative trajectories with sparse, sparse-to-dense, dense-to-sparse, burst cluster, and uniform medium event-node patterns ending at the frontal time plane.</desc>
+  <desc id="desc">Representative trajectories with sparse, sparse-to-dense, dense-to-sparse, burst cluster, and uniform medium event-node patterns. All trajectories terminate at the ruby frontal time plane.</desc>
   <defs>
-    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="4" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <radialGradient id="bg" cx="48%" cy="50%" r="82%"><stop offset="0" stop-color="#08152b"/><stop offset="0.6" stop-color="#020713"/><stop offset="1" stop-color="#00030a"/></radialGradient>
+    <linearGradient id="plane" x1="1255" y1="145" x2="1350" y2="755" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#ff5870" stop-opacity="0.06"/><stop offset="0.5" stop-color="#ff214a" stop-opacity="0.33"/><stop offset="1" stop-color="#ff5870" stop-opacity="0.08"/></linearGradient>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="rubyGlow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="7" result="b"/><feColorMatrix in="b" type="matrix" values="1 0 0 0 1 0 0 0 0 .04 0 0 0 0 .12 0 0 0 .9 0" result="c"/><feMerge><feMergeNode in="c"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
   </defs>
-  <rect width="1600" height="900" fill="#05070d"/>
-  <text x="800" y="75" fill="#7fdfff" font-size="44" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif">Uneven temporal density across history-space</text>
-  <g filter="url(#glow)"><polygon points="1300,140 1360,180 1360,760 1300,800" fill="#ff233c" opacity="0.24" stroke="#ff3b56" stroke-width="3"/></g>
-  <text x="1375" y="140" fill="#ff5668" font-size="30" font-family="Inter, Segoe UI, Arial, sans-serif">Frontal time</text><text x="1375" y="175" fill="#ff5668" font-size="30" font-family="Inter, Segoe UI, Arial, sans-serif">plane</text>
-  <text x="585" y="150" fill="#d5a6ff" font-size="26" font-family="Inter, Segoe UI, Arial, sans-serif">Event-nodes</text>
-  <path d="M520 170 C520 155 760 155 760 170" stroke="#d5a6ff" fill="none" opacity="0.75"/>
-  <g font-family="Inter, Segoe UI, Arial, sans-serif" fill="#f7fbff" font-size="24">
-    <text x="175" y="210">Sparse</text><text x="175" y="335">Sparse to dense</text><text x="175" y="460">Dense to sparse</text><text x="175" y="585">Burst cluster</text><text x="175" y="710">Uniform medium</text>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <text x="92" y="88" fill="#f7fbff" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="44">Uneven Temporal Density</text>
+  <text x="92" y="126" fill="#8ea6c8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22">different local-time accumulation patterns before the same frontal time plane</text>
+  <g opacity=".2" stroke="#1a63bd" fill="none"><path d="M230 160 H1340 V760 H230 Z"/><path d="M230 265 H1340"/><path d="M230 385 H1340"/><path d="M230 505 H1340"/><path d="M230 625 H1340"/><path d="M450 160 V760"/><path d="M675 160 V760"/><path d="M900 160 V760"/><path d="M1125 160 V760"/></g>
+  <g filter="url(#rubyGlow)"><polygon points="1260,180 1340,140 1340,780 1260,740" fill="url(#plane)" stroke="#ff4562" stroke-width="4"/><line x1="1340" y1="140" x2="1340" y2="780" stroke="#ff6b7d" stroke-width="5"/></g>
+  <text x="1190" y="122" fill="#ff6b7d" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="25">frontal time plane</text>
+  <g font-family="Inter, Segoe UI, Arial, sans-serif" font-size="23"><text x="90" y="225" fill="#20eaff">Sparse</text><text x="90" y="345" fill="#6da8ff">Sparse to dense</text><text x="90" y="465" fill="#a98aff">Dense to sparse</text><text x="90" y="585" fill="#ff73df">Burst cluster</text><text x="90" y="705" fill="#ffbd56">Uniform medium</text></g>
+  <g fill="none" stroke-width="3.6" stroke-linecap="round" filter="url(#glow)">
+    <path d="M250 225 C440 210 620 240 800 225 C980 210 1130 235 1260 230" stroke="#20eaff"/>
+    <path d="M250 345 C455 350 640 330 815 348 C995 368 1140 360 1260 350" stroke="#6da8ff"/>
+    <path d="M250 465 C450 456 620 476 800 465 C990 454 1135 466 1260 462" stroke="#a98aff"/>
+    <path d="M250 585 C460 580 640 575 820 590 C990 605 1135 590 1260 585" stroke="#ff73df"/>
+    <path d="M250 705 C450 705 650 705 850 705 C1030 705 1160 705 1260 705" stroke="#ffbd56"/>
   </g>
-  <g fill="none" stroke-width="3" stroke-linecap="round">
-    <path d="M340 210 C510 220 665 185 830 220 C1000 255 1140 235 1300 250" stroke="#3fe4ff"/>
-    <path d="M340 335 C500 345 650 335 820 350 C970 365 1120 390 1300 375" stroke="#6aa0ff"/>
-    <path d="M340 460 C500 455 650 465 820 455 C1010 445 1140 460 1300 455" stroke="#a48dff"/>
-    <path d="M340 585 C510 585 650 575 800 590 C950 605 1100 585 1300 580" stroke="#ff7ddb"/>
-    <path d="M340 710 C520 710 690 710 860 710 C1030 710 1160 710 1300 710" stroke="#ffbd55"/>
+  <g fill="none" stroke-dasharray="3 11" stroke-width="2.2" stroke-linecap="round" opacity=".72">
+    <path d="M360 225 C420 160 505 170 560 222" stroke="#20eaff"/><path d="M820 225 C900 160 990 170 1060 226" stroke="#20eaff"/>
+    <path d="M360 345 C420 300 485 300 540 343" stroke="#6da8ff"/><path d="M710 348 C780 285 865 295 940 354" stroke="#8c8cff"/><path d="M1030 356 C1100 300 1180 305 1240 350" stroke="#cf6cff"/>
+    <path d="M290 465 C335 415 385 420 430 463" stroke="#a98aff"/><path d="M355 465 C400 415 450 420 495 463" stroke="#a98aff"/><path d="M420 465 C465 415 515 420 560 463" stroke="#a98aff"/><path d="M920 462 C1000 410 1100 420 1180 462" stroke="#a98aff"/>
+    <path d="M690 590 C760 505 885 510 950 590" stroke="#ff73df"/><path d="M745 590 C805 530 895 530 955 590" stroke="#ff73df"/><path d="M800 590 C850 545 925 545 980 590" stroke="#ff73df"/>
+    <path d="M310 705 C360 660 430 665 480 705" stroke="#ffbd56"/><path d="M520 705 C570 660 640 665 690 705" stroke="#ffbd56"/><path d="M730 705 C780 660 850 665 900 705" stroke="#ffbd56"/><path d="M940 705 C990 660 1060 665 1110 705" stroke="#ffbd56"/>
   </g>
-  <g fill="none" stroke-dasharray="3 8" stroke-width="2" opacity="0.75">
-    <path d="M340 210 C390 160 430 170 470 205" stroke="#3fe4ff"/><path d="M830 220 C880 170 930 180 980 215" stroke="#3fe4ff"/>
-    <path d="M340 335 C390 290 430 300 470 330" stroke="#6aa0ff"/><path d="M700 345 C740 295 785 305 830 340" stroke="#827cff"/><path d="M1050 375 C1090 325 1140 335 1180 370" stroke="#bd6cff"/>
-    <path d="M340 460 C375 415 410 420 440 455" stroke="#a48dff"/><path d="M390 460 C425 415 460 420 490 455" stroke="#a48dff"/><path d="M440 460 C475 415 510 420 540 455" stroke="#a48dff"/><path d="M900 455 C950 410 990 420 1030 450" stroke="#a48dff"/>
-    <path d="M720 590 C770 520 860 520 920 585" stroke="#ff7ddb"/><path d="M760 590 C800 540 860 540 900 590" stroke="#ff7ddb"/><path d="M810 590 C850 540 910 540 950 590" stroke="#ff7ddb"/>
-    <path d="M340 710 C380 670 420 675 460 705" stroke="#ffbd55"/><path d="M515 710 C555 670 595 675 635 705" stroke="#ffbd55"/><path d="M690 710 C730 670 770 675 810 705" stroke="#ffbd55"/><path d="M865 710 C905 670 945 675 985 705" stroke="#ffbd55"/><path d="M1040 710 C1080 670 1120 675 1160 705" stroke="#ffbd55"/>
+  <g filter="url(#glow)" fill="#f8fbff" stroke-width="3.2">
+    <g><circle cx="250" cy="225" r="7" stroke="#20eaff"/><circle cx="560" cy="222" r="7" stroke="#20eaff"/><circle cx="900" cy="218" r="7" stroke="#7f8fff"/><circle cx="1260" cy="230" r="7" stroke="#ff73df"/></g>
+    <g><circle cx="250" cy="345" r="7" stroke="#6da8ff"/><circle cx="445" cy="348" r="6" stroke="#6da8ff"/><circle cx="610" cy="335" r="6" stroke="#7f8fff"/><circle cx="750" cy="344" r="6" stroke="#9b7fff"/><circle cx="870" cy="354" r="6" stroke="#b96fff"/><circle cx="980" cy="364" r="6" stroke="#cf6cff"/><circle cx="1080" cy="362" r="6" stroke="#e86aff"/><circle cx="1170" cy="356" r="6" stroke="#ff73df"/><circle cx="1260" cy="350" r="7" stroke="#ff73df"/></g>
+    <g><circle cx="250" cy="465" r="7" stroke="#a98aff"/><circle cx="292" cy="464" r="6" stroke="#a98aff"/><circle cx="334" cy="462" r="6" stroke="#a98aff"/><circle cx="376" cy="466" r="6" stroke="#a98aff"/><circle cx="418" cy="468" r="6" stroke="#a98aff"/><circle cx="460" cy="466" r="6" stroke="#a98aff"/><circle cx="502" cy="464" r="6" stroke="#a98aff"/><circle cx="650" cy="470" r="6" stroke="#a98aff"/><circle cx="820" cy="463" r="6" stroke="#a98aff"/><circle cx="1030" cy="458" r="6" stroke="#a98aff"/><circle cx="1260" cy="462" r="7" stroke="#a98aff"/></g>
+    <g><circle cx="250" cy="585" r="7" stroke="#ff73df"/><circle cx="470" cy="580" r="6" stroke="#ff73df"/><circle cx="650" cy="576" r="6" stroke="#ff73df"/><circle cx="760" cy="590" r="7" stroke="#ff73df"/><circle cx="790" cy="572" r="6" stroke="#ff73df"/><circle cx="820" cy="590" r="7" stroke="#ff73df"/><circle cx="850" cy="606" r="6" stroke="#ff73df"/><circle cx="880" cy="590" r="7" stroke="#ff73df"/><circle cx="910" cy="574" r="6" stroke="#ff73df"/><circle cx="940" cy="592" r="7" stroke="#ff73df"/><circle cx="1080" cy="596" r="6" stroke="#ff73df"/><circle cx="1260" cy="585" r="7" stroke="#ff73df"/></g>
+    <g><circle cx="250" cy="705" r="7" stroke="#ffbd56"/><circle cx="380" cy="705" r="6" stroke="#ffbd56"/><circle cx="510" cy="705" r="6" stroke="#ffbd56"/><circle cx="640" cy="705" r="6" stroke="#ffbd56"/><circle cx="770" cy="705" r="6" stroke="#ffbd56"/><circle cx="900" cy="705" r="6" stroke="#ffbd56"/><circle cx="1030" cy="705" r="6" stroke="#ffbd56"/><circle cx="1160" cy="705" r="6" stroke="#ffbd56"/><circle cx="1260" cy="705" r="7" stroke="#ffbd56"/></g>
   </g>
-  <g filter="url(#glow)">
-    <g fill="#3fe4ff"><circle cx="340" cy="210" r="7"/><circle cx="585" cy="205" r="6"/><circle cx="830" cy="220" r="6"/><circle cx="1050" cy="240" r="6"/><circle cx="1300" cy="250" r="7"/></g>
-    <g fill="#7ea3ff"><circle cx="340" cy="335" r="7"/><circle cx="500" cy="342" r="6"/><circle cx="650" cy="337" r="6"/><circle cx="800" cy="350" r="6"/><circle cx="930" cy="365" r="6"/><circle cx="1040" cy="380" r="6"/><circle cx="1145" cy="388" r="6"/><circle cx="1225" cy="382" r="6"/><circle cx="1300" cy="375" r="7"/></g>
-    <g fill="#a48dff"><circle cx="340" cy="460" r="7"/><circle cx="370" cy="460" r="6"/><circle cx="400" cy="460" r="6"/><circle cx="430" cy="460" r="6"/><circle cx="460" cy="460" r="6"/><circle cx="490" cy="460" r="6"/><circle cx="520" cy="460" r="6"/><circle cx="550" cy="460" r="6"/><circle cx="700" cy="460" r="6"/><circle cx="840" cy="455" r="6"/><circle cx="990" cy="452" r="6"/><circle cx="1150" cy="458" r="6"/><circle cx="1300" cy="455" r="7"/></g>
-    <g fill="#ff8fe5"><circle cx="340" cy="585" r="7"/><circle cx="520" cy="585" r="6"/><circle cx="665" cy="580" r="6"/><circle cx="760" cy="590" r="7"/><circle cx="790" cy="575" r="6"/><circle cx="820" cy="605" r="6"/><circle cx="850" cy="565" r="6"/><circle cx="880" cy="595" r="7"/><circle cx="910" cy="578" r="6"/><circle cx="945" cy="600" r="6"/><circle cx="1080" cy="585" r="6"/><circle cx="1220" cy="582" r="6"/><circle cx="1300" cy="580" r="7"/></g>
-    <g fill="#ffbd55"><circle cx="340" cy="710" r="7"/><circle cx="460" cy="710" r="6"/><circle cx="580" cy="710" r="6"/><circle cx="700" cy="710" r="6"/><circle cx="820" cy="710" r="6"/><circle cx="940" cy="710" r="6"/><circle cx="1060" cy="710" r="6"/><circle cx="1180" cy="710" r="6"/><circle cx="1300" cy="710" r="7"/></g>
-  </g>
-  <g fill="none" stroke-width="2" opacity="0.9"><circle cx="120" cy="195" r="31" stroke="#3fe4ff"/><circle cx="120" cy="320" r="31" stroke="#6aa0ff"/><circle cx="120" cy="445" r="31" stroke="#a48dff"/><circle cx="120" cy="570" r="31" stroke="#ff7ddb"/><circle cx="120" cy="695" r="31" stroke="#ffbd55"/></g>
+  <text x="455" y="828" fill="#8ea6c8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22">event-node spacing encodes local temporal-density differences</text>
 </svg>
