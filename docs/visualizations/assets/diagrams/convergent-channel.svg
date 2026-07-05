@@ -1,42 +1,44 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
   <title id="title">Convergent Channel</title>
-  <desc id="desc">Distinct historical origins diverge, become compatible, and converge into a shared channel that terminates at the ruby frontal time plane.</desc>
+  <desc id="desc">Distinct historical strings converge into one compatible channel. Event-nodes are placed directly on realized strings and no realized content continues beyond the frontal time plane.</desc>
   <defs>
-    <radialGradient id="bg" cx="48%" cy="50%" r="82%"><stop offset="0" stop-color="#08152b"/><stop offset="0.6" stop-color="#020713"/><stop offset="1" stop-color="#00030a"/></radialGradient>
-    <linearGradient id="flow" x1="140" y1="450" x2="1260" y2="450" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#20eaff"/><stop offset="0.42" stop-color="#776dff"/><stop offset="0.75" stop-color="#f4fbff"/><stop offset="1" stop-color="#ffbf55"/></linearGradient>
-    <linearGradient id="plane" x1="1265" y1="145" x2="1350" y2="755" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#ff5870" stop-opacity="0.06"/><stop offset="0.5" stop-color="#ff214a" stop-opacity="0.33"/><stop offset="1" stop-color="#ff5870" stop-opacity="0.08"/></linearGradient>
-    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
-    <filter id="rubyGlow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="7" result="b"/><feColorMatrix in="b" type="matrix" values="1 0 0 0 1 0 0 0 0 .04 0 0 0 0 .12 0 0 0 .9 0" result="c"/><feMerge><feMergeNode in="c"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <radialGradient id="bg" cx="50%" cy="50%" r="82%"><stop offset="0" stop-color="#07152a"/><stop offset="0.65" stop-color="#020713"/><stop offset="1" stop-color="#00030a"/></radialGradient>
+    <linearGradient id="plane" x1="1260" y1="160" x2="1340" y2="740" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#ff6076" stop-opacity="0.06"/><stop offset="0.5" stop-color="#ff244b" stop-opacity="0.33"/><stop offset="1" stop-color="#ff6076" stop-opacity="0.08"/></linearGradient>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="ruby" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="7" result="b"/><feColorMatrix in="b" type="matrix" values="1 0 0 0 1 0 0 0 0 .04 0 0 0 0 .12 0 0 0 .9 0" result="c"/><feMerge><feMergeNode in="c"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
   </defs>
   <rect width="1600" height="900" fill="url(#bg)"/>
-  <text x="92" y="88" fill="#f7fbff" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="44">Convergent Channel</text>
-  <text x="92" y="126" fill="#8ea6c8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22">many distinct origins enter one locally compatible future-access channel</text>
-  <g opacity=".22" stroke="#1a63bd" fill="none"><path d="M115 160 H1360 V740 H115 Z"/><path d="M115 450 H1360"/><path d="M350 160 V740"/><path d="M600 160 V740"/><path d="M850 160 V740"/><path d="M1100 160 V740"/></g>
-  <g filter="url(#rubyGlow)"><polygon points="1265,190 1340,150 1340,750 1265,710" fill="url(#plane)" stroke="#ff4562" stroke-width="4"/><line x1="1340" y1="150" x2="1340" y2="750" stroke="#ff6b7d" stroke-width="5"/></g>
-  <text x="1200" y="138" fill="#ff6b7d" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="25">frontal time plane</text>
-  <text x="130" y="220" fill="#8ea6c8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22">distinct historical origins</text>
-  <text x="520" y="220" fill="#39eaff" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="25">divergence</text>
-  <text x="880" y="310" fill="#d2c2ff" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="25">compatibility filtering</text>
-  <text x="1110" y="418" fill="#ffca65" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="25">convergent channel</text>
+  <text x="800" y="78" fill="#f8fbff" font-family="Orbitron, Rajdhani, Segoe UI, Arial, sans-serif" font-size="50" text-anchor="middle">Convergent Channel</text>
+  <text x="800" y="122" fill="#8ea6c8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="23" text-anchor="middle">distinct historical origins gradually enter a shared locally accessible future channel</text>
+  <g opacity=".18" stroke="#1a63bd" fill="none"><path d="M145 170 H1340 V745 H145 Z"/><path d="M145 450 H1340"/><path d="M420 170 V745"/><path d="M700 170 V745"/><path d="M980 170 V745"/></g>
+  <g filter="url(#ruby)"><polygon points="1265,190 1340,150 1340,750 1265,710" fill="url(#plane)" stroke="#ff4562" stroke-width="4"/><line x1="1340" y1="150" x2="1340" y2="750" stroke="#ff6b7d" stroke-width="5"/></g>
+  <text x="1365" y="315" fill="#ff5d73" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="25">frontal time plane</text>
+  <text x="160" y="215" fill="#f8fbff" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="24">distinct historical origins</text>
+  <text x="485" y="245" fill="#20e8ff" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="25">divergence</text>
+  <text x="770" y="245" fill="#b98cff" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="25">compatibility filtering</text>
+  <text x="1050" y="390" fill="#ffbd56" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="25">convergent channel</text>
   <g fill="none" stroke-linecap="round" stroke-width="4" filter="url(#glow)">
-    <path d="M170 250 C350 230 435 150 590 220 C745 290 840 392 1010 425 C1130 448 1210 450 1265 450" stroke="#22e6ff"/>
-    <path d="M170 335 C350 320 420 300 590 345 C740 385 875 430 1010 438 C1135 445 1210 450 1265 450" stroke="#63eaff"/>
-    <path d="M170 430 C360 430 500 420 650 435 C795 449 925 452 1045 450 C1155 449 1225 450 1265 450" stroke="#f8fbff"/>
-    <path d="M170 525 C350 540 420 600 590 555 C735 515 875 470 1010 462 C1135 455 1210 450 1265 450" stroke="#a569ff"/>
-    <path d="M170 620 C350 665 435 750 590 680 C745 610 840 508 1010 475 C1130 452 1210 450 1265 450" stroke="#ffb956"/>
+    <path d="M170 260 C360 260 455 330 640 365 C820 400 960 430 1120 440 C1180 444 1230 448 1265 450" stroke="#20e8ff"/>
+    <path d="M170 355 C365 355 455 385 640 410 C820 435 960 445 1120 448 C1180 449 1230 450 1265 450" stroke="#7db6ff"/>
+    <path d="M170 450 H1265" stroke="#f8fbff"/>
+    <path d="M170 545 C365 545 455 515 640 490 C820 465 960 455 1120 452 C1180 451 1230 450 1265 450" stroke="#b97cff"/>
+    <path d="M170 640 C360 640 455 570 640 535 C820 500 960 470 1120 460 C1180 456 1230 452 1265 450" stroke="#ffbd56"/>
   </g>
-  <g fill="none" stroke-linecap="round" stroke-dasharray="3 11" stroke-width="2.4" opacity=".78">
-    <path d="M170 250 C330 365 505 90 770 280 C910 380 1010 420 1160 438" stroke="#2fdfff"/>
-    <path d="M170 335 C365 455 520 245 750 360 C910 440 1010 438 1160 446" stroke="#75eaff"/>
-    <path d="M170 430 C345 320 545 520 750 430 C890 370 1010 440 1160 448" stroke="#ba82ff"/>
-    <path d="M170 525 C365 445 520 650 750 540 C910 460 1010 462 1160 453" stroke="#dd66ff"/>
-    <path d="M170 620 C330 535 505 810 770 620 C910 520 1010 480 1160 458" stroke="#ffbd57"/>
+  <g fill="none" stroke-linecap="round" stroke-dasharray="3 10" stroke-width="2.2" opacity=".78">
+    <path d="M420 320 C470 270 535 270 585 352" stroke="#20e8ff"/><path d="M615 360 C680 305 745 315 805 395" stroke="#20e8ff"/>
+    <path d="M410 380 C465 345 525 350 590 405" stroke="#7db6ff"/><path d="M690 430 C750 390 820 395 875 440" stroke="#7db6ff"/>
+    <path d="M405 450 C460 415 525 415 585 450" stroke="#f8fbff"/><path d="M740 450 C800 415 870 415 930 450" stroke="#f8fbff"/>
+    <path d="M410 520 C465 555 525 550 590 495" stroke="#b97cff"/><path d="M690 470 C750 510 820 505 875 460" stroke="#b97cff"/>
+    <path d="M420 580 C470 630 535 630 585 548" stroke="#ffbd56"/><path d="M615 540 C680 595 745 585 805 505" stroke="#ffbd56"/>
   </g>
-  <g filter="url(#glow)">
-    <g fill="#061426" stroke-width="5"><circle cx="170" cy="250" r="11" stroke="#22e6ff"/><circle cx="170" cy="335" r="11" stroke="#63eaff"/><circle cx="170" cy="430" r="11" stroke="#f8fbff"/><circle cx="170" cy="525" r="11" stroke="#a569ff"/><circle cx="170" cy="620" r="11" stroke="#ffb956"/></g>
-    <g fill="#f8fbff"><circle cx="420" cy="300" r="6"/><circle cx="590" cy="345" r="6"/><circle cx="650" cy="435" r="6"/><circle cx="590" cy="555" r="6"/><circle cx="420" cy="600" r="6"/><circle cx="900" cy="430" r="6"/><circle cx="1010" cy="450" r="7"/><circle cx="1120" cy="450" r="7"/><circle cx="1210" cy="450" r="7"/></g>
-    <circle cx="1265" cy="450" r="9" fill="#fff4d8" stroke="#ffbd3c" stroke-width="5"/>
+  <g filter="url(#glow)" fill="#07152a" stroke-width="4">
+    <circle cx="170" cy="260" r="11" stroke="#20e8ff"/><circle cx="170" cy="355" r="11" stroke="#7db6ff"/><circle cx="170" cy="450" r="11" stroke="#f8fbff"/><circle cx="170" cy="545" r="11" stroke="#b97cff"/><circle cx="170" cy="640" r="11" stroke="#ffbd56"/>
+    <circle cx="455" cy="330" r="7" stroke="#20e8ff"/><circle cx="640" cy="365" r="7" stroke="#20e8ff"/><circle cx="820" cy="400" r="7" stroke="#20e8ff"/><circle cx="960" cy="430" r="7" stroke="#20e8ff"/>
+    <circle cx="455" cy="385" r="7" stroke="#7db6ff"/><circle cx="640" cy="410" r="7" stroke="#7db6ff"/><circle cx="820" cy="435" r="7" stroke="#7db6ff"/><circle cx="960" cy="445" r="7" stroke="#7db6ff"/>
+    <circle cx="455" cy="450" r="7" stroke="#f8fbff"/><circle cx="640" cy="450" r="7" stroke="#f8fbff"/><circle cx="820" cy="450" r="7" stroke="#f8fbff"/><circle cx="960" cy="450" r="7" stroke="#f8fbff"/>
+    <circle cx="455" cy="515" r="7" stroke="#b97cff"/><circle cx="640" cy="490" r="7" stroke="#b97cff"/><circle cx="820" cy="465" r="7" stroke="#b97cff"/><circle cx="960" cy="455" r="7" stroke="#b97cff"/>
+    <circle cx="455" cy="570" r="7" stroke="#ffbd56"/><circle cx="640" cy="535" r="7" stroke="#ffbd56"/><circle cx="820" cy="500" r="7" stroke="#ffbd56"/><circle cx="960" cy="470" r="7" stroke="#ffbd56"/>
+    <circle cx="1120" cy="450" r="7" stroke="#f8fbff"/><circle cx="1180" cy="450" r="7" stroke="#f8fbff"/><circle cx="1230" cy="450" r="7" stroke="#f8fbff"/><circle cx="1265" cy="450" r="8" stroke="#ffbd56"/>
   </g>
-  <g opacity=".38" fill="none" stroke="#73eaff"><ellipse cx="1010" cy="450" rx="18" ry="72"/><ellipse cx="1120" cy="450" rx="16" ry="50"/><ellipse cx="1210" cy="450" rx="14" ry="32"/></g>
-  <text x="530" y="818" fill="#8ea6c8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22">convergence means local future equivalence, not erasure of distinct pasts</text>
+  <text x="420" y="805" fill="#8ea6c8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22">Nodes sit on realized strings; dotted curves are branch alternatives without separate nodes.</text>
 </svg>
