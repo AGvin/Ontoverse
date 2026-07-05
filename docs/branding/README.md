@@ -16,18 +16,6 @@ Asset path:
 assets/images/ontoverse-logo-frontal-plane-rectangular.svg
 ```
 
-## Alternative Logo
-
-The alternative logo uses the same visual language with an oval or membrane-like ruby frontal time plane.
-
-![Alternative Ontoverse logo](../../assets/images/ontoverse-logo-frontal-plane-oval.svg)
-
-Asset path:
-
-```text
-assets/images/ontoverse-logo-frontal-plane-oval.svg
-```
-
 ## Asset Rule
 
 Do not replace the approved visual direction with simplified SVG approximations unless the author explicitly approves that exact replacement.
