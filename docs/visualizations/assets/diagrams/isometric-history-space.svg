@@ -1,74 +1,53 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
   <title id="title">Isometric History-Space</title>
-  <desc id="desc">Isometric SVG with three tree-like history structures starting on the left volume face and branching through space toward the ruby frontal time plane.</desc>
+  <desc id="desc">Isometric SVG with roots placed inside the left volume face and terminal nodes distributed across the frontal time plane.</desc>
   <defs>
     <radialGradient id="bg" cx="54%" cy="48%" r="88%"><stop offset="0" stop-color="#07162d"/><stop offset="0.68" stop-color="#020713"/><stop offset="1" stop-color="#00030a"/></radialGradient>
     <linearGradient id="plane" x1="1165" y1="70" x2="1410" y2="765" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#ff6b7d" stop-opacity="0.05"/><stop offset="0.5" stop-color="#ff234a" stop-opacity="0.34"/><stop offset="1" stop-color="#ff6b7d" stop-opacity="0.10"/></linearGradient>
     <filter id="glow" x="-70%" y="-70%" width="240%" height="240%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
-    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%"><feDropShadow dx="0" dy="0" stdDeviation="2" flood-color="#ffffff" flood-opacity="0.25"/></filter>
   </defs>
   <rect width="1600" height="900" fill="url(#bg)"/>
   <text x="46" y="70" fill="#f8fbff" font-family="Segoe UI, Arial, sans-serif" font-size="44">Isometric History-Space</text>
-  <text x="46" y="108" fill="#b9c4d9" font-family="Segoe UI, Arial, sans-serif" font-size="22">tree-like histories branch from the left volume face toward the frontal time plane</text>
-
+  <text x="46" y="108" fill="#b9c4d9" font-family="Segoe UI, Arial, sans-serif" font-size="22">roots begin inside the left volume face; terminal nodes spread across the frontal time plane</text>
   <g stroke="#1f6fc7" fill="none" opacity="0.22">
-    <path d="M160 245 L1165 70 L1410 215 L380 365 Z"/>
-    <path d="M160 655 L1165 490 L1410 765 L380 825 Z"/>
-    <path d="M160 245 V655 M380 365 V825 M1165 70 V490 M1410 215 V765"/>
-    <path d="M160 340 L380 460 L1410 335 M160 435 L380 555 L1410 455 M160 530 L380 650 L1410 580"/>
-    <path d="M355 210 L575 330 V790 M555 175 L775 295 V760 M755 140 L975 260 V735 M955 105 L1175 225 V705"/>
+    <path d="M150 245 L1165 70 L1410 215 L390 365 Z"/>
+    <path d="M150 655 L1165 490 L1410 765 L390 825 Z"/>
+    <path d="M150 245 V655 M390 365 V825 M1165 70 V490 M1410 215 V765"/>
+    <path d="M150 340 L390 460 L1410 335 M150 435 L390 555 L1410 455 M150 530 L390 650 L1410 580"/>
+    <path d="M350 210 L590 330 V790 M555 175 L795 295 V760 M760 140 L1000 260 V735 M965 105 L1205 225 V705"/>
   </g>
-
-  <g opacity="0.16" stroke="#2d7fd7" fill="none" stroke-dasharray="4 8">
-    <path d="M160 245 L1410 765 M160 655 L1410 215"/>
-    <path d="M300 220 L520 345 L520 780 M500 185 L720 310 L720 760 M700 150 L920 275 L920 735 M900 115 L1120 240 L1120 710"/>
-  </g>
-
-  <g filter="url(#soft)">
-    <polygon points="1165,70 1410,215 1410,765 1165,490" fill="url(#plane)" stroke="#ff536d" stroke-width="4"/>
-    <line x1="1165" y1="70" x2="1165" y2="490" stroke="#ff7182" stroke-width="5"/>
-    <line x1="1410" y1="215" x2="1410" y2="765" stroke="#ff7182" stroke-width="5"/>
-  </g>
+  <g opacity="0.16" stroke="#2d7fd7" fill="none" stroke-dasharray="4 8"><path d="M150 245 L1410 765 M150 655 L1410 215"/><path d="M305 220 L545 345 L545 780 M505 185 L745 310 L745 760 M705 150 L945 275 L945 735 M905 115 L1145 240 L1145 710"/></g>
+  <polygon points="1165,70 1410,215 1410,765 1165,490" fill="url(#plane)" stroke="#ff536d" stroke-width="4"/>
+  <line x1="1165" y1="70" x2="1165" y2="490" stroke="#ff7182" stroke-width="5"/>
+  <line x1="1410" y1="215" x2="1410" y2="765" stroke="#ff7182" stroke-width="5"/>
   <text x="1450" y="470" fill="#ff657a" font-family="Segoe UI, Arial, sans-serif" font-size="29">frontal</text>
   <text x="1450" y="506" fill="#ff657a" font-family="Segoe UI, Arial, sans-serif" font-size="29">time plane</text>
-
-  <text x="80" y="380" fill="#23eaff" font-family="Segoe UI, Arial, sans-serif" font-size="24">root A</text>
-  <text x="80" y="520" fill="#ff67d8" font-family="Segoe UI, Arial, sans-serif" font-size="24">root B</text>
-  <text x="80" y="640" fill="#ffce5a" font-family="Segoe UI, Arial, sans-serif" font-size="24">root C</text>
-
+  <text x="250" y="367" fill="#23eaff" font-family="Segoe UI, Arial, sans-serif" font-size="24">root A</text>
+  <text x="250" y="520" fill="#ff67d8" font-family="Segoe UI, Arial, sans-serif" font-size="24">root B</text>
+  <text x="250" y="642" fill="#ffce5a" font-family="Segoe UI, Arial, sans-serif" font-size="24">root C</text>
   <g fill="none" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)">
-    <polyline points="160,370 265,355 365,330 475,308 585,290 700,270 815,242 930,220 1048,190 1165,150" stroke="#23eaff" stroke-width="5"/>
-    <polyline points="365,330 465,250 590,220 720,210 860,185 1010,145 1165,112" stroke="#63c7ff" stroke-width="3.3"/>
-    <polyline points="475,308 590,354 720,376 860,386 1005,405 1165,430" stroke="#6aa4ff" stroke-width="3.6"/>
-    <polyline points="700,270 790,320 900,340 1020,350 1140,370 1165,375" stroke="#23eaff" stroke-width="2.7"/>
-    <polyline points="815,242 910,275 1010,265 1110,285 1165,277" stroke="#23eaff" stroke-width="2.7"/>
-    <polyline points="930,220 1015,250 1090,238 1165,250" stroke="#63c7ff" stroke-width="2.4"/>
-    <polyline points="1010,145 1070,175 1132,168 1190,178" stroke="#63c7ff" stroke-width="2.2"/>
-    <polyline points="1005,405 1065,382 1125,392 1180,382" stroke="#6aa4ff" stroke-width="2.2"/>
-
-    <polyline points="160,510 270,495 380,470 500,455 620,465 740,440 865,425 990,455 1110,438 1165,420" stroke="#ff67d8" stroke-width="5"/>
-    <polyline points="380,470 480,550 600,590 735,615 865,638" stroke="#ff67d8" stroke-width="3.3"/>
-    <polyline points="500,455 610,395 735,365 875,335 1015,305 1165,290" stroke="#8b76ff" stroke-width="3.4"/>
-    <polyline points="620,465 730,520 850,545 970,560 1100,585 1165,602" stroke="#b878ff" stroke-width="3.2"/>
-    <polyline points="740,440 855,470 980,485 1105,475 1165,470" stroke="#ff67d8" stroke-width="2.7"/>
-    <polyline points="875,335 955,365 1045,350 1130,360" stroke="#8b76ff" stroke-width="2.2"/>
-    <polyline points="970,560 1035,535 1100,552 1160,540" stroke="#b878ff" stroke-width="2.2"/>
-
-    <polyline points="160,630 270,635 380,665 500,698 620,690 740,675 865,640 990,605 1105,560 1165,540" stroke="#ffce5a" stroke-width="5"/>
-    <polyline points="380,665 490,745 620,782 760,812 895,835" stroke="#ffce5a" stroke-width="3.2"/>
-    <polyline points="620,690 730,585 850,545 970,500 1090,460 1165,440" stroke="#58dfff" stroke-width="3.7"/>
-    <polyline points="740,675 855,718 980,750 1105,730 1165,720" stroke="#ffce5a" stroke-width="3"/>
-    <polyline points="865,640 955,680 1048,670 1140,690" stroke="#ffce5a" stroke-width="2.3"/>
-    <polyline points="970,500 1045,525 1120,512 1185,525" stroke="#58dfff" stroke-width="2.2"/>
+    <polyline points="330,365 430,330 545,300 665,275 790,248 920,220 1045,185 1240,160" stroke="#23eaff" stroke-width="5"/>
+    <polyline points="545,300 635,230 760,195 900,165 1045,125 1300,170" stroke="#63c7ff" stroke-width="3.3"/>
+    <polyline points="665,275 780,330 920,360 1048,390 1280,332" stroke="#23eaff" stroke-width="3"/>
+    <polyline points="790,248 905,300 1040,315 1180,340 1360,310" stroke="#23eaff" stroke-width="2.7"/>
+    <polyline points="920,220 1030,250 1135,240 1260,275 1380,255" stroke="#63c7ff" stroke-width="2.4"/>
+    <polyline points="330,510 445,488 560,458 690,430 830,405 980,455 1110,435 1245,402" stroke="#ff67d8" stroke-width="5"/>
+    <polyline points="560,458 670,545 800,588 940,620 1320,588" stroke="#ff67d8" stroke-width="3.3"/>
+    <polyline points="690,430 815,360 960,320 1110,285 1335,405" stroke="#8b76ff" stroke-width="3.4"/>
+    <polyline points="830,405 950,475 1085,505 1225,530 1380,455" stroke="#b878ff" stroke-width="3.2"/>
+    <polyline points="980,455 1100,418 1210,430 1365,510" stroke="#ff67d8" stroke-width="2.7"/>
+    <polyline points="330,635 445,650 570,685 700,710 830,690 965,640 1090,595 1245,558" stroke="#ffce5a" stroke-width="5"/>
+    <polyline points="570,685 690,760 840,798 980,830 1300,725" stroke="#ffce5a" stroke-width="3.2"/>
+    <polyline points="700,710 825,610 960,560 1090,500 1350,625" stroke="#58dfff" stroke-width="3.7"/>
+    <polyline points="830,690 955,740 1100,765 1230,745 1380,660" stroke="#ffce5a" stroke-width="3"/>
   </g>
-
   <g fill="#07152a" stroke-width="3.4" filter="url(#glow)">
-    <circle cx="160" cy="370" r="9" stroke="#23eaff"/><circle cx="265" cy="355" r="8" stroke="#23eaff"/><circle cx="365" cy="330" r="8" stroke="#23eaff"/><circle cx="475" cy="308" r="8" stroke="#23eaff"/><circle cx="585" cy="290" r="8" stroke="#23eaff"/><circle cx="700" cy="270" r="8" stroke="#23eaff"/><circle cx="815" cy="242" r="8" stroke="#23eaff"/><circle cx="930" cy="220" r="8" stroke="#23eaff"/><circle cx="1048" cy="190" r="8" stroke="#23eaff"/><circle cx="1165" cy="150" r="9" stroke="#23eaff"/>
-    <circle cx="465" cy="250" r="5" stroke="#63c7ff"/><circle cx="590" cy="220" r="5" stroke="#63c7ff"/><circle cx="860" cy="185" r="5" stroke="#63c7ff"/><circle cx="1165" cy="112" r="8" stroke="#63c7ff"/><circle cx="720" cy="376" r="5" stroke="#6aa4ff"/><circle cx="1005" cy="405" r="5" stroke="#6aa4ff"/><circle cx="1165" cy="430" r="8" stroke="#6aa4ff"/><circle cx="900" cy="340" r="5" stroke="#23eaff"/><circle cx="1165" cy="375" r="8" stroke="#23eaff"/>
-    <circle cx="160" cy="510" r="9" stroke="#ff67d8"/><circle cx="270" cy="495" r="8" stroke="#ff67d8"/><circle cx="380" cy="470" r="8" stroke="#ff67d8"/><circle cx="500" cy="455" r="8" stroke="#ff67d8"/><circle cx="620" cy="465" r="8" stroke="#ff67d8"/><circle cx="740" cy="440" r="8" stroke="#ff67d8"/><circle cx="865" cy="425" r="8" stroke="#ff67d8"/><circle cx="990" cy="455" r="8" stroke="#ff67d8"/><circle cx="1110" cy="438" r="7" stroke="#ff67d8"/><circle cx="1165" cy="420" r="9" stroke="#ff67d8"/>
-    <circle cx="600" cy="590" r="5" stroke="#ff67d8"/><circle cx="865" cy="638" r="5" stroke="#ff67d8"/><circle cx="735" cy="365" r="5" stroke="#8b76ff"/><circle cx="1015" cy="305" r="5" stroke="#8b76ff"/><circle cx="1165" cy="290" r="8" stroke="#8b76ff"/><circle cx="850" cy="545" r="5" stroke="#b878ff"/><circle cx="1165" cy="602" r="8" stroke="#b878ff"/>
-    <circle cx="160" cy="630" r="9" stroke="#ffce5a"/><circle cx="270" cy="635" r="8" stroke="#ffce5a"/><circle cx="380" cy="665" r="8" stroke="#ffce5a"/><circle cx="500" cy="698" r="8" stroke="#ffce5a"/><circle cx="620" cy="690" r="8" stroke="#ffce5a"/><circle cx="740" cy="675" r="8" stroke="#ffce5a"/><circle cx="865" cy="640" r="8" stroke="#ffce5a"/><circle cx="990" cy="605" r="8" stroke="#ffce5a"/><circle cx="1105" cy="560" r="7" stroke="#ffce5a"/><circle cx="1165" cy="540" r="9" stroke="#ffce5a"/>
-    <circle cx="490" cy="745" r="5" stroke="#ffce5a"/><circle cx="620" cy="782" r="5" stroke="#ffce5a"/><circle cx="760" cy="812" r="5" stroke="#ffce5a"/><circle cx="895" cy="835" r="5" stroke="#ffce5a"/><circle cx="730" cy="585" r="6" stroke="#58dfff"/><circle cx="970" cy="500" r="6" stroke="#58dfff"/><circle cx="1165" cy="440" r="8" stroke="#58dfff"/><circle cx="980" cy="750" r="5" stroke="#ffce5a"/><circle cx="1165" cy="720" r="8" stroke="#ffce5a"/>
+    <circle cx="330" cy="365" r="10" stroke="#23eaff"/><circle cx="430" cy="330" r="8" stroke="#23eaff"/><circle cx="545" cy="300" r="8" stroke="#23eaff"/><circle cx="665" cy="275" r="8" stroke="#23eaff"/><circle cx="790" cy="248" r="8" stroke="#23eaff"/><circle cx="920" cy="220" r="8" stroke="#23eaff"/><circle cx="1045" cy="185" r="8" stroke="#23eaff"/><circle cx="1240" cy="160" r="9" stroke="#23eaff"/>
+    <circle cx="760" cy="195" r="5" stroke="#63c7ff"/><circle cx="1045" cy="125" r="5" stroke="#63c7ff"/><circle cx="1300" cy="170" r="8" stroke="#63c7ff"/><circle cx="920" cy="360" r="5" stroke="#23eaff"/><circle cx="1280" cy="332" r="8" stroke="#23eaff"/><circle cx="1180" cy="340" r="5" stroke="#23eaff"/><circle cx="1360" cy="310" r="8" stroke="#23eaff"/><circle cx="1260" cy="275" r="5" stroke="#63c7ff"/><circle cx="1380" cy="255" r="8" stroke="#63c7ff"/>
+    <circle cx="330" cy="510" r="10" stroke="#ff67d8"/><circle cx="445" cy="488" r="8" stroke="#ff67d8"/><circle cx="560" cy="458" r="8" stroke="#ff67d8"/><circle cx="690" cy="430" r="8" stroke="#ff67d8"/><circle cx="830" cy="405" r="8" stroke="#ff67d8"/><circle cx="980" cy="455" r="8" stroke="#ff67d8"/><circle cx="1110" cy="435" r="7" stroke="#ff67d8"/><circle cx="1245" cy="402" r="9" stroke="#ff67d8"/>
+    <circle cx="800" cy="588" r="5" stroke="#ff67d8"/><circle cx="1320" cy="588" r="8" stroke="#ff67d8"/><circle cx="960" cy="320" r="5" stroke="#8b76ff"/><circle cx="1335" cy="405" r="8" stroke="#8b76ff"/><circle cx="1085" cy="505" r="5" stroke="#b878ff"/><circle cx="1380" cy="455" r="8" stroke="#b878ff"/><circle cx="1365" cy="510" r="8" stroke="#ff67d8"/>
+    <circle cx="330" cy="635" r="10" stroke="#ffce5a"/><circle cx="445" cy="650" r="8" stroke="#ffce5a"/><circle cx="570" cy="685" r="8" stroke="#ffce5a"/><circle cx="700" cy="710" r="8" stroke="#ffce5a"/><circle cx="830" cy="690" r="8" stroke="#ffce5a"/><circle cx="965" cy="640" r="8" stroke="#ffce5a"/><circle cx="1090" cy="595" r="8" stroke="#ffce5a"/><circle cx="1245" cy="558" r="9" stroke="#ffce5a"/>
+    <circle cx="840" cy="798" r="5" stroke="#ffce5a"/><circle cx="1300" cy="725" r="8" stroke="#ffce5a"/><circle cx="960" cy="560" r="6" stroke="#58dfff"/><circle cx="1350" cy="625" r="8" stroke="#58dfff"/><circle cx="1100" cy="765" r="5" stroke="#ffce5a"/><circle cx="1380" cy="660" r="8" stroke="#ffce5a"/>
   </g>
-  <text x="780" y="868" fill="#aab6d8" font-family="Segoe UI, Arial, sans-serif" font-size="21" text-anchor="middle">Roots begin on the left volume face; branches diverge through depth and height before terminating on the frontal time plane.</text>
+  <text x="780" y="868" fill="#aab6d8" font-family="Segoe UI, Arial, sans-serif" font-size="21" text-anchor="middle">Roots start inside the left volume face; terminal event-nodes are distributed across the frontal time plane.</text>
 </svg>
