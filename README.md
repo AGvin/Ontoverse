@@ -4,17 +4,28 @@
 
 A conceptual framework for reality, time, histories, causality, and compatible worlds.
 
+Ontoverse explores speculative models of **history-space**, **frontal time**, **temporal density**, **event-nodes**, **compatibility channels**, and **observer-compatible worlds**. It is intended as a structured research notebook for developing, comparing, and refining ideas about how reality may be organized.
+
 ## Status
 
 Ontoverse is a speculative conceptual framework. It is not presented as a completed physical theory.
 
 The purpose of this repository is to organize and refine models, definitions, hypotheses, diagrams, comparisons, and open questions about how reality may be structured, how time may be interpreted, and how compatible histories may diverge, remain accessible, or locally converge.
 
+## Core Ideas
+
+- **History-space** models reality as a structured space of possible histories rather than a single linear timeline.
+- **Frontal time** is a proposed global ordering parameter, represented visually as a ruby-red present boundary or plane.
+- **Local time** is interpreted as accumulated significant event-nodes along a historical trajectory.
+- **Temporal density** describes the density of significant event-nodes relative to a frontal-time interval.
+- **Compatibility channels** constrain which histories, records, and observers can interact.
+- **Convergent channels** describe cases where distinct historical origins enter a shared locally equivalent future-access structure.
+
 ## Documentation Map
 
 ### Framework
 
-- [`framework/`](./docs/framework/) — high-level scope, status, core assumptions, boundaries, and open problems.
+- [`framework/`](./docs/framework/) — high-level scope, status, core assumptions, boundaries, authorship notes, and open problems.
 
 ### Models
 
@@ -22,10 +33,24 @@ The purpose of this repository is to organize and refine models, definitions, hy
   - [`history-space/`](./docs/models/sub/history-space/) — reality as a structured space of possible histories.
   - [`frontal-time/`](./docs/models/sub/frontal-time/) — global frontal time, local time, temporal density, and the Planck-action hypothesis.
 
+### Visual Explanations
+
+- [`visualizations/`](./docs/visualizations/) — diagrams explaining history-space, temporal density, frontal time, and convergent channels.
+  - [`temporal-density-comparison/`](./docs/visualizations/sub/temporal-density-comparison/) — low-density and high-density event-node trajectories across the same frontal-time interval.
+  - [`convergent-channel/`](./docs/visualizations/sub/convergent-channel/) — distinct origins, divergence, compatibility filtering, and convergence at the frontal time plane.
+  - [`history-space-density-regions/`](./docs/visualizations/sub/history-space-density-regions/) — sparse, medium, and dense regions inside history-space.
+  - [`uneven-temporal-density/`](./docs/visualizations/sub/uneven-temporal-density/) — representative event-node density patterns across multiple trajectories.
+
 ### Reference Material
 
 - [`glossary/`](./docs/glossary/) — working definitions for Ontoverse terminology.
 - [`notes/`](./docs/notes/) — exploratory notes and inspiration sources.
+
+## Authorship and AI Assistance
+
+The conceptual ideas presented in Ontoverse — including its hypotheses, models, terminology proposals, and interpretive directions — originate from the author.
+
+AI tools were used to assist with terminology refinement, document structuring, wording improvement, translation, language polishing, and drafting repository documentation. AI assistance should therefore be understood as editorial and organizational support, not as authorship of the core concepts.
 
 ## Reuse
 
