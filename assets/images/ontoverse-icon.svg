@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img">
+  <title>Ontoverse icon</title>
+  <defs>
+    <linearGradient id="ring" x1="80" y1="80" x2="432" y2="432" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#37d8ff"/>
+      <stop offset="1" stop-color="#b95cff"/>
+    </linearGradient>
+    <linearGradient id="branches" x1="105" y1="140" x2="405" y2="280" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#41dbff"/>
+      <stop offset="0.55" stop-color="#f8f7ff"/>
+      <stop offset="1" stop-color="#c663ff"/>
+    </linearGradient>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="512" height="512" rx="96" fill="#05070d"/>
+  <circle cx="256" cy="256" r="196" fill="none" stroke="url(#ring)" stroke-width="6"/>
+  <circle cx="256" cy="256" r="158" fill="none" stroke="#dce9ff" stroke-width="1.5" stroke-dasharray="2 10" opacity="0.45"/>
+  <g fill="none" stroke="url(#branches)" stroke-width="4" stroke-linecap="round">
+    <path d="M256 350 C235 298 200 258 145 226 C126 215 110 202 96 186"/>
+    <path d="M256 350 C244 288 238 226 190 174 C164 146 138 130 114 116"/>
+    <path d="M256 350 C256 286 256 218 256 142"/>
+    <path d="M256 350 C278 300 322 264 366 230 C392 210 410 188 424 160"/>
+    <path d="M256 350 C285 280 330 206 372 118"/>
+  </g>
+  <g fill="none" stroke="#78e4ff" stroke-width="2" stroke-dasharray="2 9" opacity="0.7">
+    <path d="M96 186 C175 92 320 88 424 160"/>
+    <path d="M114 116 C210 62 318 66 372 118"/>
+    <path d="M145 226 C238 176 320 188 410 260"/>
+  </g>
+  <line x1="86" y1="332" x2="418" y2="332" stroke="#ff244f" stroke-width="4" filter="url(#glow)"/>
+  <path d="M418 321 L440 332 L418 343 Z" fill="#ff244f" filter="url(#glow)"/>
+  <g fill="#fff6f8" stroke="#ff244f" stroke-width="3" filter="url(#glow)">
+    <circle cx="86" cy="332" r="6"/>
+    <circle cx="164" cy="332" r="4"/>
+    <circle cx="256" cy="332" r="6"/>
+    <circle cx="342" cy="332" r="4"/>
+  </g>
+  <ellipse cx="256" cy="374" rx="112" ry="24" fill="none" stroke="#63e7ff" stroke-opacity="0.55"/>
+  <ellipse cx="256" cy="374" rx="70" ry="14" fill="none" stroke="#fff7d6" stroke-opacity="0.6"/>
+  <circle cx="256" cy="350" r="10" fill="#fff7d6" filter="url(#glow)"/>
+  <g filter="url(#glow)">
+    <circle cx="96" cy="186" r="9" fill="#35d9ff"/>
+    <circle cx="114" cy="116" r="8" fill="#55e2ff"/>
+    <circle cx="145" cy="226" r="7" fill="#a9efff"/>
+    <circle cx="190" cy="174" r="8" fill="#bfecff"/>
+    <circle cx="256" cy="142" r="8" fill="#dce9ff"/>
+    <circle cx="366" cy="230" r="8" fill="#c38cff"/>
+    <circle cx="372" cy="118" r="8" fill="#d563ff"/>
+    <circle cx="424" cy="160" r="7" fill="#c778ff"/>
+  </g>
+</svg>
