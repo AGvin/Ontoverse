@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Convergent Channel</title>
+  <desc id="desc">Five realized strings converge into one channel at the frontal time plane. Every node coordinate is also a polyline point.</desc>
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="82%"><stop offset="0" stop-color="#07152a"/><stop offset="0.65" stop-color="#020713"/><stop offset="1" stop-color="#00030a"/></radialGradient>
+    <linearGradient id="plane" x1="1260" y1="180" x2="1340" y2="750" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#ff6076" stop-opacity="0.10"/><stop offset="0.5" stop-color="#ff244b" stop-opacity="0.36"/><stop offset="1" stop-color="#ff6076" stop-opacity="0.12"/></linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <text x="800" y="86" fill="#f8fbff" font-family="Segoe UI, Arial, sans-serif" font-size="54" text-anchor="middle">Convergent Channel</text>
+  <text x="800" y="126" fill="#8ea6c8" font-family="Segoe UI, Arial, sans-serif" font-size="22" text-anchor="middle">distinct histories gradually become locally compatible</text>
+  <g opacity="0.12" stroke="#1a63bd" fill="none"><path d="M180 190 H1340 V735 H180 Z"/><path d="M180 450 H1340"/><path d="M450 190 V735"/><path d="M720 190 V735"/><path d="M990 190 V735"/></g>
+  <polygon points="1260,230 1340,185 1340,760 1260,715" fill="url(#plane)" stroke="#ff4562" stroke-width="4"/>
+  <line x1="1340" y1="185" x2="1340" y2="760" stroke="#ff6b7d" stroke-width="5"/>
+  <text x="1360" y="420" fill="#ff5d73" font-family="Segoe UI, Arial, sans-serif" font-size="27">frontal time plane</text>
+  <text x="190" y="225" fill="#dfe8ff" font-family="Segoe UI, Arial, sans-serif" font-size="24">distinct origins</text>
+  <text x="500" y="250" fill="#14eaff" font-family="Segoe UI, Arial, sans-serif" font-size="24">divergence</text>
+  <text x="760" y="250" fill="#b781ff" font-family="Segoe UI, Arial, sans-serif" font-size="24">compatibility filtering</text>
+  <text x="1040" y="390" fill="#ffbd56" font-family="Segoe UI, Arial, sans-serif" font-size="24">convergent channel</text>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="5">
+    <polyline points="190,270 470,292 650,350 880,405 1100,440 1180,446 1260,450" stroke="#14eaff"/>
+    <polyline points="190,360 470,374 660,408 880,430 1100,444 1180,447 1260,450" stroke="#70b7ff"/>
+    <polyline points="190,450 470,450 720,450 990,450 1100,450 1180,450 1260,450" stroke="#f8fbff"/>
+    <polyline points="190,540 470,526 660,492 880,470 1100,456 1180,453 1260,450" stroke="#b781ff"/>
+    <polyline points="190,630 470,608 650,550 880,495 1100,460 1180,454 1260,450" stroke="#ffbd56"/>
+  </g>
+  <g fill="#07152a" stroke-width="4">
+    <circle cx="190" cy="270" r="12" stroke="#14eaff"/><circle cx="470" cy="292" r="7" stroke="#14eaff"/><circle cx="650" cy="350" r="7" stroke="#14eaff"/><circle cx="880" cy="405" r="7" stroke="#14eaff"/>
+    <circle cx="190" cy="360" r="12" stroke="#70b7ff"/><circle cx="470" cy="374" r="7" stroke="#70b7ff"/><circle cx="660" cy="408" r="7" stroke="#70b7ff"/><circle cx="880" cy="430" r="7" stroke="#70b7ff"/>
+    <circle cx="190" cy="450" r="12" stroke="#f8fbff"/><circle cx="470" cy="450" r="7" stroke="#f8fbff"/><circle cx="720" cy="450" r="7" stroke="#f8fbff"/><circle cx="990" cy="450" r="7" stroke="#f8fbff"/>
+    <circle cx="190" cy="540" r="12" stroke="#b781ff"/><circle cx="470" cy="526" r="7" stroke="#b781ff"/><circle cx="660" cy="492" r="7" stroke="#b781ff"/><circle cx="880" cy="470" r="7" stroke="#b781ff"/>
+    <circle cx="190" cy="630" r="12" stroke="#ffbd56"/><circle cx="470" cy="608" r="7" stroke="#ffbd56"/><circle cx="650" cy="550" r="7" stroke="#ffbd56"/><circle cx="880" cy="495" r="7" stroke="#ffbd56"/>
+    <circle cx="1100" cy="450" r="7" stroke="#f8fbff"/><circle cx="1180" cy="450" r="7" stroke="#f8fbff"/><circle cx="1260" cy="450" r="8" stroke="#ffbd56"/>
+  </g>
+  <rect x="420" y="775" width="760" height="60" rx="13" fill="#050a16" stroke="#29354f"/>
+  <text x="800" y="812" fill="#aab6d8" font-family="Segoe UI, Arial, sans-serif" font-size="21" text-anchor="middle">Each node is on its string: every circle center is a polyline point.</text>
+</svg>
