@@ -4,6 +4,8 @@
 
 A conceptual framework for reality, time, histories, causality, and compatible worlds.
 
+> **Disclaimer:** Ontoverse is a collection of the author's reflections, hypotheses, conceptual models, and interpretive notes. It is not a scientific claim, proof, or established physical theory. AI tools were used to help publish, structure, translate, and refine the documentation, but the underlying ideas and conceptual direction originate from the author.
+
 Ontoverse explores speculative models of **history-space**, **frontal time**, **temporal density**, **event-nodes**, **compatibility channels**, and **observer-compatible worlds**. It is intended as a structured research notebook for developing, comparing, and refining ideas about how reality may be organized.
 
 ## Status
