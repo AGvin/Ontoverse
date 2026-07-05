@@ -12,6 +12,7 @@ The diagrams are part of the documentation, not decorative assets. They should r
 - [`convergent-channel/`](./sub/convergent-channel/) — shows distinct historical origins narrowing into a compatibility channel and convergent channel at the frontal time plane.
 - [`history-space-density-regions/`](./sub/history-space-density-regions/) — shows sparse, medium, and high temporal-density regions inside history-space.
 - [`uneven-temporal-density/`](./sub/uneven-temporal-density/) — compares several representative density patterns across history-space.
+- [`isometric-history-space/`](./sub/isometric-history-space/) — shows a volumetric, tree-like history-space projection with branching strings approaching the frontal time plane.
 
 ## Shared Visual Rules
 
