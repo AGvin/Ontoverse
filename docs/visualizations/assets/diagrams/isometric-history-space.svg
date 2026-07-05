@@ -1,56 +1,47 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
   <title id="title">Isometric History-Space</title>
-  <desc id="desc">Isometric SVG diagram of volumetric history-space with branching tree-like strings, event-nodes, and a ruby frontal time plane.</desc>
+  <desc id="desc">Clean isometric SVG showing volumetric tree-like history branches, event-nodes, and a ruby frontal time plane.</desc>
   <defs>
-    <radialGradient id="bg" cx="50%" cy="50%" r="85%"><stop offset="0" stop-color="#07152a"/><stop offset="0.65" stop-color="#020713"/><stop offset="1" stop-color="#00030a"/></radialGradient>
-    <linearGradient id="plane" x1="1220" y1="170" x2="1360" y2="760" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#ff6076" stop-opacity="0.10"/><stop offset="0.5" stop-color="#ff244b" stop-opacity="0.38"/><stop offset="1" stop-color="#ff6076" stop-opacity="0.12"/></linearGradient>
-    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
-    <filter id="ruby" x="-70%" y="-70%" width="240%" height="240%"><feGaussianBlur stdDeviation="6" result="b"/><feColorMatrix in="b" type="matrix" values="1 0 0 0 1 0 0 0 0 .04 0 0 0 0 .12 0 0 0 .9 0" result="c"/><feMerge><feMergeNode in="c"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <radialGradient id="bg" cx="50%" cy="50%" r="82%"><stop offset="0" stop-color="#07152a"/><stop offset="0.7" stop-color="#020713"/><stop offset="1" stop-color="#00030a"/></radialGradient>
+    <linearGradient id="plane" x1="1220" y1="170" x2="1340" y2="740"><stop offset="0" stop-color="#ff6076" stop-opacity="0.08"/><stop offset="0.5" stop-color="#ff244b" stop-opacity="0.34"/><stop offset="1" stop-color="#ff6076" stop-opacity="0.10"/></linearGradient>
+    <filter id="g" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
   </defs>
   <rect width="1600" height="900" fill="url(#bg)"/>
-  <text x="92" y="86" fill="#f8fbff" font-family="Segoe UI, Arial, sans-serif" font-size="52">Isometric History-Space</text>
-  <text x="92" y="128" fill="#8ea6c8" font-family="Segoe UI, Arial, sans-serif" font-size="24">volumetric branching history trees approaching the frontal time plane</text>
-  <g opacity="0.16" stroke="#1a63bd" fill="none">
-    <path d="M250 220 L1220 170 L1370 255 L390 310 Z"/>
-    <path d="M250 220 L250 650 L390 740 L390 310"/>
-    <path d="M1220 170 L1220 600 L1370 695 L1370 255"/>
-    <path d="M250 650 L1220 600 L1370 695 L390 740 Z"/>
-    <path d="M430 210 L565 292 M610 195 L745 278 M790 185 L925 268 M970 176 L1105 259 M1150 168 L1285 250"/>
-    <path d="M390 310 L1370 255 M390 420 L1370 365 M390 530 L1370 475 M390 640 L1370 585"/>
-    <path d="M250 330 L390 420 M250 440 L390 530 M250 550 L390 640"/>
+  <text x="90" y="82" fill="#f8fbff" font-family="Segoe UI, Arial, sans-serif" font-size="50">Isometric History-Space</text>
+  <text x="90" y="122" fill="#8ea6c8" font-family="Segoe UI, Arial, sans-serif" font-size="23">tree-like branching histories inside a volumetric slice</text>
+  <g stroke="#1a63bd" fill="none" opacity="0.16">
+    <path d="M260 210 L1220 170 L1340 245 L380 295 Z"/>
+    <path d="M260 650 L1220 610 L1340 690 L380 740 Z"/>
+    <path d="M260 210 V650 M380 295 V740 M1220 170 V610 M1340 245 V690"/>
+    <path d="M260 320 L380 405 L1340 355 M260 435 L380 520 L1340 470 M260 550 L380 635 L1340 585"/>
+    <path d="M470 202 L590 286 V730 M690 190 L810 274 V718 M910 181 L1030 265 V707 M1130 172 L1250 256 V696"/>
   </g>
-  <g filter="url(#ruby)">
-    <polygon points="1220,170 1370,255 1370,695 1220,600" fill="url(#plane)" stroke="#ff4562" stroke-width="4"/>
-    <line x1="1220" y1="170" x2="1220" y2="600" stroke="#ff6b7d" stroke-width="5"/>
-    <line x1="1370" y1="255" x2="1370" y2="695" stroke="#ff6b7d" stroke-width="5"/>
+  <polygon points="1220,170 1340,245 1340,690 1220,610" fill="url(#plane)" stroke="#ff4562" stroke-width="4"/>
+  <line x1="1220" y1="170" x2="1220" y2="610" stroke="#ff6b7d" stroke-width="5"/>
+  <line x1="1340" y1="245" x2="1340" y2="690" stroke="#ff6b7d" stroke-width="5"/>
+  <text x="1362" y="445" fill="#ff5d73" font-family="Segoe UI, Arial, sans-serif" font-size="27">frontal time plane</text>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="5" filter="url(#g)">
+    <polyline points="260,410 420,390 560,365 700,348 850,330 1010,312 1160,292 1220,282" stroke="#14eaff"/>
+    <polyline points="560,365 700,260 850,238 1010,220 1160,195 1220,185" stroke="#55bfff"/>
+    <polyline points="700,348 845,402 1005,430 1155,450 1220,458" stroke="#7b8cff"/>
+    <polyline points="420,390 565,470 720,500 880,522 1040,548 1220,575" stroke="#b781ff"/>
+    <polyline points="260,565 420,545 560,525 700,508 850,492 1010,475 1160,458 1220,450" stroke="#ff67d8"/>
+    <polyline points="560,525 705,620 865,645 1025,665 1165,680 1220,685" stroke="#58dfff"/>
+    <polyline points="700,508 845,448 1005,428 1155,414 1220,408" stroke="#ffbd56"/>
   </g>
-  <text x="1395" y="445" fill="#ff5d73" font-family="Segoe UI, Arial, sans-serif" font-size="28">frontal time plane</text>
-  <text x="106" y="250" fill="#14eaff" font-family="Segoe UI, Arial, sans-serif" font-size="26">branching</text>
-  <text x="106" y="282" fill="#14eaff" font-family="Segoe UI, Arial, sans-serif" font-size="26">history trees</text>
-  <text x="710" y="810" fill="#aab6d8" font-family="Segoe UI, Arial, sans-serif" font-size="22" text-anchor="middle">Tree-like strings branch inside the volume; realized branches terminate at the ruby frontal time plane.</text>
-  <g fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" filter="url(#glow)">
-    <polyline points="250,300 390,320 540,300 690,325 840,305 990,330 1120,320 1220,305" stroke="#14eaff"/>
-    <polyline points="390,320 505,245 650,235 805,250 960,230 1110,245 1220,220" stroke="#45b8ff"/>
-    <polyline points="540,300 650,380 805,400 960,385 1110,415 1220,405" stroke="#7b9cff"/>
-    <polyline points="690,325 815,300 960,330 1100,310 1220,325" stroke="#f8fbff"/>
-    <polyline points="250,455 400,440 550,465 700,450 850,485 1000,470 1130,490 1220,475" stroke="#9b70ff"/>
-    <polyline points="400,440 520,375 665,360 810,375 960,355 1110,370 1220,350" stroke="#6d8cff"/>
-    <polyline points="550,465 675,540 830,555 985,535 1120,565 1220,545" stroke="#c568ff"/>
-    <polyline points="700,450 835,430 980,452 1105,440 1220,455" stroke="#ff67d8"/>
-    <polyline points="250,620 390,600 540,625 690,595 840,620 990,590 1120,610 1220,585" stroke="#ffbd56"/>
-    <polyline points="390,600 520,535 665,520 810,540 960,510 1110,530 1220,505" stroke="#ff8edc"/>
-    <polyline points="540,625 675,695 830,705 985,675 1120,700 1220,675" stroke="#58dfff"/>
+  <g fill="#07152a" stroke-width="4" filter="url(#g)">
+    <circle cx="260" cy="410" r="10" stroke="#14eaff"/><circle cx="420" cy="390" r="8" stroke="#14eaff"/><circle cx="560" cy="365" r="8" stroke="#14eaff"/><circle cx="700" cy="348" r="8" stroke="#f8fbff"/><circle cx="850" cy="330" r="8" stroke="#f8fbff"/><circle cx="1010" cy="312" r="8" stroke="#f8fbff"/><circle cx="1160" cy="292" r="8" stroke="#9eb1ff"/><circle cx="1220" cy="282" r="9" stroke="#9eb1ff"/>
+    <circle cx="700" cy="260" r="7" stroke="#55bfff"/><circle cx="850" cy="238" r="7" stroke="#55bfff"/><circle cx="1010" cy="220" r="7" stroke="#55bfff"/><circle cx="1160" cy="195" r="7" stroke="#55bfff"/><circle cx="1220" cy="185" r="9" stroke="#55bfff"/>
+    <circle cx="845" cy="402" r="7" stroke="#7b8cff"/><circle cx="1005" cy="430" r="7" stroke="#7b8cff"/><circle cx="1155" cy="450" r="7" stroke="#7b8cff"/><circle cx="1220" cy="458" r="9" stroke="#7b8cff"/>
+    <circle cx="565" cy="470" r="7" stroke="#b781ff"/><circle cx="720" cy="500" r="7" stroke="#b781ff"/><circle cx="880" cy="522" r="7" stroke="#b781ff"/><circle cx="1040" cy="548" r="7" stroke="#b781ff"/><circle cx="1220" cy="575" r="9" stroke="#b781ff"/>
+    <circle cx="260" cy="565" r="10" stroke="#ff67d8"/><circle cx="420" cy="545" r="8" stroke="#ff67d8"/><circle cx="560" cy="525" r="8" stroke="#ff67d8"/><circle cx="700" cy="508" r="8" stroke="#ffbd56"/><circle cx="850" cy="492" r="8" stroke="#ffbd56"/><circle cx="1010" cy="475" r="8" stroke="#ffbd56"/><circle cx="1160" cy="458" r="8" stroke="#ffbd56"/><circle cx="1220" cy="450" r="9" stroke="#ffbd56"/>
+    <circle cx="705" cy="620" r="7" stroke="#58dfff"/><circle cx="865" cy="645" r="7" stroke="#58dfff"/><circle cx="1025" cy="665" r="7" stroke="#58dfff"/><circle cx="1165" cy="680" r="7" stroke="#58dfff"/><circle cx="1220" cy="685" r="9" stroke="#58dfff"/>
+    <circle cx="845" cy="448" r="7" stroke="#ffbd56"/><circle cx="1005" cy="428" r="7" stroke="#ffbd56"/><circle cx="1155" cy="414" r="7" stroke="#ffbd56"/><circle cx="1220" cy="408" r="9" stroke="#ffbd56"/>
   </g>
-  <g fill="#07152a" stroke-width="3.5" filter="url(#glow)">
-    <circle cx="250" cy="300" r="8" stroke="#14eaff"/><circle cx="390" cy="320" r="7" stroke="#14eaff"/><circle cx="540" cy="300" r="7" stroke="#14eaff"/><circle cx="690" cy="325" r="7" stroke="#f8fbff"/><circle cx="840" cy="305" r="7" stroke="#f8fbff"/><circle cx="990" cy="330" r="7" stroke="#f8fbff"/><circle cx="1120" cy="320" r="7" stroke="#b778ff"/><circle cx="1220" cy="305" r="8" stroke="#b778ff"/>
-    <circle cx="505" cy="245" r="6" stroke="#45b8ff"/><circle cx="650" cy="235" r="6" stroke="#45b8ff"/><circle cx="805" cy="250" r="6" stroke="#45b8ff"/><circle cx="960" cy="230" r="6" stroke="#45b8ff"/><circle cx="1110" cy="245" r="6" stroke="#45b8ff"/><circle cx="1220" cy="220" r="8" stroke="#45b8ff"/>
-    <circle cx="650" cy="380" r="6" stroke="#7b9cff"/><circle cx="805" cy="400" r="6" stroke="#7b9cff"/><circle cx="960" cy="385" r="6" stroke="#7b9cff"/><circle cx="1110" cy="415" r="6" stroke="#7b9cff"/><circle cx="1220" cy="405" r="8" stroke="#7b9cff"/>
-    <circle cx="250" cy="455" r="8" stroke="#9b70ff"/><circle cx="400" cy="440" r="7" stroke="#9b70ff"/><circle cx="550" cy="465" r="7" stroke="#9b70ff"/><circle cx="700" cy="450" r="7" stroke="#ff67d8"/><circle cx="850" cy="485" r="7" stroke="#ff67d8"/><circle cx="1000" cy="470" r="7" stroke="#ff67d8"/><circle cx="1130" cy="490" r="7" stroke="#ff67d8"/><circle cx="1220" cy="475" r="8" stroke="#ff67d8"/>
-    <circle cx="520" cy="375" r="6" stroke="#6d8cff"/><circle cx="665" cy="360" r="6" stroke="#6d8cff"/><circle cx="810" cy="375" r="6" stroke="#6d8cff"/><circle cx="960" cy="355" r="6" stroke="#6d8cff"/><circle cx="1110" cy="370" r="6" stroke="#6d8cff"/><circle cx="1220" cy="350" r="8" stroke="#6d8cff"/>
-    <circle cx="675" cy="540" r="6" stroke="#c568ff"/><circle cx="830" cy="555" r="6" stroke="#c568ff"/><circle cx="985" cy="535" r="6" stroke="#c568ff"/><circle cx="1120" cy="565" r="6" stroke="#c568ff"/><circle cx="1220" cy="545" r="8" stroke="#c568ff"/>
-    <circle cx="250" cy="620" r="8" stroke="#ffbd56"/><circle cx="390" cy="600" r="7" stroke="#ffbd56"/><circle cx="540" cy="625" r="7" stroke="#ffbd56"/><circle cx="690" cy="595" r="7" stroke="#ffbd56"/><circle cx="840" cy="620" r="7" stroke="#ffbd56"/><circle cx="990" cy="590" r="7" stroke="#ffbd56"/><circle cx="1120" cy="610" r="7" stroke="#ffbd56"/><circle cx="1220" cy="585" r="8" stroke="#ffbd56"/>
-    <circle cx="520" cy="535" r="6" stroke="#ff8edc"/><circle cx="665" cy="520" r="6" stroke="#ff8edc"/><circle cx="810" cy="540" r="6" stroke="#ff8edc"/><circle cx="960" cy="510" r="6" stroke="#ff8edc"/><circle cx="1110" cy="530" r="6" stroke="#ff8edc"/><circle cx="1220" cy="505" r="8" stroke="#ff8edc"/>
-    <circle cx="675" cy="695" r="6" stroke="#58dfff"/><circle cx="830" cy="705" r="6" stroke="#58dfff"/><circle cx="985" cy="675" r="6" stroke="#58dfff"/><circle cx="1120" cy="700" r="6" stroke="#58dfff"/><circle cx="1220" cy="675" r="8" stroke="#58dfff"/>
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="22">
+    <text x="165" y="405" fill="#14eaff">root A</text>
+    <text x="165" y="560" fill="#ff67d8">root B</text>
+    <text x="480" y="345" fill="#8ea6c8">branching node</text>
+    <text x="680" y="770" fill="#aab6d8" text-anchor="middle">Two tree-like history structures branch inside the volume and terminate at the frontal time plane.</text>
   </g>
-  <g opacity="0.78" stroke="#8ea6c8" fill="none"><path d="M225 275 L250 300"/><text x="150" y="270" fill="#8ea6c8" font-family="Segoe UI, Arial, sans-serif" font-size="20">root events</text><path d="M735 745 L760 705"/><text x="625" y="760" fill="#8ea6c8" font-family="Segoe UI, Arial, sans-serif" font-size="20">event-nodes</text></g>
 </svg>
