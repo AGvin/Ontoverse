@@ -4,11 +4,17 @@ Status: draft
 
 The Frontal Time Model introduces a distinction between a global ordering parameter and locally experienced time.
 
+![Temporal density comparison](../../../visualizations/assets/diagrams/temporal-density-comparison.svg)
+
 ## Frontal Time
 
 Frontal time is a proposed global ordering parameter for the unfolding of history-space.
 
-It may be visualized as a wavefront moving through the space of possible histories. The image is metaphorical: frontal time is not yet defined as a physical field, metric, or measurable quantity.
+It may be visualized as a wavefront or plane moving through the space of possible histories. The image is metaphorical: frontal time is not yet defined as a physical field, metric, or measurable quantity.
+
+In Ontoverse diagrams, the frontal time plane is represented as a ruby boundary. It should normally be treated as the present boundary of the described model slice.
+
+This means that realized event-nodes and trajectories should stop at the frontal time plane unless the document explicitly defines a future-side region as hypothetical or inaccessible.
 
 In the Ontoverse logo, the frontal time axis is represented by the ruby line.
 
@@ -36,6 +42,14 @@ temporal density ~ event-nodes / frontal-time interval
 
 This is a conceptual expression, not a defined physical equation.
 
+Temporal density may be uneven across history-space. Some regions or trajectories may be sparse, others dense, and others mixed or clustered.
+
+See also:
+
+- [`temporal-density-comparison`](../../../visualizations/sub/temporal-density-comparison/);
+- [`history-space-density-regions`](../../../visualizations/sub/history-space-density-regions/);
+- [`uneven-temporal-density`](../../../visualizations/sub/uneven-temporal-density/).
+
 ## Planck-Action Hypothesis
 
 The Planck-action hypothesis is a speculative Ontoverse model component:
@@ -53,6 +67,24 @@ h = 6.62607015 x 10^-34 J s
 ```
 
 The Ontoverse interpretation is not that this relation is established physics. The proposed idea is that action quantization may provide a natural conceptual scale for counting or weighting significant transitions in the History-Space Model.
+
+## Light-Path Analogy
+
+The light-path analogy is an interpretive analogy inspired by explanations of how light can be modeled as exploring many possible paths while the observed contribution behaves as if a particular path or phase-coherent family of paths dominates.
+
+In Ontoverse terms, this analogy suggests a possible way to think about an experienced history:
+
+```text
+A lived or observed trajectory may be treated as one compatible path through a wider history-space of potential paths.
+```
+
+This is only an analogy. It does not claim that human-scale histories literally behave like light rays, nor that Ontoverse currently derives from optics or path-integral physics.
+
+The analogy is useful because it separates:
+
+- the wider space of possible trajectories;
+- the compatible or dominant path that becomes relevant to observation;
+- the need to define why one accessible history is experienced rather than another.
 
 ## Interpretive Claim
 
@@ -75,3 +107,4 @@ Planck's constant may be a useful candidate for formalizing temporal density bec
 - Clarify whether `event-nodes / frontal-time` can become a rigorous measure.
 - Determine whether Planck's constant is only an analogy here or can serve as a formal scale parameter.
 - Clarify how this model relates to proper time in relativity.
+- Clarify whether the light-path analogy can be mapped to action principles, path integrals, or only used as a conceptual metaphor.
