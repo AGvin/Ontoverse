@@ -50,23 +50,74 @@ See also:
 - [`history-space-density-regions`](../../../visualizations/sub/history-space-density-regions/);
 - [`uneven-temporal-density`](../../../visualizations/sub/uneven-temporal-density/).
 
-## Planck-Action Hypothesis
+## Quantum Transition Rate Conjecture
 
-The Planck-action hypothesis is a speculative Ontoverse model component:
+Status: conjecture
 
-```text
-The quantum of action, represented by Planck's constant h, may characterize the scale at which event-node density is measured relative to frontal time.
-```
+The quantum transition rate conjecture refines the earlier Planck-action wording.
 
-This hypothesis is inspired by the physical role of Planck's constant as a quantum of action.
-
-The established background is that Planck's constant has the dimensions of action, and since the 2019 SI revision its numerical value is fixed exactly as:
+The established physics background is that Planck's constant has the dimensions of action, and since the 2019 SI revision its numerical value is fixed exactly as:
 
 ```text
 h = 6.62607015 x 10^-34 J s
 ```
 
-The Ontoverse interpretation is not that this relation is established physics. The proposed idea is that action quantization may provide a natural conceptual scale for counting or weighting significant transitions in the History-Space Model.
+Planck's constant, or the reduced Planck constant `hbar`, is not treated here as a direct measure of temporal density. It is better understood as part of the quantum scale that relates action, energy, frequency, phase, and quantum-state evolution.
+
+The Ontoverse conjecture is different:
+
+```text
+The density of significant event-nodes along a branch may depend on an effective quantum transition rate relative to frontal time.
+```
+
+In this model, the primary candidate quantity is not `h` by itself, but an effective transition-rate parameter:
+
+```text
+Gamma_eff = effective rate of significant quantum transitions per unit of frontal time
+```
+
+This parameter is conceptual. It is not currently a measured physical constant or a defined equation.
+
+A possible physical inspiration is that quantum-state evolution is controlled by the relation between the system's effective Hamiltonian scale and `hbar`:
+
+```text
+quantum-state evolution rate ~ H_eff / hbar_eff
+```
+
+For transition-like event-nodes, the effective rate may also depend on interaction strength, coupling between states, density of available final states, decoherence-related processes, and other branch-specific physical structure.
+
+In Ontoverse terms:
+
+```text
+frontal time = shared ordering front
+Gamma_eff = effective significant-transition rate
+Gamma_eff -> event-node density
+event-node density -> local time accumulation
+```
+
+Under this conjecture, if two branches share the same frontal-time interval but differ in their effective quantum transition rate, they may accumulate different numbers of significant event-nodes.
+
+A branch with higher `Gamma_eff` would contain more significant event-nodes per frontal-time interval and therefore higher temporal density. A branch with lower `Gamma_eff` would contain fewer significant event-nodes per frontal-time interval and therefore lower temporal density.
+
+This gives a conceptual route for interpreting why local time may appear to progress faster in one branch and slower in another, while frontal time remains the shared ordering parameter.
+
+## Relation to the Quantum of Action
+
+The physical concept of a quantum of action is established physics. The speculative Ontoverse component is the proposed relation between quantum transition rates, event-node density, and local-time accumulation.
+
+The conjecture should therefore not be stated as:
+
+```text
+Planck's constant directly defines temporal density.
+```
+
+A more precise formulation is:
+
+```text
+Effective quantum-transition dynamics, possibly involving H_eff / hbar_eff and related dimensionless physical relations, may influence event-node density relative to frontal time.
+```
+
+This distinction matters because raw changes to a dimensionful constant such as `h` are not necessarily physically meaningful by themselves. A stronger future version of the conjecture should identify dimensionless relations that control effective quantum transition rates.
 
 ## Light-Path Analogy
 
@@ -97,14 +148,15 @@ Planck's constant proves the Ontoverse model.
 The tentative claim is:
 
 ```text
-Planck's constant may be a useful candidate for formalizing temporal density because it already plays the role of a quantum of action in established physics.
+Effective quantum-transition dynamics may be a useful candidate for formalizing temporal density because quantum mechanics already relates state evolution, transition rates, energy scales, and the quantum of action.
 ```
 
 ## Open Problems
 
 - Define what qualifies as a significant event-node.
-- Determine whether temporal density can be expressed through action, entropy, decoherence rate, information change, or another quantity.
+- Determine whether temporal density can be expressed through an effective transition rate, action, entropy, decoherence rate, information change, or another quantity.
 - Clarify whether `event-nodes / frontal-time` can become a rigorous measure.
-- Determine whether Planck's constant is only an analogy here or can serve as a formal scale parameter.
+- Determine whether `Gamma_eff` can be formalized through Hamiltonian evolution, transition rates, decoherence, interaction rates, or only used as a conceptual placeholder.
+- Clarify whether Planck's constant is only background motivation here or whether dimensionless relations involving `hbar` can serve as part of a formal scale relation.
 - Clarify how this model relates to proper time in relativity.
 - Clarify whether the light-path analogy can be mapped to action principles, path integrals, or only used as a conceptual metaphor.
