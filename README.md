@@ -33,7 +33,7 @@ The purpose of this repository is to organize and refine models, definitions, hy
 
 - [`models/`](./docs/models/) — conceptual models inside Ontoverse.
   - [`history-space/`](./docs/models/sub/history-space/) — reality as a structured space of possible histories.
-  - [`frontal-time/`](./docs/models/sub/frontal-time/) — global frontal time, local time, temporal density, and the Planck-action hypothesis.
+  - [`frontal-time/`](./docs/models/sub/frontal-time/) — global frontal time, local time, temporal density, and the quantum-transition-rate conjecture.
 
 ### Visual Explanations
 

@@ -28,17 +28,23 @@ This led to the first Ontoverse ideas around:
 
 - Video: <https://youtu.be/JgpKpXZ9gl4>
 
-This video inspired the Planck-action hypothesis.
+This video inspired the initial Planck-action formulation, later refined into the quantum transition rate conjecture.
 
 The key motivating idea is the physical concept of a quantum of action, associated with Planck's constant `h`.
 
-Ontoverse uses this as a speculative prompt:
+Ontoverse uses this as a speculative prompt, not as proof:
 
 ```text
-Planck's constant may be a candidate scale parameter for characterizing event-node density relative to frontal time.
+The quantum of action may be part of the physical background for understanding why significant quantum transitions occur at particular effective rates.
 ```
 
-This is not currently asserted as established physics. It is a hypothesis to be explored and formalized.
+The refined conjecture is that temporal density may depend more directly on an effective quantum transition rate than on `h` by itself:
+
+```text
+Gamma_eff = effective rate of significant quantum transitions per unit of frontal time
+```
+
+This is not currently asserted as established physics. It is a conjecture to be explored and formalized.
 
 ## Light-Path Analogy
 
@@ -68,6 +74,8 @@ The analogy is useful because it suggests a direction for future comparison with
 The following topics should be reviewed when developing these ideas further:
 
 - Planck's constant and action quantization;
+- Hamiltonian evolution and quantum-state dynamics;
+- transition rates and state-change probabilities;
 - Everett-style relative-state interpretation;
 - decoherent and consistent histories;
 - EPR and Bell-type constraints;

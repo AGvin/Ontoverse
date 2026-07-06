@@ -24,6 +24,12 @@ A local region of a historical trajectory or history-space where event-nodes are
 
 A point where one historical trajectory separates into multiple incompatible continuations.
 
+## Effective Quantum Transition Rate
+
+A proposed Ontoverse placeholder for the effective rate at which significant quantum transitions become event-nodes along a branch relative to frontal time.
+
+It may eventually depend on Hamiltonian evolution, interaction strength, coupling between states, density of available states, decoherence-related processes, or dimensionless physical relations involving the quantum of action.
+
 ## Event-Node
 
 A significant transition point in a historical trajectory.
@@ -72,11 +78,19 @@ The constraint that an observer can interact only with states, records, and othe
 
 ## Planck-Action Hypothesis
 
-A speculative model component proposing that Planck's constant, understood as a quantum of action, may be a candidate scale parameter for formalizing temporal density relative to frontal time.
+An earlier Ontoverse formulation that used Planck's constant, understood as a quantum of action, as a candidate clue for formalizing temporal density.
+
+This has been refined into the quantum transition rate conjecture: the established quantum of action remains relevant background, but temporal density is now framed as depending more directly on an effective rate of significant quantum transitions relative to frontal time.
 
 ## Potential Branch
 
 A dotted or auxiliary path used in diagrams to represent a possible branch that is not treated as the main realized trajectory in that visual slice.
+
+## Quantum Transition Rate Conjecture
+
+A conjecture that temporal density may depend on an effective rate of significant quantum transitions along a branch relative to frontal time.
+
+In this conjecture, `h` or `hbar` is not a direct density measure. Instead, effective transition dynamics may involve relations such as `H_eff / hbar_eff`, interaction strengths, available states, decoherence, and other physical structure that still requires formalization.
 
 ## Temporal Density
 
