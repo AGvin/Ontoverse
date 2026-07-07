@@ -2,17 +2,25 @@
 
 ![Ontoverse logo](./assets/images/ontoverse-logo-frontal-plane-rectangular.svg)
 
-A conceptual framework for reality, time, histories, causality, and compatible worlds.
+A self-developed conceptual framework for organizing reality, concepts, and possible hidden relationships between them.
 
 > **Disclaimer:** Ontoverse is a collection of the author's reflections, hypotheses, conceptual models, and interpretive notes. It is not a scientific claim, proof, or established physical theory. AI tools were used to help publish, structure, translate, and refine the documentation, but the underlying ideas and conceptual direction originate from the author.
 
-Ontoverse explores speculative models of **history-space**, **frontal time**, **temporal density**, **event-nodes**, **compatibility channels**, and **observer-compatible worlds**. It is intended as a structured research notebook for developing, comparing, and refining ideas about how reality may be organized.
+Ontoverse explores speculative models of **history-space**, **frontal time**, **temporal density**, **event-nodes**, **compatibility channels**, and **observer-compatible worlds**. It is intended as a structured research notebook for developing, comparing, and refining ideas about how reality, time, histories, causality, and compatible worlds may be organized.
+
+The project is best understood as a pre-formal framework: a way to preserve, inspect, criticize, refine, and potentially formalize conceptual insights that may contain a rational seed for future discovery or confirmation.
 
 ## Status
 
 Ontoverse is a speculative conceptual framework. It is not presented as a completed physical theory.
 
 The purpose of this repository is to organize and refine models, definitions, hypotheses, diagrams, comparisons, and open questions about how reality may be structured, how time may be interpreted, and how compatible histories may diverge, remain accessible, or locally converge.
+
+## Framing
+
+Ontoverse does not ask the reader to accept a grand theory. It asks whether a self-developed framework can organize concepts and possible hidden relationships in a way that makes them easier to examine, compare, challenge, and improve.
+
+The intended value of the project is not certainty, but structure: if an idea is speculative, it should still be possible to document its assumptions, define its terms, compare it with existing concepts, expose weak points, and identify what would need to be clarified, formalized, or rejected.
 
 ## Core Ideas
 
