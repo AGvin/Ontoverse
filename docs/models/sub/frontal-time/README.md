@@ -107,6 +107,10 @@ Status: working definition
 
 The model may distinguish between an absolute baseline metric, a branch baseline metric, and local metric deviations.
 
+![Branch metric, gravity, and local time-rate interpretation](./assets/diagrams/branch-metric-gravity-interpretation.svg)
+
+The diagram above summarizes how baseline metrics, local metric deviations, causal processing density, local time-rate gradients, gravity, and gravitational-wave-like fluctuations relate inside the Frontal Time Model.
+
 The absolute baseline metric is a shared conceptual zero-point. It represents an abstract reference state with no mass, no gravitational distortion, and no meaningful causal processing density. It is not treated as a living timeline state, because without mass, energy, or state changes, there are no events to actualize.
 
 The branch baseline metric represents the average nominal state of a specific timeline branch. It includes the branch's average mass-energy distribution, average gravitational background, average causal processing density, and default branch time rate.
