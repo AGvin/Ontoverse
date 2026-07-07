@@ -60,6 +60,15 @@ A compatibility channel entered by more than one distinct historical trajectory.
 
 Convergence means local future equivalence under a chosen description, not necessarily global identity.
 
+## Dark-Matter-Like Effect
+
+Type: observational analogy / Ontoverse comparison term  
+Status: external comparison target
+
+A gravitational effect that resembles phenomena usually attributed to dark matter, such as additional gravitational influence not explained by visible matter alone.
+
+In Ontoverse, this term is used cautiously as a comparison target, not as a claim that dark matter has been explained.
+
 ## Dense Cluster
 
 Type: proposed Ontoverse term  
@@ -82,6 +91,15 @@ Status: open formalization task
 A proposed Ontoverse placeholder for the effective rate at which significant quantum transitions become event-nodes along a branch relative to frontal time.
 
 It may eventually depend on Hamiltonian evolution, interaction strength, coupling between states, density of available states, decoherence-related processes, or dimensionless physical relations involving the quantum of action.
+
+## Event-Density Dark Sector Conjecture
+
+Type: Ontoverse conjecture  
+Status: open formalization task
+
+A conjecture that some dark-matter-like gravitational effects may correspond to an effective metric contribution from undetected event-density or causal-processing-density structures.
+
+The conjecture does not claim that dark matter has been explained. It requires a rigorous bridge from event-density to local time-rate gradients, metric deviation, and observable gravitational behavior.
 
 ## Event-Node
 
