@@ -6,6 +6,30 @@ This glossary defines working Ontoverse terms.
 
 Definitions may change as the framework is refined.
 
+## Absolute Baseline Metric
+
+A shared conceptual zero-point for metric interpretation.
+
+It represents an abstract reference state with no mass, no gravitational distortion, and no meaningful causal processing density. It is not treated as a living timeline state, because without mass, energy, or state changes, there are no events to actualize.
+
+## Branch Baseline Metric
+
+The average nominal metric state of a specific timeline branch.
+
+It includes the branch's average mass-energy distribution, average gravitational background, average causal processing density, and default branch time rate.
+
+## Branch Time Rate
+
+The default temporal character of a timeline branch relative to frontal time.
+
+It is associated with the branch baseline metric and the branch's average causal processing density.
+
+## Causal Processing Density
+
+A proposed Ontoverse term for the amount of local state change, interaction, and causal coordination that must be maintained in a region relative to frontal time.
+
+Higher causal processing density is interpreted as lowering the local time rate relative to less dense regions. This is a conceptual interpretation, not a defined physical equation.
+
 ## Compatibility Channel
 
 An access structure in which only mutually compatible states, records, and observers can interact.
@@ -66,11 +90,23 @@ A conceptual analogy inspired by path-based explanations of light propagation.
 
 In Ontoverse, it is used only as a metaphor for thinking about an experienced history as one compatible path through a broader space of possible paths.
 
+## Local Metric Deviation
+
+A local departure from a branch baseline metric.
+
+Examples may include regions associated with planets, stars, black holes, dense matter distributions, low-density regions, or gravitational waves. In Ontoverse, such deviations may change causal processing density, local time-rate gradients, and possible trajectories.
+
 ## Local Time
 
 Time experienced along a particular historical trajectory.
 
 In Ontoverse, local time is associated with the accumulation of significant event-nodes.
+
+## Local Time-Rate Gradient
+
+A spatial difference in local time rate across neighboring regions.
+
+In the gravity interpretation, this gradient is the relevant conceptual bridge between local time-rate slowdown and curved possible trajectories.
 
 ## Observer Access
 
