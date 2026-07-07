@@ -10,6 +10,12 @@ Ontoverse explores speculative models of **history-space**, **frontal time**, **
 
 The project is best understood as a pre-formal framework: a way to preserve, inspect, criticize, refine, and potentially formalize conceptual insights that may contain a rational seed for future discovery or confirmation.
 
+## Name Origin
+
+**Ontoverse** combines **ontology** — the study of what exists and how reality may be structured — with **-verse**, a suffix suggesting a universe, multiverse, or conceptual space of possible worlds.
+
+The name reflects the project's purpose: to organize ideas about reality, time, histories, causality, and compatible worlds into a structured conceptual space.
+
 ## Status
 
 Ontoverse is a speculative conceptual framework. It is not presented as a completed physical theory.
