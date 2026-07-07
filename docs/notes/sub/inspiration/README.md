@@ -2,15 +2,17 @@
 
 Status: draft
 
-This page records the initial inspiration sources for Ontoverse.
+This page records early conceptual prompts and inspiration sources for Ontoverse.
 
-These sources are not treated as authoritative proof of the framework. They are recorded as prompts that helped shape the first conceptual vocabulary.
+These sources are not treated as authoritative proof, evidence, or foundation of the framework. They are recorded as catalysts that helped shape the first conceptual vocabulary and exposed questions the author wanted to organize more carefully.
 
-## Primary Trigger
+The validity of Ontoverse does not depend on these sources. Each idea still has to be defined, compared with existing concepts, criticized, formalized where possible, or rejected.
+
+## Initial Conceptual Trigger
 
 - Video: <https://youtu.be/bMXFJkqIrx0>
 
-This video motivated the first Ontoverse reflection around quantum entanglement, hidden variables, faster-than-light concerns, and many-worlds-like interpretation.
+This video motivated early Ontoverse reflection around quantum entanglement, hidden variables, faster-than-light concerns, and many-worlds-like interpretation.
 
 Personal development note:
 
@@ -24,7 +26,7 @@ This led to the first Ontoverse ideas around:
 - divergence and convergence;
 - avoiding faster-than-light signalling by treating correlations as compatibility constraints inside accessible histories.
 
-## Quantum of Action Trigger
+## Quantum of Action Prompt
 
 - Video: <https://youtu.be/JgpKpXZ9gl4>
 
@@ -46,7 +48,7 @@ Gamma_eff = effective rate of significant quantum transitions per unit of fronta
 
 This is not currently asserted as established physics. It is a conjecture to be explored and formalized.
 
-## Light-Path Analogy
+## Light-Path Analogy Prompt
 
 The same video also motivated a light-path analogy.
 
