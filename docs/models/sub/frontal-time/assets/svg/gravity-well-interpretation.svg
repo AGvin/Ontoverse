@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
+  <title id="title">Gravity well interpretation</title>
+  <desc id="desc">Explains depth as local time-rate slowdown and slope as trajectory-changing gradient.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#071426"/><stop offset="1" stop-color="#020713"/></linearGradient>
+    <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8ffcff"/><stop offset="1" stop-color="#1d91ff"/></linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff3a8"/><stop offset="1" stop-color="#ffc933"/></linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <marker id="arrC" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="9" markerHeight="9" orient="auto"><path d="M0 0 L12 6 L0 12 Z" fill="#7af7ff"/></marker>
+    <marker id="arrG" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="9" markerHeight="9" orient="auto"><path d="M0 0 L12 6 L0 12 Z" fill="#ffd864"/></marker>
+    <style><![CDATA[
+      .title{font:800 30px Arial,sans-serif;fill:#fff}.subtitle{font:15px Arial,sans-serif;fill:#bfefff}.panel{fill:rgba(2,10,25,.78);stroke:#37d8ff;stroke-width:2;rx:18;filter:url(#glow)}.h{font:700 20px Arial,sans-serif;fill:#fff}.t{font:15px Arial,sans-serif;fill:#dffcff}.small{font:13px Arial,sans-serif;fill:#bfefff}.cyan{fill:#7af7ff}.gold{fill:#ffd864}.grid{fill:none;stroke:#2d7fff;stroke-width:1;opacity:.6}
+    ]]></style>
+  </defs>
+  <rect width="1200" height="520" fill="url(#bg)"/>
+  <text x="48" y="52" class="title">Gravity Well Interpretation</text>
+  <text x="48" y="78" class="subtitle">The well is a visualization aid: depth represents slowdown; slope represents the gradient that bends trajectories.</text>
+
+  <rect x="48" y="110" width="760" height="350" class="panel"/>
+  <text x="78" y="148" class="h">Metric depression around mass-energy concentration</text>
+  <g transform="translate(100 160)">
+    <ellipse cx="330" cy="155" rx="300" ry="100" fill="none" stroke="#2d7fff" opacity=".55"/>
+    <ellipse cx="330" cy="155" rx="230" ry="75" fill="none" stroke="#2d7fff" opacity=".62"/>
+    <ellipse cx="330" cy="155" rx="155" ry="50" fill="none" stroke="#78f7ff" opacity=".75"/>
+    <ellipse cx="330" cy="155" rx="75" ry="24" fill="none" stroke="#78f7ff" opacity=".95"/>
+    <g stroke="#2d7fff" opacity=".45"><line x1="330" y1="55" x2="330" y2="255"/><line x1="140" y1="85" x2="520" y2="225"/><line x1="520" y1="85" x2="140" y2="225"/><line x1="55" y1="155" x2="605" y2="155"/></g>
+    <circle cx="330" cy="155" r="30" fill="#ffd864" filter="url(#glow)"/>
+    <text x="330" y="205" class="small gold" text-anchor="middle">mass-energy</text>
+    <path d="M45 115 C130 38 210 210 330 155 C420 113 500 88 610 120" fill="none" stroke="url(#gold)" stroke-width="5" marker-end="url(#arrG)" filter="url(#glow)"/>
+    <path d="M45 195 C145 260 230 125 330 155 C440 190 505 242 615 198" fill="none" stroke="url(#cyan)" stroke-width="5" marker-end="url(#arrC)" filter="url(#glow)"/>
+    <text x="72" y="98" class="small gold">farther trajectory: weak bend</text>
+    <text x="72" y="230" class="small cyan">closer trajectory: stronger bend</text>
+  </g>
+
+  <rect x="842" y="110" width="310" height="350" class="panel"/>
+  <text x="872" y="148" class="h">Read the well</text>
+  <g transform="translate(875 180)">
+    <rect x="0" y="0" width="250" height="82" rx="14" fill="rgba(0,18,35,.72)" stroke="#78f7ff"/>
+    <text x="125" y="28" class="t" text-anchor="middle">depth</text>
+    <text x="125" y="52" class="small" text-anchor="middle">amount of local</text>
+    <text x="125" y="70" class="small" text-anchor="middle">time-rate slowdown</text>
+    <rect x="0" y="116" width="250" height="92" rx="14" fill="rgba(45,32,0,.68)" stroke="#ffd864"/>
+    <text x="125" y="144" class="t gold" text-anchor="middle">slope / gradient</text>
+    <text x="125" y="168" class="small" text-anchor="middle">change in time rate</text>
+    <text x="125" y="186" class="small" text-anchor="middle">across space</text>
+    <rect x="0" y="246" width="250" height="62" rx="14" fill="rgba(0,18,35,.72)" stroke="#78f7ff"/>
+    <text x="125" y="273" class="small" text-anchor="middle">gravity is the trajectory effect</text>
+    <text x="125" y="293" class="small" text-anchor="middle">of the local time-rate gradient</text>
+  </g>
+</svg>
