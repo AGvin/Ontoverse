@@ -101,6 +101,63 @@ A branch with higher `Gamma_eff` would contain more significant event-nodes per 
 
 This gives a conceptual route for interpreting why local time may appear to progress faster in one branch and slower in another, while frontal time remains the shared ordering parameter.
 
+## Branch Metrics and Local Metric Deviations
+
+Status: working definition
+
+The model may distinguish between an absolute baseline metric, a branch baseline metric, and local metric deviations.
+
+The absolute baseline metric is a shared conceptual zero-point. It represents an abstract reference state with no mass, no gravitational distortion, and no meaningful causal processing density. It is not treated as a living timeline state, because without mass, energy, or state changes, there are no events to actualize.
+
+The branch baseline metric represents the average nominal state of a specific timeline branch. It includes the branch's average mass-energy distribution, average gravitational background, average causal processing density, and default branch time rate.
+
+In this sense, the branch baseline metric defines the temporal character of a branch:
+
+```text
+branch baseline metric
+-> average causal processing density
+-> branch time rate
+-> default temporal density of the branch
+```
+
+Local gravitational effects are then modeled as deviations from the branch baseline metric, not from absolute zero. A planet, star, black hole, dense matter region, low-density region, or gravitational wave may be interpreted as a local metric deviation within the branch.
+
+## Causal Processing Density and Gravity
+
+Status: interpretive hypothesis
+
+Causal processing density is a proposed Ontoverse term for the amount of local state change, interaction, and causal coordination that must be maintained in a region relative to the frontal-time ordering.
+
+In established general relativity, gravity is described through spacetime geometry shaped by mass and energy, not as an ordinary pulling force. The common gravity-well image is therefore only a simplified visualization. The "well" does not represent a literal surface; it represents a change in spacetime geometry and local time rate.
+
+Within Ontoverse, mass-energy concentration may be interpreted as a physical marker of concentrated local states. The more mass and energy exist in a region, the more local states, interactions, and causal relations must be maintained near the time front. This increases the region's causal processing density.
+
+Higher causal processing density is interpreted as lowering the local time rate relative to less dense regions. Gravity is not identified with this slowdown alone. Gravity appears where the local time rate changes across space.
+
+```text
+mass-energy concentration
+-> causal processing density increase
+-> local time-rate slowdown
+-> local time-rate gradient
+-> curved possible trajectories
+-> gravitational effect
+```
+
+In this interpretation, the depth of a gravity-well visualization represents the amount of local time-rate slowdown, while the slope of the well represents the gradient that changes trajectories. Objects do not fall because space is literally pulled downward; they follow paths shaped by uneven local time rates and causal processing density.
+
+Gravitational waves can be described as traveling fluctuations of this structure. They are not permanent hills that push objects like water waves push a surfboard. Instead, they temporarily stretch and compress spatial relations, creating oscillating changes in causal processing density and local time-rate gradients.
+
+```text
+gravitational wave
+-> moving local metric deviation
+-> spatial stretch/compression
+-> causal processing density fluctuation
+-> local time-rate gradient fluctuation
+-> transient trajectory distortion
+```
+
+This remains an interpretive model component, not a derived physical theory.
+
 ## Relation to the Quantum of Action
 
 The physical concept of a quantum of action is established physics. The speculative Ontoverse component is the proposed relation between quantum transition rates, event-node density, and local-time accumulation.
@@ -159,4 +216,6 @@ Effective quantum-transition dynamics may be a useful candidate for formalizing 
 - Determine whether `Gamma_eff` can be formalized through Hamiltonian evolution, transition rates, decoherence, interaction rates, or only used as a conceptual placeholder.
 - Clarify whether Planck's constant is only background motivation here or whether dimensionless relations involving `hbar` can serve as part of a formal scale relation.
 - Clarify how this model relates to proper time in relativity.
+- Clarify how branch baseline metrics, local metric deviations, and causal processing density could be compared with spacetime curvature, gravitational time dilation, and stress-energy in established relativity.
+- Clarify whether gravitational-wave analogies should be limited to metric fluctuation metaphors or can be mapped to more formal wave-like changes in causal processing density.
 - Clarify whether the light-path analogy can be mapped to action principles, path integrals, or only used as a conceptual metaphor.
