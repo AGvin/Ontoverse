@@ -1,214 +1,160 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
-  <title id="title">Branch metric, gravity, and local time-rate interpretation</title>
-  <desc id="desc">Ontoverse diagram showing absolute and branch baseline metrics, local metric deviations, causal processing density, time-rate gradients, gravity, and gravitational waves.</desc>
+  <title id="title">Ontoverse branch metrics, gravity, and local time-rate</title>
+  <desc id="desc">Clean Ontoverse SVG diagram explaining absolute baseline metric, branch baseline metric, local metric deviations, causal processing density, local time-rate gradients, gravity, and gravitational waves.</desc>
   <defs>
-    <radialGradient id="bg" cx="50%" cy="45%" r="75%">
-      <stop offset="0" stop-color="#07142f"/>
-      <stop offset="0.62" stop-color="#020713"/>
-      <stop offset="1" stop-color="#00030a"/>
-    </radialGradient>
-    <linearGradient id="cyanLine" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#58f7ff"/>
-      <stop offset="1" stop-color="#0586ff"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#071224"/>
+      <stop offset="1" stop-color="#020611"/>
     </linearGradient>
-    <linearGradient id="violetLine" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#c46cff"/>
-      <stop offset="1" stop-color="#3b46ff"/>
+    <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#9ffcff"/>
+      <stop offset="1" stop-color="#2ca8ff"/>
     </linearGradient>
-    <linearGradient id="goldLine" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#fff7a0"/>
-      <stop offset="1" stop-color="#ffb21f"/>
+    <linearGradient id="violet" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#d18cff"/>
+      <stop offset="1" stop-color="#6d5cff"/>
     </linearGradient>
-    <filter id="glowCyan" x="-80%" y="-80%" width="260%" height="260%">
-      <feGaussianBlur stdDeviation="4" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fff3a8"/>
+      <stop offset="1" stop-color="#ffc933"/>
+    </linearGradient>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
-    <filter id="glowStrong" x="-100%" y="-100%" width="300%" height="300%">
-      <feGaussianBlur stdDeviation="8" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-    <marker id="arrowCyan" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
-      <path d="M 0 0 L 10 5 L 0 10 z" fill="#58f7ff"/>
+    <marker id="arrowC" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0,0 L12,6 L0,12 Z" fill="#74f7ff"/>
     </marker>
-    <marker id="arrowGold" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
-      <path d="M 0 0 L 10 5 L 0 10 z" fill="#ffd35b"/>
+    <marker id="arrowV" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0,0 L12,6 L0,12 Z" fill="#c983ff"/>
     </marker>
-    <style>
-      .panel{fill:rgba(3,10,24,.82);stroke:#1bc8ff;stroke-width:1.4;rx:14;filter:url(#glowCyan)}
-      .subpanel{fill:rgba(1,6,17,.78);stroke:#5af7ff;stroke-width:1;rx:10}
-      .title{font-family:Inter,Arial,sans-serif;font-weight:800;font-size:27px;fill:#fff;letter-spacing:.5px}
-      .heading{font-family:Inter,Arial,sans-serif;font-weight:800;font-size:20px;fill:#fff}
-      .label{font-family:Inter,Arial,sans-serif;font-size:16px;fill:#dffcff}
-      .small{font-family:Inter,Arial,sans-serif;font-size:13.5px;fill:#c5f6ff}
-      .tiny{font-family:Inter,Arial,sans-serif;font-size:12px;fill:#9eeeff}
-      .cyan{fill:#55f7ff}.violet{fill:#c47cff}.gold{fill:#ffd35b}.red{fill:#ff4d55}.white{fill:#ffffff}
-      .grid{fill:none;stroke:#167eea;stroke-width:1;opacity:.75}
-      .grid2{fill:none;stroke:#2eeaff;stroke-width:.7;opacity:.42}
-      .dash{stroke-dasharray:5 7}
-      .node{fill:#52f7ff;filter:url(#glowStrong)}
-      .nodeV{fill:#b469ff;filter:url(#glowStrong)}
-      .nodeG{fill:#ffd45e;filter:url(#glowStrong)}
-      .boxText{font-family:Inter,Arial,sans-serif;font-size:17px;fill:#fff}
-    </style>
+    <marker id="arrowG" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0,0 L12,6 L0,12 Z" fill="#ffd35b"/>
+    </marker>
+    <style><![CDATA[
+      .panel{fill:rgba(2,10,25,.8);stroke:#2dc2ff;stroke-width:2;rx:18;filter:url(#glow)}
+      .subpanel{fill:rgba(2,10,25,.55);stroke:#76eaff;stroke-width:1.2;rx:12}
+      .badge{fill:rgba(97,246,255,.14);stroke:#78f8ff;stroke-width:3;filter:url(#glow)}
+      .title{font:800 22px Arial,sans-serif;fill:#fff;letter-spacing:.5px}
+      .mainTitle{font:800 30px Arial,sans-serif;fill:#fff;letter-spacing:.6px}
+      .heading{font:700 18px Arial,sans-serif;fill:#fff}
+      .subhead{font:700 15px Arial,sans-serif;fill:#98faff}
+      .text{font:14px Arial,sans-serif;fill:#dffcff}
+      .tiny{font:12px Arial,sans-serif;fill:#bfefff}
+      .legend{font:12px Arial,sans-serif;fill:#e9ffff}
+      .cyanText{fill:#7af7ff}.violetText{fill:#cf8bff}.goldText{fill:#ffd864}.redText{fill:#ff716d}.muted{opacity:.62}
+      .grid{fill:none;stroke:#2a6fff;stroke-width:1;opacity:.58}
+      .grid2{fill:none;stroke:#78f7ff;stroke-width:1.6;opacity:.95}
+    ]]></style>
   </defs>
 
   <rect width="1600" height="1000" fill="url(#bg)"/>
-  <g opacity=".18">
-    <path d="M0 140 C260 100 380 170 600 130 S980 110 1220 170 1480 125 1600 145" fill="none" stroke="#1b9cff"/>
-    <path d="M0 810 C300 760 430 845 690 790 S1050 760 1260 835 1490 775 1600 805" fill="none" stroke="#8c5dff"/>
+  <g opacity=".12" stroke="#3e88ff" fill="none">
+    <path d="M0 118 C260 88 445 150 650 118 S1010 78 1235 146 1480 108 1600 130"/>
+    <path d="M0 900 C310 860 455 930 695 890 S1040 862 1275 925 1490 875 1600 900"/>
   </g>
 
-  <!-- Right frontal time plane -->
-  <g transform="translate(1440 35)">
-    <text x="75" y="0" class="heading red" text-anchor="middle">FRONTAL</text>
-    <text x="75" y="24" class="heading red" text-anchor="middle">TIME PLANE</text>
-    <text x="75" y="48" class="small red" text-anchor="middle">now</text>
-    <polygon points="45,110 130,50 130,735 45,835" fill="rgba(255,40,65,.12)" stroke="#ff4d55" stroke-width="2" filter="url(#glowStrong)"/>
-    <g stroke="#ff4d55" stroke-width=".8" opacity=".65">
-      <path d="M58 101 L58 820"/><path d="M72 91 L72 804"/><path d="M86 81 L86 787"/><path d="M100 71 L100 770"/><path d="M114 61 L114 752"/>
-      <path d="M47 165 L129 105"/><path d="M47 225 L129 166"/><path d="M47 285 L129 227"/><path d="M47 345 L129 288"/><path d="M47 405 L129 349"/><path d="M47 465 L129 410"/><path d="M47 525 L129 471"/><path d="M47 585 L129 532"/><path d="M47 645 L129 593"/><path d="M47 705 L129 654"/>
+  <text x="64" y="42" class="mainTitle">ONTOVERSE · BRANCH METRICS, GRAVITY, AND LOCAL TIME-RATE</text>
+  <text x="64" y="66" class="text">conceptual visualization for absolute baseline, branch baseline, local deviations, gravity, and gravitational waves</text>
+
+  <g transform="translate(1405 88)">
+    <text x="72" y="0" class="heading redText" text-anchor="middle">FRONTAL</text>
+    <text x="72" y="22" class="heading redText" text-anchor="middle">TIME PLANE</text>
+    <text x="72" y="44" class="tiny redText" text-anchor="middle">shared ordering</text>
+    <text x="72" y="58" class="tiny redText" text-anchor="middle">front</text>
+    <polygon points="18,90 115,34 115,670 18,800" fill="rgba(255,78,92,.09)" stroke="#ff6d69" stroke-width="2" filter="url(#glow)"/>
+    <g stroke="#ff6d69" stroke-width="1" opacity=".55">
+      <line x1="30" y1="82" x2="30" y2="784"/><line x1="48" y1="71" x2="48" y2="760"/><line x1="66" y1="61" x2="66" y2="736"/><line x1="84" y1="50" x2="84" y2="713"/><line x1="102" y1="39" x2="102" y2="688"/>
+      <line x1="18" y1="160" x2="115" y2="105"/><line x1="18" y1="230" x2="115" y2="176"/><line x1="18" y1="300" x2="115" y2="247"/><line x1="18" y1="370" x2="115" y2="318"/><line x1="18" y1="440" x2="115" y2="389"/><line x1="18" y1="510" x2="115" y2="460"/><line x1="18" y1="580" x2="115" y2="531"/><line x1="18" y1="650" x2="115" y2="602"/><line x1="18" y1="720" x2="115" y2="673"/>
     </g>
-    <line x1="92" y1="820" x2="92" y2="910" stroke="#ff4d55" stroke-width="3" marker-end="url(#arrowGold)"/>
-    <text x="92" y="948" class="heading red" text-anchor="middle">TIME FLOW</text>
+    <line x1="66" y1="790" x2="66" y2="862" stroke="#ffd35b" stroke-width="3" marker-end="url(#arrowG)"/>
+    <text x="66" y="894" class="heading redText" text-anchor="middle">TIME FLOW</text>
   </g>
 
-  <!-- Section 1 -->
-  <rect x="22" y="22" width="600" height="360" class="panel"/>
-  <circle cx="58" cy="62" r="22" fill="rgba(17,220,255,.15)" stroke="#55f7ff" stroke-width="3" filter="url(#glowCyan)"/>
-  <text x="58" y="70" class="title cyan" text-anchor="middle">1</text>
-  <text x="92" y="69" class="title">ABSOLUTE vs BRANCH BASELINE</text>
-
-  <rect x="50" y="100" width="260" height="210" class="subpanel"/>
-  <text x="70" y="128" class="heading cyan">A</text>
-  <text x="105" y="128" class="heading">Absolute Baseline Metric</text>
-  <g transform="translate(180 200)" stroke="#63f8ff" stroke-width="1.2" opacity=".9">
-    <line x1="-95" y1="0" x2="95" y2="0"/><line x1="0" y1="75" x2="0" y2="-75" marker-end="url(#arrowCyan)"/><line x1="-55" y1="55" x2="0" y2="0"/>
-    <circle cx="0" cy="0" r="7" fill="#fff" filter="url(#glowStrong)"/>
-    <ellipse cx="0" cy="0" rx="80" ry="32" fill="none" opacity=".25"/>
-    <text x="12" y="-62" class="small cyan">t</text><text x="104" y="5" class="small cyan">x</text><text x="-64" y="66" class="small cyan">y</text>
+  <rect x="40" y="92" width="580" height="300" class="panel"/>
+  <circle cx="74" cy="128" r="20" class="badge"/><text x="74" y="135" class="heading cyanText" text-anchor="middle">1</text>
+  <text x="105" y="136" class="title">ABSOLUTE vs BRANCH BASELINE</text>
+  <rect x="62" y="165" width="238" height="185" class="subpanel"/>
+  <text x="82" y="190" class="heading"><tspan class="cyanText">A</tspan> · Absolute Baseline Metric</text>
+  <g transform="translate(181 255)">
+    <line x1="-78" y1="0" x2="78" y2="0" stroke="#78f7ff"/>
+    <line x1="0" y1="-62" x2="0" y2="62" stroke="#78f7ff" marker-end="url(#arrowC)"/>
+    <ellipse cx="0" cy="0" rx="55" ry="18" fill="none" stroke="#2b7dff" opacity=".45"/>
+    <circle cx="0" cy="0" r="6" fill="#fff" filter="url(#glow)"/>
+    <text x="6" y="-52" class="tiny cyanText">t</text><text x="83" y="4" class="tiny cyanText">x</text>
   </g>
-  <text x="68" y="270" class="small">• shared conceptual zero-point</text>
-  <text x="68" y="292" class="small">• no mass, no gravity, no meaningful events</text>
+  <text x="82" y="305" class="text">• conceptual zero-point</text>
+  <text x="82" y="327" class="text">• no mass, no gravity</text>
+  <text x="82" y="349" class="text">• no meaningful event activity</text>
+  <rect x="320" y="165" width="278" height="185" class="subpanel"/>
+  <text x="340" y="190" class="heading"><tspan class="cyanText">B</tspan> · Branch Baseline Metric</text>
+  <path d="M338 255 C385 220 440 284 485 244 S568 208 587 254" fill="none" stroke="url(#cyan)" stroke-width="2"/>
+  <path d="M338 282 C385 258 440 312 488 283 S566 255 587 290" fill="none" stroke="#2f7fff" stroke-width="1.2" opacity=".7"/>
+  <circle cx="362" cy="252" r="3" fill="#7af7ff" filter="url(#glow)"/><circle cx="406" cy="239" r="4" fill="#7af7ff" filter="url(#glow)"/><circle cx="448" cy="274" r="3" fill="#cf8bff" filter="url(#glow)"/><circle cx="482" cy="242" r="5" fill="#7af7ff" filter="url(#glow)"/><circle cx="566" cy="288" r="4" fill="#cf8bff" filter="url(#glow)"/>
+  <text x="340" y="305" class="text">• average mass-energy background</text>
+  <text x="340" y="327" class="text">• average causal processing density</text>
+  <text x="340" y="349" class="text">• default branch time rate</text>
+  <rect x="62" y="360" width="536" height="22" rx="8" fill="rgba(1,20,33,.9)" stroke="#5feeff"/>
+  <text x="330" y="376" class="text" text-anchor="middle">branch baseline metric → average causal processing density → branch time rate</text>
 
-  <rect x="340" y="100" width="250" height="210" class="subpanel"/>
-  <text x="360" y="128" class="heading cyan">B</text>
-  <text x="395" y="128" class="heading">Branch Baseline Metric</text>
-  <g transform="translate(360 152)">
-    <path d="M0 60 C45 20 88 95 135 48 S215 22 235 70" fill="none" stroke="url(#cyanLine)" opacity=".75"/>
-    <path d="M0 95 C42 70 86 122 130 84 S197 62 235 102" fill="none" stroke="url(#violetLine)" opacity=".6"/>
-    <path d="M0 130 C52 100 88 150 136 120 S208 96 235 135" fill="none" stroke="#277dff" opacity=".5"/>
-    <g>
-      <circle class="node" cx="22" cy="62" r="3"/><circle class="node" cx="55" cy="45" r="4"/><circle class="nodeV" cx="88" cy="93" r="4"/><circle class="node" cx="122" cy="54" r="5"/><circle class="node" cx="160" cy="38" r="3"/><circle class="nodeV" cx="185" cy="96" r="5"/><circle class="node" cx="220" cy="75" r="4"/>
-      <circle class="node" cx="42" cy="123" r="3"/><circle class="nodeV" cx="78" cy="145" r="4"/><circle class="node" cx="122" cy="118" r="3"/><circle class="node" cx="172" cy="112" r="4"/><circle class="node" cx="218" cy="132" r="3"/>
-    </g>
-  </g>
-  <text x="360" y="242" class="small">• average mass-energy background</text>
-  <text x="360" y="264" class="small">• average causal processing density</text>
-  <text x="360" y="286" class="small">• default branch time rate</text>
-  <path d="M310 205 L335 205" stroke="#55f7ff" stroke-width="3" marker-end="url(#arrowCyan)" filter="url(#glowCyan)"/>
-  <rect x="52" y="330" width="540" height="34" rx="8" fill="rgba(0,20,36,.88)" stroke="#55f7ff"/>
-  <text x="322" y="353" class="boxText" text-anchor="middle">branch baseline metric → average causal processing density → branch time rate</text>
-
-  <!-- Section 2 -->
-  <rect x="645" y="22" width="740" height="360" class="panel"/>
-  <circle cx="682" cy="62" r="22" fill="rgba(17,220,255,.15)" stroke="#55f7ff" stroke-width="3" filter="url(#glowCyan)"/>
-  <text x="682" y="70" class="title cyan" text-anchor="middle">2</text>
-  <text x="716" y="69" class="title">LOCAL METRIC DEVIATIONS</text>
-  <text x="1018" y="107" class="small cyan" text-anchor="middle">branch baseline metric: average field of the branch</text>
-  <g transform="translate(700 150)">
-    <path d="M0 80 C80 40 150 110 220 75 C300 35 355 185 430 75 C520 -10 580 230 660 80 C720 40 780 50 835 92" fill="none" stroke="url(#cyanLine)" stroke-width="2"/>
-    <g class="grid">
-      <path d="M0 120 C85 80 155 145 230 112 C310 70 360 215 430 110 C520 15 580 255 660 118 C728 85 785 92 835 130"/>
-      <path d="M0 160 C90 120 155 182 230 150 C312 108 360 248 430 150 C522 55 582 290 660 155 C730 125 785 130 835 168"/>
-      <path d="M20 38 L25 185"/><path d="M105 48 L110 190"/><path d="M190 52 L200 200"/><path d="M275 42 L285 220"/><path d="M360 40 L375 245"/><path d="M445 38 L465 258"/><path d="M530 48 L548 240"/><path d="M615 52 L625 218"/><path d="M700 56 L705 195"/><path d="M785 66 L785 185"/>
-    </g>
-    <circle class="node" cx="135" cy="78" r="9"/><text x="135" y="-14" class="label" text-anchor="middle">planet</text><line x1="135" y1="2" x2="135" y2="65" stroke="#fff" opacity=".7"/>
-    <circle class="nodeG" cx="365" cy="76" r="15"/><text x="365" y="-14" class="label" text-anchor="middle">star</text><line x1="365" y1="2" x2="365" y2="58" stroke="#fff" opacity=".7"/>
-    <ellipse cx="545" cy="82" rx="35" ry="13" fill="#050009" stroke="#d87cff" stroke-width="4" filter="url(#glowStrong)"/><text x="545" y="-14" class="label" text-anchor="middle">black hole</text><line x1="545" y1="2" x2="545" y2="62" stroke="#fff" opacity=".7"/>
-    <ellipse cx="760" cy="80" rx="52" ry="34" fill="none" stroke="#55f7ff" stroke-dasharray="3 5" filter="url(#glowCyan)"/><text x="760" y="-28" class="label" text-anchor="middle">low-density</text><text x="760" y="-8" class="label" text-anchor="middle">region</text>
-    <g opacity=".95">
-      <circle class="node" cx="96" cy="96" r="2"/><circle class="node" cx="122" cy="104" r="2"/><circle class="node" cx="152" cy="94" r="2"/>
-      <circle class="nodeG" cx="335" cy="100" r="3"/><circle class="nodeG" cx="345" cy="122" r="2"/><circle class="nodeG" cx="378" cy="116" r="3"/><circle class="nodeG" cx="390" cy="92" r="2"/><circle class="nodeG" cx="360" cy="140" r="2"/>
-      <circle class="nodeV" cx="520" cy="120" r="3"/><circle class="nodeV" cx="535" cy="145" r="2"/><circle class="nodeV" cx="565" cy="128" r="3"/><circle class="nodeV" cx="552" cy="164" r="2"/><circle class="nodeV" cx="575" cy="103" r="2"/>
-      <circle class="node" cx="722" cy="78" r="2"/><circle class="node" cx="765" cy="112" r="2"/><circle class="node" cx="805" cy="88" r="2"/>
-    </g>
-    <text x="365" y="215" class="small violet" text-anchor="middle">local metric deviation</text>
-    <path d="M265 196 L600 196" stroke="#b56cff"/><path d="M265 188 L265 204" stroke="#b56cff"/><path d="M600 188 L600 204" stroke="#b56cff"/>
+  <rect x="640" y="92" width="720" height="300" class="panel"/>
+  <circle cx="674" cy="128" r="20" class="badge"/><text x="674" y="135" class="heading cyanText" text-anchor="middle">2</text>
+  <text x="705" y="136" class="title">LOCAL METRIC DEVIATIONS</text>
+  <text x="1010" y="164" class="text" text-anchor="middle">local gravity/time effects are deviations relative to the branch baseline metric</text>
+  <g transform="translate(690 210)">
+    <path class="grid2" d="M0 75 C60 40 122 95 188 72 C254 49 310 118 374 70 C445 17 493 150 570 82 C628 31 685 45 730 82"/>
+    <path class="grid" d="M0 108 C62 78 124 126 188 105 C256 84 313 149 377 102 C447 47 493 181 571 112 C630 64 686 77 730 114"/>
+    <path class="grid" d="M0 141 C62 111 124 159 188 138 C257 117 314 181 378 135 C448 80 494 214 571 145 C631 95 687 109 730 146"/>
+    <g stroke="#3388ff" opacity=".55"><line x1="18" y1="38" x2="18" y2="171"/><line x1="102" y1="45" x2="102" y2="176"/><line x1="188" y1="40" x2="188" y2="190"/><line x1="274" y1="44" x2="274" y2="175"/><line x1="360" y1="39" x2="360" y2="214"/><line x1="446" y1="37" x2="446" y2="182"/><line x1="532" y1="39" x2="532" y2="188"/><line x1="618" y1="38" x2="618" y2="179"/><line x1="704" y1="51" x2="704" y2="166"/></g>
+    <circle cx="126" cy="73" r="10" fill="#8efaff" filter="url(#glow)"/><line x1="126" y1="18" x2="126" y2="60" stroke="#e3ffff" opacity=".7"/><text x="126" y="6" class="subhead" text-anchor="middle">planet</text>
+    <circle cx="342" cy="72" r="14" fill="#ffd766" filter="url(#glow)"/><line x1="342" y1="18" x2="342" y2="54" stroke="#e3ffff" opacity=".7"/><text x="342" y="6" class="subhead" text-anchor="middle">star</text>
+    <ellipse cx="506" cy="77" rx="31" ry="11" fill="#030309" stroke="#db92ff" stroke-width="4" filter="url(#glow)"/><line x1="506" y1="18" x2="506" y2="60" stroke="#e3ffff" opacity=".7"/><text x="506" y="6" class="subhead" text-anchor="middle">black hole</text>
+    <ellipse cx="688" cy="83" rx="44" ry="26" fill="none" stroke="#78f7ff" stroke-dasharray="4 5" opacity=".85"/><text x="688" y="-4" class="subhead" text-anchor="middle">low-density</text><text x="688" y="14" class="subhead" text-anchor="middle">region</text>
+    <line x1="254" y1="180" x2="550" y2="180" stroke="#c983ff" stroke-width="1.5" marker-start="url(#arrowV)" marker-end="url(#arrowV)"/><text x="402" y="197" class="tiny violetText" text-anchor="middle">local metric deviation</text>
   </g>
 
-  <!-- Section 3 -->
-  <rect x="22" y="410" width="1363" height="280" class="panel"/>
-  <circle cx="58" cy="442" r="22" fill="rgba(17,220,255,.15)" stroke="#55f7ff" stroke-width="3" filter="url(#glowCyan)"/>
-  <text x="58" y="450" class="title cyan" text-anchor="middle">3</text>
-  <text x="92" y="449" class="title">MASS, TIME-RATE GRADIENT, AND GRAVITY</text>
-  <g transform="translate(50 475)">
-    <g>
-      <rect width="390" height="32" rx="7" fill="rgba(0,20,36,.88)" stroke="#1bc8ff"/><text x="195" y="22" class="boxText" text-anchor="middle">mass-energy concentration</text>
-      <rect y="45" width="390" height="32" rx="7" fill="rgba(0,20,36,.88)" stroke="#1bc8ff"/><text x="195" y="67" class="boxText" text-anchor="middle">causal processing density increase</text>
-      <rect y="90" width="390" height="32" rx="7" fill="rgba(0,20,36,.88)" stroke="#1bc8ff"/><text x="195" y="112" class="boxText" text-anchor="middle">local time-rate slowdown</text>
-      <rect y="135" width="390" height="32" rx="7" fill="rgba(0,20,36,.88)" stroke="#1bc8ff"/><text x="195" y="157" class="boxText" text-anchor="middle">local time-rate gradient</text>
-      <rect y="180" width="390" height="32" rx="7" fill="rgba(0,20,36,.88)" stroke="#1bc8ff"/><text x="195" y="202" class="boxText" text-anchor="middle">curved possible trajectories</text>
-      <rect y="225" width="390" height="34" rx="7" fill="rgba(33,20,0,.78)" stroke="#ffd35b"/><text x="195" y="249" class="boxText gold" text-anchor="middle">gravitational effect</text>
-      <g stroke="#55f7ff" stroke-width="2.5" marker-end="url(#arrowCyan)"><line x1="195" y1="32" x2="195" y2="45"/><line x1="195" y1="77" x2="195" y2="90"/><line x1="195" y1="122" x2="195" y2="135"/><line x1="195" y1="167" x2="195" y2="180"/><line x1="195" y1="212" x2="195" y2="225"/></g>
-    </g>
+  <rect x="40" y="410" width="1320" height="286" class="panel"/>
+  <circle cx="74" cy="446" r="20" class="badge"/><text x="74" y="453" class="heading cyanText" text-anchor="middle">3</text>
+  <text x="105" y="454" class="title">MASS, TIME-RATE GRADIENT, AND GRAVITY</text>
+  <g transform="translate(66 468)">
+    <rect x="0" y="0" width="380" height="30" class="subpanel"/><rect x="0" y="42" width="380" height="30" class="subpanel"/><rect x="0" y="84" width="380" height="30" class="subpanel"/><rect x="0" y="126" width="380" height="30" class="subpanel"/><rect x="0" y="168" width="380" height="30" class="subpanel"/><rect x="0" y="210" width="380" height="34" fill="rgba(40,30,0,.65)" stroke="#ffd35b" stroke-width="1.4" rx="12"/>
+    <text x="190" y="20" class="text" text-anchor="middle">mass-energy concentration</text><text x="190" y="62" class="text" text-anchor="middle">causal processing density increase</text><text x="190" y="104" class="text" text-anchor="middle">local time-rate slowdown</text><text x="190" y="146" class="text" text-anchor="middle">local time-rate gradient</text><text x="190" y="188" class="text" text-anchor="middle">curved possible trajectories</text><text x="190" y="232" class="text goldText" text-anchor="middle">gravitational effect</text>
+    <g stroke="#78f7ff" stroke-width="2.2" marker-end="url(#arrowC)"><line x1="190" y1="30" x2="190" y2="40"/><line x1="190" y1="72" x2="190" y2="82"/><line x1="190" y1="114" x2="190" y2="124"/><line x1="190" y1="156" x2="190" y2="166"/><line x1="190" y1="198" x2="190" y2="208"/></g>
   </g>
-  <g transform="translate(525 445)">
-    <text x="350" y="0" class="small cyan" text-anchor="middle">gravity well: local metric depression</text>
-    <ellipse cx="350" cy="135" rx="285" ry="98" fill="none" stroke="#167eea" opacity=".65"/>
-    <ellipse cx="350" cy="135" rx="210" ry="70" fill="none" stroke="#167eea" opacity=".75"/>
-    <ellipse cx="350" cy="135" rx="120" ry="40" fill="none" stroke="#55f7ff" opacity=".7"/>
-    <path d="M70 135 C170 55 255 205 350 135 C450 55 535 205 635 135" fill="none" stroke="url(#cyanLine)" stroke-width="2" opacity=".9"/>
-    <path d="M120 85 C220 35 285 135 350 135 C430 130 505 70 585 92" fill="none" stroke="#ffd35b" stroke-width="4" marker-end="url(#arrowGold)" filter="url(#glowStrong)"/>
-    <path d="M80 175 C205 220 285 150 350 135 C455 108 520 178 620 160" fill="none" stroke="#55f7ff" stroke-width="4" marker-end="url(#arrowCyan)" filter="url(#glowCyan)"/>
-    <circle class="nodeG" cx="350" cy="135" r="27"/>
-    <g stroke="#1c89ff" opacity=".5"><line x1="350" y1="45" x2="350" y2="225"/><line x1="245" y1="65" x2="455" y2="205"/><line x1="455" y1="65" x2="245" y2="205"/></g>
-    <rect x="690" y="35" width="150" height="62" rx="8" fill="rgba(0,20,36,.88)" stroke="#55f7ff"/><text x="765" y="60" class="small" text-anchor="middle">depth =</text><text x="765" y="80" class="small" text-anchor="middle">local time-rate</text><text x="765" y="100" class="small" text-anchor="middle">slowdown</text>
-    <rect x="690" y="150" width="160" height="66" rx="8" fill="rgba(33,20,0,.72)" stroke="#ffd35b"/><text x="770" y="174" class="small" text-anchor="middle">slope =</text><text x="770" y="194" class="small" text-anchor="middle">trajectory-changing</text><text x="770" y="214" class="small" text-anchor="middle">gradient</text>
-    <line x1="660" y1="45" x2="660" y2="135" stroke="#fff" stroke-dasharray="4 4" marker-end="url(#arrowCyan)" marker-start="url(#arrowCyan)"/>
+  <g transform="translate(520 444)">
+    <text x="330" y="8" class="subhead" text-anchor="middle">gravity well = local metric depression inside the branch</text>
+    <ellipse cx="330" cy="120" rx="255" ry="76" fill="none" stroke="#296fff" opacity=".7"/><ellipse cx="330" cy="120" rx="175" ry="52" fill="none" stroke="#296fff" opacity=".6"/><ellipse cx="330" cy="120" rx="92" ry="28" fill="none" stroke="#78f7ff" opacity=".8"/>
+    <circle cx="330" cy="120" r="24" fill="#ffd766" filter="url(#glow)"/>
+    <g stroke="#2a6fff" opacity=".45"><line x1="330" y1="48" x2="330" y2="192"/><line x1="240" y1="63" x2="420" y2="177"/><line x1="420" y1="63" x2="240" y2="177"/></g>
+    <path d="M80 120 C160 30 230 175 330 120 C425 67 500 50 590 85" fill="none" stroke="url(#gold)" stroke-width="5" marker-end="url(#arrowG)" filter="url(#glow)"/>
+    <path d="M95 120 C165 188 238 92 330 120 C421 151 483 195 590 136" fill="none" stroke="url(#cyan)" stroke-width="5" marker-end="url(#arrowC)" filter="url(#glow)"/>
+    <rect x="625" y="40" width="164" height="68" class="subpanel"/><text x="707" y="61" class="tiny" text-anchor="middle">depth =</text><text x="707" y="81" class="tiny" text-anchor="middle">local time-rate slowdown</text><text x="707" y="98" class="tiny muted" text-anchor="middle">more processing load</text>
+    <rect x="625" y="146" width="164" height="68" fill="rgba(42,30,0,.58)" stroke="#ffd35b" stroke-width="1.4" rx="12"/><text x="707" y="168" class="tiny" text-anchor="middle">slope =</text><text x="707" y="188" class="tiny" text-anchor="middle">trajectory-changing gradient</text><text x="707" y="205" class="tiny muted" text-anchor="middle">gravity effect</text>
+    <line x1="600" y1="52" x2="600" y2="168" stroke="#dffcff" stroke-dasharray="5 5" marker-start="url(#arrowC)" marker-end="url(#arrowC)"/>
   </g>
 
-  <!-- Section 4 -->
-  <rect x="22" y="720" width="1230" height="210" class="panel"/>
-  <circle cx="58" cy="754" r="22" fill="rgba(17,220,255,.15)" stroke="#55f7ff" stroke-width="3" filter="url(#glowCyan)"/>
-  <text x="58" y="762" class="title cyan" text-anchor="middle">4</text>
-  <text x="92" y="761" class="title">GRAVITATIONAL WAVE</text>
-  <text x="600" y="757" class="small violet" text-anchor="middle">moving local metric deviation</text>
-  <path d="M690 750 L780 750" stroke="#c47cff" stroke-width="3" marker-end="url(#arrowCyan)"/>
-  <g transform="translate(55 785)">
-    <path d="M0 70 C65 10 130 10 195 70 S325 130 390 70 S520 10 585 70 S715 130 780 70" fill="none" stroke="url(#violetLine)" stroke-width="8" filter="url(#glowStrong)"/>
-    <path d="M0 100 C65 40 130 40 195 100 S325 160 390 100 S520 40 585 100 S715 160 780 100" fill="none" stroke="url(#cyanLine)" stroke-width="2"/>
-    <g class="grid2">
-      <path d="M0 45 C65 -15 130 -15 195 45 S325 105 390 45 S520 -15 585 45 S715 105 780 45"/>
-      <path d="M0 125 C65 65 130 65 195 125 S325 185 390 125 S520 65 585 125 S715 185 780 125"/>
-      <line x1="0" y1="35" x2="0" y2="135"/><line x1="98" y1="20" x2="98" y2="150"/><line x1="195" y1="45" x2="195" y2="125"/><line x1="292" y1="70" x2="292" y2="170"/><line x1="390" y1="45" x2="390" y2="125"/><line x1="488" y1="20" x2="488" y2="150"/><line x1="585" y1="45" x2="585" y2="125"/><line x1="682" y1="70" x2="682" y2="170"/><line x1="780" y1="45" x2="780" y2="125"/>
-    </g>
-    <g><circle class="nodeV" cx="72" cy="54" r="3"/><circle class="node" cx="145" cy="42" r="3"/><circle class="node" cx="260" cy="118" r="3"/><circle class="nodeV" cx="385" cy="68" r="3"/><circle class="node" cx="532" cy="43" r="3"/><circle class="node" cx="680" cy="128" r="3"/></g>
-    <text x="102" y="173" class="label violet" text-anchor="middle">stretch</text><text x="292" y="173" class="label cyan" text-anchor="middle">compression</text><text x="492" y="173" class="label violet" text-anchor="middle">stretch</text><text x="682" y="173" class="label cyan" text-anchor="middle">compression</text>
+  <rect x="40" y="720" width="1165" height="210" class="panel"/>
+  <circle cx="74" cy="756" r="20" class="badge"/><text x="74" y="763" class="heading cyanText" text-anchor="middle">4</text>
+  <text x="105" y="764" class="title">GRAVITATIONAL WAVE</text>
+  <text x="540" y="756" class="text violetText" text-anchor="middle">moving local metric deviation</text><line x1="645" y1="751" x2="738" y2="751" stroke="#c983ff" stroke-width="3" marker-end="url(#arrowC)"/>
+  <g transform="translate(72 785)">
+    <path d="M0 88 C78 8 156 8 234 88 S390 168 468 88 S624 8 702 88" fill="none" stroke="url(#violet)" stroke-width="8" filter="url(#glow)"/>
+    <path d="M0 112 C78 52 156 52 234 112 S390 172 468 112 S624 52 702 112" fill="none" stroke="#78f7ff" stroke-width="1.4" opacity=".9"/>
+    <path d="M0 138 C78 78 156 78 234 138 S390 198 468 138 S624 78 702 138" fill="none" stroke="#2a6fff" stroke-width="1" opacity=".55"/>
+    <g stroke="#4e92ff" opacity=".45"><line x1="36" y1="56" x2="36" y2="162"/><line x1="142" y1="45" x2="142" y2="174"/><line x1="248" y1="79" x2="248" y2="150"/><line x1="354" y1="106" x2="354" y2="178"/><line x1="468" y1="79" x2="468" y2="150"/><line x1="575" y1="45" x2="575" y2="174"/><line x1="682" y1="56" x2="682" y2="162"/></g>
+    <text x="88" y="190" class="tiny violetText" text-anchor="middle">stretch</text><text x="300" y="190" class="tiny cyanText" text-anchor="middle">compression</text><text x="520" y="190" class="tiny violetText" text-anchor="middle">stretch</text><text x="648" y="190" class="tiny cyanText" text-anchor="middle">compression</text>
   </g>
-  <rect x="875" y="755" width="330" height="140" rx="10" fill="rgba(10,4,28,.78)" stroke="#c47cff"/>
-  <text x="1040" y="782" class="small violet" text-anchor="middle">gravitational wave</text>
-  <text x="1040" y="807" class="small" text-anchor="middle">↓ spatial stretch/compression</text>
-  <text x="1040" y="832" class="small cyan" text-anchor="middle">↓ causal processing density fluctuation</text>
-  <text x="1040" y="857" class="small cyan" text-anchor="middle">↓ local time-rate gradient fluctuation</text>
-  <text x="1040" y="882" class="small" text-anchor="middle">↓ transient trajectory distortion</text>
+  <rect x="842" y="756" width="323" height="126" fill="rgba(16,6,30,.72)" stroke="#bf82ff" stroke-width="1.4" rx="12"/>
+  <text x="1004" y="784" class="subhead violetText" text-anchor="middle">wave interpretation</text><text x="1004" y="811" class="text" text-anchor="middle">1. spatial stretch/compression</text><text x="1004" y="834" class="text" text-anchor="middle">2. causal processing density fluctuation</text><text x="1004" y="857" class="text" text-anchor="middle">3. local time-rate gradient fluctuation</text><text x="1004" y="880" class="text" text-anchor="middle">4. transient trajectory distortion</text>
+  <rect x="1224" y="720" width="140" height="210" fill="rgba(26,4,10,.72)" stroke="#ff7f78" stroke-width="1.5" rx="12"/>
+  <text x="1294" y="751" class="heading redText" text-anchor="middle">Analogy</text><ellipse cx="1294" cy="793" rx="37" ry="12" fill="none" stroke="#cf8bff" stroke-width="4" filter="url(#glow)"/><ellipse cx="1294" cy="793" rx="20" ry="7" fill="#020208" stroke="#a57eff"/>
+  <text x="1294" y="835" class="tiny" text-anchor="middle">world near a black hole:</text><text x="1294" y="855" class="tiny" text-anchor="middle">for a distant observer,</text><text x="1294" y="875" class="tiny" text-anchor="middle">local processes may appear</text><text x="1294" y="895" class="tiny" text-anchor="middle">almost frozen.</text>
 
-  <!-- Analogy note -->
-  <rect x="1270" y="720" width="190" height="210" rx="10" fill="rgba(12,0,9,.78)" stroke="#ff4d55"/>
-  <text x="1365" y="750" class="heading red" text-anchor="middle">Illustrative Analogy</text>
-  <ellipse cx="1365" cy="805" rx="55" ry="20" fill="none" stroke="#c47cff" stroke-width="4" filter="url(#glowStrong)"/>
-  <ellipse cx="1365" cy="805" rx="28" ry="11" fill="#020208" stroke="#8d66ff"/>
-  <text x="1365" y="855" class="tiny white" text-anchor="middle">world near a black hole:</text>
-  <text x="1365" y="877" class="tiny" text-anchor="middle">for a distant observer,</text>
-  <text x="1365" y="895" class="tiny" text-anchor="middle">local processes appear</text>
-  <text x="1365" y="913" class="tiny" text-anchor="middle">almost frozen.</text>
-
-  <!-- Footer legend -->
-  <rect x="22" y="950" width="1530" height="36" rx="9" fill="rgba(0,10,20,.9)" stroke="#1269c8"/>
-  <circle class="node" cx="65" cy="968" r="5"/><text x="85" y="973" class="tiny">event-node</text>
-  <path d="M190 968 L255 968" stroke="#9eeeff" stroke-dasharray="3 4" marker-end="url(#arrowCyan)"/><text x="268" y="973" class="tiny">possible trajectory</text>
-  <rect x="430" y="958" width="36" height="20" fill="none" stroke="#1688ff"/><text x="480" y="973" class="tiny">metric surface</text>
-  <circle class="nodeG" cx="635" cy="968" r="7"/><text x="655" y="973" class="tiny">mass-energy concentration</text>
-  <rect x="860" y="958" width="42" height="20" fill="url(#violetLine)" opacity=".65"/><text x="915" y="973" class="tiny">higher causal processing density</text>
-  <circle cx="1190" cy="968" r="11" fill="none" stroke="#fff"/><path d="M1190 968 L1190 960 M1190 968 L1197 972" stroke="#fff"/><text x="1210" y="973" class="tiny">slower local time rate</text>
-  <text x="1515" y="973" class="tiny cyan" text-anchor="end">All effects are local metric consequences within a branch.</text>
+  <rect x="40" y="942" width="1320" height="34" rx="10" fill="rgba(0,12,22,.85)" stroke="#1e6ed8"/>
+  <circle cx="82" cy="959" r="5" fill="#7af7ff" filter="url(#glow)"/><text x="96" y="964" class="legend">event-node</text>
+  <line x1="195" y1="959" x2="255" y2="959" stroke="#78f7ff" stroke-dasharray="4 5" marker-end="url(#arrowC)"/><text x="268" y="964" class="legend">possible trajectory</text>
+  <rect x="393" y="950" width="36" height="18" fill="none" stroke="#2c7fff"/><text x="442" y="964" class="legend">metric surface</text>
+  <circle cx="595" cy="959" r="7" fill="#ffd766" filter="url(#glow)"/><text x="609" y="964" class="legend">mass-energy concentration</text>
+  <rect x="858" y="949" width="34" height="19" fill="url(#violet)" opacity=".75"/><text x="895" y="964" class="legend">higher causal processing density</text>
+  <text x="1280" y="964" class="legend" text-anchor="end">all effects are branch-local metric consequences</text>
 </svg>
