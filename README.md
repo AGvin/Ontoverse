@@ -36,6 +36,9 @@ The intended value of the project is not certainty, but structure: if an idea is
 ### Framework
 
 - [`framework/`](./docs/framework/) — high-level scope, status, core assumptions, boundaries, authorship notes, and open problems.
+- [`public-positioning/`](./docs/public-positioning/) — public-facing positioning, discovery framing, and wording to prefer or avoid.
+- [`for-researchers-and-communicators/`](./docs/for-researchers-and-communicators/) — neutral entry point for researchers, science communicators, reviewers, and technically curious readers.
+- [`review-checklist/`](./docs/review-checklist/) — pre-publication checklist for avoiding overstatement and keeping speculative material bounded.
 
 ### Models
 
