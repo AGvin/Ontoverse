@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
+  <title id="title">Mass-energy, causal processing density, time-rate gradient, and gravity</title>
+  <desc id="desc">Shows the Ontoverse interpretation chain from mass-energy concentration to gravitational effect.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#071426"/><stop offset="1" stop-color="#020713"/></linearGradient>
+    <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8ffcff"/><stop offset="1" stop-color="#1d91ff"/></linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff3a8"/><stop offset="1" stop-color="#ffc933"/></linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <marker id="arr" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="9" markerHeight="9" orient="auto"><path d="M0 0 L12 6 L0 12 Z" fill="#7af7ff"/></marker>
+    <marker id="arrG" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="9" markerHeight="9" orient="auto"><path d="M0 0 L12 6 L0 12 Z" fill="#ffd864"/></marker>
+    <style><![CDATA[
+      .title{font:800 30px Arial,sans-serif;fill:#fff}.subtitle{font:15px Arial,sans-serif;fill:#bfefff}.panel{fill:rgba(2,10,25,.78);stroke:#37d8ff;stroke-width:2;rx:18;filter:url(#glow)}.box{fill:rgba(0,12,28,.75);stroke:#78f7ff;stroke-width:1.5;rx:12}.h{font:700 20px Arial,sans-serif;fill:#fff}.t{font:15px Arial,sans-serif;fill:#dffcff}.small{font:13px Arial,sans-serif;fill:#bfefff}.cyan{fill:#7af7ff}.gold{fill:#ffd864}.grid{fill:none;stroke:#2d7fff;stroke-width:1;opacity:.6}
+    ]]></style>
+  </defs>
+  <rect width="1200" height="520" fill="url(#bg)"/>
+  <text x="48" y="52" class="title">Mass, Time-Rate Gradient, and Gravity</text>
+  <text x="48" y="78" class="subtitle">Gravity is modeled as the trajectory effect of a spatial gradient in local time rate.</text>
+
+  <rect x="48" y="110" width="410" height="350" class="panel"/>
+  <text x="76" y="148" class="h">Interpretive chain</text>
+  <g transform="translate(82 178)">
+    <rect x="0" y="0" width="340" height="34" class="box"/><text x="170" y="23" class="t" text-anchor="middle">mass-energy concentration</text>
+    <rect x="0" y="54" width="340" height="34" class="box"/><text x="170" y="77" class="t" text-anchor="middle">causal processing density increase</text>
+    <rect x="0" y="108" width="340" height="34" class="box"/><text x="170" y="131" class="t" text-anchor="middle">local time-rate slowdown</text>
+    <rect x="0" y="162" width="340" height="34" class="box"/><text x="170" y="185" class="t" text-anchor="middle">local time-rate gradient</text>
+    <rect x="0" y="216" width="340" height="34" class="box"/><text x="170" y="239" class="t" text-anchor="middle">curved possible trajectories</text>
+    <rect x="0" y="270" width="340" height="38" rx="12" fill="rgba(45,32,0,.72)" stroke="#ffd864" stroke-width="1.5"/><text x="170" y="296" class="t gold" text-anchor="middle">gravitational effect</text>
+    <g stroke="#78f7ff" stroke-width="2.5" marker-end="url(#arr)"><line x1="170" y1="34" x2="170" y2="52"/><line x1="170" y1="88" x2="170" y2="106"/><line x1="170" y1="142" x2="170" y2="160"/><line x1="170" y1="196" x2="170" y2="214"/><line x1="170" y1="250" x2="170" y2="268"/></g>
+  </g>
+
+  <rect x="520" y="110" width="632" height="350" class="panel"/>
+  <text x="548" y="148" class="h">Branch-local field interpretation</text>
+  <g transform="translate(575 190)">
+    <path d="M0 135 C95 82 188 188 280 130 S430 80 530 130" fill="none" stroke="url(#cyan)" stroke-width="3"/>
+    <path d="M0 168 C95 118 188 222 280 165 S430 118 530 168" class="grid"/>
+    <ellipse cx="265" cy="135" rx="180" ry="60" fill="none" stroke="#2d7fff" opacity=".55"/>
+    <ellipse cx="265" cy="135" rx="105" ry="35" fill="none" stroke="#78f7ff" opacity=".7"/>
+    <circle cx="265" cy="135" r="24" fill="#ffd864" filter="url(#glow)"/>
+    <path d="M40 105 C120 40 190 180 265 135 C350 84 420 74 505 105" fill="none" stroke="url(#gold)" stroke-width="5" marker-end="url(#arrG)" filter="url(#glow)"/>
+    <path d="M40 165 C130 220 190 98 265 135 C348 174 430 214 510 166" fill="none" stroke="url(#cyan)" stroke-width="5" marker-end="url(#arr)" filter="url(#glow)"/>
+    <text x="265" y="245" class="small" text-anchor="middle">same branch, uneven local time-rate field</text>
+  </g>
+  <g transform="translate(880 170)">
+    <rect x="0" y="0" width="220" height="64" rx="12" fill="rgba(0,18,35,.72)" stroke="#78f7ff"/>
+    <text x="110" y="24" class="small" text-anchor="middle">slowdown alone is local</text>
+    <text x="110" y="46" class="small" text-anchor="middle">gradient changes paths</text>
+    <rect x="0" y="92" width="220" height="70" rx="12" fill="rgba(45,32,0,.68)" stroke="#ffd864"/>
+    <text x="110" y="119" class="small" text-anchor="middle">gravity appears as</text>
+    <text x="110" y="141" class="small" text-anchor="middle">trajectory curvature</text>
+  </g>
+
+  <rect x="310" y="478" width="580" height="28" rx="10" fill="rgba(0,16,30,.85)" stroke="#37d8ff"/>
+  <text x="600" y="498" class="t" text-anchor="middle">mass-energy creates local processing load; gradients in that load shape trajectories</text>
+</svg>

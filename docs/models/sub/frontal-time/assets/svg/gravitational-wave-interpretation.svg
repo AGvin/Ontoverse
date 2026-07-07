@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
+  <title id="title">Gravitational wave interpretation</title>
+  <desc id="desc">Shows a gravitational wave as a moving local metric deviation that alternates stretch and compression.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#071426"/><stop offset="1" stop-color="#020713"/></linearGradient>
+    <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8ffcff"/><stop offset="1" stop-color="#1d91ff"/></linearGradient>
+    <linearGradient id="violet" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#d88cff"/><stop offset="1" stop-color="#6d5cff"/></linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <marker id="arr" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="9" markerHeight="9" orient="auto"><path d="M0 0 L12 6 L0 12 Z" fill="#7af7ff"/></marker>
+    <marker id="arrV" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="9" markerHeight="9" orient="auto"><path d="M0 0 L12 6 L0 12 Z" fill="#d88cff"/></marker>
+    <style><![CDATA[
+      .title{font:800 30px Arial,sans-serif;fill:#fff}.subtitle{font:15px Arial,sans-serif;fill:#bfefff}.panel{fill:rgba(2,10,25,.78);stroke:#37d8ff;stroke-width:2;rx:18;filter:url(#glow)}.box{fill:rgba(16,6,30,.72);stroke:#c983ff;stroke-width:1.5;rx:14}.h{font:700 20px Arial,sans-serif;fill:#fff}.t{font:15px Arial,sans-serif;fill:#dffcff}.small{font:13px Arial,sans-serif;fill:#bfefff}.cyan{fill:#7af7ff}.violet{fill:#d88cff}.grid{fill:none;stroke:#2d7fff;stroke-width:1;opacity:.55}
+    ]]></style>
+  </defs>
+  <rect width="1200" height="520" fill="url(#bg)"/>
+  <text x="48" y="52" class="title">Gravitational Wave Interpretation</text>
+  <text x="48" y="78" class="subtitle">A gravitational wave is represented as a traveling metric fluctuation, not as a water wave pushing objects.</text>
+
+  <rect x="48" y="110" width="720" height="350" class="panel"/>
+  <text x="78" y="148" class="h">Moving local metric deviation</text>
+  <text x="420" y="148" class="small violet">propagation direction</text>
+  <line x1="558" y1="143" x2="660" y2="143" stroke="#d88cff" stroke-width="3" marker-end="url(#arrV)"/>
+  <g transform="translate(80 200)">
+    <path d="M0 92 C72 18 144 18 216 92 S360 166 432 92 S576 18 648 92" fill="none" stroke="url(#violet)" stroke-width="8" filter="url(#glow)"/>
+    <path d="M0 126 C72 66 144 66 216 126 S360 186 432 126 S576 66 648 126" fill="none" stroke="url(#cyan)" stroke-width="2"/>
+    <path d="M0 158 C72 98 144 98 216 158 S360 218 432 158 S576 98 648 158" class="grid"/>
+    <g stroke="#4e92ff" opacity=".45">
+      <line x1="36" y1="62" x2="36" y2="182"/><line x1="108" y1="42" x2="108" y2="202"/><line x1="216" y1="92" x2="216" y2="158"/><line x1="324" y1="132" x2="324" y2="224"/><line x1="432" y1="92" x2="432" y2="158"/><line x1="540" y1="42" x2="540" y2="202"/><line x1="612" y1="62" x2="612" y2="182"/>
+    </g>
+    <text x="104" y="250" class="t violet" text-anchor="middle">stretch</text>
+    <text x="324" y="250" class="t cyan" text-anchor="middle">compression</text>
+    <text x="548" y="250" class="t violet" text-anchor="middle">stretch</text>
+    <line x1="52" y1="228" x2="156" y2="228" stroke="#d88cff" stroke-width="2" marker-start="url(#arrV)" marker-end="url(#arrV)"/>
+    <line x1="278" y1="228" x2="370" y2="228" stroke="#7af7ff" stroke-width="2" marker-start="url(#arr)" marker-end="url(#arr)"/>
+    <line x1="496" y1="228" x2="600" y2="228" stroke="#d88cff" stroke-width="2" marker-start="url(#arrV)" marker-end="url(#arrV)"/>
+  </g>
+
+  <rect x="812" y="110" width="340" height="350" class="panel"/>
+  <text x="842" y="148" class="h">Interpretive sequence</text>
+  <g transform="translate(842 185)">
+    <rect x="0" y="0" width="280" height="42" class="box"/><text x="140" y="27" class="t" text-anchor="middle">gravitational wave</text>
+    <rect x="0" y="58" width="280" height="42" class="box"/><text x="140" y="85" class="t" text-anchor="middle">spatial stretch/compression</text>
+    <rect x="0" y="116" width="280" height="42" class="box"/><text x="140" y="143" class="t" text-anchor="middle">density fluctuation</text>
+    <rect x="0" y="174" width="280" height="42" class="box"/><text x="140" y="201" class="t" text-anchor="middle">time-rate gradient fluctuation</text>
+    <rect x="0" y="232" width="280" height="46" class="box"/><text x="140" y="261" class="t" text-anchor="middle">transient trajectory distortion</text>
+    <g stroke="#d88cff" stroke-width="2" marker-end="url(#arrV)"><line x1="140" y1="42" x2="140" y2="56"/><line x1="140" y1="100" x2="140" y2="114"/><line x1="140" y1="158" x2="140" y2="172"/><line x1="140" y1="216" x2="140" y2="230"/></g>
+  </g>
+  <rect x="310" y="478" width="580" height="28" rx="10" fill="rgba(0,16,30,.85)" stroke="#37d8ff"/>
+  <text x="600" y="498" class="t" text-anchor="middle">the wave changes local geometry temporarily; it is not a stable repulsive hill</text>
+</svg>

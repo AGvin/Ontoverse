@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
+  <title id="title">Branch baseline metric versus local metric deviation</title>
+  <desc id="desc">Shows the difference between absolute baseline, branch baseline, and local metric deviations inside a branch.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#071426"/><stop offset="1" stop-color="#020713"/></linearGradient>
+    <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8ffcff"/><stop offset="1" stop-color="#1d91ff"/></linearGradient>
+    <linearGradient id="violet" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#d88cff"/><stop offset="1" stop-color="#6d5cff"/></linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <marker id="arr" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="9" markerHeight="9" orient="auto"><path d="M0 0 L12 6 L0 12 Z" fill="#7af7ff"/></marker>
+    <style><![CDATA[
+      .title{font:800 30px Arial,sans-serif;fill:#fff}.subtitle{font:15px Arial,sans-serif;fill:#bfefff}.panel{fill:rgba(2,10,25,.78);stroke:#37d8ff;stroke-width:2;rx:18;filter:url(#glow)}.box{fill:rgba(0,12,28,.75);stroke:#78f7ff;stroke-width:1.3;rx:12}.h{font:700 20px Arial,sans-serif;fill:#fff}.t{font:15px Arial,sans-serif;fill:#dffcff}.tiny{font:13px Arial,sans-serif;fill:#bfefff}.cyan{fill:#7af7ff}.violet{fill:#d88cff}.red{fill:#ff7676}.line{fill:none;stroke:#78f7ff;stroke-width:2}.grid{fill:none;stroke:#2d7fff;stroke-width:1;opacity:.6}
+    ]]></style>
+  </defs>
+  <rect width="1200" height="520" fill="url(#bg)"/>
+  <text x="48" y="52" class="title">Branch Baseline vs Local Metric Deviation</text>
+  <text x="48" y="78" class="subtitle">Local gravity/time effects are evaluated relative to a branch baseline, not relative to absolute zero.</text>
+
+  <rect x="48" y="110" width="310" height="310" class="panel"/>
+  <text x="76" y="148" class="h"><tspan class="cyan">1</tspan> · Absolute Baseline</text>
+  <g transform="translate(203 250)">
+    <line x1="-90" y1="0" x2="90" y2="0" stroke="#78f7ff"/>
+    <line x1="0" y1="-80" x2="0" y2="80" stroke="#78f7ff" marker-end="url(#arr)"/>
+    <ellipse cx="0" cy="0" rx="70" ry="22" fill="none" stroke="#2d7fff" opacity=".5"/>
+    <circle cx="0" cy="0" r="7" fill="#fff" filter="url(#glow)"/>
+  </g>
+  <text x="76" y="340" class="t">• shared conceptual zero-point</text>
+  <text x="76" y="366" class="t">• no mass, no gravity</text>
+  <text x="76" y="392" class="t">• no meaningful event actualization</text>
+
+  <rect x="445" y="110" width="310" height="310" class="panel"/>
+  <text x="473" y="148" class="h"><tspan class="cyan">2</tspan> · Branch Baseline</text>
+  <g transform="translate(485 184)">
+    <path d="M0 92 C55 45 118 118 180 80 S260 42 285 95" fill="none" stroke="url(#cyan)" stroke-width="3"/>
+    <path d="M0 132 C55 98 118 150 180 120 S260 92 285 138" class="grid"/>
+    <path d="M0 172 C55 138 118 190 180 160 S260 132 285 178" class="grid"/>
+    <circle cx="30" cy="94" r="4" fill="#7af7ff" filter="url(#glow)"/><circle cx="92" cy="70" r="6" fill="#7af7ff" filter="url(#glow)"/><circle cx="140" cy="126" r="5" fill="#d88cff" filter="url(#glow)"/><circle cx="205" cy="80" r="7" fill="#7af7ff" filter="url(#glow)"/><circle cx="265" cy="133" r="5" fill="#d88cff" filter="url(#glow)"/>
+  </g>
+  <text x="473" y="340" class="t">• average branch state</text>
+  <text x="473" y="366" class="t">• average mass-energy background</text>
+  <text x="473" y="392" class="t">• default branch time rate</text>
+
+  <rect x="842" y="110" width="310" height="310" class="panel"/>
+  <text x="870" y="148" class="h"><tspan class="violet">3</tspan> · Local Deviation</text>
+  <g transform="translate(872 190)">
+    <path d="M0 90 C50 55 105 120 160 86 C214 52 255 170 285 92" fill="none" stroke="url(#cyan)" stroke-width="3"/>
+    <path d="M0 130 C50 95 105 160 160 126 C214 92 255 210 285 132" class="grid"/>
+    <circle cx="78" cy="90" r="9" fill="#7af7ff" filter="url(#glow)"/>
+    <circle cx="174" cy="91" r="14" fill="#ffd864" filter="url(#glow)"/>
+    <ellipse cx="245" cy="98" rx="30" ry="12" fill="#03030a" stroke="#d88cff" stroke-width="4" filter="url(#glow)"/>
+    <line x1="45" y1="175" x2="262" y2="175" stroke="#d88cff" stroke-width="2" marker-start="url(#arr)" marker-end="url(#arr)"/>
+    <text x="153" y="198" class="tiny violet" text-anchor="middle">deviation from branch baseline</text>
+  </g>
+  <text x="870" y="340" class="t">• planet, star, black hole, void</text>
+  <text x="870" y="366" class="t">• local density/time-rate changes</text>
+  <text x="870" y="392" class="t">• branch-local, not absolute</text>
+
+  <line x1="372" y1="265" x2="430" y2="265" stroke="#78f7ff" stroke-width="3" marker-end="url(#arr)"/>
+  <line x1="769" y1="265" x2="827" y2="265" stroke="#78f7ff" stroke-width="3" marker-end="url(#arr)"/>
+  <rect x="255" y="450" width="690" height="40" rx="12" fill="rgba(0,16,30,.85)" stroke="#37d8ff"/>
+  <text x="600" y="476" class="t" text-anchor="middle">absolute baseline → branch baseline → local metric deviation</text>
+</svg>
