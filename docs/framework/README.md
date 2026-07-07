@@ -2,9 +2,11 @@
 
 Status: draft
 
-Ontoverse is a conceptual framework for exploring reality, time, histories, causality, and compatible worlds.
+Ontoverse is a self-developed conceptual framework for organizing reality, concepts, and possible hidden relationships between them.
 
 It is intended as a structured research notebook and not as a completed scientific theory. The framework should be evaluated as a set of definitions, visual models, hypotheses, analogies, and open problems that may later be formalized, revised, or rejected.
+
+The framework is deliberately pre-formal: it attempts to preserve and organize conceptual insights before they are strong enough to become rigorous theory. Its purpose is to make assumptions, terms, weak points, comparisons, and open formalization tasks visible.
 
 ## Minimal Claim
 
@@ -18,6 +20,18 @@ In this framing:
 - observers have access only to worlds compatible with their local records and interactions;
 - local experienced time may be related to the density of significant event-nodes along a history;
 - frontal time may be treated as a global ordering parameter for the unfolding of the history-space.
+
+## Discovery Value
+
+Ontoverse is not presented as a proof of a new physical theory. Its possible value is exploratory and organizational.
+
+The framework asks whether a self-developed conceptual structure can help:
+
+- preserve potentially useful intuitions without overstating them;
+- organize speculative ideas into inspectable definitions and relations;
+- expose assumptions that would otherwise remain implicit;
+- compare new terminology against existing scientific and philosophical concepts;
+- identify which parts could be formalized, tested, rejected, or reduced to known ideas.
 
 ## Authorship and AI Assistance
 

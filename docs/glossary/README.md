@@ -6,7 +6,12 @@ This glossary defines working Ontoverse terms.
 
 Definitions may change as the framework is refined.
 
+Unless explicitly stated otherwise, Ontoverse-specific terms are proposed conceptual terms, not established scientific terminology. They should be read as working definitions for a pre-formal framework.
+
 ## Absolute Baseline Metric
+
+Type: proposed Ontoverse term  
+Status: speculative working definition
 
 A shared conceptual zero-point for metric interpretation.
 
@@ -14,11 +19,17 @@ It represents an abstract reference state with no mass, no gravitational distort
 
 ## Branch Baseline Metric
 
+Type: proposed Ontoverse term  
+Status: speculative working definition
+
 The average nominal metric state of a specific timeline branch.
 
 It includes the branch's average mass-energy distribution, average gravitational background, average causal processing density, and default branch time rate.
 
 ## Branch Time Rate
+
+Type: proposed Ontoverse term  
+Status: speculative working definition
 
 The default temporal character of a timeline branch relative to frontal time.
 
@@ -26,15 +37,24 @@ It is associated with the branch baseline metric and the branch's average causal
 
 ## Causal Processing Density
 
+Type: proposed Ontoverse term  
+Status: speculative working definition
+
 A proposed Ontoverse term for the amount of local state change, interaction, and causal coordination that must be maintained in a region relative to frontal time.
 
 Higher causal processing density is interpreted as lowering the local time rate relative to less dense regions. This is a conceptual interpretation, not a defined physical equation.
 
 ## Compatibility Channel
 
+Type: proposed Ontoverse term  
+Status: working definition
+
 An access structure in which only mutually compatible states, records, and observers can interact.
 
 ## Convergent Channel
+
+Type: proposed Ontoverse term  
+Status: working definition
 
 A compatibility channel entered by more than one distinct historical trajectory.
 
@@ -42,13 +62,22 @@ Convergence means local future equivalence under a chosen description, not neces
 
 ## Dense Cluster
 
+Type: proposed Ontoverse term  
+Status: working definition
+
 A local region of a historical trajectory or history-space where event-nodes are concentrated more tightly than in surrounding regions.
 
 ## Divergence Node
 
+Type: proposed Ontoverse term  
+Status: working definition
+
 A point where one historical trajectory separates into multiple incompatible continuations.
 
 ## Effective Quantum Transition Rate
+
+Type: proposed Ontoverse placeholder  
+Status: open formalization task
 
 A proposed Ontoverse placeholder for the effective rate at which significant quantum transitions become event-nodes along a branch relative to frontal time.
 
@@ -56,11 +85,17 @@ It may eventually depend on Hamiltonian evolution, interaction strength, couplin
 
 ## Event-Node
 
+Type: proposed Ontoverse term  
+Status: open definition
+
 A significant transition point in a historical trajectory.
 
 The exact criteria for significance are not yet formalized.
 
 ## Frontal Time
+
+Type: proposed Ontoverse term  
+Status: speculative working definition
 
 A proposed global ordering parameter for the unfolding of history-space.
 
@@ -68,23 +103,38 @@ It is visually imagined as a wavefront or plane moving through possible historie
 
 ## Frontal Time Plane
 
+Type: visual Ontoverse term  
+Status: working definition
+
 The ruby visual boundary representing a specific frontal-time slice.
 
 In current Ontoverse diagrams, the frontal time plane is treated as the present boundary. Realized trajectories and event-nodes normally stop at this plane.
 
 ## Historical Multiplicity
 
+Type: proposed Ontoverse term  
+Status: working definition
+
 The number of distinct historical origins represented within a convergent channel.
 
 ## Historical Trajectory
+
+Type: proposed Ontoverse term  
+Status: working definition
 
 A path through history-space consisting of mutually compatible states, records, and interactions.
 
 ## History-Space
 
+Type: proposed Ontoverse term  
+Status: open formalization task
+
 The structured space of possible histories in the Ontoverse framework.
 
 ## Light-Path Analogy
+
+Type: interpretational analogy  
+Status: bounded analogy
 
 A conceptual analogy inspired by path-based explanations of light propagation.
 
@@ -92,11 +142,17 @@ In Ontoverse, it is used only as a metaphor for thinking about an experienced hi
 
 ## Local Metric Deviation
 
+Type: proposed Ontoverse term  
+Status: speculative working definition
+
 A local departure from a branch baseline metric.
 
 Examples may include regions associated with planets, stars, black holes, dense matter distributions, low-density regions, or gravitational waves. In Ontoverse, such deviations may change causal processing density, local time-rate gradients, and possible trajectories.
 
 ## Local Time
+
+Type: proposed Ontoverse term  
+Status: speculative working definition
 
 Time experienced along a particular historical trajectory.
 
@@ -104,15 +160,24 @@ In Ontoverse, local time is associated with the accumulation of significant even
 
 ## Local Time-Rate Gradient
 
+Type: proposed Ontoverse term  
+Status: speculative working definition
+
 A spatial difference in local time rate across neighboring regions.
 
 In the gravity interpretation, this gradient is the relevant conceptual bridge between local time-rate slowdown and curved possible trajectories.
 
 ## Observer Access
 
+Type: proposed Ontoverse term  
+Status: working definition
+
 The constraint that an observer can interact only with states, records, and other observers compatible with the observer's local history.
 
 ## Planck-Action Hypothesis
+
+Type: historical Ontoverse formulation  
+Status: superseded / refined
 
 An earlier Ontoverse formulation that used Planck's constant, understood as a quantum of action, as a candidate clue for formalizing temporal density.
 
@@ -120,9 +185,15 @@ This has been refined into the quantum transition rate conjecture: the establish
 
 ## Potential Branch
 
+Type: visual Ontoverse term  
+Status: working definition
+
 A dotted or auxiliary path used in diagrams to represent a possible branch that is not treated as the main realized trajectory in that visual slice.
 
 ## Quantum Transition Rate Conjecture
+
+Type: Ontoverse conjecture  
+Status: open formalization task
 
 A conjecture that temporal density may depend on an effective rate of significant quantum transitions along a branch relative to frontal time.
 
@@ -130,9 +201,15 @@ In this conjecture, `h` or `hbar` is not a direct density measure. Instead, effe
 
 ## Temporal Density
 
+Type: proposed Ontoverse term  
+Status: speculative working definition
+
 The proposed density of significant event-nodes per unit of frontal time.
 
 ## Temporal Density Pattern
+
+Type: visual Ontoverse term  
+Status: working definition
 
 A visual pattern describing how event-nodes are distributed along a trajectory or region.
 
