@@ -2,7 +2,7 @@
 
 Status: draft
 
-![Temporal density comparison](../../assets/diagrams/temporal-density-comparison.svg)
+![Temporal density comparison](../../assets/default/diagrams/temporal-density-comparison.svg)
 
 This diagram explains the Ontoverse concept of **temporal density** by comparing two historical trajectories across the same **frontal-time interval**.
 
