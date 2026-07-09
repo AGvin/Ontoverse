@@ -1,21 +1,21 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
-  <title id="title">History-Space Density Regions</title>
-  <desc id="desc">Density-region strings where every event-node center is also a polyline point.</desc>
+  <title id="title">Регіони щільності history-space</title>
+  <desc id="desc">Струни регіонів щільності, де центр кожної події-вузла також є точкою полілінії.</desc>
   <defs>
     <radialGradient id="bg" cx="50%" cy="50%" r="82%"><stop offset="0" stop-color="#07152a"/><stop offset="0.65" stop-color="#020713"/><stop offset="1" stop-color="#00030a"/></radialGradient>
     <linearGradient id="plane" x1="1260" y1="180" x2="1340" y2="750" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#ff6076" stop-opacity="0.10"/><stop offset="0.5" stop-color="#ff244b" stop-opacity="0.36"/><stop offset="1" stop-color="#ff6076" stop-opacity="0.12"/></linearGradient>
   </defs>
   <rect width="1600" height="900" fill="url(#bg)"/>
-  <text x="800" y="86" fill="#f8fbff" font-family="Segoe UI, Arial, sans-serif" font-size="52" text-anchor="middle">History-Space Density Regions</text>
-  <text x="800" y="126" fill="#8ea6c8" font-family="Segoe UI, Arial, sans-serif" font-size="22" text-anchor="middle">different strings accumulate different event-node densities before the same frontal boundary</text>
+  <text x="800" y="86" fill="#f8fbff" font-family="Segoe UI, Arial, sans-serif" font-size="52" text-anchor="middle">Регіони щільності history-space</text>
+  <text x="800" y="126" fill="#8ea6c8" font-family="Segoe UI, Arial, sans-serif" font-size="22" text-anchor="middle">різні струни накопичують різну щільність подій-вузлів перед однією фронтальною межею</text>
   <g opacity="0.12" stroke="#1a63bd" fill="none"><path d="M260 200 H1340 V735 H260 Z"/><path d="M260 330 H1340"/><path d="M260 465 H1340"/><path d="M260 600 H1340"/><path d="M520 200 V735"/><path d="M780 200 V735"/><path d="M1040 200 V735"/></g>
   <polygon points="1260,230 1340,185 1340,760 1260,715" fill="url(#plane)" stroke="#ff4562" stroke-width="4"/>
   <line x1="1340" y1="185" x2="1340" y2="760" stroke="#ff6b7d" stroke-width="5"/>
-  <text x="1360" y="430" fill="#ff5d73" font-family="Segoe UI, Arial, sans-serif" font-size="27">frontal time plane</text>
-  <text x="210" y="290" fill="#14eaff" font-family="Segoe UI, Arial, sans-serif" font-size="24" text-anchor="end">Low density</text>
-  <text x="210" y="420" fill="#70b7ff" font-family="Segoe UI, Arial, sans-serif" font-size="24" text-anchor="end">Medium density</text>
-  <text x="210" y="550" fill="#b781ff" font-family="Segoe UI, Arial, sans-serif" font-size="24" text-anchor="end">High density</text>
-  <text x="210" y="680" fill="#ff67d8" font-family="Segoe UI, Arial, sans-serif" font-size="24" text-anchor="end">Burst density</text>
+  <text x="1360" y="430" fill="#ff5d73" font-family="Segoe UI, Arial, sans-serif" font-size="27">фронтальна площина часу</text>
+  <text x="210" y="290" fill="#14eaff" font-family="Segoe UI, Arial, sans-serif" font-size="24" text-anchor="end">Низька щільність</text>
+  <text x="210" y="420" fill="#70b7ff" font-family="Segoe UI, Arial, sans-serif" font-size="24" text-anchor="end">Середня щільність</text>
+  <text x="210" y="550" fill="#b781ff" font-family="Segoe UI, Arial, sans-serif" font-size="24" text-anchor="end">Висока щільність</text>
+  <text x="210" y="680" fill="#ff67d8" font-family="Segoe UI, Arial, sans-serif" font-size="24" text-anchor="end">Спалах щільності</text>
   <g fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="5">
     <polyline points="260,285 620,255 1000,245 1260,250" stroke="#14eaff"/>
     <polyline points="260,415 500,390 760,405 1000,395 1260,400" stroke="#70b7ff"/>
@@ -29,5 +29,5 @@
     <circle cx="260" cy="675" r="9" stroke="#ff67d8"/><circle cx="420" cy="668" r="8" stroke="#ff67d8"/><circle cx="540" cy="672" r="8" stroke="#ff67d8"/><circle cx="620" cy="685" r="8" stroke="#ff67d8"/><circle cx="700" cy="694" r="8" stroke="#ff67d8"/><circle cx="760" cy="700" r="8" stroke="#ff67d8"/><circle cx="900" cy="682" r="8" stroke="#ff67d8"/><circle cx="1040" cy="660" r="8" stroke="#ff67d8"/><circle cx="1160" cy="660" r="8" stroke="#ffbd56"/><circle cx="1260" cy="665" r="9" stroke="#ffbd56"/>
   </g>
   <rect x="430" y="785" width="740" height="58" rx="13" fill="#050a16" stroke="#29354f"/>
-  <text x="800" y="821" fill="#aab6d8" font-family="Segoe UI, Arial, sans-serif" font-size="21" text-anchor="middle">Every circle center is a point of the visible string.</text>
+  <text x="800" y="821" fill="#aab6d8" font-family="Segoe UI, Arial, sans-serif" font-size="21" text-anchor="middle">Центр кожного кола є точкою видимої струни.</text>
 </svg>
