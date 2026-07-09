@@ -11,7 +11,7 @@ l10n:
 
 Статус: draft
 
-![Ізометрична діаграма history-space](../../../assets/uk_UA/diagrams/isometric-history-space.svg)
+![Ізометрична діаграма history-space](../../../../assets/uk_UA/diagrams/isometric-history-space.svg)
 
 Ця візуалізація представляє history-space як обʼємну структуру, а не як плоску timeline.
 
