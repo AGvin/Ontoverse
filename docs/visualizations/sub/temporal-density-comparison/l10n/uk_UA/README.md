@@ -11,9 +11,9 @@ l10n:
 
 Статус: draft
 
-![Порівняння темпоральної щільності](../../../assets/uk_UA/diagrams/temporal-density-comparison.svg)
+![Порівняння темпоральної щільності](../../../../assets/uk_UA/diagrams/temporal-density-comparison.svg)
 
-Ця діаграма пояснює концепцію **temporal density** в Ontoverse, порівнюючи дві історичні траєкторії в межах одного **frontal-time interval**.
+Ця діаграма пояснює концепцію **temporal density** (темпоральна щільність) в Ontoverse, порівнюючи дві історичні траєкторії в межах одного **frontal-time interval** (інтервалу фронтального часу).
 
 ## Переклади
 
