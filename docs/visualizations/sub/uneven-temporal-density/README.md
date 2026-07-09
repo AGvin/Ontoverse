@@ -6,6 +6,11 @@ Status: draft
 
 This diagram compares several representative temporal-density patterns inside Ontoverse history-space.
 
+## Translations
+
+- English — current
+- [Українська](./l10n/uk_UA/)
+
 ## What the Diagram Shows
 
 Each row represents a different event-node density pattern before the same ruby frontal time plane.
