@@ -2,7 +2,7 @@
 
 Status: draft
 
-![Uneven temporal density across history-space](../../assets/diagrams/uneven-temporal-density.svg)
+![Uneven temporal density across history-space](../../assets/default/diagrams/uneven-temporal-density.svg)
 
 This diagram compares several representative temporal-density patterns inside Ontoverse history-space.
 
