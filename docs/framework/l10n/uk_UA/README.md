@@ -41,7 +41,7 @@ Ontoverse не стверджує, що замінює квантову меха
 
 Поточні візуальні пояснення:
 
-- [`temporal-density-comparison`](../../visualizations/sub/temporal-density-comparison/l10n/uk_UA/) — низька та висока event-node density в межах однакового frontal-time interval;
-- [`convergent-channel`](../../visualizations/sub/convergent-channel/l10n/uk_UA/) — distinct origins, divergence, compatibility filtering та convergence на frontal time plane;
-- [`history-space-density-regions`](../../visualizations/sub/history-space-density-regions/l10n/uk_UA/) — sparse, medium і high-density regions усередині history-space;
-- [`uneven-temporal-density`](../../visualizations/sub/uneven-temporal-density/l10n/uk_UA/) — representative sparse, dense, clustered і mixed density patterns.
+- [`temporal-density-comparison`](../../../visualizations/sub/temporal-density-comparison/l10n/uk_UA/) — низька та висока event-node density в межах однакового frontal-time interval;
+- [`convergent-channel`](../../../visualizations/sub/convergent-channel/l10n/uk_UA/) — distinct origins, divergence, compatibility filtering та convergence на frontal time plane;
+- [`history-space-density-regions`](../../../visualizations/sub/history-space-density-regions/l10n/uk_UA/) — sparse, medium і high-density regions усередині history-space;
+- [`uneven-temporal-density`](../../../visualizations/sub/uneven-temporal-density/l10n/uk_UA/) — representative sparse, dense, clustered і mixed density patterns.
