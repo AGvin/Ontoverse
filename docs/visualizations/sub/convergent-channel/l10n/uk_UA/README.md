@@ -11,7 +11,7 @@ l10n:
 
 Статус: draft
 
-![Конвергентний канал](../../../assets/uk_UA/diagrams/convergent-channel.svg)
+![Конвергентний канал](../../../../assets/uk_UA/diagrams/convergent-channel.svg)
 
 Ця діаграма показує випадок, коли кілька відмінних історичних траєкторій поступово входять у спільну локально сумісну future-access structure біля frontal time plane.
 
