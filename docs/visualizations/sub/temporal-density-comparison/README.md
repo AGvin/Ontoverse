@@ -6,6 +6,11 @@ Status: draft
 
 This diagram explains the Ontoverse concept of **temporal density** by comparing two historical trajectories across the same **frontal-time interval**.
 
+## Translations
+
+- English — current
+- [Українська](./l10n/uk_UA/)
+
 ## What the Diagram Shows
 
 Both trajectories are bounded by the same two ruby frontal-time planes. This means they are evaluated across the same frontal-time interval.
