@@ -6,6 +6,11 @@ Status: draft
 
 This diagram explains how distinct historical origins may pass through divergence, compatibility filtering, and convergence before reaching the **frontal time plane**.
 
+## Translations
+
+- English — current
+- [Українська](./l10n/uk_UA/)
+
 ## What the Diagram Shows
 
 The left side contains several **distinct historical origins**.
