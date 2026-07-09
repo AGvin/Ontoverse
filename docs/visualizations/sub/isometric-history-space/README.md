@@ -2,7 +2,7 @@
 
 Status: draft
 
-![Isometric history-space diagram](../../assets/diagrams/isometric-history-space.svg)
+![Isometric history-space diagram](../../assets/default/diagrams/isometric-history-space.svg)
 
 This visualization presents history-space as a volumetric structure rather than a flat timeline.
 
