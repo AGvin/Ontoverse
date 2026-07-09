@@ -6,6 +6,11 @@ Status: draft
 
 This diagram shows how **temporal density** may vary across different regions of history-space.
 
+## Translations
+
+- English — current
+- [Українська](./l10n/uk_UA/)
+
 ## What the Diagram Shows
 
 The diagram separates history-space into three conceptual density regions:
