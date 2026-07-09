@@ -8,6 +8,11 @@ This visualization presents history-space as a volumetric structure rather than 
 
 The diagram uses an isometric projection to show several tree-like realized strings moving through the same history-space volume toward the ruby **frontal time plane**.
 
+## Translations
+
+- English — current
+- [Українська](./l10n/uk_UA/)
+
 ## Conceptual Reading
 
 - **History-space volume**: the shown box represents a local conceptual slice of possible or realized historical structure.
