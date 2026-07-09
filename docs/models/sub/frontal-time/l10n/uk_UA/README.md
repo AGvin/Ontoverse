@@ -13,7 +13,7 @@ l10n:
 
 Frontal Time Model вводить розрізнення між глобальним параметром упорядкування та локально досвідченим часом.
 
-![Порівняння темпоральної щільності](../../../visualizations/assets/default/diagrams/temporal-density-comparison.svg)
+![Порівняння темпоральної щільності](../../../../../visualizations/assets/default/diagrams/temporal-density-comparison.svg)
 
 ## Переклади
 
@@ -50,9 +50,9 @@ temporal density ~ event-nodes / frontal-time interval
 
 Див. також:
 
-- [`temporal-density-comparison`](../../../../visualizations/sub/temporal-density-comparison/l10n/uk_UA/);
-- [`history-space-density-regions`](../../../../visualizations/sub/history-space-density-regions/l10n/uk_UA/);
-- [`uneven-temporal-density`](../../../../visualizations/sub/uneven-temporal-density/l10n/uk_UA/).
+- [`temporal-density-comparison`](../../../../../visualizations/sub/temporal-density-comparison/l10n/uk_UA/);
+- [`history-space-density-regions`](../../../../../visualizations/sub/history-space-density-regions/l10n/uk_UA/);
+- [`uneven-temporal-density`](../../../../../visualizations/sub/uneven-temporal-density/l10n/uk_UA/).
 
 ## Відкриті проблеми
 
