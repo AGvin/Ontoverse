@@ -2,7 +2,7 @@
 
 Status: draft
 
-![Convergent channel](../../assets/diagrams/convergent-channel.svg)
+![Convergent channel](../../assets/default/diagrams/convergent-channel.svg)
 
 This diagram explains how distinct historical origins may pass through divergence, compatibility filtering, and convergence before reaching the **frontal time plane**.
 
