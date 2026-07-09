@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
-  <title id="title">Ontoverse logo with rectangular frontal time plane</title>
-  <desc id="desc">Detailed dark neon Ontoverse SVG logo with a history-space sphere, dense branching trajectories, glowing event-nodes, a ruby frontal time plane, and a separated wordmark.</desc>
+  <title id="title">Логотип Онтоверс із прямокутною фронтальною площиною часу</title>
+  <desc id="desc">Деталізований темний неоновий SVG-логотип Онтоверс зі сферою history-space, густими розгалуженими траєкторіями, сяйними подіями-вузлами, рубіновою фронтальною площиною часу та окремим wordmark.</desc>
   <defs>
     <radialGradient id="bg" cx="42%" cy="48%" r="82%"><stop offset="0" stop-color="#08152b"/><stop offset="0.58" stop-color="#020713"/><stop offset="1" stop-color="#00030a"/></radialGradient>
     <radialGradient id="sphereFill" cx="30%" cy="50%" r="66%"><stop offset="0" stop-color="#0d3364" stop-opacity="0.46"/><stop offset="0.46" stop-color="#061936" stop-opacity="0.27"/><stop offset="1" stop-color="#020813" stop-opacity="0"/></radialGradient>
@@ -73,5 +73,5 @@
     </g>
     <g filter="url(#rubyGlow)"><circle cx="703" cy="334" r="11" fill="#fff4d8" stroke="#ffbd3c" stroke-width="6"/><circle cx="703" cy="566" r="11" fill="#fff4d8" stroke="#ffbd3c" stroke-width="6"/></g>
   </g>
-  <g transform="translate(940 0)"><text x="0" y="485" fill="url(#word)" font-family="Orbitron, Eurostile, Rajdhani, Segoe UI, Arial, sans-serif" font-size="118" font-weight="400" letter-spacing="2" filter="url(#whiteGlow)">Ontoverse</text></g>
+  <g transform="translate(940 0)"><text x="0" y="485" fill="url(#word)" font-family="Orbitron, Eurostile, Rajdhani, Segoe UI, Arial, sans-serif" font-size="118" font-weight="400" letter-spacing="2" filter="url(#whiteGlow)">Онтоверс</text></g>
 </svg>
