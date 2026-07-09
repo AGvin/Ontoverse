@@ -2,11 +2,16 @@
 
 Status: draft
 
-![Isometric history-space diagram](../../assets/diagrams/isometric-history-space.svg)
+![Isometric history-space diagram](../../assets/default/diagrams/isometric-history-space.svg)
 
 This visualization presents history-space as a volumetric structure rather than a flat timeline.
 
 The diagram uses an isometric projection to show several tree-like realized strings moving through the same history-space volume toward the ruby **frontal time plane**.
+
+## Translations
+
+- English — current
+- [Українська](./l10n/uk_UA/)
 
 ## Conceptual Reading
 

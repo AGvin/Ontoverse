@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Порівняння темпоральної щільності</title>
+  <desc id="desc">Мінімальна SVG-діаграма порівняння низької та високої темпоральної щільності. Вузли розміщені лише на реалізованих струнах, і обидві струни завершуються на фронтальній площині часу.</desc>
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="82%">
+      <stop offset="0" stop-color="#07152a"/>
+      <stop offset="0.65" stop-color="#020713"/>
+      <stop offset="1" stop-color="#00030a"/>
+    </radialGradient>
+    <linearGradient id="low" x1="260" y1="405" x2="1260" y2="405" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#14eaff"/>
+      <stop offset="0.55" stop-color="#f8fbff"/>
+      <stop offset="1" stop-color="#b778ff"/>
+    </linearGradient>
+    <linearGradient id="high" x1="260" y1="605" x2="1260" y2="605" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#14eaff"/>
+      <stop offset="0.5" stop-color="#9eb1ff"/>
+      <stop offset="1" stop-color="#ff5ee7"/>
+    </linearGradient>
+    <linearGradient id="plane" x1="1260" y1="230" x2="1340" y2="760" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ff6076" stop-opacity="0.10"/>
+      <stop offset="0.5" stop-color="#ff244b" stop-opacity="0.36"/>
+      <stop offset="1" stop-color="#ff6076" stop-opacity="0.12"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <text x="800" y="85" fill="#f8fbff" font-family="Segoe UI, Arial, sans-serif" font-size="52" text-anchor="middle">Порівняння темпоральної щільності</text>
+  <rect x="390" y="115" width="820" height="92" rx="14" fill="#050a16" stroke="#264c7a"/>
+  <text x="455" y="154" fill="#f8fbff" font-family="Segoe UI, Arial, sans-serif" font-size="24">темп. щільність</text>
+  <text x="668" y="154" fill="#f8fbff" font-family="Segoe UI, Arial, sans-serif" font-size="24">~</text>
+  <text x="720" y="154" fill="#14eaff" font-family="Segoe UI, Arial, sans-serif" font-size="24">події-вузли</text>
+  <text x="905" y="154" fill="#f8fbff" font-family="Segoe UI, Arial, sans-serif" font-size="24">/</text>
+  <text x="955" y="154" fill="#ff526b" font-family="Segoe UI, Arial, sans-serif" font-size="24">інтервал фронт. часу</text>
+  <line x1="430" y1="174" x2="1170" y2="174" stroke="#34425d"/>
+  <text x="528" y="197" fill="#f8fbff" font-family="Segoe UI, Arial, sans-serif" font-size="24">локальний час</text>
+  <text x="668" y="197" fill="#f8fbff" font-family="Segoe UI, Arial, sans-serif" font-size="24">~</text>
+  <text x="720" y="197" fill="#9eb1ff" font-family="Segoe UI, Arial, sans-serif" font-size="24">накопичені значущі події-вузли</text>
+  <g opacity="0.12" stroke="#1a63bd" fill="none">
+    <path d="M260 300 H1340 V715 H260 Z"/>
+    <path d="M260 505 H1340"/>
+    <path d="M520 300 V715"/>
+    <path d="M780 300 V715"/>
+    <path d="M1040 300 V715"/>
+  </g>
+  <polygon points="1260,265 1340,220 1340,760 1260,715" fill="url(#plane)" stroke="#ff4562" stroke-width="4"/>
+  <line x1="1340" y1="220" x2="1340" y2="760" stroke="#ff6b7d" stroke-width="5"/>
+  <text x="1370" y="420" fill="#ff5d73" font-family="Segoe UI, Arial, sans-serif" font-size="28">фронтальна</text>
+  <text x="1370" y="455" fill="#ff5d73" font-family="Segoe UI, Arial, sans-serif" font-size="28">площина</text>
+  <text x="1370" y="490" fill="#ff5d73" font-family="Segoe UI, Arial, sans-serif" font-size="28">часу</text>
+  <line x1="260" y1="285" x2="1260" y2="285" stroke="#ff4562" stroke-width="2" stroke-dasharray="9 10"/>
+  <text x="760" y="268" fill="#ff526b" font-family="Segoe UI, Arial, sans-serif" font-size="30" text-anchor="middle">Рівний інтервал фронтального часу</text>
+  <text x="220" y="397" fill="#14eaff" font-family="Segoe UI, Arial, sans-serif" font-size="28" text-anchor="end">Низька темп.</text>
+  <text x="220" y="432" fill="#14eaff" font-family="Segoe UI, Arial, sans-serif" font-size="28" text-anchor="end">щільність</text>
+  <text x="220" y="597" fill="#b781ff" font-family="Segoe UI, Arial, sans-serif" font-size="28" text-anchor="end">Висока темп.</text>
+  <text x="220" y="632" fill="#b781ff" font-family="Segoe UI, Arial, sans-serif" font-size="28" text-anchor="end">щільність</text>
+  <path d="M260 405 H1260" stroke="url(#low)" stroke-width="6"/>
+  <path d="M260 605 H1260" stroke="url(#high)" stroke-width="6"/>
+  <g fill="#07152a" stroke-width="4">
+    <circle cx="260" cy="405" r="10" stroke="#14eaff"/>
+    <circle cx="510" cy="405" r="10" stroke="#8edcff"/>
+    <circle cx="760" cy="405" r="10" stroke="#f8fbff"/>
+    <circle cx="1010" cy="405" r="10" stroke="#b778ff"/>
+    <circle cx="1260" cy="405" r="10" stroke="#ff5ee7"/>
+    <circle cx="260" cy="605" r="9" stroke="#14eaff"/>
+    <circle cx="315" cy="605" r="9" stroke="#1bdcff"/>
+    <circle cx="370" cy="605" r="9" stroke="#35caff"/>
+    <circle cx="425" cy="605" r="9" stroke="#4db8ff"/>
+    <circle cx="480" cy="605" r="9" stroke="#65a7ff"/>
+    <circle cx="535" cy="605" r="9" stroke="#7c98ff"/>
+    <circle cx="590" cy="605" r="9" stroke="#928bff"/>
+    <circle cx="645" cy="605" r="9" stroke="#aa82ff"/>
+    <circle cx="700" cy="605" r="9" stroke="#c082ff"/>
+    <circle cx="755" cy="605" r="9" stroke="#d18dff"/>
+    <circle cx="810" cy="605" r="9" stroke="#e09aff"/>
+    <circle cx="865" cy="605" r="9" stroke="#df78ff"/>
+    <circle cx="920" cy="605" r="9" stroke="#e96cff"/>
+    <circle cx="975" cy="605" r="9" stroke="#f466f3"/>
+    <circle cx="1030" cy="605" r="9" stroke="#ff60e8"/>
+    <circle cx="1085" cy="605" r="9" stroke="#ff60e8"/>
+    <circle cx="1140" cy="605" r="9" stroke="#ff60e8"/>
+    <circle cx="1195" cy="605" r="9" stroke="#ff60e8"/>
+    <circle cx="1260" cy="605" r="9" stroke="#ff60e8"/>
+  </g>
+  <rect x="355" y="775" width="890" height="64" rx="13" fill="#050a16" stroke="#29354f"/>
+  <text x="800" y="815" fill="#aab6d8" font-family="Segoe UI, Arial, sans-serif" font-size="22" text-anchor="middle">Події-вузли є лише на реалізованих струнах. Без декоративних або відокремлених вузлів.</text>
+</svg>

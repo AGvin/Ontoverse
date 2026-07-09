@@ -1,19 +1,30 @@
 # Branding
 
+<!--
+ai_content:
+  managed: true
+  l10n: true
+-->
+
 Status: draft
 
 Ontoverse branding uses the author-approved dark neon conceptual physics style.
+
+## Translations
+
+- English — current
+- [Українська](./l10n/uk_UA/)
 
 ## Primary Logo
 
 The primary logo is the dark neon Ontoverse wordmark with a history-space emblem and a rectangular ruby frontal time plane.
 
-![Primary Ontoverse logo](../../assets/images/ontoverse-logo-frontal-plane-rectangular.svg)
+![Primary Ontoverse logo](../../assets/default/images/ontoverse-logo-frontal-plane-rectangular.svg)
 
 Asset path:
 
 ```text
-assets/images/ontoverse-logo-frontal-plane-rectangular.svg
+assets/default/images/ontoverse-logo-frontal-plane-rectangular.svg
 ```
 
 ## Asset Rule

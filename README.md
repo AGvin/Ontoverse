@@ -1,8 +1,19 @@
 # Ontoverse
 
-![Ontoverse logo](./assets/images/ontoverse-logo-frontal-plane-rectangular.svg)
+<!--
+ai_content:
+  managed: true
+  l10n: true
+-->
+
+![Ontoverse logo](./assets/default/images/ontoverse-logo-frontal-plane-rectangular.svg)
 
 A self-developed conceptual framework for organizing reality, concepts, and possible hidden relationships between them.
+
+## Translations
+
+- English — current
+- [Українська](./l10n/uk_UA/)
 
 > **Disclaimer:** Ontoverse is a collection of the author's reflections, hypotheses, conceptual models, and interpretive notes. It is not a scientific claim, proof, or established physical theory. AI tools were used to help publish, structure, translate, and refine the documentation, but the underlying ideas and conceptual direction originate from the author.
 

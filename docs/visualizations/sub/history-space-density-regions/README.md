@@ -2,9 +2,14 @@
 
 Status: draft
 
-![History-space density regions](../../assets/diagrams/history-space-density-regions.svg)
+![History-space density regions](../../assets/default/diagrams/history-space-density-regions.svg)
 
 This diagram shows how **temporal density** may vary across different regions of history-space.
+
+## Translations
+
+- English — current
+- [Українська](./l10n/uk_UA/)
 
 ## What the Diagram Shows
 
