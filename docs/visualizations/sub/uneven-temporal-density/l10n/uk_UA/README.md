@@ -11,7 +11,7 @@ l10n:
 
 Статус: draft
 
-![Нерівномірна темпоральна щільність у history-space](../../../assets/uk_UA/diagrams/uneven-temporal-density.svg)
+![Нерівномірна темпоральна щільність у history-space](../../../../assets/uk_UA/diagrams/uneven-temporal-density.svg)
 
 Ця діаграма порівнює кілька типових патернів temporal-density усередині Ontoverse history-space.
 
