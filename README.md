@@ -12,7 +12,7 @@ A self-developed conceptual framework for organizing reality, concepts, and poss
 
 ## Translations
 
-- English — current
+- English
 - [Українська](./l10n/uk_UA/)
 
 > **Disclaimer:** Ontoverse is a collection of the author's reflections, hypotheses, conceptual models, and interpretive notes. It is not a scientific claim, proof, or established physical theory. AI tools were used to help publish, structure, translate, and refine the documentation, but the underlying ideas and conceptual direction originate from the author.
