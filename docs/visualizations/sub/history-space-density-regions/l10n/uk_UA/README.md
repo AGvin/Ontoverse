@@ -11,7 +11,7 @@ l10n:
 
 Статус: draft
 
-![Регіони щільності history-space](../../../assets/uk_UA/diagrams/history-space-density-regions.svg)
+![Регіони щільності history-space](../../../../assets/uk_UA/diagrams/history-space-density-regions.svg)
 
 Ця діаграма показує, як **temporal density** може відрізнятися між різними регіонами history-space.
 
