@@ -1,13 +1,13 @@
-# Ontoverse
-
 <!--
 l10n:
   locale: uk_UA
   source_locale: default
   source_path: ../../README.md
-  source_hash: sha256:pending
+  source_hash: gitblob:b6355c0b2c31dd40b173fecac6209f5be8a4c0c4
   mode: translated
 -->
+
+# Ontoverse
 
 ![Логотип Ontoverse](../../assets/uk_UA/images/ontoverse-logo-frontal-plane-rectangular.svg)
 

@@ -1,13 +1,13 @@
-# Ізометричний history-space
-
 <!--
 l10n:
   locale: uk_UA
   source_locale: default
   source_path: ../../README.md
-  source_hash: sha256:pending
+  source_hash: gitblob:1305322d8ab80c42e0e44da260aa959ffc2b9a64
   mode: translated
 -->
+
+# Ізометричний history-space
 
 Статус: draft
 

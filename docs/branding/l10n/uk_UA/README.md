@@ -1,13 +1,13 @@
-# Брендинг
-
 <!--
 l10n:
   locale: uk_UA
   source_locale: default
   source_path: ../../README.md
-  source_hash: sha256:pending
+  source_hash: gitblob:1253756ea261ac4da2d2bd1963c31bffb58191c6
   mode: translated
 -->
+
+# Брендинг
 
 Статус: draft
 
