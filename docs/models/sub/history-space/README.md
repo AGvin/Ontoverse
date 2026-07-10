@@ -6,7 +6,7 @@ The History-Space Model describes reality as a structured space of possible hist
 
 A history is not treated as a single absolute timeline. It is treated as a trajectory through a space of compatible states, records, and interactions.
 
-![History-space density regions](../../../visualizations/assets/diagrams/history-space-density-regions.svg)
+![History-space density regions](../../../visualizations/assets/default/diagrams/history-space-density-regions.svg)
 
 ## Core Intuition
 

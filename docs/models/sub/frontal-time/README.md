@@ -4,7 +4,7 @@ Status: draft
 
 The Frontal Time Model introduces a distinction between a global ordering parameter and locally experienced time.
 
-![Temporal density comparison](../../../visualizations/assets/diagrams/temporal-density-comparison.svg)
+![Temporal density comparison](../../../visualizations/assets/default/diagrams/temporal-density-comparison.svg)
 
 ## Frontal Time
 
