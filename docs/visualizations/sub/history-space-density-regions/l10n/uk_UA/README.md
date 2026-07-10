@@ -1,13 +1,13 @@
-# Регіони щільності history-space
-
 <!--
 l10n:
   locale: uk_UA
   source_locale: default
   source_path: ../../README.md
-  source_hash: sha256:pending
+  source_hash: gitblob:3943e533635ca7f6621869c9f7316b72d9c0f3cd
   mode: translated
 -->
+
+# Регіони щільності history-space
 
 Статус: draft
 

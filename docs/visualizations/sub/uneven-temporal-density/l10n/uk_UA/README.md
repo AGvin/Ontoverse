@@ -1,13 +1,13 @@
-# Нерівномірна темпоральна щільність у history-space
-
 <!--
 l10n:
   locale: uk_UA
   source_locale: default
   source_path: ../../README.md
-  source_hash: sha256:pending
+  source_hash: gitblob:ab62afe103589dde6470c2abe9fe02f5f19d37d6
   mode: translated
 -->
+
+# Нерівномірна темпоральна щільність у history-space
 
 Статус: draft
 

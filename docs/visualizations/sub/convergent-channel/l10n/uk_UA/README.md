@@ -1,13 +1,13 @@
-# Конвергентний канал
-
 <!--
 l10n:
   locale: uk_UA
   source_locale: default
   source_path: ../../README.md
-  source_hash: sha256:pending
+  source_hash: gitblob:4e2b296b1a4fd9b486a8c29be312037aca4e91df
   mode: translated
 -->
+
+# Конвергентний канал
 
 Статус: draft
 

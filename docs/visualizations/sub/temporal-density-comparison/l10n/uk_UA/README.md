@@ -1,13 +1,13 @@
-# Порівняння темпоральної щільності
-
 <!--
 l10n:
   locale: uk_UA
   source_locale: default
   source_path: ../../README.md
-  source_hash: sha256:pending
+  source_hash: gitblob:bd55a22469fc207f74377afd096b352277b81e1a
   mode: translated
 -->
+
+# Порівняння темпоральної щільності
 
 Статус: draft
 
