@@ -1,11 +1,5 @@
 # Branding
 
-<!--
-ai_content:
-  managed: true
-  l10n: true
--->
-
 Status: draft
 
 Ontoverse branding uses the author-approved dark neon conceptual physics style.

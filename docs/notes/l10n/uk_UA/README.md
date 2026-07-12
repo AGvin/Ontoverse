@@ -1,13 +1,13 @@
-# Нотатки
-
 <!--
 l10n:
   locale: uk_UA
   source_locale: default
   source_path: ../../README.md
-  source_hash: sha256:pending
+  source_hash: sha256:2a73695161feeaa4892174e7a28a2639d801db120937017cb353a3cc8a44744e
   mode: translated
 -->
+
+# Нотатки
 
 Статус: draft
 
