@@ -10,7 +10,7 @@ The diagram uses an isometric projection to show several tree-like realized stri
 
 ## Translations
 
-- English — current
+- English
 - [Українська](./l10n/uk_UA/)
 
 ## Conceptual Reading

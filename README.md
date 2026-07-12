@@ -1,11 +1,5 @@
 # Ontoverse
 
-<!--
-ai_content:
-  managed: true
-  l10n: true
--->
-
 ![Ontoverse logo](./assets/default/images/ontoverse-logo-frontal-plane-rectangular.svg)
 
 A self-developed conceptual framework for organizing reality, concepts, and possible hidden relationships between them.

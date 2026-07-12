@@ -1,13 +1,13 @@
-# Моделі
-
 <!--
 l10n:
   locale: uk_UA
   source_locale: default
   source_path: ../../README.md
-  source_hash: sha256:pending
+  source_hash: sha256:de58fd67cae70b69b8ab63e5ae39eb3d4cef8cd554d2c99a987eb6717ea1680a
   mode: translated
 -->
+
+# Моделі
 
 Статус: draft
 
@@ -18,16 +18,31 @@ l10n:
 - [English](../../)
 - Українська
 
-Кожна модель має залишатися сфокусованою. Сторінка моделі може вводити гіпотезу або візуалізацію, але також має вказувати свої limitations та open problems.
+Кожна модель має залишатися сфокусованою. Сторінка моделі може вводити гіпотезу або візуалізацію, але також має вказувати свої обмеження та відкриті проблеми.
 
 ## Поточні моделі
 
-- [`history-space/`](../../sub/history-space/l10n/uk_UA/) — моделює реальність як структурований простір можливих історій, event-nodes, divergence, compatibility та convergence.
-- [`frontal-time/`](../../sub/frontal-time/l10n/uk_UA/) — моделює frontal time як глобальний параметр упорядкування, а local time як event-node density уздовж траєкторії.
+- [`history-space/`](../../sub/history-space/l10n/uk_UA/) — моделює реальність як структурований простір можливих історій, вузлів подій, розходження, сумісності та збіжності.
+- [`frontal-time/`](../../sub/frontal-time/l10n/uk_UA/) — моделює фронтальний час як глобальний параметр упорядкування, а локальний час — як щільність вузлів подій уздовж траєкторії.
 - [`event-density-dark-sector/`](../../sub/event-density-dark-sector/l10n/uk_UA/) — досліджує, чи dark-matter-like effects можуть відповідати ефективним metric contributions від undetected event-density або causal-processing-density structures.
+
+## Рівні статусу моделей
+
+Використовуйте ці позначки, коли це доречно:
+
+- `draft` — раннє концептуальне формулювання;
+- `working definition` — термінологія придатна до використання, але може змінитися;
+- `stable concept` — термінологія достатньо стабільна для використання на різних сторінках;
+- `open question` — невирішене питання, що потребує формалізації або зовнішнього порівняння;
+- `open formalization task` — спекулятивний концептуальний місток, який потребує математичного визначення, порівняння з наявними теоріями та зовнішніх обмежень, перш ніж його можна буде оцінити.
 
 ## Правило написання
 
-Не подавайте speculative model components як established physics.
+Не подавайте спекулятивні компоненти моделі як усталену фізику.
 
-Коли модель торкається відомої фізики, розділяйте established concept, Ontoverse interpretation, speculative hypothesis та unresolved problem.
+Коли модель торкається відомої фізики, розділяйте:
+
+- усталену концепцію;
+- інтерпретацію Ontoverse;
+- спекулятивну гіпотезу;
+- невирішену проблему.
