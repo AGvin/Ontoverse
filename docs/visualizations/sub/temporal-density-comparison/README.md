@@ -8,7 +8,7 @@ This diagram explains the Ontoverse concept of **temporal density** by comparing
 
 ## Translations
 
-- English — current
+- English
 - [Українська](./l10n/uk_UA/)
 
 ## What the Diagram Shows

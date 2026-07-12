@@ -18,15 +18,15 @@ l10n:
 - [English](../../)
 - Українська
 
-Діаграми є частиною документації, а не декоративними assets. Вони мають залишатися синхронізованими з terminology, що використовується у framework, models та glossary.
+Діаграми є частиною документації, а не декоративними ресурсами. Вони мають залишатися синхронізованими з термінологією фреймворку, моделей і глосарія.
 
 ## Набір візуалізацій
 
-- [`temporal-density-comparison/`](../../sub/temporal-density-comparison/l10n/uk_UA/) — порівнює low та high temporal density у межах одного frontal-time interval.
-- [`convergent-channel/`](../../sub/convergent-channel/l10n/uk_UA/) — показує distinct historical origins, які звужуються в compatibility channel та convergent channel на frontal time plane.
+- [`temporal-density-comparison/`](../../sub/temporal-density-comparison/l10n/uk_UA/) — порівнює низьку та високу темпоральну щільність у межах одного інтервалу фронтального часу.
+- [`convergent-channel/`](../../sub/convergent-channel/l10n/uk_UA/) — показує відмінні історичні витоки, які звужуються в канал сумісності та конвергентний канал біля площини фронтального часу.
 - [`history-space-density-regions/`](../../sub/history-space-density-regions/l10n/uk_UA/) — показує sparse, medium та high temporal-density regions усередині history-space.
 - [`uneven-temporal-density/`](../../sub/uneven-temporal-density/l10n/uk_UA/) — порівнює representative density patterns across history-space.
-- [`isometric-history-space/`](../../sub/isometric-history-space/l10n/uk_UA/) — показує volumetric, tree-like history-space projection з branching strings, що наближаються до frontal time plane.
+- [`isometric-history-space/`](../../sub/isometric-history-space/l10n/uk_UA/) — показує об’ємну деревоподібну проєкцію history-space зі струнами, що розгалужуються й наближаються до площини фронтального часу.
 
 ## Спільні візуальні правила
 

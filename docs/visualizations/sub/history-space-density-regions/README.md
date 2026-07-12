@@ -8,7 +8,7 @@ This diagram shows how **temporal density** may vary across different regions of
 
 ## Translations
 
-- English — current
+- English
 - [Українська](./l10n/uk_UA/)
 
 ## What the Diagram Shows

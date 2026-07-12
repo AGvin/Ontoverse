@@ -8,7 +8,7 @@ This diagram explains how distinct historical origins may pass through divergenc
 
 ## Translations
 
-- English — current
+- English
 - [Українська](./l10n/uk_UA/)
 
 ## What the Diagram Shows

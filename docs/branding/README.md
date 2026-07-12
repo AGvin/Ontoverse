@@ -6,7 +6,7 @@ Ontoverse branding uses the author-approved dark neon conceptual physics style.
 
 ## Translations
 
-- English — current
+- English
 - [Українська](./l10n/uk_UA/)
 
 ## Primary Logo
