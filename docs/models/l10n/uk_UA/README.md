@@ -18,12 +18,12 @@ l10n:
 - [English](../../)
 - Українська
 
-Кожна модель має залишатися сфокусованою. Сторінка моделі може вводити гіпотезу або візуалізацію, але також має вказувати свої limitations та open problems.
+Кожна модель має залишатися сфокусованою. Сторінка моделі може вводити гіпотезу або візуалізацію, але також має вказувати свої обмеження та відкриті проблеми.
 
 ## Поточні моделі
 
-- [`history-space/`](../../sub/history-space/l10n/uk_UA/) — моделює реальність як структурований простір можливих історій, event-nodes, divergence, compatibility та convergence.
-- [`frontal-time/`](../../sub/frontal-time/l10n/uk_UA/) — моделює frontal time як глобальний параметр упорядкування, а local time як event-node density уздовж траєкторії.
+- [`history-space/`](../../sub/history-space/l10n/uk_UA/) — моделює реальність як структурований простір можливих історій, вузлів подій, розходження, сумісності та збіжності.
+- [`frontal-time/`](../../sub/frontal-time/l10n/uk_UA/) — моделює фронтальний час як глобальний параметр упорядкування, а локальний час — як щільність вузлів подій уздовж траєкторії.
 - [`event-density-dark-sector/`](../../sub/event-density-dark-sector/l10n/uk_UA/) — досліджує, чи dark-matter-like effects можуть відповідати ефективним metric contributions від undetected event-density або causal-processing-density structures.
 
 ## Рівні статусу моделей
@@ -38,7 +38,7 @@ l10n:
 
 ## Правило написання
 
-Не подавайте speculative model components як established physics.
+Не подавайте спекулятивні компоненти моделі як усталену фізику.
 
 Коли модель торкається відомої фізики, розділяйте:
 
