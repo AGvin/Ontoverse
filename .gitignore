@@ -9,6 +9,8 @@ Desktop.ini
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
+# Cursor project files are intentionally version-controlled.
+# Keep .cursor/, .cursorignore, and .cursorindexingignore trackable.
 .idea/
 .history/
 *.swp
