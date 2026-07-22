@@ -3,7 +3,7 @@ l10n:
   locale: uk_UA
   source_locale: default
   source_path: ../../README.md
-  source_hash: sha256:99e170d6eba2a77eeaa283cf1cd4fe614bf9d6fc270eef0ee16f9a803d96fd9b
+  source_hash: sha256:861050452b64524cb78af97af5824c8433c721a2ed9468e7d26befed3e4a7c91
   mode: translated
 -->
 
@@ -27,7 +27,7 @@ l10n:
 Шлях до asset:
 
 ```text
-assets/uk_UA/images/ontoverse-logo-frontal-plane-rectangular.svg
+docs/assets/uk_UA/images/ontoverse-logo-frontal-plane-rectangular.svg
 ```
 
 ## Правило asset

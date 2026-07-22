@@ -15,7 +15,7 @@ l10n:
 
 Історія трактується не як єдина абсолютна часова шкала, а як траєкторія крізь простір сумісних станів, записів і взаємодій.
 
-![Регіони щільності history-space](../../../../../visualizations/assets/default/diagrams/history-space-density-regions.svg)
+![Регіони щільності history-space](../../../../../visualizations/assets/uk_UA/diagrams/history-space-density-regions.svg)
 
 ## Переклади
 

@@ -13,7 +13,7 @@ l10n:
 
 Модель фронтального часу вводить відмінність між глобальним параметром упорядкування та локально пережитим часом.
 
-![Порівняння темпоральної щільності](../../../../../visualizations/assets/default/diagrams/temporal-density-comparison.svg)
+![Порівняння темпоральної щільності](../../../../../visualizations/assets/uk_UA/diagrams/temporal-density-comparison.svg)
 
 ## Переклади
 
