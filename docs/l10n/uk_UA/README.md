@@ -2,8 +2,8 @@
 l10n:
   locale: uk_UA
   source_locale: default
-  source_path: ../../README.md
-  source_hash: sha256:b5ac9f846b993c7445f4072a6802e7898a65fc998ac809488fa573b3ee07d93d
+  source_path: ../../../README.md
+  source_hash: sha256:c0382c038b0592648b44f275aac5c234c85e6196ba60f0b00ebb43565fc28142
   mode: translated
 -->
 
@@ -15,7 +15,7 @@ l10n:
 
 ## Переклади
 
-- [English](../../)
+- [English](../../../)
 - Українська
 
 > **Дисклеймер:** Ontoverse є зібранням авторських роздумів, гіпотез, концептуальних моделей та інтерпретаційних нотаток. Це не наукове твердження, доказ або усталена фізична теорія. Інструменти ШІ використовувались для публікації, структурування, перекладу та редагування документації, але базові ідеї та концептуальний напрям походять від автора.
@@ -51,33 +51,33 @@ Ontoverse не просить читача прийняти грандіозну
 
 ### Фреймворк
 
-- [`framework/`](../../docs/framework/l10n/uk_UA/) — високорівнева область, статус, базові припущення, межі, авторські нотатки та відкриті питання.
-- [`public-positioning/`](../../docs/public-positioning/l10n/uk_UA/) — публічне позиціонування, формулювання для представлення та вислови, яких варто дотримуватися або уникати.
-- [`for-researchers-and-communicators/`](../../docs/for-researchers-and-communicators/l10n/uk_UA/) — нейтральна точка входу для дослідників, наукових комунікаторів, рецензентів і технічно зацікавлених читачів.
-- [`review-checklist/`](../../docs/review-checklist/l10n/uk_UA/) — передпублікаційний контрольний список для уникнення перебільшень і належного обмеження спекулятивного матеріалу.
+- [`framework/`](../../sub/framework/l10n/uk_UA/) — високорівнева область, статус, базові припущення, межі, авторські нотатки та відкриті питання.
+- [`public-positioning/`](../../sub/public-positioning/l10n/uk_UA/) — публічне позиціонування, формулювання для представлення та вислови, яких варто дотримуватися або уникати.
+- [`for-researchers-and-communicators/`](../../sub/for-researchers-and-communicators/l10n/uk_UA/) — нейтральна точка входу для дослідників, наукових комунікаторів, рецензентів і технічно зацікавлених читачів.
+- [`review-checklist/`](../../sub/review-checklist/l10n/uk_UA/) — передпублікаційний контрольний список для уникнення перебільшень і належного обмеження спекулятивного матеріалу.
 
 ### Моделі
 
-- [`models/`](../../docs/models/l10n/uk_UA/) — концептуальні моделі всередині Ontoverse.
-  - [`history-space/`](../../docs/models/sub/history-space/l10n/uk_UA/) — реальність як структурований простір можливих історій.
-  - [`frontal-time/`](../../docs/models/sub/frontal-time/l10n/uk_UA/) — глобальний фронтальний час, локальний час, темпоральна щільність і гіпотеза швидкості квантових переходів.
+- [`models/`](../../sub/models/l10n/uk_UA/) — концептуальні моделі всередині Ontoverse.
+  - [`history-space/`](../../sub/models/sub/history-space/l10n/uk_UA/) — реальність як структурований простір можливих історій.
+  - [`frontal-time/`](../../sub/models/sub/frontal-time/l10n/uk_UA/) — глобальний фронтальний час, локальний час, темпоральна щільність і гіпотеза швидкості квантових переходів.
 
 ### Візуальні пояснення
 
-- [`visualizations/`](../../docs/visualizations/l10n/uk_UA/) — діаграми, що пояснюють history-space, темпоральну щільність, фронтальний час і конвергентні канали.
-  - [`temporal-density-comparison/`](../../docs/visualizations/sub/temporal-density-comparison/l10n/uk_UA/) — траєкторії з низькою та високою щільністю вузлів подій за однаковий інтервал фронтального часу.
-  - [`convergent-channel/`](../../docs/visualizations/sub/convergent-channel/l10n/uk_UA/) — відмінні витоки, розходження, фільтрація сумісності та збіжність на площині фронтального часу.
-  - [`history-space-density-regions/`](../../docs/visualizations/sub/history-space-density-regions/l10n/uk_UA/) — sparse, medium та dense regions усередині history-space.
-  - [`uneven-temporal-density/`](../../docs/visualizations/sub/uneven-temporal-density/l10n/uk_UA/) — репрезентативні патерни щільності вузлів подій на кількох траєкторіях.
+- [`visualizations/`](../../sub/visualizations/l10n/uk_UA/) — діаграми, що пояснюють history-space, темпоральну щільність, фронтальний час і конвергентні канали.
+  - [`temporal-density-comparison/`](../../sub/visualizations/sub/temporal-density-comparison/l10n/uk_UA/) — траєкторії з низькою та високою щільністю вузлів подій за однаковий інтервал фронтального часу.
+  - [`convergent-channel/`](../../sub/visualizations/sub/convergent-channel/l10n/uk_UA/) — відмінні витоки, розходження, фільтрація сумісності та збіжність на площині фронтального часу.
+  - [`history-space-density-regions/`](../../sub/visualizations/sub/history-space-density-regions/l10n/uk_UA/) — sparse, medium та dense regions усередині history-space.
+  - [`uneven-temporal-density/`](../../sub/visualizations/sub/uneven-temporal-density/l10n/uk_UA/) — репрезентативні патерни щільності вузлів подій на кількох траєкторіях.
 
 ### Довідкові матеріали
 
-- [`glossary/`](../../docs/glossary/l10n/uk_UA/) — робочі визначення термінології Ontoverse.
-- [`notes/`](../../docs/notes/l10n/uk_UA/) — дослідницькі нотатки та джерела натхнення.
+- [`glossary/`](../../sub/glossary/l10n/uk_UA/) — робочі визначення термінології Ontoverse.
+- [`notes/`](../../sub/notes/l10n/uk_UA/) — дослідницькі нотатки та джерела натхнення.
 
 ### Брендинг
 
-- [`branding/`](../../docs/branding/l10n/uk_UA/) — основні та альтернативні напрями логотипа Ontoverse.
+- [`branding/`](../../sub/branding/l10n/uk_UA/) — основні та альтернативні напрями логотипа Ontoverse.
 
 ## Авторство та допомога ШІ
 
