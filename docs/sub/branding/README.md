@@ -18,7 +18,7 @@ The primary logo is the dark neon Ontoverse wordmark with a history-space emblem
 Asset path:
 
 ```text
-assets/default/images/ontoverse-logo-frontal-plane-rectangular.svg
+docs/assets/default/images/ontoverse-logo-frontal-plane-rectangular.svg
 ```
 
 ## Asset Rule
