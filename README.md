@@ -1,13 +1,13 @@
 # Ontoverse
 
-![Ontoverse logo](./assets/default/images/ontoverse-logo-frontal-plane-rectangular.svg)
+![Ontoverse logo](./docs/assets/default/images/ontoverse-logo-frontal-plane-rectangular.svg)
 
 A self-developed conceptual framework for organizing reality, concepts, and possible hidden relationships between them.
 
 ## Translations
 
 - English
-- [Українська](./l10n/uk_UA/)
+- [Українська](./docs/l10n/uk_UA/)
 
 > **Disclaimer:** Ontoverse is a collection of the author's reflections, hypotheses, conceptual models, and interpretive notes. It is not a scientific claim, proof, or established physical theory. AI tools were used to help publish, structure, translate, and refine the documentation, but the underlying ideas and conceptual direction originate from the author.
 
@@ -46,33 +46,33 @@ The intended value of the project is not certainty, but structure: if an idea is
 
 ### Framework
 
-- [`framework/`](./docs/framework/) — high-level scope, status, core assumptions, boundaries, authorship notes, and open problems.
-- [`public-positioning/`](./docs/public-positioning/) — public-facing positioning, discovery framing, and wording to prefer or avoid.
-- [`for-researchers-and-communicators/`](./docs/for-researchers-and-communicators/) — neutral entry point for researchers, science communicators, reviewers, and technically curious readers.
-- [`review-checklist/`](./docs/review-checklist/) — pre-publication checklist for avoiding overstatement and keeping speculative material bounded.
+- [`framework/`](./docs/sub/framework/) — high-level scope, status, core assumptions, boundaries, authorship notes, and open problems.
+- [`public-positioning/`](./docs/sub/public-positioning/) — public-facing positioning, discovery framing, and wording to prefer or avoid.
+- [`for-researchers-and-communicators/`](./docs/sub/for-researchers-and-communicators/) — neutral entry point for researchers, science communicators, reviewers, and technically curious readers.
+- [`review-checklist/`](./docs/sub/review-checklist/) — pre-publication checklist for avoiding overstatement and keeping speculative material bounded.
 
 ### Models
 
-- [`models/`](./docs/models/) — conceptual models inside Ontoverse.
-  - [`history-space/`](./docs/models/sub/history-space/) — reality as a structured space of possible histories.
-  - [`frontal-time/`](./docs/models/sub/frontal-time/) — global frontal time, local time, temporal density, and the quantum-transition-rate conjecture.
+- [`models/`](./docs/sub/models/) — conceptual models inside Ontoverse.
+  - [`history-space/`](./docs/sub/models/sub/history-space/) — reality as a structured space of possible histories.
+  - [`frontal-time/`](./docs/sub/models/sub/frontal-time/) — global frontal time, local time, temporal density, and the quantum-transition-rate conjecture.
 
 ### Visual Explanations
 
-- [`visualizations/`](./docs/visualizations/) — diagrams explaining history-space, temporal density, frontal time, and convergent channels.
-  - [`temporal-density-comparison/`](./docs/visualizations/sub/temporal-density-comparison/) — low-density and high-density event-node trajectories across the same frontal-time interval.
-  - [`convergent-channel/`](./docs/visualizations/sub/convergent-channel/) — distinct origins, divergence, compatibility filtering, and convergence at the frontal time plane.
-  - [`history-space-density-regions/`](./docs/visualizations/sub/history-space-density-regions/) — sparse, medium, and dense regions inside history-space.
-  - [`uneven-temporal-density/`](./docs/visualizations/sub/uneven-temporal-density/) — representative event-node density patterns across multiple trajectories.
+- [`visualizations/`](./docs/sub/visualizations/) — diagrams explaining history-space, temporal density, frontal time, and convergent channels.
+  - [`temporal-density-comparison/`](./docs/sub/visualizations/sub/temporal-density-comparison/) — low-density and high-density event-node trajectories across the same frontal-time interval.
+  - [`convergent-channel/`](./docs/sub/visualizations/sub/convergent-channel/) — distinct origins, divergence, compatibility filtering, and convergence at the frontal time plane.
+  - [`history-space-density-regions/`](./docs/sub/visualizations/sub/history-space-density-regions/) — sparse, medium, and dense regions inside history-space.
+  - [`uneven-temporal-density/`](./docs/sub/visualizations/sub/uneven-temporal-density/) — representative event-node density patterns across multiple trajectories.
 
 ### Reference Material
 
-- [`glossary/`](./docs/glossary/) — working definitions for Ontoverse terminology.
-- [`notes/`](./docs/notes/) — exploratory notes and inspiration sources.
+- [`glossary/`](./docs/sub/glossary/) — working definitions for Ontoverse terminology.
+- [`notes/`](./docs/sub/notes/) — exploratory notes and inspiration sources.
 
 ### Branding
 
-- [`branding/`](./docs/branding/) — primary and alternative Ontoverse logo directions.
+- [`branding/`](./docs/sub/branding/) — primary and alternative Ontoverse logo directions.
 
 ## Authorship and AI Assistance
 
