@@ -1,12 +1,3 @@
-<!--
-l10n:
-  locale: uk_UA
-  source_locale: default
-  source_path: ../../../README.md
-  source_hash: sha256:c0382c038b0592648b44f275aac5c234c85e6196ba60f0b00ebb43565fc28142
-  mode: translated
--->
-
 # Ontoverse
 
 ![Логотип Ontoverse](../../assets/uk_UA/images/ontoverse-logo-frontal-plane-rectangular.svg)
