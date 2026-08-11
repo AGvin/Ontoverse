@@ -8,6 +8,11 @@ These sources are not treated as authoritative proof, evidence, or foundation of
 
 The validity of Ontoverse does not depend on these sources. Each idea still has to be defined, compared with existing concepts, criticized, formalized where possible, or rejected.
 
+## Translations
+
+- English
+- [Українська](./l10n/uk_UA/)
+
 ## Initial Conceptual Trigger
 
 - Video: <https://youtu.be/bMXFJkqIrx0>
