@@ -2,7 +2,7 @@
 
 Status: draft
 
-The Frontal Time Model introduces a distinction between a global ordering parameter and locally experienced time.
+The Frontal Time Model separates a global ordering parameter from branch-local experienced time and now treats history-space as a **compressed bundle of currently distinguishable history classes**.
 
 ![Temporal density comparison](../../../visualizations/assets/default/diagrams/temporal-density-comparison.svg)
 
@@ -10,103 +10,207 @@ The Frontal Time Model introduces a distinction between a global ordering parame
 
 Frontal time is a proposed global ordering parameter `F` for the unfolding of history-space.
 
-The current Ontoverse interpretation is stronger than a single moving timestamp. A frontal-time value corresponds to a **global cross-section of history-space**: a snapshot of branch states that are simultaneously admissible at the same global ordering value.
-
-Ontoverse calls this a **frontal-time slice** and writes it conceptually as `S(F)`.
+A value of `F` corresponds to a global cross-section of the current history bundle. Ontoverse calls that cross-section a **frontal-time slice** and writes it conceptually as `S(F)`.
 
 ```text
 frontal-time value F
 -> global slice S(F)
--> current branch states across history-space at F
+-> current states of all distinguishable history classes at F
 ```
 
-In the strongest current interpretation, `S(F)` contains all branch states that are simultaneously admissible at that ordering value. Ontoverse does not yet formally distinguish whether every admissible branch state should be called physically realized, possible, or actualized in some more precise sense. That ontological distinction remains an open problem.
+The phrase **all at once** means all currently distinguishable branch states at one shared global ordering value. It does not mean that one local observer experiences all histories or all frontal-time values simultaneously.
 
-The phrase **all at once** therefore means all branch-local states across one shared frontal-time slice. It does not mean that an ordinary local observer experiences all branches or all frontal-time values simultaneously.
+## Frontal-Time Slice as an Actuality Snapshot
 
-The current maximum `F_max` is the greatest frontal-time value for which the model treats a global slice as actualized. States at larger frontal-time values are not yet ordinary realized history, although the structure of admissible continuations may constrain which present states can belong to globally self-consistent histories.
+The current Ontoverse interpretation treats `S(F)` as an **actuality snapshot of the currently represented history bundle**.
 
-Frontal time may be visualized as a wavefront or plane moving through history-space. The image is metaphorical: frontal time is not yet defined as a physical field, metric, foliation, or measurable quantity.
+It does not require one fully expanded strand for every complete possible future.
 
-## Frontal-Time Slices and the Unfolding of Time
+Instead:
 
-The progression of frontal-time slices provides a possible Ontoverse interpretation of how realized time is created or unfolded.
+```text
+S(F)
+= states of currently distinguishable history classes
++ compressed admissible continuations still represented inside those classes
+```
+
+A class may contain many complete continuations that do not yet require different current physical or record states.
+
+This is a conceptual compression principle. It is not a claim that the universe literally performs data compression.
+
+## Unfolding of Time
+
+The progression of frontal-time slices provides the current Ontoverse picture of how time unfolds globally.
+
+```text
+S(F0) -> S(F1) -> S(F2) -> S(F3) -> ...
+```
+
+The notation is sampled and does not imply that frontal time is fundamentally discrete.
+
+At each later slice, each represented history class may:
+
+- remain one class if its admissible continuations still require the same current state;
+- split into child classes when different current state descriptions become necessary;
+- enter a local compatibility channel with globally distinct strands without erasing their historical distinction.
 
 Conceptually:
 
 ```text
-S(F0)
--> S(F1)
--> S(F2)
--> S(F3)
--> ...
+current class at S(F)
++ admissible complete continuations
++ global consistency constraints
+-> keep compressed
+   or
+-> split at first required state distinction
 ```
 
-Each slice is a new global snapshot of the history-space state at a later frontal-time value.
+## Minimal Distinguishability Principle
 
-The labels `F0`, `F1`, and so on are sampled conceptual labels. They do not currently imply that frontal time is fundamentally discrete. A future formalization may instead use a continuous parameter and infinitesimal or finite intervals `dF` and `ΔF`.
+The Frontal Time Model adopts the current working rule:
 
-A branch does not need to create a significant event-node at every sampled slice. Its state may persist or evolve below the threshold currently used to identify an event-node.
+> Preserve histories in one represented class while their current modeled states are equivalent; separate them only when a physical, record, or causal distinction must already be present at the current slice.
 
-This gives the model a basic separation:
+This makes frontal-time evolution a progression of **state distinctions**, not the explicit enumeration of every possible complete timeline.
 
-```text
-frontal-time progression
-= progression of global history-space slices
+See [`history-space`](../history-space/) for the history-equivalence-class model.
 
-local-time accumulation
-= accumulation of significant branch-local transitions across those slices
-```
+## Global Consistency
 
-## Global Consistency and Admissible Continuations
+A purely local rule of the form `previous node -> next node` is insufficient for Ontoverse models that contain closed causal constraints.
 
-A purely local rule of the form `previous event-node -> next event-node` is not sufficient for every Ontoverse model.
-
-The stronger working interpretation is that a frontal-time slice must belong to at least one globally self-consistent continuation of the current history-space state.
-
-Conceptually:
+The stronger working interpretation is:
 
 ```text
 current slice S(F)
-+ current causal structure
++ current represented history classes
 + admissible continuation space
 + global consistency constraints
--> later admissible slice or slices
+-> next consistent bundle state
 ```
 
-The continuation space is not treated as already realized ordinary future history. It represents the possible complete continuations against which the consistency of a current branch state can be evaluated.
+A current state is admissible only if it belongs to at least one globally self-consistent complete continuation.
 
-This makes frontal-time actualization an **all-state consistency problem** rather than a reaction to one isolated trigger node.
+This does **not** force one deterministic future. Several mutually incompatible complete continuations may remain admissible. They can remain compressed together while current states are equivalent and split when a distinction becomes physically required.
 
-Several mutually incompatible continuations may remain self-consistent. In that case the model can retain them as different history-space branches. Global consistency therefore does not by itself imply one deterministic future.
+## Branching Under Frontal Time
 
-This structure is conceptually similar to an all-at-once or boundary-consistency view, but Ontoverse has not yet defined the mathematical rule that would perform such filtering.
+A divergence node is therefore not best interpreted as the instant when all future worlds are created.
 
-See [`closed-time-loop`](../closed-time-loop/) for the case where a later departure and an earlier reintegration belong to the same globally self-consistent history.
+It is the earliest frontal-time location where one represented history class can no longer remain one class.
 
-## Observer Access Across a Global Slice
+```text
+one history class
+-> future-compatible alternatives remain state-equivalent
+-> no explicit split yet
 
-A global frontal-time slice may contain states from many mutually incompatible histories.
+later global constraint requires different state
+-> divergence node
+-> separate child strands
+```
 
-An observer does not experience that complete slice directly. The observer has access only to the branch-local states, records, and interactions compatible with the observer's own historical trajectory.
+A future causal condition can determine that the distinction must already exist at an earlier slice. Past-directed travel is the clearest example.
+
+## Closed Time Loops and Earlier Required Distinctions
+
+Suppose one admissible continuation contains a Closed Time Loop and another does not.
+
+If the loop causes a traveler to reintegrate at `R`, then the loop-containing history already requires a different state at `R`:
+
+```text
+before R:
+loop-compatible and loop-free continuations may remain one history class
+
+at R:
+loop-compatible state = traveler + memories + records + consequences
+loop-free state       = no reintegrated traveler
+
+therefore:
+class split occurs at R
+```
+
+The future departure `D` does not later rewrite `R`.
+
+Instead, the complete loop is one admissible global constraint:
+
+```text
+R -> ordinary history -> D -> isolated past transit -> R
+```
+
+The frontal-time bundle is already separated as early as required for that structure to remain self-consistent.
+
+If the complete loop requires some earlier difference before reintegration, the split must occur at that earlier first distinction.
+
+## Distant Past-Directed Travel
+
+The distance between reintegration and departure does not create a special logical problem for frontal time.
+
+A loop may in principle connect a much later departure with a very early reintegration because the loop-compatible history class is distinguished at the earliest slice where the returned traveler or another required state difference exists.
+
+```text
+early R
+-> long branch-local history
+-> invention
+-> departure D
+-> isolated past transit
+-> same R
+```
+
+The traveler state at `R`, including memories and carried records, is part of that loop-compatible strand from the moment it first becomes distinguishable.
+
+This does not establish that arbitrarily distant physical time travel is possible; physical limits remain open.
+
+## Future-Derived Information
+
+The same structure permits branch-relative future-derived information.
+
+```text
+later record
+-> past-directed carrier
+-> earlier memory or record
+-> earlier reaction
+-> same self-consistent later record
+```
+
+An earlier observer may therefore appear to predict or "see" a future event if a compatible information carrier returns from that future along the same loop-containing strand.
+
+This is not unrestricted knowledge of all future history classes. It is information carried inside one globally constrained continuation.
+
+Bootstrap-information loops remain an open problem.
+
+## Current Frontier and Reference Slices
+
+The current maximum `F_max` is the greatest frontal-time value treated as actualized in the shown model state.
+
+When a diagram shows `S(F_max)`, the ruby frontal-time plane is the **current frontier**:
+
+```text
+represented history bundle -> S(F_max)
+```
+
+Realized strands normally terminate there.
+
+A retrospective diagram may instead show an earlier reference slice `S(F_ref)` inside already described history. Realized structure may then appear on both sides of the plane because it is not the current maximum.
+
+## Observer Access
+
+A global slice may contain many distinguishable history classes.
+
+A local observer accesses only states, records, and interactions compatible with the observer's own historical strand.
 
 ```text
 global S(F)
-= many branch-local states at the same F
+= many history-class states
 
-local observer
-= access to one compatible historical trajectory through those slices
+observer experience
+= one compatible path through successive slices
 ```
-
-This preserves the distinction between a global ordering structure and locally experienced history.
 
 ## Local Time
 
-Local time is the time experienced along a particular historical trajectory.
+Local time is the time experienced along one historical strand.
 
-The working intuition is that experienced time corresponds not merely to an external coordinate, but to the accumulation of significant physical transitions as successive frontal-time slices are crossed.
-
-In informal terms:
+The working intuition is that local time accumulates through significant branch-local physical transitions as frontal time progresses globally.
 
 ```text
 local time ~ accumulated significant event-nodes
@@ -114,121 +218,91 @@ local time ~ accumulated significant event-nodes
 
 ## Temporal Density
 
-Temporal density is the proposed number of significant event-nodes per unit of frontal time.
-
-Under the slice interpretation, temporal density can also be read as the **branch-specific frequency of significant transitions across a shared frontal-time interval**.
-
-For example:
+Temporal density is the proposed frequency of significant event-nodes per frontal-time interval.
 
 ```text
-sampled frontal-time slices: F0  F1  F2  F3  F4  F5  F6
-high-density branch:         *   *   *   *   *   *   *
-low-density branch:          *   .   .   *   .   .   *
-
-* = significant event-node
-. = no significant event-node at that sampled slice
+sampled slices:       F0  F1  F2  F3  F4  F5  F6
+high-density strand:  *   *   *   *   *   *   *
+low-density strand:   *   .   .   *   .   .   *
 ```
 
-Both branches are ordered by the same frontal-time progression. The high-density branch accumulates significant transitions more frequently, while the low-density branch remains locally stable across more of the same frontal-time interval.
-
-The conceptual expression remains:
+Both strands advance through the same global frontal-time ordering. They differ in how frequently significant transitions accumulate.
 
 ```text
-temporal density ~ event-nodes / frontal-time interval
+temporal density ~ significant event-nodes / frontal-time interval
 ```
 
-Under the current local-time hypothesis, higher temporal density means more accumulated local time over the same `ΔF`, while lower temporal density means less accumulated local time over that interval.
+Under the current hypothesis, higher temporal density means more local-time accumulation over the same `ΔF`.
 
-This is a conceptual expression, not a defined physical equation.
-
-Temporal density may be uneven across history-space. Some regions or trajectories may be sparse, others dense, and others mixed or clustered.
-
-See also:
-
-- [`temporal-density-comparison`](../../../visualizations/sub/temporal-density-comparison/);
-- [`history-space-density-regions`](../../../visualizations/sub/history-space-density-regions/);
-- [`uneven-temporal-density`](../../../visualizations/sub/uneven-temporal-density/).
+A class that later splits may have one shared density description before divergence and separate branch-local density descriptions after divergence.
 
 ## Temporal Density vs Causal Processing Density
 
-**Temporal density** and **causal processing density** are not the same quantity.
+**Temporal density** and **causal processing density** remain separate concepts.
 
-Temporal density describes the realized frequency of significant event-nodes along a branch relative to frontal time.
-
-Causal processing density is a separate speculative concept for the amount of local state coordination, constraint, interaction bookkeeping, or physical processing load that must be maintained in a region relative to the global frontal-time ordering.
-
-The current gravity interpretation may therefore be expressed cautiously as:
+Temporal density:
 
 ```text
-higher causal processing load per frontal-time slice
--> lower effective rate of significant branch-local transitions
+frequency of significant branch-local transitions / ΔF
+```
+
+Causal processing density:
+
+```text
+speculative amount of local state coordination, constraint, interaction bookkeeping,
+or physical processing load relative to frontal-time slices
+```
+
+The current gravity interpretation explores the conjectural chain:
+
+```text
+higher causal processing load
+-> lower effective significant-transition rate
 -> lower temporal density
 -> slower local-time accumulation relative to F
 ```
 
-This relation is speculative. It is introduced to keep the gravity interpretation logically distinct from the definition of temporal density; it is not a derived physical law.
+This is not established physics.
 
 ## Quantum Transition Rate Conjecture
 
 Status: conjecture
 
-The quantum transition rate conjecture refines the earlier Planck-action wording.
-
-The established physics background is that Planck's constant has the dimensions of action, and since the 2019 SI revision its numerical value is fixed exactly as:
-
-```text
-h = 6.62607015 x 10^-34 J s
-```
-
-Planck's constant, or the reduced Planck constant `hbar`, is not treated here as a direct measure of temporal density. It is better understood as part of the quantum scale that relates action, energy, frequency, phase, and quantum-state evolution.
-
-The Ontoverse conjecture is different:
-
-```text
-The density of significant event-nodes along a branch may depend on an effective quantum transition rate relative to frontal time.
-```
-
-In this model, the primary candidate quantity is not `h` by itself, but an effective transition-rate parameter:
+The quantum transition rate conjecture proposes an effective transition-rate parameter:
 
 ```text
 Gamma_eff = effective rate of significant quantum transitions per unit of frontal time
 ```
 
-This parameter is conceptual. It is not currently a measured physical constant or a defined equation.
-
-A possible physical inspiration is that quantum-state evolution is controlled by the relation between the system's effective Hamiltonian scale and `hbar`:
+The established physics background is that Planck's constant has the dimensions of action and, since the 2019 SI revision, has the exact numerical value:
 
 ```text
-quantum-state evolution rate ~ H_eff / hbar_eff
+h = 6.62607015 x 10^-34 J s
 ```
 
-For transition-like event-nodes, the effective rate may also depend on interaction strength, coupling between states, density of available final states, decoherence-related processes, and other branch-specific physical structure.
+Ontoverse does not treat `h` or `hbar` as a direct temporal-density measure.
 
-In Ontoverse terms:
+The speculative bridge is instead:
 
 ```text
-frontal time = shared ordering of global slices
-Gamma_eff = effective significant-transition rate
-Gamma_eff -> event-node frequency across slices
-event-node frequency -> temporal density
-temporal density -> local-time accumulation
+quantum-state dynamics
+-> Gamma_eff
+-> significant event-node frequency
+-> temporal density
+-> local-time accumulation
 ```
 
-Under this conjecture, if two branches share the same frontal-time interval but differ in their effective quantum transition rate, they may accumulate different numbers of significant event-nodes.
+A possible physical inspiration is the role of effective Hamiltonian scales relative to `hbar`, together with interaction strength, available states, coupling, decoherence, and other physical structure.
 
-A branch with higher `Gamma_eff` would contain more significant event-nodes per frontal-time interval and therefore higher temporal density. A branch with lower `Gamma_eff` would contain fewer significant event-nodes per frontal-time interval and therefore lower temporal density.
-
-This gives a conceptual route for interpreting why local time may progress faster in one branch and slower in another while frontal time remains the shared global ordering parameter.
+No rigorous mapping has yet been defined.
 
 ## Branch Metrics and Local Metric Deviations
 
 Status: working definition
 
-The model may distinguish between an absolute baseline metric, a branch baseline metric, and local metric deviations.
+The model may distinguish between an absolute baseline metric, a history-strand baseline metric, and local metric deviations.
 
 ### Related Visualizations
-
-The visual explanation is split into smaller SVG diagrams so each image has one primary concept:
 
 ![Branch baseline versus local metric deviation](./assets/svg/branch-baseline-vs-local-deviation.svg)
 
@@ -238,37 +312,27 @@ The visual explanation is split into smaller SVG diagrams so each image has one 
 
 ![Gravitational wave interpretation](./assets/svg/gravitational-wave-interpretation.svg)
 
-The absolute baseline metric is a shared conceptual zero-point. It represents an abstract reference state with no mass, no gravitational distortion, and no meaningful causal processing density. It is not treated as a living timeline state, because without mass, energy, or state changes, there are no events to actualize.
-
-The branch baseline metric represents the average nominal state of a specific timeline branch. It includes the branch's average mass-energy distribution, average gravitational background, average causal processing density, and default branch time rate.
-
-In this sense, the branch baseline metric defines the temporal character of a branch:
+The branch baseline metric represents the average nominal state of one currently distinguishable historical strand. Before a history-class split, descendants may share the same represented baseline. After a split, child strands may develop distinct branch baselines.
 
 ```text
-branch baseline metric
+history-strand baseline
 -> average causal processing density
--> effective branch transition rate
--> default temporal density
--> default branch time rate
+-> effective transition rate
+-> temporal density
+-> branch-local time rate
 ```
-
-Local gravitational effects are then modeled as deviations from the branch baseline metric, not from absolute zero. A planet, star, black hole, dense matter region, low-density region, or gravitational wave may be interpreted as a local metric deviation within the branch.
 
 ## Causal Processing Density and Gravity
 
 Status: interpretive hypothesis
 
-Causal processing density is a proposed Ontoverse term for the amount of local state coordination, interaction bookkeeping, constraint, and physical processing load that must be maintained in a region relative to frontal-time slices.
+Within Ontoverse, mass-energy concentration may be treated as a marker of increased local state-coordination load.
 
-It is intentionally distinct from temporal density, which counts significant event-nodes per frontal-time interval.
-
-In established general relativity, gravity is described through spacetime geometry shaped by mass and energy, not as an ordinary pulling force. The common gravity-well image is therefore only a simplified visualization. The "well" does not represent a literal surface; it represents a change in spacetime geometry and local time rate.
-
-Within the Ontoverse interpretation, mass-energy concentration may be treated as a marker of increased local state-coordination load. The current conjectural bridge is that greater load may reduce the effective rate at which significant branch-local transitions accumulate relative to the same frontal-time progression.
+The current conjectural chain is:
 
 ```text
 mass-energy concentration
--> causal processing density increase
+-> causal processing density increases
 -> effective significant-transition rate decreases
 -> temporal density decreases
 -> local time-rate slowdown
@@ -277,102 +341,41 @@ mass-energy concentration
 -> gravitational effect
 ```
 
-The middle steps are speculative model components, not established physics.
+The middle steps are speculative Ontoverse components, not established physics.
 
-In this interpretation, the depth of a gravity-well visualization represents the amount of local time-rate slowdown, while the slope of the well represents the gradient that changes trajectories. Objects do not fall because space is literally pulled downward; they follow paths shaped by uneven local time rates and causal processing density.
+Gravitational waves are analogously represented as moving metric deviations that can alter causal-processing load and local time-rate gradients temporarily.
 
-Gravitational waves can be described as traveling fluctuations of this structure. They are not permanent hills that push objects like water waves push a surfboard. Instead, they temporarily stretch and compress spatial relations, creating oscillating changes in causal processing density and local time-rate gradients.
+## Relation to Existing Concepts
 
-```text
-gravitational wave
--> moving local metric deviation
--> spatial stretch/compression
--> causal processing density fluctuation
--> effective transition-rate fluctuation
--> local time-rate gradient fluctuation
--> transient trajectory distortion
-```
+The frontal-time and history-bundle model should be compared with existing ideas including:
 
-This remains an interpretive model component, not a derived physical theory.
+- global time parameters and foliations;
+- branching-time semantics;
+- equivalence classes and quotient-state representations;
+- consistent and decoherent histories;
+- coarse-graining;
+- state-space dynamics;
+- global boundary-condition and all-at-once formulations;
+- retrocausal descriptions;
+- closed timelike curves and self-consistency conditions.
 
-## Relation to the Quantum of Action
-
-The physical concept of a quantum of action is established physics. The speculative Ontoverse component is the proposed relation between quantum transition rates, event-node density, and local-time accumulation.
-
-The conjecture should therefore not be stated as:
-
-```text
-Planck's constant directly defines temporal density.
-```
-
-A more precise formulation is:
-
-```text
-Effective quantum-transition dynamics, possibly involving H_eff / hbar_eff and related dimensionless physical relations, may influence event-node density relative to frontal time.
-```
-
-This distinction matters because raw changes to a dimensionful constant such as `h` are not necessarily physically meaningful by themselves. A stronger future version of the conjecture should identify dimensionless relations that control effective quantum transition rates.
-
-## Closed Causal Loops
-
-The global-slice interpretation gives the Closed Time Loop model a place inside frontal time without requiring an already-realized history to be rewritten.
-
-A loop-containing branch can be represented as a self-consistent complete continuation whose earlier branch state already includes the reintegrated traveler and whose later state includes the corresponding departure.
-
-A retrospective diagram may therefore show a selected frontal-time slice inside the complete loop. Such a slice is a reference slice, not the current maximal `F_max` frontier.
-
-See [`closed-time-loop`](../closed-time-loop/) for the detailed model.
-
-## Light-Path Analogy
-
-The light-path analogy is an interpretive analogy inspired by explanations of how light can be modeled as exploring many possible paths while the observed contribution behaves as if a particular path or phase-coherent family of paths dominates.
-
-In Ontoverse terms, this analogy suggests a possible way to think about an experienced history:
-
-```text
-A lived or observed trajectory may be treated as one compatible path through a wider history-space of potential paths.
-```
-
-This is only an analogy. It does not claim that human-scale histories literally behave like light rays, nor that Ontoverse currently derives from optics or path-integral physics.
-
-The analogy is useful because it separates:
-
-- the wider space of possible trajectories;
-- the compatible or dominant path that becomes relevant to observation;
-- the need to define why one accessible history is experienced rather than another.
-
-## Interpretive Claim
-
-The tentative claim is not:
-
-```text
-Planck's constant proves the Ontoverse model.
-```
-
-Nor is the global-slice interpretation claimed to be an established physical account of time.
-
-The current tentative claim is:
-
-```text
-A shared sequence of global history-space slices may provide a useful conceptual separation between frontal ordering and branch-local time accumulation, while effective quantum-transition dynamics may be a candidate for formalizing how event-node density differs between branches.
-```
+No equivalence is currently claimed.
 
 ## Open Problems
 
 - Define mathematically what a frontal-time slice `S(F)` contains.
-- Clarify the ontological distinction between admissible, possible, actualized, and realized branch states inside a slice.
+- Define the current maximum `F_max` rigorously.
 - Determine whether frontal time is continuous, discrete, or only an ordering relation.
-- Define the current maximal frontal-time value `F_max` rigorously.
-- Formalize the rule that maps a global slice and its admissible continuation space to later slices.
-- Clarify whether global consistency filtering preserves many admissible branches, implies determinism, or requires another selection rule.
-- Relate frontal-time slices to existing physical notions of time, foliation, boundary conditions, and causal structure without assuming equivalence.
+- Define the history equivalence relation used to compress admissible continuations.
+- Formalize how one slice and its continuation space produce the next represented history bundle.
+- Formalize the first-required-distinction rule for branch splitting.
+- Clarify whether histories only refine/split under frontal-time progression or whether global recompression has physical meaning.
+- Clarify whether global consistency preserves many admissible histories, introduces probabilities, or requires another selection rule.
+- Relate frontal-time slices to established physical notions of time and causality without assuming equivalence.
 - Define what qualifies as a significant event-node.
-- Determine whether temporal density can be expressed through an effective transition rate, action, entropy, decoherence rate, information change, or another quantity.
-- Clarify whether `event-nodes / frontal-time` can become a rigorous measure.
-- Determine whether `Gamma_eff` can be formalized through Hamiltonian evolution, transition rates, decoherence, interaction rates, or only used as a conceptual placeholder.
+- Formalize temporal density and its behavior before and after history-class splits.
+- Determine whether `Gamma_eff` can be linked to established transition-rate physics.
 - Formalize the distinction and possible coupling between causal processing density and temporal density.
-- Clarify whether Planck's constant is only background motivation here or whether dimensionless relations involving `hbar` can serve as part of a formal scale relation.
-- Clarify how this model relates to proper time in relativity.
-- Clarify how branch baseline metrics, local metric deviations, and causal processing density could be compared with spacetime curvature, gravitational time dilation, and stress-energy in established relativity.
-- Clarify whether gravitational-wave analogies should be limited to metric fluctuation metaphors or can be mapped to more formal wave-like changes in causal processing density.
-- Clarify whether the light-path analogy can be mapped to action principles, path integrals, or only used as a conceptual metaphor.
+- Clarify how local time relates to proper time in relativity.
+- Formalize branch baseline metrics and local metric deviations.
+- Compare time-loop-induced class splitting with established treatments of closed timelike curves, retrocausality, and global consistency.
