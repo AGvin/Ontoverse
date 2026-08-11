@@ -9,30 +9,71 @@ The diagrams are part of the documentation, not decorative assets. They should r
 ## Visualization Set
 
 - [`temporal-density-comparison/`](./sub/temporal-density-comparison/) — compares low and high temporal density across the same frontal-time interval.
-- [`convergent-channel/`](./sub/convergent-channel/) — shows distinct historical origins narrowing into a compatibility channel and convergent channel at the frontal time plane.
+- [`convergent-channel/`](./sub/convergent-channel/) — shows distinct historical origins narrowing into a compatibility channel and convergent channel at the current frontal-time frontier.
 - [`history-space-density-regions/`](./sub/history-space-density-regions/) — shows sparse, medium, and high temporal-density regions inside history-space.
 - [`uneven-temporal-density/`](./sub/uneven-temporal-density/) — compares several representative density patterns across history-space.
-- [`isometric-history-space/`](./sub/isometric-history-space/) — shows a volumetric, tree-like history-space projection with branching strings approaching the frontal time plane.
-- [`closed-time-loop/`](./sub/closed-time-loop/) — shows past-directed travel as a self-consistent oval loop that reintegrates into the same realized history without creating a branch.
+- [`isometric-history-space/`](./sub/isometric-history-space/) — shows a volumetric, tree-like history-space projection with branching strings approaching the current frontal-time frontier.
+- [`closed-time-loop/`](./sub/closed-time-loop/) — shows past-directed travel as a globally self-consistent oval loop relative to a retrospective frontal-time reference slice, without the time-travel event itself creating a branch.
 
 ## Shared Visual Rules
 
-### No future beyond the frontal time plane
+### Frontal-time plane modes
 
-The ruby **frontal time plane** represents the present boundary of the currently described model slice.
+The ruby **frontal time plane** represents a frontal-time slice `S(F)`.
 
-For visual clarity and conceptual consistency, diagrams should not show event-nodes, realized trajectories, or channel continuations beyond the frontal time plane unless a document explicitly defines that future-side area as hypothetical or inaccessible.
+A visualization must make clear which of two roles the visible plane is using.
 
-A visualization may explicitly use the plane as a reference ordering slice instead of a terminal present boundary when the model being illustrated requires a trajectory to cross that slice. Such an exception must be documented on the owning visualization page.
+**Current frontier — `S(F_max)`**
+
+The plane represents the latest actualized global slice in the shown model state.
+
+```text
+realized history -> S(F_max)
+```
+
+In this mode:
+
+- realized event-nodes, trajectories, and channels normally terminate at the plane;
+- content beyond it must be explicitly marked as hypothetical, potential, inaccessible, or otherwise not-yet-realized;
+- the plane should visually read as the present frontier of the diagram.
+
+**Retrospective reference slice — `S(F_ref)`**
+
+The plane represents an earlier selected global slice inside a larger already-described causal structure.
+
+```text
+already-described history
+------ S(F_ref) ------
+continues within the same retrospective view
+```
+
+In this mode:
+
+- already-described realized structure may appear on both sides of the plane;
+- crossing the plane does not mean crossing beyond the current `F_max` frontier;
+- the diagram must explicitly identify the plane as a reference slice rather than the current frontier.
+
+The Closed Time Loop visualization uses this second mode.
 
 ### Density must be visually encoded
 
-When a diagram explains temporal density, the density difference must be visible through event-node spacing:
+When a diagram explains temporal density, the density difference must be visible through event-node frequency or spacing over the same frontal-time interval:
 
-- sparse regions use fewer nodes and longer gaps;
-- dense regions use more nodes and shorter gaps;
+- sparse regions use fewer significant nodes and longer gaps;
+- dense regions use more significant nodes and shorter gaps;
 - burst regions use local clusters of nodes;
 - mixed regions combine sparse and dense areas.
+
+A branch does not need to show a significant event-node at every sampled frontal-time slice.
+
+### Temporal and processing density are distinct
+
+Do not use **temporal density** as a synonym for **causal processing density**.
+
+- temporal density = frequency of significant event-nodes per frontal-time interval;
+- causal processing density = speculative local state-coordination or processing load relative to frontal-time slices.
+
+If a gravity-related diagram uses causal processing density, its labels and captions must not imply that more temporal event-nodes directly mean slower local time.
 
 ### Images are versioned documentation
 
