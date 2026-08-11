@@ -12,6 +12,11 @@ It is not ordinary experienced time. It is the common ordering against which the
 
 ![Temporal density comparison](../../../visualizations/assets/default/diagrams/temporal-density-comparison.svg)
 
+## Translations
+
+- English
+- [Українська](./l10n/uk_UA/)
+
 ## Frontal Time
 
 A value of `F` defines a global cross-section of the current History Bundle:

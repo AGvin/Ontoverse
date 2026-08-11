@@ -12,6 +12,11 @@ That produces the current **history bundle** model: a branching set of currently
 
 ![Isometric history-space diagram](../../../visualizations/assets/default/diagrams/isometric-history-space.svg)
 
+## Translations
+
+- English
+- [Українська](./l10n/uk_UA/)
+
 ## The Cable Analogy
 
 A useful first image is an indefinitely multi-strand cable moving in one direction:
