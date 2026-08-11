@@ -4,31 +4,30 @@ Status: draft
 
 Ontoverse is a self-developed conceptual framework for organizing reality, histories, time, causality, observer access, and possible hidden relationships between them.
 
-It is intended as a structured research notebook rather than a completed scientific theory. Its concepts are provisional and should be compared with existing scientific and philosophical work, formalized where possible, revised when inconsistent, or rejected when unsupported.
+It is a structured research notebook rather than a completed scientific theory. Its concepts are provisional: they should survive comparison, criticism, formalization, and revision rather than be protected from them.
 
-## Minimal Claim
+## The Starting Problem
 
-The current minimal claim is that experienced reality may be usefully modeled as a local path through a **compressed history bundle** ordered by a global frontal-time parameter.
+Two intuitive pictures of time are easy to imagine but both become awkward under pressure.
 
-The framework currently assumes:
+The first is a single rigid timeline. It struggles with branching possibilities and with models in which different observers or regions may follow different compatible histories.
 
-- history-space contains admissible complete histories;
-- histories that still require the same current modeled state may remain represented together as one **history equivalence class**;
-- a visible historical strand represents one currently distinguishable history class, not necessarily one eternally separate universe;
-- frontal time provides a shared global ordering through successive history-bundle slices `S(F)`;
-- a history class splits only when different current physical, record, or causal states become necessary;
-- divergence therefore marks the **first required state distinction**, not necessarily the creation of all future worlds;
-- observers access only states compatible with their own local history;
-- temporal density describes how frequently significant event-nodes accumulate along a strand relative to frontal time;
-- causal processing density is a separate speculative concept for local state-coordination load;
-- global self-consistency may constrain present or past distinctions without forcing one unique deterministic future;
-- a past-directed causal loop may require an earlier class split while the later departure merely closes the loop inside the loop-compatible strand.
+The second is an already-expanded infinity of complete timelines, each existing separately from the earliest state. That picture can represent alternatives, but it pays for them by treating every future distinction as if it had always needed its own independent line.
 
-## History Bundle
+Ontoverse explores a third picture:
 
-The current History-Space model is not an infinitely expanded list of fully separate timelines stored from the beginning.
+```text
+many admissible complete histories
++
+only the distinctions that currently matter
+-> compressed history bundle
+```
 
-A better conceptual picture is an indefinitely multi-strand bundle whose explicitly represented strands correspond only to currently distinguishable history classes.
+Experienced reality is then modeled as one locally compatible route through that bundle, while **frontal time** supplies a shared global ordering.
+
+## The History Bundle
+
+A useful visual analogy is an indefinitely multi-strand cable moving in one global direction.
 
 ```text
                          increasing frontal time F
@@ -39,48 +38,51 @@ history bundle    ================================>
                     \=== class/strand C ==========>
 ```
 
-One strand may still represent many complete continuations while those continuations require the same current modeled state.
+The important part is not the cable shape. It is the idea that a visible strand need not correspond to one eternally separate universe.
+
+One strand can represent a **History Equivalence Class**: many admissible complete histories that still require the same modeled state at the current frontal-time slice.
 
 ```text
-one represented history class
-           |
-           |  still state-equivalent
-           |
-           +------ first required distinction
-                  /                     \
-             child class A          child class B
+one represented strand
+= one current history class
+= many still-equivalent complete continuations
 ```
 
-This is a conceptual compression principle, not a claim that the universe literally runs a data-compression algorithm.
+Only when those continuations must differ physically, informationally, or causally does the class need to split.
 
-## History Equivalence and Divergence
+## Divergence: When a Difference Becomes Real in the Model
 
-Two admissible complete histories may be treated as equivalent at frontal time `F` when they require the same modeled physical state, records, and causal description at that slice.
+This changes the meaning of a **Divergence Node**.
 
-Conceptually:
+Instead of asking:
 
 ```text
-H1 ~F H2
+When were all future universes created?
 ```
 
-means that `H1` and `H2` do not yet require separate current state descriptions.
+Ontoverse asks:
 
-A **Divergence Node** is therefore the earliest significant location where one represented history class must split into incompatible state descriptions.
+```text
+What is the earliest point at which these admissible histories
+can no longer share one current state description?
+```
+
+That point is the first required distinction.
 
 ```text
 previously equivalent histories
--> first required distinction
+-> first required physical / record / causal difference
 -> class split
--> separately represented strands
+-> separately represented Historical Strands
 ```
 
-This replaces the stronger and less efficient picture in which every possible future branch must already exist as a separately represented line from the earliest modeled state.
+The distinction is subtle but important. The downstream continuations may have been admissible before the split; they simply did not yet need separate current representations.
 
-## Frontal Time
+## Frontal Time: One Ordering, Many Strands
 
-Frontal time is a proposed global ordering parameter `F`.
+Frontal time is the proposed global ordering parameter `F`.
 
-A frontal-time value corresponds to a global cross-section of the represented history bundle:
+A value of `F` defines a cross-section through the current history bundle:
 
 ```text
 F
@@ -88,44 +90,46 @@ F
 -> current states of all distinguishable history classes
 ```
 
-The progression of slices provides the current Ontoverse picture of global time unfolding:
+The progression
 
 ```text
 S(F0) -> S(F1) -> S(F2) -> ...
 ```
 
-The notation is illustrative and does not require frontal time to be fundamentally discrete.
+is the current Ontoverse picture of global time unfolding.
 
-The current maximal value `F_max` represents the latest actualized global slice in the shown model state.
+The notation does not require frontal time to be fundamentally discrete. The slices are conceptual samples of a global ordering structure.
 
-## Frontal-Time Actualization
+The current maximal value `F_max` represents the latest actualized slice in the shown model state.
 
-A new slice is not modeled as the result of one isolated previous event-node mechanically creating one next node.
+## Why Frontal Time Is More Than a Clock
 
-Instead, the current working picture is:
+If each new slice were produced only by local forward chaining — one event mechanically creating the next — closed causal loops would immediately create a contradiction.
+
+Ontoverse therefore treats slice actualization as a stronger consistency problem:
 
 ```text
-current history-bundle slice
+current history-bundle state
 + admissible complete continuations
 + global consistency constraints
 -> next consistent represented bundle state
 ```
 
-A history class remains compressed while its admissible continuations require the same current state and splits when different current state descriptions become necessary.
+A history class remains compressed while its admissible continuations agree on the current state. It splits when global consistency requires different current states.
 
-This does not imply one deterministic future. Several incompatible but individually self-consistent child histories may remain admissible.
+Several incompatible but individually self-consistent child histories may remain admissible. Global consistency is therefore not the same as determinism.
 
 ## Local Time and Temporal Density
 
-Local time is the time experienced along one compatible historical strand.
+Frontal time is global. Experienced time is local.
 
-The current intuition associates local-time accumulation with significant branch-local physical transitions.
+Ontoverse associates local-time accumulation with significant transitions along one compatible Historical Strand:
 
 ```text
 local time ~ accumulated significant event-nodes
 ```
 
-Temporal density is the proposed frequency of significant event-nodes per frontal-time interval.
+Two strands can therefore cross the same frontal-time interval and accumulate different amounts of significant change.
 
 ```text
 sampled slices:       F0  F1  F2  F3  F4  F5
@@ -133,25 +137,52 @@ higher density:       *   *   *   *   *   *
 lower density:        *   .   .   *   .   *
 ```
 
-Both strands share the same frontal-time ordering but can accumulate different amounts of local change over the same `ΔF`.
+This motivates **Temporal Density**: the proposed frequency of significant event-nodes per frontal-time interval.
 
-## Causal Processing Density
+The model does not yet define exactly what counts as a significant event-node or whether this quantity can be mapped rigorously to proper time, decoherence, information change, or another known physical measure.
 
-Causal processing density is distinct from temporal density.
+## A Different Density: Causal Processing
 
-It is a speculative measure of local state coordination, constraint, interaction bookkeeping, or processing load relative to frontal-time slices.
+Temporal Density should not be used as a catch-all for every notion of “more happening.”
 
-The current gravity interpretation explores whether greater causal processing load could reduce effective significant-transition rate and therefore reduce temporal density and local-time accumulation relative to `F`.
+Ontoverse therefore keeps a separate speculative concept: **Causal Processing Density**.
 
-This relation is not established physics.
+It represents the amount of local state coordination, constraint, interaction bookkeeping, or physical processing load that may have to be maintained relative to frontal-time slices.
+
+The current gravity interpretation explores the conjectural chain:
+
+```text
+higher causal processing load
+-> lower effective significant-transition rate
+-> lower Temporal Density
+-> slower local-time accumulation relative to F
+```
+
+This is not established physics. The distinction exists precisely so that the speculative gravity model does not silently redefine Temporal Density to mean its opposite.
+
+## Observer Access
+
+A global slice may contain many mutually incompatible history-class states.
+
+A local observer does not experience that whole slice.
+
+```text
+global S(F)
+= many current history-class states
+
+observer experience
+= one compatible local route through successive slices
+```
+
+Observer access therefore remains local even though frontal time and global consistency are bundle-wide concepts.
 
 ## Compatibility and Convergence
 
-A compatibility channel is a local access structure in which mutually compatible states, records, and observers can interact.
+Different histories can remain globally distinct while becoming locally difficult or impossible to tell apart under a chosen description.
 
-A convergent channel may be entered by several globally distinct historical strands whose locally accessible future states become equivalent under a chosen description.
+Ontoverse calls the shared local-access structure a **Compatibility Channel**.
 
-Convergence therefore does not erase previous history-class distinctions:
+When several globally distinct Historical Strands enter such a shared structure, it becomes a **Convergent Channel**.
 
 ```text
 globally distinct histories remain distinct
@@ -160,13 +191,17 @@ locally accessible states become equivalent
 -> shared compatibility channel
 ```
 
-## Closed Time Loops
+Convergence is therefore not a rewind of divergence and not deletion of historical information.
 
-A Closed Time Loop is a speculative model of past-directed travel constrained by the same history-bundle rules.
+## The Time-Travel Stress Test
 
-Suppose one admissible continuation contains a returned traveler at an earlier reintegration point `R`, while another continuation does not.
+Closed Time Loops are where the framework has to prove that its pieces actually fit together.
 
-Then the histories may remain compressed together before `R` but must split at the earliest point where their states differ.
+Suppose one admissible continuation contains a returned traveler at an earlier point `R`, while another does not.
+
+Before `R`, both continuations may still require the same state and remain compressed together.
+
+At `R`, their physical descriptions differ:
 
 ```text
 shared class
@@ -179,27 +214,59 @@ shared class
                           +------ past transit ---------+
 ```
 
-The future departure `D` does not create the branch. It closes the loop inside the already loop-compatible strand.
+The returned traveler, memories, records, injuries, carried objects, and immediate consequences can all contribute to the state difference at `R`.
 
-The traveler's returned memories, records, objects, and physical state are part of the state difference that may distinguish the loop-compatible history at `R`.
+So `R` can be an ordinary Divergence Node: the first required distinction between loop-compatible and loop-free histories.
 
-This also permits branch-relative future-derived information: an earlier observer may possess information from a later state of the same loop-compatible history without thereby gaining access to every possible future history.
+The later departure `D` is different. It does **not** create the branch. It closes the already globally constrained loop.
 
-## Observer Access
-
-A local observer does not access the whole frontal-time slice or the whole history bundle.
+This is the key replacement for the naive story:
 
 ```text
-global S(F)
-= many current history-class states
-
-observer experience
-= one compatible local strand through successive slices
+past happens
+-> future happens
+-> traveler goes back
+-> past gets rewritten
 ```
 
-Observer compatibility remains a local-access rule even though frontal time and global consistency are bundle-wide concepts.
+Ontoverse instead requires the complete loop-compatible history to be self-consistent from the start of its represented distinction.
 
-## Boundaries
+## Future-Derived Information
+
+The same loop can carry information rather than just matter.
+
+```text
+later observation
+-> stored record or memory
+-> past-directed carrier
+-> earlier knowledge
+-> reaction
+-> same self-consistent later history
+```
+
+To an earlier observer this can resemble prediction or foreknowledge.
+
+But the framework does not grant access to all futures. The information is **history-relative**: it comes from a later state of one compatible complete history.
+
+This immediately raises bootstrap-information questions. If a design is copied from the future into the past and later becomes the source of itself, where did its informational content originate? The current model can represent the causal closure, but it does not yet solve that accounting problem.
+
+## Current Frontier vs Retrospective Slice
+
+Ontoverse uses the ruby Frontal Time Plane in two different but compatible ways.
+
+When it shows `S(F_max)`, the plane is the **current frontier**:
+
+```text
+represented history bundle -> S(F_max)
+```
+
+Realized strands normally terminate there.
+
+A retrospective diagram may instead select an earlier reference slice `S(F_ref)` inside already described history. In that case realized structure can appear on both sides of the visible plane because the plane is not the current maximum.
+
+The Closed Time Loop visualization uses this second mode.
+
+## What the Framework Does Not Yet Earn
 
 Ontoverse does not currently claim to:
 
@@ -210,14 +277,14 @@ Ontoverse does not currently claim to:
 - establish local hidden variables;
 - demonstrate physical time travel;
 - prove that frontal time, history-class compression, or global consistency filtering exists in nature;
-- provide a tested equation for temporal density, causal processing density, gravity, or branching;
-- show that its use of bundle or equivalence-class language is mathematically identical to an established construction.
+- provide tested equations for Temporal Density, Causal Processing Density, gravity, or branching;
+- show that its bundle or equivalence-class language is mathematically identical to an established construction.
 
-Physics-adjacent pages should separate established background, analogy, speculative Ontoverse structure, and open formalization tasks.
+These are not cosmetic disclaimers. They mark the boundary between a useful conceptual structure and a physical theory that has actually earned predictive authority.
 
 ## Relation to Existing Ideas
 
-Relevant comparison targets now include:
+Relevant comparison targets include:
 
 - Everett-style relative-state or many-worlds interpretations;
 - decoherent or consistent histories;
@@ -232,36 +299,32 @@ Relevant comparison targets now include:
 - action, quantization, transition-rate physics, and the Planck constant;
 - informational or computational views of time.
 
-These comparisons do not imply equivalence.
+These are comparison targets, not claims of equivalence.
 
-## Visual Documentation
+## Where to Go Next
 
-Ontoverse diagrams are versioned parts of the framework.
-
-Current guides include:
-
-- [`isometric-history-space`](../visualizations/sub/isometric-history-space/) — volumetric history bundle, compressed strands, and class splitting;
-- [`temporal-density-comparison`](../visualizations/sub/temporal-density-comparison/) — different significant-transition frequencies over the same frontal-time interval;
-- [`history-space-density-regions`](../visualizations/sub/history-space-density-regions/) — non-uniform temporal-density regions;
-- [`uneven-temporal-density`](../visualizations/sub/uneven-temporal-density/) — sparse, dense, clustered, and mixed transition patterns;
-- [`convergent-channel`](../visualizations/sub/convergent-channel/) — globally distinct strands becoming locally equivalent without historical erasure;
-- [`closed-time-loop`](../visualizations/sub/closed-time-loop/) — a loop-compatible strand split at reintegration and a later departure closing the same causal loop.
+- [`history-space`](../models/sub/history-space/) — the bundle, equivalence classes, divergence, observer access, and convergence in detail;
+- [`frontal-time`](../models/sub/frontal-time/) — global ordering, local time, Temporal Density, transition rates, and speculative gravity links;
+- [`closed-time-loop`](../models/sub/closed-time-loop/) — the full causal-loop model and its unresolved paradox-like cases;
+- [`isometric-history-space`](../visualizations/sub/isometric-history-space/) — the compressed bundle visually;
+- [`closed-time-loop`](../visualizations/sub/closed-time-loop/) — divergence at reintegration and closure at departure;
+- [`glossary`](../glossary/) — canonical working definitions.
 
 ## Open Problems
 
-- Define history-space and the history bundle mathematically.
+- Define history-space and the History Bundle mathematically.
 - Define the equivalence relation `~F` used to compress histories.
 - Determine whether the compression principle is ontological, representational, or only a visualization rule.
-- Define a divergence node as the earliest required state distinction.
-- Define a frontal-time slice `S(F)` and the current maximum `F_max` rigorously.
+- Define a Divergence Node rigorously as the earliest required state distinction.
+- Define a Frontal-Time Slice `S(F)` and the current maximum `F_max` rigorously.
 - Formalize the mapping between successive frontal-time slices.
 - Formalize global consistency constraints over compressed continuation classes.
 - Determine how probabilities or measures apply to histories that remain compressed together.
-- Define event-node criteria rigorously.
-- Formalize temporal density and distinguish it from causal processing density.
-- Explain whether convergent channels can be formalized without information loss.
-- Formalize observer access and coarse-grained local equivalence.
+- Define significant Event-Node criteria.
+- Formalize Temporal Density and distinguish it from Causal Processing Density.
+- Explain whether Convergent Channels can be formalized without information loss.
+- Formalize Observer Access and coarse-grained local equivalence.
 - Determine when a Closed Time Loop requires a class split earlier than apparent reintegration.
 - Formalize bootstrap information, conservation, entropy, and repeated-loop stability.
-- Compare the model with established branching, quotient-state, global-boundary, retrocausal, and closed-timelike-curve frameworks.
-- Establish whether Ontoverse yields any distinct testable predictions or remains only an interpretive organization framework.
+- Compare the framework with established branching, quotient-state, global-boundary, retrocausal, and closed-timelike-curve models.
+- Establish whether Ontoverse yields distinct testable predictions or remains an interpretive organizational framework.
