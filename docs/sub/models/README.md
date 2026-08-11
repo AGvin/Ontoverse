@@ -8,10 +8,10 @@ Each model should remain focused. A model page may introduce a hypothesis or vis
 
 ## Current Models
 
-- [`history-space/`](./sub/history-space/) — models reality as a structured space of possible histories, event-nodes, divergence, compatibility, and convergence.
-- [`frontal-time/`](./sub/frontal-time/) — models frontal time as a global ordering parameter and local time as event-node density along a trajectory.
-- [`event-density-dark-sector/`](./sub/event-density-dark-sector/) — explores whether dark-matter-like effects could correspond to effective metric contributions from undetected event-density or causal-processing-density structures.
-- [`closed-time-loop/`](./sub/closed-time-loop/) — explores self-consistent past-directed travel on one realized history without creating an alternate branch.
+- [`history-space/`](./sub/history-space/) — models reality as a structured space of possible histories ordered across global frontal-time slices, with event-nodes, divergence, compatibility, and convergence.
+- [`frontal-time/`](./sub/frontal-time/) — models frontal time as a global sequence or family of history-space slices and local time as branch-local accumulation of significant transitions across those slices.
+- [`event-density-dark-sector/`](./sub/event-density-dark-sector/) — explores whether dark-matter-like effects could correspond to effective metric contributions from undetected causal-processing-density structures and their influence on local transition rates.
+- [`closed-time-loop/`](./sub/closed-time-loop/) — explores globally self-consistent past-directed travel on one realized history without the time-travel event itself creating an alternate branch.
 
 ## Model Status Levels
 
