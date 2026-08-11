@@ -2,49 +2,26 @@
 
 Status: speculative working definition
 
-The **Closed Time Loop** is a proposed Ontoverse model for past-directed travel inside a globally self-consistent history bundle.
+The Closed Time Loop model begins with the classic problem of past-directed travel:
 
-The current model no longer says that time travel is unrelated to branching in every sense. Instead it makes a narrower distinction:
+> If a traveler can reach the past, what prevents the traveler from changing the very history that produced the trip?
 
-- the **future departure event does not create a new branch**;
-- a loop-containing continuation may already require a distinct historical state at the earlier reintegration event;
-- that earlier first required distinction can be a normal History-Space divergence/class-split point between loop-compatible and loop-free histories.
+Ontoverse does not answer by saying that every dangerous action becomes impossible, harmless, or magically corrected.
 
-The complete loop remains self-consistent inside the loop-compatible strand.
+Instead, it changes the structure of the question.
 
-## Core Causal Structure
+A past-directed trip must belong to a **globally self-consistent complete history**. If the returned traveler makes the earlier state physically different, that difference is represented as an earlier history-class split. The later departure does not create the branch; it closes the loop inside the already loop-compatible strand.
+
+## The Loop in One Diagram
 
 Let:
 
 ```text
-R = earlier reintegration
+R = earlier reintegration into ordinary history
 D = later departure into past-directed transit
 ```
 
-The loop is:
-
-```text
-R
--> ordinary branch-local history
--> D
--> isolated past-directed transit
--> R
-```
-
-The model treats this as one complete causal constraint rather than as a future event rewriting a previously completed past.
-
-There is no separate realized version of the same loop-compatible history in which `R` first occurred without the traveler and was later edited after `D`.
-
-## History-Bundle Interpretation
-
-Before a loop produces a physically distinguishable state, a loop-containing continuation and a loop-free continuation may still belong to one compressed history equivalence class.
-
-```text
-shared history class
------------------------------->
-```
-
-When the returned traveler first creates a required physical or record distinction at `R`, the class must split:
+The minimal history-bundle picture is:
 
 ```text
 shared history class
@@ -57,36 +34,88 @@ shared history class
                           +------ past transit ---------+
 ```
 
-The loop-compatible strand already contains the traveler at `R`, including the state carried from its later local history.
+Three things happen here:
 
-The loop-free strand does not.
+1. Before `R`, the loop-compatible and loop-free continuations may still share one History Equivalence Class.
+2. At `R`, the returned traveler makes their physical states different, so the class splits.
+3. At `D`, the traveler leaves the loop-compatible strand and returns to `R`; `D` closes the causal loop but does not create a new branch there.
 
-Therefore `R` can be a **Divergence Node** between those two history classes.
+That distinction is the core of the model.
 
-## No Departure Branch
+## Why the Past Is Not Rewritten
 
-The later departure `D` is **not** the divergence node merely because the traveler leaves ordinary forward historical synchronization.
-
-At `D`, the loop-compatible history already includes the consequences of `R`.
+The naive sequential story looks like this:
 
 ```text
-loop-compatible strand
+R happens without traveler
+-> history continues
+-> D happens
+-> traveler goes back
+-> R must now be changed
+```
+
+That requires one realized past to be overwritten by another.
+
+Ontoverse instead treats the loop as one complete consistency condition:
+
+```text
+R
+-> ordinary loop-compatible history
+-> D
+-> isolated past-directed transit
+-> same R
+```
+
+There is no earlier realized version of the **same loop-compatible history** in which `R` happened without the traveler and was later edited.
+
+The returned traveler is already part of the state that defines the loop-compatible strand at `R`.
+
+## Reintegration as Divergence
+
+Suppose a loop-free continuation and a loop-compatible continuation are identical before reintegration.
+
+At `R` they stop being identical:
+
+```text
+loop-compatible state
+= returned traveler
++ memories
++ records
++ carried objects
++ physical condition
++ immediate consequences
+
+loop-free state
+= no returned traveler
+```
+
+`R` is therefore a natural **Divergence Node** in the minimal model: the first required state distinction between the two History Equivalence Classes.
+
+This is ordinary History-Space branching, not a special “time-travel branch generator.”
+
+## Why Departure Is Not the Branch Point
+
+By the time the loop-compatible strand reaches `D`, the consequences of reintegration are already part of that history.
+
+```text
 R -> ... -> D
           |
           +-> isolated transit -> R
 ```
 
-`D` closes the already constrained loop. It does not create a new alternate future and does not retroactively split the history at the departure point.
+So `D` does not create an alternative past or an alternative future.
 
-This distinction replaces the earlier shorthand "time travel does not create a branch" with the more precise rule:
+It closes the causal structure that already distinguishes the loop-compatible strand.
 
-> Past-directed departure does not itself create a branch; global loop consistency may require an earlier normal history-class split at the first state distinction caused by the returned traveler or information.
+The precise rule is therefore:
 
-## Earliest Required Distinction
+> Past-directed departure does not itself create a branch; global loop consistency may require an earlier ordinary history-class split at the first state difference caused by the returned traveler or information.
 
-Reintegration is the simplest and most visible class-split point, but it is not guaranteed to be the earliest distinction in every conceivable loop.
+## What If the Real Difference Starts Earlier?
 
-If the complete causal loop requires some physical, quantum, informational, or record difference before the apparent reintegration event, the loop-compatible history must become distinguishable at that earlier location.
+Reintegration is only the simplest case.
+
+If the complete loop requires some physical, quantum, informational, or record difference **before** the apparent arrival event, then the actual split must occur earlier.
 
 Conceptually:
 
@@ -96,40 +125,56 @@ state(loop-compatible, F) != state(loop-free, F)
 
 that point
 -> first required distinction
--> history-class split
+-> History Equivalence Class split
 ```
 
-This keeps the Closed Time Loop model consistent with the History-Space **minimal distinguishability principle**.
+The model therefore follows the same Minimal Distinguishability Principle as the rest of History-Space.
 
-## Why the Past Is Not Rewritten
+## The Grandfather-Paradox Type Case
 
-A strictly local sequential picture would be contradictory:
+Consider an action that appears to remove a necessary condition for the future departure: killing an ancestor, destroying the machine before it is built, preventing the traveler from making the trip, or any equivalent causal intervention.
+
+Ontoverse does **not** say that spacetime explodes, that a branch must automatically appear at the moment of action, or that the action must be physically blocked by definition.
+
+Instead, the complete proposed history has to close consistently.
 
 ```text
-R occurs without traveler
--> ...
--> D occurs
--> traveler goes to R
--> R must be rewritten
+returned action
+-> removes a necessary condition for D
+-> no alternative causal route restores D
+-> proposed complete loop has no self-consistent closure
 ```
 
-Ontoverse instead uses the compressed history-bundle picture:
+That history is simply not a realizable Closed Time Loop under the current model.
+
+The failure is logical inconsistency of the proposed complete history, not automatic spacetime destruction.
+
+## The Butterfly Effect Still Exists
+
+The loop does not protect the future from consequences.
+
+A returned traveler may cause tiny or enormous downstream changes.
 
 ```text
-admissible complete continuations
-+ global consistency
--> determine which current state distinctions are required
--> split history classes as early as those distinctions require
--> frontal time actualizes the resulting bundle slices
+R
+-> intervention
+-> amplified consequences
+-> D still occurs consistently
+-> transit
+-> R
 ```
 
-The loop-compatible state at `R` is therefore already the state containing the returned traveler.
+The important point is that those consequences are already part of the loop-compatible complete history.
 
-## Distant Past-Directed Travel
+The butterfly effect changes the **content of that strand**; it does not rewrite an already completed past.
 
-The model does not impose a logical maximum distance between `R` and `D` merely because frontal time advances forward globally.
+Another self-consistent continuation may exist as another History Equivalence Class, but that distinction follows the ordinary History-Space divergence rule.
 
-A loop may be represented as:
+## How Far Into the Past?
+
+The model has no purely logical maximum distance between `R` and `D`.
+
+A loop can be written as:
 
 ```text
 very early R
@@ -140,60 +185,56 @@ very early R
 -> same R
 ```
 
-The loop-compatible history class becomes distinct wherever the returned state first requires it, even if that point lies far before the later invention and departure.
+This works conceptually because the loop-compatible strand is already distinguished wherever the returned state first requires it.
 
-The model therefore does not need to store an independently expanded infinite set of all complete histories from the beginning. It only needs the conceptual continuation space plus the distinctions required in the current bundle representation.
+The future invention does not have to “reach backward” and edit an old realized history after the fact.
 
-This does not establish that arbitrarily distant physical time travel is possible. Geometry, energy, stability, information capacity, or other future physical constraints may impose limits.
+This does **not** establish that arbitrarily distant physical time travel is possible. Geometry, energy, stability, information capacity, chronology protection, or other physical constraints may impose limits.
 
-## Traveler State and Memory
+## The Traveler Brings a Future State
 
-The returned traveler does not arrive as a blank state generated from knowledge locally available at `R`.
+A returned traveler does not arrive as a blank copy generated from information locally available at `R`.
 
-Its state can include information acquired later along its own causal path:
+The traveler may carry:
 
 - memories;
-- physical modifications;
+- injuries or other physical modifications;
 - stored records;
-- injuries;
 - learned information;
-- objects carried through transit.
-
-Conceptually:
+- objects;
+- any other state that survives transit.
 
 ```text
 later traveler state at D
 -> isolated transit
--> traveler state at R
--> becomes part of loop-compatible history from R onward
+-> earlier traveler state at R
+-> becomes part of loop-compatible history
 ```
 
-Those memories and records are therefore among the state variables that distinguish the loop-compatible history class at reintegration.
+Those properties are among the state variables that distinguish the loop-compatible history from a loop-free one.
 
 ## Future-Derived Information and Apparent Foreknowledge
 
-The same mechanism provides a possible Ontoverse explanation for future-derived information.
+This makes a second phenomenon possible inside the model: information can arrive before the local event from which it was learned.
 
 ```text
 later observation
--> recorded information
+-> stored record or memory
 -> past-directed carrier
--> earlier memory or record
--> action based on that information
+-> earlier knowledge
+-> reaction
 -> same self-consistent later history
 ```
 
-Locally this may appear as prediction, precognition, or a "vision" of the future.
+To an observer at the earlier time, this may look like prediction, precognition, or a “vision” of the future.
 
-Within Ontoverse, however, the information is not obtained by an observer freely inspecting every future branch. It is carried from a later state of one compatible complete history into an earlier state of that same loop-compatible strand.
+But the model does not grant arbitrary access to all future branches.
 
-If several admissible history classes remain possible, such foreknowledge is **history-relative** rather than universal.
+The information comes from a later state of **one loop-compatible complete history**. If several other history classes remain admissible, the apparent foreknowledge is history-relative rather than universal.
 
-## Reaction to Future Information
+## What If Someone Reacts to the Prediction?
 
-The recipient's response to future-derived information is not outside the loop.
-
-It must be part of the same globally self-consistent causal structure:
+The reaction is part of the loop too.
 
 ```text
 future-derived information
@@ -203,129 +244,120 @@ future-derived information
 -> past-directed return of the same information
 ```
 
-If the reaction destroys a necessary condition for the information carrier to reach the past and no alternative causal route restores consistency, that proposed complete history is not a realizable loop under the current model.
+If the reaction destroys the necessary conditions for that information to reach the past and no alternative causal route restores consistency, then that proposed complete history fails the loop condition.
 
-The failure mode is logical inconsistency, not automatic spacetime destruction or automatic branch creation at departure.
+The model does not need an extra paradox rule. The ordinary global consistency requirement is enough.
 
-## Bootstrap Information Problem
+## Bootstrap Information
 
-A closed loop can contain information with no obvious first branch-local creation event.
+A stranger case occurs when information seems to have no first local author.
 
 ```text
-design in future
+design exists in future
 -> carried into past
 -> copied and preserved
--> becomes source of future design
+-> becomes the source of the future design
 -> carried into past again
 ```
 
-The current model allows such a structure at the level of causal consistency but does not explain its information origin.
+The causal loop may be internally consistent while the informational origin remains obscure.
 
-Open questions include whether bootstrap information is physically possible, entropy-limited, unstable, or forbidden by a deeper information-accounting principle.
+The current Ontoverse model can represent this structure but does not yet explain whether such bootstrap information is physically possible, entropy-limited, unstable, or forbidden by a deeper information-accounting law.
 
 ## Transit Isolation
 
-During past-directed transit, the traveling object is treated as **temporally isolated** from ordinary synchronization with the historical strand.
+During past-directed transit, the traveling object is treated as **temporally isolated** from ordinary Historical Strand synchronization.
 
-The traveler is not treated as an ordinary participant in each intermediate branch-local state crossed by the geometric transit path.
+The transit path should not be read as a second normal forward-time strand that participates in every intermediate state it geometrically crosses.
 
-The isolation ends at reintegration.
+```text
+ordinary strand -> D
+                  |
+                  | isolated transit
+                  v
+                  R -> ordinary strand again
+```
 
-This prevents the transit curve itself from being mistaken for a second ordinary forward-time history strand.
+Isolation ends at reintegration.
 
-## Reintegration and Parameter Enrichment
+This is a speculative model component and still requires physical definition.
 
-At reintegration, the returned traveler becomes part of the ordinary state description of the loop-compatible strand.
+## Parameter-Enriched Interval
 
-Ontoverse currently represents this as a temporary expansion of the state information required between `R` and `D`.
+At `R`, the returned traveler becomes part of the ordinary state description of the loop-compatible strand.
+
+Ontoverse currently visualizes the interval from `R` to `D` as requiring an expanded state description:
 
 ```text
 R
--> returned traveler becomes an ordinary participant
+-> returned traveler becomes ordinary participant
 -> parameter-enriched interval
 -> D
 -> pre-departure instance enters isolated transit
--> ordinary strand state returns to baseline representation
+-> ordinary strand returns to baseline representation
 ```
 
-The provisional phrase **quantum parameters** refers only to whatever future formal state description is needed to distinguish the additional traveler and its consequences. It is not currently a defined quantum-mechanical quantity.
+The provisional phrase **quantum parameters** refers only to whatever future formal state description is needed to distinguish the additional traveler and its consequences. It is not a defined quantum-mechanical quantity.
 
 ## Compensation at Departure
 
-In the minimal visual model, the loop-compatible strand is drawn thicker or brighter from `R` to `D`.
+In the minimal visualization, the loop-compatible strand is drawn thicker or brighter between `R` and `D`.
 
-At `D`, the pre-departure instance leaves ordinary synchronization and enters the isolated transit. The ordinary-history state description can therefore return to its baseline representation after `D`.
+At `D`, the pre-departure traveler leaves ordinary synchronization and enters isolated transit. The ordinary strand can therefore return to its baseline representation after departure.
 
-This **compensation** is a state-accounting intuition, not a claim of annihilation, information destruction, universe deletion, or literal conserved-quantity cancellation.
+This **compensation** is an intuition about state accounting.
 
-A future formalization may replace the visual thickness model with a state-space or degrees-of-freedom description.
+It does not imply annihilation, information destruction, universe deletion, or cancellation of a known conserved quantity.
 
-## Butterfly Effect
+A future formalization may replace line thickness with a state-space or degrees-of-freedom description.
 
-The loop does not protect the future from causal consequences.
+## Frontal-Time View
 
-A returned traveler may cause large downstream effects.
+A Frontal-Time value `F` is a global slice of the current History Bundle.
 
-The key point is that those effects are already part of the loop-compatible complete history:
-
-```text
-R
--> intervention
--> amplified consequences
--> later D still occurs consistently
--> transit
--> R
-```
-
-The butterfly effect therefore changes the content of the loop-compatible strand, not an already completed past that is then overwritten.
-
-A different self-consistent continuation may exist as another history class, but that class distinction follows the ordinary History-Space divergence rule rather than being generated by the departure event itself.
-
-## Frontal-Time Representation
-
-A frontal-time value `F` represents a global slice of the current history bundle.
-
-A loop-compatible and loop-free continuation may remain in one represented class before their first required distinction and appear as separate strands afterward.
+Before the loop requires a distinction, loop-compatible and loop-free continuations may share one represented class.
 
 ```text
 S(F_before)
--> one shared class representation
+-> one shared class
 
 S(F_at_split)
--> loop-compatible state + loop-free state become distinct
+-> loop-compatible state and loop-free state become distinct
 
 later slices
--> two separately represented strands
+-> separately represented Historical Strands
 ```
 
-This is the key optimization over the earlier picture of infinitely many fully expanded timelines existing independently from the beginning.
+This is what allows Ontoverse to avoid the stronger assumption that an independently expanded infinity of complete timelines must already be present from the beginning.
 
-## Reference Slice in the Visualization
+## Current Frontier vs Retrospective Reference Slice
 
-The Closed Time Loop diagram may show an earlier reference slice `S(F_ref)` inside an already described complete loop.
+The Closed Time Loop visualization uses a selected earlier slice `S(F_ref)` so the entire causal loop can be seen in one diagram.
 
-That ruby plane is not necessarily the current maximal frontier `S(F_max)`.
+That plane is not necessarily the current frontier `S(F_max)`.
 
 ```text
 current-frontier view:
-represented bundle -> S(F_max)
+represented History Bundle -> S(F_max)
 
 retrospective loop view:
-already-described structure
+already-described causal structure
 ------ S(F_ref) ------
-continues on both sides of the selected reference slice
+continues on both sides
 ```
+
+Crossing `S(F_ref)` therefore does not mean crossing beyond the current actualized frontier.
 
 ## Relation to Existing Ontoverse Concepts
 
-The current model depends on:
+The Closed Time Loop depends on:
 
-- **History Bundle** — the branching set of currently distinguishable history classes;
-- **History Equivalence Class** — admissible complete histories still represented together because their current modeled states are equivalent;
-- **Divergence Node** — the first significant location where different state descriptions become required;
-- **Frontal-Time Slice** — a global cross-section of the represented history bundle;
+- **History Bundle** — currently distinguishable history classes;
+- **History Equivalence Class** — admissible complete histories that still share one current state description;
+- **Divergence Node** — the first significant location where separate state descriptions are required;
+- **Frontal-Time Slice** — a global cross-section of the represented History Bundle;
 - **Global Consistency Constraint** — the requirement that represented states belong to at least one self-consistent complete continuation;
-- **Temporal Isolation** — the traveler's displacement from ordinary historical synchronization during transit;
+- **Temporal Isolation** — removal from ordinary Historical Strand synchronization during transit;
 - **Parameter-Enriched Interval** — the state-enriched interval between reintegration and departure.
 
 ## Relation to Existing Ideas
@@ -336,25 +368,26 @@ The model should be compared with established or existing work on:
 - self-consistency conditions;
 - global boundary-condition formulations;
 - retrocausality;
+- chronology-protection ideas;
 - bootstrap-information paradoxes;
 - branching-time and possible-world semantics;
 - consistent/decoherent histories;
 - quotient/equivalence-class state descriptions.
 
-Ontoverse does not currently claim equivalence with any of these frameworks or claim that physical time travel is permitted by known physics.
+Ontoverse does not claim equivalence with these frameworks or claim that known physics permits physical time travel.
 
 ## Open Problems
 
-- Define the mathematical object represented by a loop-compatible history class.
-- Define the history-equivalence relation used before and after reintegration.
+- Define the mathematical object represented by a loop-compatible History Equivalence Class.
+- Define the equivalence relation before and after reintegration.
 - Formalize the earliest-required-distinction rule.
-- Determine whether a past-directed loop can require distinctions earlier than the apparent reintegration event.
+- Determine whether a past-directed loop can require distinctions earlier than apparent reintegration.
 - Define a fixed-point or boundary-consistency criterion for loop realizability.
-- Define temporal isolation physically.
+- Define Temporal Isolation physically.
 - Replace `quantum parameters` with a rigorous state description if possible.
 - Determine how conservation laws apply at reintegration and departure.
 - Determine whether arbitrarily distant reintegration is physically constrained.
 - Determine whether bootstrap information requires an additional information law.
 - Determine how entropy and information degradation behave around repeated loops.
 - Determine whether compensation can be formalized without duplicated degrees of freedom.
-- Compare the model with established treatments of closed timelike curves, self-consistency, retrocausality, and global boundary conditions.
+- Compare the model with established treatments of closed timelike curves, self-consistency, retrocausality, chronology protection, and global boundary conditions.
