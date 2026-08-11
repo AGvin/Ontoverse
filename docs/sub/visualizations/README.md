@@ -6,6 +6,11 @@ This section contains visual explanations of the Ontoverse conceptual framework.
 
 The diagrams are versioned documentation and must remain synchronized with the framework, models, glossary, and one another.
 
+## Translations
+
+- English
+- [Українська](./l10n/uk_UA/)
+
 ## Visualization Set
 
 - [`isometric-history-space/`](./sub/isometric-history-space/) — shows the current **history bundle** as a volumetric set of represented historical strands, with compressed shared classes and explicit class splitting at first required distinctions.

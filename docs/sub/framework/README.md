@@ -6,6 +6,11 @@ Ontoverse is a self-developed conceptual framework for organizing reality, histo
 
 It is a structured research notebook rather than a completed scientific theory. Its concepts are provisional: they should survive comparison, criticism, formalization, and revision rather than be protected from them.
 
+## Translations
+
+- English
+- [Українська](./l10n/uk_UA/)
+
 ## The Starting Problem
 
 Two intuitive pictures of time are easy to imagine but both become awkward under pressure.

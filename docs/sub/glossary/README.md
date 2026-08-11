@@ -8,6 +8,11 @@ Definitions may change as the framework is refined.
 
 Unless explicitly stated otherwise, Ontoverse-specific terms are proposed conceptual terms, not established scientific terminology. They should be read as working definitions for a pre-formal framework.
 
+## Translations
+
+- English
+- [Українська](./l10n/uk_UA/)
+
 ## Absolute Baseline Metric
 
 Type: proposed Ontoverse term  

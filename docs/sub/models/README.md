@@ -6,6 +6,11 @@ This section contains conceptual models inside the broader Ontoverse framework.
 
 Each model should remain focused, state its speculative status, and identify open formalization problems.
 
+## Translations
+
+- English
+- [Українська](./l10n/uk_UA/)
+
 ## Current Models
 
 - [`history-space/`](./sub/history-space/) — models history-space as a compressed bundle of currently distinguishable history equivalence classes, with historical strands, first-required-distinction divergence, compatibility, convergence, and observer access.
