@@ -18,13 +18,37 @@ The key point is that history-space is not expected to be uniformly dense. Some 
 
 This is a visual and conceptual model, not yet a mathematical theory.
 
+## Global Frontal-Time Slices
+
+History-space is ordered globally by frontal time.
+
+At a frontal-time value `F`, Ontoverse represents the current cross-section of history-space as a **frontal-time slice** `S(F)`.
+
+Conceptually:
+
+```text
+S(F)
+= branch-local states across history-space
+  evaluated at the same global frontal-time value F
+```
+
+A single slice may therefore contain states from many mutually incompatible histories at once. This does not mean that one local observer experiences those histories simultaneously. Observer access remains branch-local.
+
+Successive slices provide the current Ontoverse picture of history-space unfolding:
+
+```text
+S(F0) -> S(F1) -> S(F2) -> ...
+```
+
+The notation is conceptual and does not yet require frontal time to be fundamentally discrete.
+
 ## Elements
 
 ### Historical Trajectory
 
 A historical trajectory is a path through history-space.
 
-It represents a sequence of mutually compatible states, records, and interactions.
+It represents a sequence of mutually compatible states, records, and interactions across successive frontal-time slices.
 
 ### Event-Node
 
@@ -32,13 +56,17 @@ An event-node is a significant transition point in a historical trajectory.
 
 A node may represent a quantum, causal, informational, or observational transition, depending on the level of description.
 
-A rigorous definition is still open.
+A branch need not produce a significant event-node at every frontal-time slice. Its state may persist or change below the threshold represented by an event-node.
+
+A rigorous definition of significance is still open.
 
 ### Divergence Node
 
 A divergence node is a point where one trajectory separates into multiple incompatible continuations.
 
 In a quantum-inspired interpretation, this may be compared to a branching of decoherent alternatives, but Ontoverse does not yet define the Hilbert-space mapping required to make this precise.
+
+A Closed Time Loop departure is **not** a divergence node merely because the traveler leaves ordinary forward historical synchronization. A closed loop remains part of one self-consistent historical trajectory unless an independent incompatibility creates ordinary branching.
 
 ### Compatibility Channel
 
@@ -52,13 +80,35 @@ This does not mean that distinct histories become globally identical. It means t
 
 See [`convergent-channel`](../../../visualizations/sub/convergent-channel/) for the current visual explanation.
 
-## Frontal Time Boundary
+## Admissible Continuations and Global Consistency
 
-Current Ontoverse diagrams treat the ruby frontal time plane as the present boundary of the described model slice.
+The current Ontoverse interpretation does not require a frontal-time slice to be generated only from the immediately preceding local event-node.
 
-For that reason, diagrams should not show realized event-nodes or trajectory continuations beyond the frontal time plane unless the document explicitly marks that area as hypothetical or inaccessible.
+A branch state is instead treated as admissible only if it can belong to at least one globally self-consistent continuation of the relevant history-space structure.
 
-This keeps the model visually aligned with the idea that the shown histories have accumulated only up to the current frontal boundary.
+Conceptually:
+
+```text
+current branch state at S(F)
++ compatible causal structure
++ admissible continuations
++ global consistency constraints
+-> one or more viable continuations
+```
+
+If several incompatible continuations remain viable, they may correspond to different history-space branches.
+
+This rule therefore constrains branching without eliminating it. It also gives the Closed Time Loop model a way to contain an earlier reintegration and a later departure inside one complete self-consistent history without treating the time-travel event itself as a branch generator.
+
+## Frontal-Time Boundary and Reference Slices
+
+The current maximum frontal-time value `F_max` represents the latest actualized global slice in the model.
+
+When a diagram shows `S(F_max)`, the ruby frontal-time plane is a **current frontier**. Realized trajectories normally terminate at that plane.
+
+A retrospective diagram may instead show an earlier selected slice `S(F_ref)` inside a larger already-described causal structure. In that case, realized history can appear on both sides of the plane because the plane is a reference slice rather than the current maximal frontier.
+
+The owning visualization must make this distinction explicit.
 
 ## Important Distinction
 
@@ -75,15 +125,31 @@ This distinction is necessary because standard quantum mechanics is normally for
 
 ## Observer Access
 
-An observer does not access every possible trajectory.
+An observer does not access every state in a frontal-time slice.
 
 The observer can interact only with states, records, and other observers compatible with the observer's local history.
 
-In this sense, experienced reality is constrained by history compatibility.
+```text
+global slice S(F)
+= many branch-local states
+
+observer experience
+= one compatible path through successive slices
+```
+
+In this sense, experienced reality is constrained by history compatibility even though frontal time is global.
 
 ## Temporal Density in History-Space
 
 Temporal density is not treated as globally uniform.
+
+Across the same frontal-time interval, one branch may accumulate significant event-nodes frequently while another may persist across more slices without a significant transition.
+
+```text
+sampled slices:       F0  F1  F2  F3  F4  F5
+high-density branch:  *   *   *   *   *   *
+low-density branch:   *   .   .   *   .   *
+```
 
 Ontoverse currently distinguishes several visual patterns:
 
@@ -101,8 +167,11 @@ See [`uneven-temporal-density`](../../../visualizations/sub/uneven-temporal-dens
 ## Open Problems
 
 - Define the mathematical object called `history-space`.
+- Define mathematically what a frontal-time slice contains.
+- Clarify whether every admissible branch state in a slice is physically realized, merely possible, or requires another ontological category.
 - Specify when two histories are locally equivalent.
 - Specify whether convergence is physical, representational, or only a coarse-grained description.
 - Relate compatibility channels to decoherence and records.
 - Clarify how probabilities or measures over histories should be represented.
-- Clarify whether temporal density should be measured by action, entropy, information change, decoherence rate, or another quantity.
+- Formalize how global consistency constraints interact with ordinary branch divergence.
+- Clarify whether temporal density should be measured by transition rate, action, entropy, information change, decoherence rate, or another quantity.
