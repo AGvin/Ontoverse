@@ -1,10 +1,15 @@
-# Closed Time Loop Without Branching
+# Closed Time Loop and History-Class Split
 
 Status: draft
 
-![Closed time loop without branching](../../assets/default/diagrams/closed-time-loop.svg)
+![Closed time loop and history-class split](../../assets/default/diagrams/closed-time-loop.svg)
 
-This diagram visualizes the Ontoverse **Closed Time Loop** model: a past-directed transit that remains part of one globally self-consistent historical trajectory instead of creating an alternate branch.
+This diagram visualizes the current Ontoverse **Closed Time Loop** model inside the compressed history bundle.
+
+It distinguishes two separate ideas that should not be conflated:
+
+- **history-class divergence at reintegration** — loop-compatible and loop-free continuations require different current states;
+- **loop closure at departure** — the later departure enters isolated past-directed transit but does not create another branch at the departure node.
 
 ## Translations
 
@@ -16,136 +21,169 @@ Localization will be added in a later localization pass.
 
 This is a **retrospective causal-structure view**.
 
-The ruby plane in the middle is a selected reference frontal-time slice `S(F_ref)`, not the current maximal frontier `S(F_max)`.
+The ruby plane is a selected reference frontal-time slice `S(F_ref)`, not the current maximal frontier `S(F_max)`.
 
 ```text
 current-frontier diagram:
-realized history -> S(F_max)
+represented history bundle -> S(F_max)
 
 this retrospective diagram:
-already-described history
+already-described causal structure
 ------ S(F_ref) ------
-continues as part of the same complete causal structure
+continues on both sides of the selected slice
 ```
 
-This distinction is essential. The diagram is not showing realized history beyond the current maximum of frontal time. It is selecting an earlier slice inside a complete loop so the causal geometry can be inspected in one frame.
+The current maximal frontier is intentionally not drawn.
 
-## What the Diagram Shows
+## Shared History Class Before Reintegration
 
-The horizontal line is the single primary realized history.
-
-Two highlighted nodes define the closed loop:
-
-- **reintegration into past history** — the traveler rejoins an earlier state of the same history;
-- **departure from future** — the later branch-local event at which the same traveler leaves ordinary historical synchronization and enters the isolated past-directed transit.
-
-The dashed path below the primary history is the isolated transit. Its body is deliberately drawn as a smooth oval-like loop rather than as a second straight timeline or a rectangular detour.
-
-There is no divergence line at the departure node. The callout `same primary timeline — no branch created` points directly to that node because the departure closes the loop rather than opening a new future.
-
-## Global Self-Consistency
-
-The diagram must not be read as:
+Before the first required difference created by the returned traveler, the loop-compatible and loop-free complete continuations may remain represented as one compressed History Equivalence Class.
 
 ```text
-departure D
--> creates a new path
--> retroactively inserts reintegration R
+shared history class
+-------------------R-------------------->
 ```
 
-The current model instead treats the complete loop as one fixed-point-like causal structure:
+The visible shared strand therefore does not imply that only one complete future is possible. It represents several admissible continuations that still require the same current modeled state.
+
+## Reintegration as the Minimal Divergence Case
+
+At reintegration `R`, the loop-compatible state contains the returned traveler and the state carried through transit. The loop-free state does not.
+
+That makes `R` the first required distinction in the minimal diagrammed case:
 
 ```text
-R
--> ordinary branch-local history
--> D
--> isolated past-directed transit
--> R
+shared history class
+-------------------R-------------------->
+                    |\
+                    | \  loop-free strand
+                    |
+                    +---- loop-compatible strand ---- D
+                          ^                             |
+                          +------ past transit ---------+
 ```
 
-The earlier reintegration and later departure are mutually part of the same admissible complete history.
+`R` is therefore shown as both:
 
-The loop therefore has no single local trigger node. Its realizability depends on the collective frontal-time state, the branch's causal structure, and the existence of a globally self-consistent continuation.
+- the reintegration point of the time traveler;
+- a normal History-Space **Divergence Node** between two now-distinguishable history classes.
 
-## Parameter-Enriched Interval
+If a more complete physical model required a difference before apparent reintegration, the real divergence would move to that earlier first distinction. The diagram shows the minimal case only.
 
-The primary trajectory is drawn thicker and brighter between reintegration and departure.
+## Loop-Compatible Strand
 
-This encodes the model's current interpretation that, after reintegration, the realized interval requires an expanded state description that includes an additional temporal instance of the traveler and the consequences of the earlier arrival.
+The lower/main loop-compatible strand contains the ordinary history whose earlier state already includes reintegration.
 
-The line returns to its baseline thickness after the departure event because the pre-departure instance leaves ordinary historical synchronization and enters the isolated transit.
+The interval from `R` to `D` is drawn thicker or brighter as the **parameter-enriched interval**.
 
-This is a visual representation of closure of the temporary additional state description, not information destruction or creation of another universe.
+This represents the current state-accounting intuition that the ordinary history description between reintegration and departure includes the returned traveler and its causal consequences.
 
-The literal counting of temporal instances is only an intuitive representation of the current model; a future formalization may use a more general state-space description.
+## Loop-Free Strand
 
-## Reference Frontal-Time Slice
+The second child strand represents an admissible continuation in which the returned traveler is absent at `R`.
 
-The ruby reference plane is conceptually unbounded.
+It is not created by the later departure event. It is a separately represented child history because the state at `R` differs from the loop-compatible state.
 
-The SVG shows only a finite projected patch of that plane. Its visible edges belong to the diagram, not to the modeled slice, so neither trajectory should be interpreted as able to go around it.
+The diagram does not require both child histories to be physically realized in any established interpretation. It only shows that the Ontoverse history-bundle model can represent both as distinct admissible history classes when both remain globally consistent.
 
-Both the primary history and the isolated transit cross `S(F_ref)`. The translucent ruby surface allows those intersections to remain visually legible.
+## Departure Closes the Loop
 
-The current maximal slice `S(F_max)` is intentionally **not drawn** in this retrospective diagram.
+The later departure `D` is not another divergence node.
 
-## Direction and Geometry
+```text
+loop-compatible history
+R -> ... -> D
+          |
+          +-> isolated transit -> R
+```
 
-The primary history has no arrow pointing into the past.
+The traveler leaving ordinary synchronization at `D` closes the already constrained loop.
 
-The transit path begins at the departure node with the local tangent of the primary trajectory, curves through an oval-like loop, crosses the reference frontal-time slice, and reconnects at the earlier reintegration node.
+The diagram therefore places the explicit callout **`departure closes loop — no branch at D`** at the departure node.
 
-The absence of an arrow into the past is intentional: the diagram emphasizes topology and causal closure rather than treating the past as an ordinary spatial direction.
+## Transit Isolation
 
-## Distant Reintegration
+The dashed oval-like path is the isolated past-directed transit.
 
-The horizontal distance between reintegration and departure is illustrative, not a maximum time-travel range.
+It is not an ordinary forward historical strand and should not be read as another history-space branch.
 
-Under the current global-consistency model, reintegration may in principle lie much farther into branch-local history because the earlier entrance into the loop is already part of the admissible complete continuation used to constrain earlier frontal-time slices.
+The path leaves the loop-compatible history at `D`, crosses the selected reference frontal-time slice, and reconnects at `R`.
 
-Physical limits on how far a real mechanism could travel remain an open problem.
+## Traveler State and Future-Derived Information
 
-## Future-Derived Information
+The reintegrated traveler may carry state acquired later along the same loop-compatible history:
 
-The traveler may carry branch-relative records or memories acquired later in local ordering into the earlier reintegration state.
+- memories;
+- records;
+- physical modifications;
+- carried objects;
+- learned information.
+
+Those properties are part of the state difference between loop-compatible and loop-free histories at `R`.
 
 Conceptually:
 
 ```text
-later record
--> past-directed transit
--> earlier memory or record
--> reaction becomes part of the same history
--> later record still occurs consistently
+later traveler state
+-> isolated past-directed transit
+-> earlier traveler state at R
+-> history-class distinction
+-> consequences remain inside the same loop-compatible history
 ```
 
-This may look locally like prediction or foreknowledge, but the model does not imply unrestricted access to every possible future branch.
+This provides the visual basis for branch-relative future-derived information or apparent foreknowledge without implying access to every possible future history.
+
+## Parameter-Enriched Interval and Compensation
+
+The loop-compatible strand is visually enriched from `R` to `D`.
+
+At `D`, the pre-departure traveler instance enters isolated transit. The ordinary strand can therefore return to its baseline state-description width after departure.
+
+The visual compensation is an intuition about state accounting, not a claim of annihilation, information destruction, or cancellation of a known conserved physical quantity.
+
+## Reference Frontal-Time Slice
+
+The ruby plane is conceptually unbounded. The finite rectangle is only the visible projected patch.
+
+Both the loop-compatible historical strand and the isolated transit may cross `S(F_ref)` because this is a retrospective reference slice inside already-described history.
+
+Crossing it does not mean that realized structure exists beyond the current `S(F_max)` frontier.
+
+## Distant Reintegration
+
+The displayed separation between `R` and `D` is illustrative.
+
+Under the current history-bundle model, reintegration may lie much farther into the past. The loop-compatible history simply becomes separately represented wherever its first required state distinction occurs.
+
+Any physical limit on past-directed travel remains an open problem.
 
 ## Conceptual Reading
 
 ```text
-complete self-consistent continuation
--> earlier reintegration R already belongs to the history
+compressed shared history class
+-> first required distinction at R
+-> loop-free child history
+   or
+-> loop-compatible child history
 -> parameter-enriched interval
--> later departure D
--> isolated past-directed transit
+-> departure D
+-> isolated transit
 -> same R
 ```
 
-A perturbation introduced after arrival in the past is therefore interpreted as part of the causes of the later history, not as a butterfly-effect rewrite into another branch.
-
-The diagram does not imply that apparently paradoxical interactions automatically become harmless or impossible. A proposed event sequence that removes a necessary condition for its own departure simply fails the model's global self-consistency condition.
+The diagram therefore does not show the future rewriting the past. It shows a globally consistent complete continuation requiring an earlier state distinction inside the history bundle.
 
 ## Documentation Role
 
 Use this visualization when explaining:
 
-- past-directed travel without historical branching;
-- global causal self-consistency in the Closed Time Loop model;
-- the distinction between `S(F_ref)` and `S(F_max)`;
+- compressed History Equivalence Classes;
+- divergence as first required state distinction;
+- time-travel-induced class splitting at reintegration;
+- why departure is not the branch-creation point;
+- loop-compatible versus loop-free histories;
 - transit isolation;
-- reintegration into an earlier realized history;
-- the parameter-enriched interval;
-- compensation at the departure event;
+- the parameter-enriched interval and compensation;
+- `S(F_ref)` versus `S(F_max)`;
 - distant reintegration;
-- branch-relative future-derived information.
+- history-relative future-derived information.
