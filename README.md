@@ -36,12 +36,14 @@ The intended value of the project is not certainty, but structure: if an idea is
 ## Core Ideas
 
 - **History-space** models reality as a structured space of possible histories rather than a single linear timeline.
-- **Frontal time** is a proposed global ordering parameter, represented visually as a ruby-red present boundary or plane.
-- **Local time** is interpreted as accumulated significant event-nodes along a historical trajectory.
-- **Temporal density** describes the density of significant event-nodes relative to a frontal-time interval.
+- **Frontal time** is a proposed global ordering parameter whose values define global history-space slices `S(F)`; the current maximum `F_max` is the latest actualized slice.
+- **Local time** is interpreted as accumulated significant event-nodes along a historical trajectory across frontal-time slices.
+- **Temporal density** describes how frequently significant event-nodes occur along a branch over a shared frontal-time interval.
+- **Causal processing density** is a separate speculative measure of local state-coordination or processing load relative to frontal-time slices.
 - **Compatibility channels** constrain which histories, records, and observers can interact.
 - **Convergent channels** describe cases where distinct historical origins enter a shared locally equivalent future-access structure.
-- **Closed time loops** explore whether past-directed travel can remain part of one self-consistent realized history without creating an alternate branch.
+- **Global consistency constraints** explore whether branch states must belong to at least one self-consistent complete continuation without forcing a single deterministic future.
+- **Closed time loops** explore whether past-directed travel and future-derived information can remain part of one globally self-consistent history without the time-travel event itself creating an alternate branch.
 
 ## Documentation Map
 
@@ -55,18 +57,18 @@ The intended value of the project is not certainty, but structure: if an idea is
 ### Models
 
 - [`models/`](./docs/sub/models/) — conceptual models inside Ontoverse.
-  - [`history-space/`](./docs/sub/models/sub/history-space/) — reality as a structured space of possible histories.
-  - [`frontal-time/`](./docs/sub/models/sub/frontal-time/) — global frontal time, local time, temporal density, and the quantum-transition-rate conjecture.
-  - [`closed-time-loop/`](./docs/sub/models/sub/closed-time-loop/) — self-consistent past-directed travel, transit isolation, reintegration, and parameter compensation on one realized history.
+  - [`history-space/`](./docs/sub/models/sub/history-space/) — reality as a structured space of possible histories across frontal-time slices.
+  - [`frontal-time/`](./docs/sub/models/sub/frontal-time/) — global frontal-time slices, local time, temporal density, causal processing density, and the quantum-transition-rate conjecture.
+  - [`closed-time-loop/`](./docs/sub/models/sub/closed-time-loop/) — globally self-consistent past-directed travel, transit isolation, future-derived information, reintegration, and parameter compensation on one realized history.
 
 ### Visual Explanations
 
-- [`visualizations/`](./docs/sub/visualizations/) — diagrams explaining history-space, temporal density, frontal time, convergent channels, and causal loops.
+- [`visualizations/`](./docs/sub/visualizations/) — diagrams explaining history-space, temporal density, frontal-time slices, convergent channels, and causal loops.
   - [`temporal-density-comparison/`](./docs/sub/visualizations/sub/temporal-density-comparison/) — low-density and high-density event-node trajectories across the same frontal-time interval.
-  - [`convergent-channel/`](./docs/sub/visualizations/sub/convergent-channel/) — distinct origins, divergence, compatibility filtering, and convergence at the frontal time plane.
+  - [`convergent-channel/`](./docs/sub/visualizations/sub/convergent-channel/) — distinct origins, divergence, compatibility filtering, and convergence at the current frontal-time frontier.
   - [`history-space-density-regions/`](./docs/sub/visualizations/sub/history-space-density-regions/) — sparse, medium, and dense regions inside history-space.
   - [`uneven-temporal-density/`](./docs/sub/visualizations/sub/uneven-temporal-density/) — representative event-node density patterns across multiple trajectories.
-  - [`closed-time-loop/`](./docs/sub/visualizations/sub/closed-time-loop/) — an oval past-directed transit crossing the frontal time plane and reintegrating into the same history without branching.
+  - [`closed-time-loop/`](./docs/sub/visualizations/sub/closed-time-loop/) — an oval past-directed transit shown relative to a retrospective frontal-time reference slice and reintegrating into the same history without branching.
 
 ### Reference Material
 
