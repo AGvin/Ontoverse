@@ -8,6 +8,11 @@ These sources are not treated as authoritative proof, evidence, or foundation of
 
 The validity of Ontoverse does not depend on these sources. Each idea still has to be defined, compared with existing concepts, criticized, formalized where possible, or rejected.
 
+## Translations
+
+- English
+- [Українська](./l10n/uk_UA/)
+
 ## Initial Conceptual Trigger
 
 - Video: <https://youtu.be/bMXFJkqIrx0>
@@ -70,6 +75,28 @@ It does not currently claim that:
 - observer experience is already mathematically equivalent to a least-action path.
 
 The analogy is useful because it suggests a direction for future comparison with action principles, path-integral reasoning, and phase/coherence-based selection of relevant paths.
+
+## Time-Travel and Apparent-Foreknowledge Inspiration
+
+- Television series: *Continuum* (2012)
+
+Personal development note:
+
+> The current Ontoverse direction on past-directed travel and apparent foreknowledge of the future was inspired in part by the 2012 science-fiction series *Continuum*.
+
+The relevant conceptual prompt was not to copy the series' fictional mechanics, but to ask how a traveler who arrives in an earlier state while carrying memories or records from a later state should be represented. From the earlier point of view, such future-derived information can look like prediction even though the model treats it as information transported through a causal loop.
+
+```text
+later experience or record
+-> past-directed transport
+-> earlier knowledge
+-> apparent prediction
+-> reaction becomes part of the causal-history problem
+```
+
+This prompt feeds into the [Closed Time Loop](../../../models/sub/closed-time-loop/) model, where the difficult question is whether the traveler, the information, the response to it, and the later departure can all belong to one globally self-consistent history.
+
+*Continuum* is recorded here only as an inspiration source. Ontoverse does not treat its fictional time-travel rules as evidence or as an authoritative physical model.
 
 ## Related Established Background
 

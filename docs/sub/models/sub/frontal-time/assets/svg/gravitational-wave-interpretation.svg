@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
   <title id="title">Gravitational wave interpretation</title>
-  <desc id="desc">Shows a gravitational wave as a moving local metric deviation that alternates stretch and compression.</desc>
+  <desc id="desc">Shows a gravitational wave as a moving local metric deviation with spatial stretch and compression, a conjectural causal-processing fluctuation, and a changing local time-rate gradient.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#071426"/><stop offset="1" stop-color="#020713"/></linearGradient>
     <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8ffcff"/><stop offset="1" stop-color="#1d91ff"/></linearGradient>
@@ -40,7 +40,7 @@
   <g transform="translate(842 185)">
     <rect x="0" y="0" width="280" height="42" class="box"/><text x="140" y="27" class="t" text-anchor="middle">gravitational wave</text>
     <rect x="0" y="58" width="280" height="42" class="box"/><text x="140" y="85" class="t" text-anchor="middle">spatial stretch/compression</text>
-    <rect x="0" y="116" width="280" height="42" class="box"/><text x="140" y="143" class="t" text-anchor="middle">density fluctuation</text>
+    <rect x="0" y="116" width="280" height="42" class="box"/><text x="140" y="143" class="t" text-anchor="middle">causal-processing fluctuation</text>
     <rect x="0" y="174" width="280" height="42" class="box"/><text x="140" y="201" class="t" text-anchor="middle">time-rate gradient fluctuation</text>
     <rect x="0" y="232" width="280" height="46" class="box"/><text x="140" y="261" class="t" text-anchor="middle">transient trajectory distortion</text>
     <g stroke="#d88cff" stroke-width="2" marker-end="url(#arrV)"><line x1="140" y1="42" x2="140" y2="56"/><line x1="140" y1="100" x2="140" y2="114"/><line x1="140" y1="158" x2="140" y2="172"/><line x1="140" y1="216" x2="140" y2="230"/></g>

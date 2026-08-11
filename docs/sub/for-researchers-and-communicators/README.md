@@ -6,6 +6,11 @@ Ontoverse may be interesting as a case study in pre-formal framework building: h
 
 The project is not presented as proof. It is presented as material for inspection, criticism, comparison, and possible formalization.
 
+## Translations
+
+- English
+- [Українська](./l10n/uk_UA/)
+
 ## What Ontoverse Is
 
 Ontoverse is a self-developed conceptual framework for organizing reality, concepts, and possible hidden relationships between them.

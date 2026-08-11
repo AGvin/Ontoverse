@@ -8,6 +8,11 @@ It should not be presented as a completed scientific theory, proof, mystical cla
 
 The public value of Ontoverse is exploratory: it preserves speculative insights in a structured form so they can be examined, criticized, compared with existing ideas, refined, formalized, or rejected.
 
+## Translations
+
+- English
+- [Українська](./l10n/uk_UA/)
+
 ## Suggested One-Line Description
 
 A self-developed conceptual framework for organizing reality, concepts, and possible hidden relationships between them.

@@ -4,6 +4,11 @@ Status: draft
 
 Use this checklist before promoting exploratory Ontoverse material into stable documentation or before publishing public-facing explanations.
 
+## Translations
+
+- English
+- [Українська](./l10n/uk_UA/)
+
 ## Claim Boundaries
 
 - Does the page clearly state its status?

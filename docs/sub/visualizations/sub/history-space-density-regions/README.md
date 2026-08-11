@@ -4,7 +4,7 @@ Status: draft
 
 ![History-space density regions](../../assets/default/diagrams/history-space-density-regions.svg)
 
-This diagram shows how **temporal density** may vary across different regions of history-space.
+This diagram shows how **temporal density** may vary across Historical Strands and regions of the Ontoverse history bundle.
 
 ## Translations
 
@@ -13,33 +13,49 @@ This diagram shows how **temporal density** may vary across different regions of
 
 ## What the Diagram Shows
 
-The diagram separates history-space into three conceptual density regions:
+The diagram compares representative strands with different significant-transition frequencies:
 
-- **low temporal density region** — sparse trajectories and fewer event-nodes;
-- **medium temporal density region** — a moderate number of event-nodes and branch opportunities;
-- **high temporal density region** — dense event-node populations and many closely spaced transitions.
+- **low temporal density** — sparse significant event-nodes across frontal-time intervals;
+- **medium temporal density** — a moderate frequency of significant event-nodes;
+- **high temporal density** — frequent significant event-nodes and closely spaced transitions;
+- **burst density** — a local concentration of significant transitions.
 
-All visible trajectories terminate at the ruby frontal time plane.
+All visible strands terminate at the ruby current frontal-time frontier `S(F_max)`.
+
+## History-Bundle Interpretation
+
+A frontal-time value represents a global history-bundle slice `S(F)`.
+
+The same slice can therefore intersect many currently distinguishable strands whose local histories have accumulated different numbers of significant event-nodes.
+
+```text
+same global ΔF
+-> sparse strand: fewer significant transitions
+-> dense strand: more significant transitions
+```
+
+A strand does not need to contain a significant event-node at every sampled frontal-time slice.
+
+If several admissible complete histories remain state-equivalent, they may still be represented by one Historical Strand and therefore share one density description until a required class split.
 
 ## Interpretation
 
-Ontoverse treats temporal density as a local property of a trajectory or region, not as a uniform value across the entire history-space.
+Ontoverse treats temporal density as a strand- or region-local property, not a uniform property of the whole history bundle.
 
-The same frontal-time boundary can intersect regions with very different numbers of significant event-nodes.
+The same global frontal-time progression can coexist with different amounts of local-time accumulation.
 
-This visualizes the idea that local time may be unevenly accumulated across different histories or regions of the model.
+Temporal density is distinct from Causal Processing Density. This visualization encodes **frequency of significant event-nodes**, not speculative processing load.
 
-## Important Constraint
+## Current Frontier
 
-No event-nodes are shown beyond the frontal time plane.
-
-The plane represents the present boundary in this visualization. Content beyond it would represent a future-side structure that the current model page does not yet define.
+No event-nodes are shown beyond the frontal-time plane because it represents `S(F_max)` in this visualization.
 
 ## Documentation Role
 
 Use this visualization when explaining:
 
+- the history bundle;
+- global frontal-time slices;
 - non-uniform temporal density;
-- regions of different event-node density;
-- the difference between frontal time and locally accumulated time;
-- history-space as a structured field rather than a single branch.
+- strand-specific significant-transition frequency;
+- the difference between frontal time and locally accumulated time.

@@ -4,46 +4,92 @@ Status: draft
 
 ![Convergent channel](../../assets/default/diagrams/convergent-channel.svg)
 
-This diagram explains how distinct historical origins may pass through divergence, compatibility filtering, and convergence before reaching the **frontal time plane**.
+This diagram explains how **globally distinct historical strands** can become locally equivalent under a selected observer, subsystem, or coarse-grained description before reaching the current frontal-time frontier.
 
 ## Translations
 
 - English
 - [Українська](./l10n/uk_UA/)
 
-## What the Diagram Shows
+## Starting Point
 
-The left side contains several **distinct historical origins**.
+The diagram begins **after the relevant history-class distinctions already exist**.
 
-From these origins, trajectories diverge into multiple possible paths. Some paths remain separate, while others become compatible under the current description and enter a narrower **compatibility channel**.
+Each visible incoming line is therefore a separately represented Historical Strand, not a complete future that must have been independent from every other history since the beginning of history-space.
 
-Near the right side, the compatible trajectories form a **convergent channel**. This channel ends at the ruby frontal time plane.
+Their earlier shared or compressed equivalence-class structure is outside the diagram's scope.
 
-## Convergence Does Not Erase the Past
+## Compatibility Filtering
 
-A convergent channel is not a claim that distinct histories become globally identical.
+As the distinct strands approach the right side, their locally accessible states become increasingly equivalent under the chosen description.
 
-The safer interpretation is:
+Conceptually:
 
 ```text
-Different histories may remain globally distinct,
-but their locally accessible future states may become equivalent.
+globally distinct historical strands
+-> local state compatibility increases
+-> shared compatibility channel
 ```
 
-The diagram therefore shows convergence as a shared channel of access, not as the destruction of historical information.
+The filtering is observer- or subsystem-relative. It does not mean that the complete physical histories have become globally identical.
 
-## No Future-Side Continuation
+## Convergent Channel
 
-The convergent channel terminates at the frontal time plane.
+A **Convergent Channel** is the shared local-access structure entered by more than one globally distinct historical strand.
 
-No realized nodes or trajectories are drawn beyond the plane because the diagram treats the plane as the present boundary of the model slice.
+The current visualization compresses the strands visually as they approach the same local channel, but this is not a reverse History-Space divergence operation.
+
+```text
+historical multiplicity remains > 1
++
+locally accessible states become equivalent
+-> shared convergent channel
+```
+
+The channel therefore preserves the distinction between:
+
+- **global historical identity** — the complete strand and its records;
+- **local equivalence** — what a selected observer or subsystem can currently distinguish or access.
+
+## Relation to the History Bundle
+
+The history bundle uses History Equivalence Classes to avoid explicitly separating histories while their current modeled states are the same.
+
+A convergent channel addresses a different case: the histories are already globally distinct because they have different pasts, but their **current locally accessible states** may become equivalent again.
+
+For this reason, convergence does not globally recombine the child histories into one History Equivalence Class unless a future formalization explicitly defines a stronger global equivalence relation that permits such recompression.
+
+The current model does **not** assume that global recompression occurs.
+
+## Frontal-Time Frontier
+
+The ruby plane is the current maximal frontal-time slice `S(F_max)`.
+
+It is one global cross-section of the history bundle, not a timestamp owned by the convergent channel.
+
+```text
+distinct strands
+-> local compatibility
+-> convergent channel
+-> S(F_max)
+```
+
+Realized strands/channel content terminates at the plane in this current-frontier visualization.
+
+## Historical Multiplicity
+
+The visualization should preserve a visible indication that several global historical strands are represented even when their local channel is drawn as one route.
+
+This prevents the visual compression from being misread as deletion of historical information.
 
 ## Documentation Role
 
 Use this visualization when explaining:
 
-- distinct historical origins;
-- divergence;
-- compatibility channels;
-- convergent channels;
-- observer access to locally compatible histories.
+- Historical Strands that are already globally distinct;
+- local equivalence versus global identity;
+- compatibility filtering;
+- Convergent Channels;
+- Historical Multiplicity;
+- observer-relative access;
+- the current frontal-time frontier `S(F_max)`.

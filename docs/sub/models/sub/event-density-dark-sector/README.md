@@ -2,132 +2,226 @@
 
 Status: open formalization task
 
-The Event-Density Dark Sector Conjecture is a speculative Ontoverse hypothesis about whether some dark-matter-like gravitational effects could correspond to an effective contribution from undetected event-density or causal-processing-density structures.
+Dark matter is inferred primarily from gravitational behavior, while direct searches for particle-like interactions have not produced a confirmed dark-matter detection.
 
-This page does not claim that dark matter has been explained. It defines a cautious conceptual bridge between event-density, local time-rate gradients, metric deviation, and dark-matter-like observations.
+Ontoverse asks a deliberately speculative alternative question:
 
-## Core Formulation
+> What if some dark-matter-like gravitational effects are associated not with a directly detectable particle-like substance, but with hidden structure that changes local causal processing and the effective metric?
 
-Dark-matter-like gravitational effects may correspond to an effective contribution from undetected event-density or causal-processing-density structures.
+The **Event-Density Dark Sector Conjecture** explores that possibility.
 
-In this framing, the relevant quantity is not a directly detectable particle-like object, but a persistent distribution of local event-density that may influence local time-rate gradients and therefore appear as an additional metric or gravitational effect.
+It does not claim to explain dark matter. Its purpose is narrower: define the hypothetical chain clearly enough that it can be compared with particle dark matter, modified gravity, cosmological constraints, and eventually rejected if it fails.
 
-## Motivation
+## Translations
 
-Many dark matter searches assume that dark matter can be detected through rare interactions with ordinary matter, such as particle-like scattering, recoil, ionization, scintillation, or other localized detector signals.
+- English
+- [Українська](./l10n/uk_UA/)
 
-Ontoverse allows a different conceptual question:
+## Established Background Boundary
+
+The observational motivation is established; the Ontoverse mechanism is not.
+
+Current dark-matter searches constrain large regions of parameter space through direct, indirect, collider, astrophysical, and cosmological observations, but no accepted direct detection identifies the physical nature of dark matter.
+
+Useful current reference points include:
+
+- [Particle Data Group — Dark Matter Searches](https://pdgprod.lbl.gov/pdgprod/pdgLive/DataBlock.action?node=S030DM5) — current experimental limits and search results;
+- [Berkeley Lab — dark-matter detector research](https://newscenter.lbl.gov/2026/03/17/solving-a-mystery-in-dark-matter-detectors-could-improve-quantum-computers/) — an accessible example of why low-energy backgrounds and detector interpretation remain active problems.
+
+Nothing in those sources supports the Ontoverse causal-processing mechanism specifically. They establish only the background problem against which the conjecture would have to compete.
+
+## First: Two Different Densities
+
+The conjecture only makes sense if two Ontoverse quantities are kept separate.
 
 ```text
-What if some dark-matter-like effects are not caused by directly detectable particle-like matter, but by an effective gravitational contribution from undetected quantum-event or causal-processing density?
+Temporal Density
+= significant Event-Node frequency / frontal-time interval
+
+Causal Processing Density
+= speculative local state-coordination or processing load
+  relative to Frontal-Time slices
 ```
 
-This does not reject particle dark matter. It only defines a speculative alternative interpretation that must be compared against particle-based dark matter, modified gravity, and existing cosmological constraints.
+Higher Temporal Density means more significant strand-local transitions over the same `ΔF` and therefore more Local Time accumulation under the current Ontoverse hypothesis.
 
-## Proposed Chain
+The gravity conjecture concerns the **other** quantity: a possible increase in Causal Processing Density that reduces the effective transition rate.
 
-The conjectural chain is:
+## The Speculative Chain
+
+The current conjecture is:
 
 ```text
-high quantum-event / causal-event density
-→ lower local time rate relative to frontal time
-→ spatial gradient of local time rate
-→ effective metric deviation
-→ gravitational or dark-matter-like effect
+higher Causal Processing Density
+-> lower effective significant-transition rate
+-> lower Temporal Density
+-> slower Local Time accumulation relative to Frontal Time
+-> spatial Local Time-rate gradient
+-> effective metric deviation
+-> gravitational or dark-matter-like effect
 ```
 
-The important quantity is not merely the absolute number of events. A uniform event-density field may not produce a force-like effect for local observers. The more relevant structure is a persistent spatial profile or gradient of local event-density and local time rate.
+Every arrow beyond the definitions is speculative.
+
+Nothing in this chain has yet been derived from general relativity, quantum mechanics, or observational data.
+
+## Why Ask This at All?
+
+Many direct dark-matter experiments are designed to detect localized interactions with ordinary matter: recoil, ionization, scintillation, scattering, or related particle-like signatures.
+
+The Ontoverse conjecture asks whether a gravitationally relevant hidden structure could instead act mainly through the effective metric or local time-rate structure.
+
+If that were true, a detector optimized for particle-like energy deposition might fail to see it directly.
+
+That is **not evidence** for the conjecture. It only explains why the conjecture would not automatically predict the same detector signature as a conventional particle candidate.
+
+## What the Conjecture Is Not Saying
+
+It is not saying:
+
+```text
+Temporal Density = mass
+```
+
+It is not saying:
+
+```text
+more Event-Nodes = stronger gravity
+```
+
+And it is not saying that Causal Processing Density is already a known physical substance.
+
+The proposed bridge is instead:
+
+```text
+hidden causal-processing structure
+-> altered effective transition dynamics
+-> altered Local Time rate
+-> local time-rate gradient
+-> metric effect
+```
+
+The conjecture lives or dies on whether that bridge can ever be made mathematically and observationally coherent.
+
+## Relation to the History Bundle
+
+Frontal Time provides a shared global ordering through slices `S(F)`.
+
+Different Historical Strands can accumulate significant transitions at different frequencies across the same slice progression.
+
+```text
+shared frontal-time progression
+-> S(F0), S(F1), S(F2), ...
+
+strand-local Causal Processing Density
+-> may differ by region
+
+strand-local significant-transition frequency
+-> may differ as a consequence
+```
+
+If several admissible complete histories remain compressed inside one History Equivalence Class, they share one represented current strand and one current local density description until a first required state distinction causes a split.
+
+After divergence, child strands may develop different Causal Processing Density, transition-rate, Temporal Density, and Local Time-rate profiles.
 
 ## Relation to Gravity
 
-In this conjecture, event-density does not gravitate as a particle-like object.
+In established general relativity, gravity is described through spacetime geometry shaped by stress-energy, not as an ordinary pulling force.
 
-A more careful formulation is:
+Ontoverse does not replace that description.
 
-```text
-The effective metric deformation associated with local event-density or causal-processing-density structure is what may appear gravitational.
-```
+The conjecture asks whether an additional hidden causal-processing structure could map to an **effective metric contribution**.
 
-Therefore, the bridge to gravity is not:
+Conceptually:
 
 ```text
-event-density = mass
+causal-processing load distribution
+-> effective transition-rate distribution
+-> Local Time-rate distribution
+-> Local Time-rate gradient
+-> metric deviation
+-> gravitational effect
 ```
 
-but rather:
+The difficult step is not drawing the arrows. It is deriving a physically meaningful mapping that reproduces observations without contradicting relativity, quantum theory, or cosmology.
+
+## A Detector Thought Experiment
+
+Imagine two hypothetical dark sectors.
+
+In the first, dark matter is made of particles that occasionally scatter from ordinary matter. A sufficiently sensitive recoil detector could in principle observe those interactions.
+
+In the second, the hidden structure rarely or never deposits ordinary detector energy but changes the effective gravitational/metric environment.
 
 ```text
-event-density distribution
-→ local time-rate deviation
-→ local time-rate gradient
-→ metric deviation
-→ gravitational effect
+particle-like dark sector
+-> possible localized detector event
+
+metric-like hidden structure
+-> gravitational effect
+-> potentially no ordinary recoil event
 ```
 
-This keeps the conjecture aligned with the broader Ontoverse idea that temporal density, event-nodes, and local time-rate structure may be related to how an experienced history is embedded in a larger history-space.
+The Event-Density Dark Sector Conjecture explores something closer to the second picture.
+
+The thought experiment is only motivational. A real model would still have to explain why and how such a structure contributes to gravity.
 
 ## Relation to Existing Ontoverse Terms
 
-This conjecture depends on several existing Ontoverse terms:
+This conjecture depends on:
 
-- **Event-Node** — a significant transition point in a historical trajectory.
-- **Temporal Density** — the proposed density of significant event-nodes per unit of frontal time.
-- **Causal Processing Density** — the proposed amount of local state change, interaction, and causal coordination maintained in a region relative to frontal time.
-- **Local Time** — time experienced along a particular historical trajectory.
-- **Local Time-Rate Gradient** — spatial difference in local time rate across neighboring regions.
-- **Local Metric Deviation** — local departure from a branch baseline metric.
+- **History Bundle** — the currently represented set of distinguishable Historical Strands;
+- **Historical Strand** — one currently distinguishable History Equivalence Class across Frontal-Time slices;
+- **Frontal-Time Slice** — a global History-Bundle cross-section at one frontal-time value;
+- **Event-Node** — a significant transition point on a Historical Strand;
+- **Temporal Density** — significant Event-Node frequency per frontal-time interval;
+- **Causal Processing Density** — proposed local state-coordination or processing load;
+- **Effective Quantum Transition Rate** — placeholder for the effective rate of significant strand-local transitions relative to Frontal Time;
+- **Local Time** — time accumulated along one Historical Strand;
+- **Local Time-Rate Gradient** — spatial difference in Local Time rate across neighboring regions;
+- **Local Metric Deviation** — local departure from a strand baseline metric.
 
-The conjecture suggests that a persistent event-density or causal-processing-density structure could contribute to local time-rate gradients and metric deviations even if it does not produce an ordinary electromagnetic detector signal.
+## What Would Make the Conjecture Interesting Scientifically?
 
-## Dark-Matter-Like Interpretation
+A compelling version would need to do more than reproduce the words “dark matter” and “gravity.”
 
-In standard observational language, dark matter is inferred mainly from gravitational effects rather than direct electromagnetic visibility.
-
-Ontoverse does not currently claim to identify the physical substance or mechanism behind those effects.
-
-It only proposes the following open possibility:
-
-```text
-Some dark-matter-like gravitational effects may be interpretable as effective metric contributions from undetected event-density or causal-processing-density structures.
-```
-
-If such structures do not interact with ordinary matter through typical electromagnetic or particle-scattering channels, then detectors designed to observe particle-like recoil or energy deposition may fail to detect them directly.
-
-This is not evidence for the conjecture. It is only an explanation of why the conjecture would not necessarily produce a standard direct-detection signal.
-
-## Required Tests and Constraints
-
-For this conjecture to become more than an analogy, it must explain or reproduce at least the following:
+It would need to explain or reproduce at least:
 
 - galaxy rotation curves;
 - gravitational lensing profiles;
-- galaxy cluster behavior;
-- structure formation;
+- galaxy-cluster behavior;
+- large-scale structure formation;
 - cosmic microwave background constraints;
+- the observed success of general relativity in tested regimes;
 - the absence or weakness of direct-detection signals;
-- compatibility with known relativistic and quantum constraints;
-- whether the model predicts anything distinct from particle dark matter or modified gravity.
+- compatibility with known quantum constraints;
+- a prediction or explanatory advantage that distinguishes it from particle dark matter or modified-gravity models.
 
-## Open Formalization Tasks
+If it cannot do those things, the conjecture should remain an analogy or be rejected.
 
-The main task is to define a mathematical bridge between event-density and metric deviation.
+## Open Formalization Route
 
 A possible symbolic sketch is:
 
 ```text
-rho_event(x) → d_tau/dT_front(x) → metric deviation
+rho_process(x, F)
+-> Gamma_eff(x, F)
+-> d_tau/dF(x)
+-> metric deviation
 ```
 
 Where:
 
-- `rho_event(x)` represents local density of significant quantum or causal events;
-- `tau` represents local time;
-- `T_front` represents frontal time;
-- `d_tau/dT_front` represents local time rate relative to frontal time;
-- spatial variation of `d_tau/dT_front` may correspond to a local time-rate gradient;
+- `rho_process(x, F)` represents local Causal Processing Density at Frontal-Time value `F`;
+- `Gamma_eff(x, F)` represents effective significant-transition rate;
+- `tau` represents Local Time along a Historical Strand;
+- `d_tau/dF` represents Local Time accumulation relative to Frontal Time;
+- spatial variation of `d_tau/dF` may correspond to a Local Time-rate gradient;
 - that gradient would need to map to an effective metric or gravitational contribution.
 
 None of these mappings are currently defined rigorously.
+
+A future formalization must also specify how the quantities behave when one History Equivalence Class splits into child strands with different local states.
 
 ## Boundaries
 
@@ -135,16 +229,15 @@ This conjecture does not currently claim to:
 
 - explain dark matter;
 - disprove particle dark matter;
-- replace general relativity;
-- replace quantum mechanics;
+- replace general relativity or quantum mechanics;
 - provide a tested equation;
 - predict galaxy rotation curves;
 - reproduce gravitational lensing;
 - satisfy cosmological constraints;
-- show that event-density is a physical substance.
-
-It is a speculative Ontoverse model component and an open formalization task.
+- show that Causal Processing Density is a physical substance;
+- show that Temporal Density itself directly causes gravity;
+- establish that History-Bundle compression is a physical process.
 
 ## Short Safe Summary
 
-Dark-matter-like effects may correspond to an effective gravitational contribution of undetected event-density or causal-processing-density structures. In this framing, what appears gravitational is not a directly detectable particle-like object, but a persistent distribution of local event-density that may influence local time-rate gradients and therefore produce an additional metric effect.
+The Event-Density Dark Sector Conjecture asks whether some dark-matter-like gravitational effects could correspond to an effective metric contribution from hidden causal-processing structure rather than a directly detectable particle-like substance. In the current Ontoverse picture, such structure could hypothetically reduce significant-transition rates on a Historical Strand relative to Frontal Time, creating Local Time-rate gradients and a metric effect. The entire bridge remains unformalized and must be tested against established physics and observation.
