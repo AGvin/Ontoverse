@@ -4,7 +4,7 @@ Status: draft
 
 ![Temporal density comparison](../../assets/default/diagrams/temporal-density-comparison.svg)
 
-This diagram explains the Ontoverse concept of **temporal density** by comparing two historical trajectories across the same **frontal-time interval**.
+This diagram explains **temporal density** by comparing two Historical Strands across the same frontal-time interval.
 
 ## Translations
 
@@ -13,63 +13,61 @@ This diagram explains the Ontoverse concept of **temporal density** by comparing
 
 ## What the Diagram Shows
 
-Both trajectories are compared over the same interval of global frontal-time ordering and terminate at the same current frontal-time frontier `S(F_max)`.
+Both strands are compared over the same interval of global frontal-time ordering and terminate at the same current frontier `S(F_max)`.
 
-The upper trajectory has **low temporal density**:
+The upper strand has **low temporal density**:
 
 - fewer significant event-nodes over the shared interval;
 - longer gaps between significant transitions;
-- more of the frontal-time interval without a represented significant node.
+- less local-time accumulation under the current Ontoverse hypothesis.
 
-The lower trajectory has **high temporal density**:
+The lower strand has **high temporal density**:
 
 - more significant event-nodes over the same interval;
 - shorter gaps between significant transitions;
-- more local-time accumulation under the current Ontoverse hypothesis.
+- more local-time accumulation under the current hypothesis.
 
-## Slice Interpretation
+## History-Bundle Interpretation
 
-The Frontal Time Model now treats a frontal-time value as a global history-space slice `S(F)`.
+A frontal-time value is a global history-bundle slice `S(F)`.
 
-The diagram can therefore be read conceptually as sampling the same progression of global slices for two different branches:
+The diagram therefore samples the same global progression for two currently distinguishable historical strands:
 
 ```text
 sampled slices:       F0  F1  F2  F3  F4  F5
-low-density branch:   *   .   .   *   .   *
-high-density branch:  *   *   *   *   *   *
+low-density strand:   *   .   .   *   .   *
+high-density strand:  *   *   *   *   *   *
 ```
 
-The diagram does not claim that frontal time is fundamentally discrete. The sampled-slice representation is only a way to visualize different frequencies of significant transition across the same `ΔF`.
+The sampled representation does not imply that frontal time is fundamentally discrete.
+
+If two admissible complete histories are still members of one History Equivalence Class, they may share one represented temporal-density description until a divergence requires separate strands.
 
 ## Interpretation
 
-In Ontoverse, local time is not treated only as an external coordinate. It is associated with the accumulation of significant event-nodes along a trajectory as frontal time progresses globally.
-
-The conceptual expression is:
+Local time is associated with the accumulation of significant strand-local transitions as frontal time progresses globally.
 
 ```text
-temporal density ~ event-nodes / frontal-time interval
+temporal density ~ significant event-nodes / frontal-time interval
 ```
 
-This is not yet a physical equation. It is a visual and conceptual definition that requires future formalization.
+This is a conceptual definition, not a physical equation.
 
-Temporal density should not be confused with **causal processing density**, which is a separate speculative concept for local state-coordination or processing load.
+Temporal density is distinct from **Causal Processing Density**, which is a separate speculative concept for local state-coordination or processing load.
 
 ## Current Frontier
 
-The trajectories stop at the right ruby plane because it represents the current maximal frontal-time slice `S(F_max)` in this visualization.
+The strands stop at the right ruby plane because it represents the current maximal frontal-time slice `S(F_max)`.
 
-Nodes and realized paths beyond that plane would imply later realized structure that is not part of the shown model state.
-
-This is the **current-frontier** use of the frontal time plane, unlike the retrospective reference-slice mode used by the Closed Time Loop visualization.
+Realized strand content beyond that plane would imply later actualized structure outside the shown model state.
 
 ## Documentation Role
 
 Use this visualization when explaining:
 
 - global frontal-time slices;
+- Historical Strands;
 - local time;
 - temporal density;
-- branch-specific event-node frequency;
-- event-node accumulation;
-- why different histories may accumulate different amounts of local time across the same frontal-time interval.
+- strand-specific significant-transition frequency;
+- different local-time accumulation across the same global `ΔF`.
