@@ -11,7 +11,7 @@ A self-developed conceptual framework for organizing reality, concepts, and poss
 
 > **Disclaimer:** Ontoverse is a collection of the author's reflections, hypotheses, conceptual models, and interpretive notes. It is not a scientific claim, proof, or established physical theory. AI tools were used to help publish, structure, translate, and refine the documentation, but the underlying ideas and conceptual direction originate from the author.
 
-Ontoverse explores speculative models of **history-space**, **frontal time**, **temporal density**, **event-nodes**, **compatibility channels**, and **observer-compatible worlds**. It is intended as a structured research notebook for developing, comparing, and refining ideas about how reality, time, histories, causality, and compatible worlds may be organized.
+Ontoverse explores speculative models of **history-space**, **frontal time**, **temporal density**, **event-nodes**, **compatibility channels**, **observer-compatible worlds**, and self-consistent causal loops. It is intended as a structured research notebook for developing, comparing, and refining ideas about how reality, time, histories, causality, and compatible worlds may be organized.
 
 The project is best understood as a pre-formal framework: a way to preserve, inspect, criticize, refine, and potentially formalize conceptual insights that may contain a rational seed for future discovery or confirmation.
 
@@ -41,6 +41,7 @@ The intended value of the project is not certainty, but structure: if an idea is
 - **Temporal density** describes the density of significant event-nodes relative to a frontal-time interval.
 - **Compatibility channels** constrain which histories, records, and observers can interact.
 - **Convergent channels** describe cases where distinct historical origins enter a shared locally equivalent future-access structure.
+- **Closed time loops** explore whether past-directed travel can remain part of one self-consistent realized history without creating an alternate branch.
 
 ## Documentation Map
 
@@ -56,14 +57,16 @@ The intended value of the project is not certainty, but structure: if an idea is
 - [`models/`](./docs/sub/models/) — conceptual models inside Ontoverse.
   - [`history-space/`](./docs/sub/models/sub/history-space/) — reality as a structured space of possible histories.
   - [`frontal-time/`](./docs/sub/models/sub/frontal-time/) — global frontal time, local time, temporal density, and the quantum-transition-rate conjecture.
+  - [`closed-time-loop/`](./docs/sub/models/sub/closed-time-loop/) — self-consistent past-directed travel, transit isolation, reintegration, and parameter compensation on one realized history.
 
 ### Visual Explanations
 
-- [`visualizations/`](./docs/sub/visualizations/) — diagrams explaining history-space, temporal density, frontal time, and convergent channels.
+- [`visualizations/`](./docs/sub/visualizations/) — diagrams explaining history-space, temporal density, frontal time, convergent channels, and causal loops.
   - [`temporal-density-comparison/`](./docs/sub/visualizations/sub/temporal-density-comparison/) — low-density and high-density event-node trajectories across the same frontal-time interval.
   - [`convergent-channel/`](./docs/sub/visualizations/sub/convergent-channel/) — distinct origins, divergence, compatibility filtering, and convergence at the frontal time plane.
   - [`history-space-density-regions/`](./docs/sub/visualizations/sub/history-space-density-regions/) — sparse, medium, and dense regions inside history-space.
   - [`uneven-temporal-density/`](./docs/sub/visualizations/sub/uneven-temporal-density/) — representative event-node density patterns across multiple trajectories.
+  - [`closed-time-loop/`](./docs/sub/visualizations/sub/closed-time-loop/) — an oval past-directed transit crossing the frontal time plane and reintegrating into the same history without branching.
 
 ### Reference Material
 
