@@ -12,6 +12,11 @@ Instead, it changes the structure of the question.
 
 A past-directed trip must belong to a **globally self-consistent complete history**. If the returned traveler makes the earlier state physically different, that difference is represented as an earlier history-class split. The later departure does not create the branch; it closes the loop inside the already loop-compatible strand.
 
+## Translations
+
+- English
+- [Українська](./l10n/uk_UA/)
+
 ## The Loop in One Diagram
 
 Let:

@@ -14,8 +14,7 @@ It distinguishes two separate ideas that should not be conflated:
 ## Translations
 
 - English
-
-Localization will be added in a later localization pass.
+- [Українська](./l10n/uk_UA/)
 
 ## Diagram Mode
 

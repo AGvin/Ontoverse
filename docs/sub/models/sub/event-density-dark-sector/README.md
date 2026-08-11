@@ -12,6 +12,11 @@ The **Event-Density Dark Sector Conjecture** explores that possibility.
 
 It does not claim to explain dark matter. Its purpose is narrower: define the hypothetical chain clearly enough that it can be compared with particle dark matter, modified gravity, cosmological constraints, and eventually rejected if it fails.
 
+## Translations
+
+- English
+- [Українська](./l10n/uk_UA/)
+
 ## Established Background Boundary
 
 The observational motivation is established; the Ontoverse mechanism is not.
