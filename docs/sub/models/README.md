@@ -9,7 +9,7 @@ Each model should remain focused, state its speculative status, and identify ope
 ## Current Models
 
 - [`history-space/`](./sub/history-space/) — models history-space as a compressed bundle of currently distinguishable history equivalence classes, with historical strands, first-required-distinction divergence, compatibility, convergence, and observer access.
-- [`frontal-time/`](./sub/frontal-time/) — models frontal time as a global sequence or family of history-bundle slices `S(F)`, with class splitting driven by required state distinctions, branch-local time accumulation, temporal density, and causal processing density.
+- [`frontal-time/`](./sub/frontal-time/) — models frontal time as a global sequence or family of history-bundle slices `S(F)`, with class splitting driven by required state distinctions, strand-local time accumulation, temporal density, and causal processing density.
 - [`event-density-dark-sector/`](./sub/event-density-dark-sector/) — explores whether dark-matter-like effects could correspond to effective metric contributions from undetected causal-processing-density structures and their influence on local transition rates.
 - [`closed-time-loop/`](./sub/closed-time-loop/) — explores globally self-consistent past-directed travel in the history bundle, including reintegration-induced class splitting, no branch creation at departure, transit isolation, future-derived information, and parameter compensation.
 
