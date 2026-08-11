@@ -13,6 +13,7 @@ The diagrams are part of the documentation, not decorative assets. They should r
 - [`history-space-density-regions/`](./sub/history-space-density-regions/) — shows sparse, medium, and high temporal-density regions inside history-space.
 - [`uneven-temporal-density/`](./sub/uneven-temporal-density/) — compares several representative density patterns across history-space.
 - [`isometric-history-space/`](./sub/isometric-history-space/) — shows a volumetric, tree-like history-space projection with branching strings approaching the frontal time plane.
+- [`closed-time-loop/`](./sub/closed-time-loop/) — shows past-directed travel as a self-consistent oval loop that reintegrates into the same realized history without creating a branch.
 
 ## Shared Visual Rules
 
@@ -21,6 +22,8 @@ The diagrams are part of the documentation, not decorative assets. They should r
 The ruby **frontal time plane** represents the present boundary of the currently described model slice.
 
 For visual clarity and conceptual consistency, diagrams should not show event-nodes, realized trajectories, or channel continuations beyond the frontal time plane unless a document explicitly defines that future-side area as hypothetical or inaccessible.
+
+A visualization may explicitly use the plane as a reference ordering slice instead of a terminal present boundary when the model being illustrated requires a trajectory to cross that slice. Such an exception must be documented on the owning visualization page.
 
 ### Density must be visually encoded
 
