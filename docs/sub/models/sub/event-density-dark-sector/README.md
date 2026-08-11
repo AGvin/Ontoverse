@@ -2,7 +2,7 @@
 
 Status: open formalization task
 
-Dark matter is inferred primarily from gravitational behavior, while direct searches for particle-like interactions have not yet produced a confirmed dark-matter detection.
+Dark matter is inferred primarily from gravitational behavior, while direct searches for particle-like interactions have not produced a confirmed dark-matter detection.
 
 Ontoverse asks a deliberately speculative alternative question:
 
@@ -11,6 +11,19 @@ Ontoverse asks a deliberately speculative alternative question:
 The **Event-Density Dark Sector Conjecture** explores that possibility.
 
 It does not claim to explain dark matter. Its purpose is narrower: define the hypothetical chain clearly enough that it can be compared with particle dark matter, modified gravity, cosmological constraints, and eventually rejected if it fails.
+
+## Established Background Boundary
+
+The observational motivation is established; the Ontoverse mechanism is not.
+
+Current dark-matter searches constrain large regions of parameter space through direct, indirect, collider, astrophysical, and cosmological observations, but no accepted direct detection identifies the physical nature of dark matter.
+
+Useful current reference points include:
+
+- [Particle Data Group — Dark Matter Searches](https://pdgprod.lbl.gov/pdgprod/pdgLive/DataBlock.action?node=S030DM5) — current experimental limits and search results;
+- [Berkeley Lab — dark-matter detector research](https://newscenter.lbl.gov/2026/03/17/solving-a-mystery-in-dark-matter-detectors-could-improve-quantum-computers/) — an accessible example of why low-energy backgrounds and detector interpretation remain active problems.
+
+Nothing in those sources supports the Ontoverse causal-processing mechanism specifically. They establish only the background problem against which the conjecture would have to compete.
 
 ## First: Two Different Densities
 
