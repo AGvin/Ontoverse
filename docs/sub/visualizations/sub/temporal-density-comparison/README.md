@@ -13,23 +13,37 @@ This diagram explains the Ontoverse concept of **temporal density** by comparing
 
 ## What the Diagram Shows
 
-Both trajectories are bounded by the same two ruby frontal-time planes. This means they are evaluated across the same frontal-time interval.
+Both trajectories are compared over the same interval of global frontal-time ordering and terminate at the same current frontal-time frontier `S(F_max)`.
 
 The upper trajectory has **low temporal density**:
 
-- fewer event-nodes;
+- fewer significant event-nodes over the shared interval;
 - longer gaps between significant transitions;
-- fewer local branch opportunities.
+- more of the frontal-time interval without a represented significant node.
 
 The lower trajectory has **high temporal density**:
 
-- more event-nodes;
+- more significant event-nodes over the same interval;
 - shorter gaps between significant transitions;
-- more local branch opportunities.
+- more local-time accumulation under the current Ontoverse hypothesis.
+
+## Slice Interpretation
+
+The Frontal Time Model now treats a frontal-time value as a global history-space slice `S(F)`.
+
+The diagram can therefore be read conceptually as sampling the same progression of global slices for two different branches:
+
+```text
+sampled slices:       F0  F1  F2  F3  F4  F5
+low-density branch:   *   .   .   *   .   *
+high-density branch:  *   *   *   *   *   *
+```
+
+The diagram does not claim that frontal time is fundamentally discrete. The sampled-slice representation is only a way to visualize different frequencies of significant transition across the same `ΔF`.
 
 ## Interpretation
 
-In Ontoverse, local time is not treated only as an external coordinate. It is associated with the accumulation of significant event-nodes along a trajectory.
+In Ontoverse, local time is not treated only as an external coordinate. It is associated with the accumulation of significant event-nodes along a trajectory as frontal time progresses globally.
 
 The conceptual expression is:
 
@@ -39,18 +53,23 @@ temporal density ~ event-nodes / frontal-time interval
 
 This is not yet a physical equation. It is a visual and conceptual definition that requires future formalization.
 
-## No Future-Side Content
+Temporal density should not be confused with **causal processing density**, which is a separate speculative concept for local state-coordination or processing load.
 
-The trajectories stop at the right frontal-time plane.
+## Current Frontier
 
-This is intentional: the plane represents the current present boundary in the diagram. Nodes and realized paths beyond that plane would imply future events that have not occurred inside the shown model slice.
+The trajectories stop at the right ruby plane because it represents the current maximal frontal-time slice `S(F_max)` in this visualization.
+
+Nodes and realized paths beyond that plane would imply later realized structure that is not part of the shown model state.
+
+This is the **current-frontier** use of the frontal time plane, unlike the retrospective reference-slice mode used by the Closed Time Loop visualization.
 
 ## Documentation Role
 
 Use this visualization when explaining:
 
-- frontal time;
+- global frontal-time slices;
 - local time;
 - temporal density;
+- branch-specific event-node frequency;
 - event-node accumulation;
-- why different histories may experience different amounts of change across the same frontal-time interval.
+- why different histories may accumulate different amounts of local time across the same frontal-time interval.
