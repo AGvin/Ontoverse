@@ -1,135 +1,133 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
   <title id="title">Closed Time Loop Without Branching</title>
-  <desc id="desc">A single realized timeline crosses a ruby frontal-time plane. A dashed oval transit leaves a future departure node, crosses the same plane, and reintegrates into the past without creating a branch. The interval between reintegration and departure is visually enriched.</desc>
+  <desc id="desc">A single realized timeline crosses a ruby frontal-time plane. A dashed oval transit leaves a future departure node, crosses the same plane, and reintegrates into the past without creating a branch. The interval between reintegration and departure is shown as an enriched luminous sheath on the same primary timeline.</desc>
   <defs>
-    <radialGradient id="bg" cx="50%" cy="48%" r="84%">
+    <radialGradient id="bg" cx="50%" cy="47%" r="86%">
       <stop offset="0" stop-color="#07152a"/>
-      <stop offset="0.66" stop-color="#020713"/>
+      <stop offset="0.68" stop-color="#020713"/>
       <stop offset="1" stop-color="#00030a"/>
     </radialGradient>
-    <linearGradient id="history" x1="150" y1="405" x2="1450" y2="405" gradientUnits="userSpaceOnUse">
+    <linearGradient id="history" x1="150" y1="402" x2="1450" y2="402" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#14eaff"/>
-      <stop offset="0.52" stop-color="#f8fbff"/>
+      <stop offset="0.50" stop-color="#f7fbff"/>
       <stop offset="1" stop-color="#ff5ee7"/>
     </linearGradient>
-    <linearGradient id="enrichment" x1="455" y1="405" x2="1145" y2="405" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#61dfff" stop-opacity="0.55"/>
-      <stop offset="0.52" stop-color="#f8fbff" stop-opacity="0.65"/>
-      <stop offset="1" stop-color="#f276ef" stop-opacity="0.55"/>
+    <linearGradient id="enrichment" x1="360" y1="402" x2="1240" y2="402" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#28dfff" stop-opacity="0.34"/>
+      <stop offset="0.50" stop-color="#f8fbff" stop-opacity="0.58"/>
+      <stop offset="1" stop-color="#ff62e5" stop-opacity="0.38"/>
     </linearGradient>
-    <linearGradient id="loop" x1="1198" y1="535" x2="390" y2="535" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#ff5ee7"/>
-      <stop offset="0.50" stop-color="#ab8cff"/>
-      <stop offset="1" stop-color="#14eaff"/>
+    <linearGradient id="loop" x1="1260" y1="510" x2="330" y2="510" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ff63e6"/>
+      <stop offset="0.50" stop-color="#a88cff"/>
+      <stop offset="1" stop-color="#18e4ff"/>
     </linearGradient>
-    <linearGradient id="plane" x1="760" y1="220" x2="845" y2="705" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#ff6076" stop-opacity="0.10"/>
-      <stop offset="0.48" stop-color="#ff244b" stop-opacity="0.34"/>
-      <stop offset="1" stop-color="#ff6076" stop-opacity="0.12"/>
+    <linearGradient id="plane" x1="790" y1="220" x2="858" y2="706" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ff697c" stop-opacity="0.08"/>
+      <stop offset="0.48" stop-color="#b31235" stop-opacity="0.30"/>
+      <stop offset="1" stop-color="#ff697c" stop-opacity="0.10"/>
     </linearGradient>
-    <filter id="nodeGlow" x="-80%" y="-80%" width="260%" height="260%">
-      <feGaussianBlur stdDeviation="4" result="blur"/>
+    <filter id="nodeGlow" x="-90%" y="-90%" width="280%" height="280%">
+      <feGaussianBlur stdDeviation="3.5" result="blur"/>
       <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
-    <filter id="lineGlow" x="-30%" y="-80%" width="160%" height="260%">
-      <feGaussianBlur stdDeviation="4" result="blur"/>
+    <filter id="lineGlow" x="-30%" y="-100%" width="160%" height="300%">
+      <feGaussianBlur stdDeviation="3.2" result="blur"/>
       <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
+    <pattern id="grid" width="80" height="80" patternUnits="userSpaceOnUse">
+      <path d="M80 0H0V80" fill="none" stroke="#16426f" stroke-opacity="0.12" stroke-width="1"/>
+    </pattern>
   </defs>
 
   <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect width="1600" height="900" fill="url(#grid)"/>
 
-  <text x="800" y="72" fill="#f8fbff" font-family="Segoe UI, Arial, sans-serif" font-size="50" text-anchor="middle">Closed Time Loop Without Branching</text>
+  <text x="800" y="70" fill="#f8fbff" font-family="Segoe UI, Arial, sans-serif" font-size="48" text-anchor="middle">Closed Time Loop Without Branching</text>
 
-  <rect x="398" y="104" width="804" height="92" rx="14" fill="#050a16" stroke="#264c7a"/>
-  <text x="470" y="143" fill="#14eaff" font-family="Segoe UI, Arial, sans-serif" font-size="22">past-directed travel</text>
-  <text x="704" y="143" fill="#f8fbff" font-family="Segoe UI, Arial, sans-serif" font-size="22">~</text>
-  <text x="748" y="143" fill="#8eb9ff" font-family="Segoe UI, Arial, sans-serif" font-size="22">closed causal loop</text>
-  <text x="972" y="143" fill="#f8fbff" font-family="Segoe UI, Arial, sans-serif" font-size="22">/</text>
-  <text x="1012" y="143" fill="#ff526b" font-family="Segoe UI, Arial, sans-serif" font-size="22">no branching</text>
-  <line x1="440" y1="157" x2="1160" y2="157" stroke="#34425d"/>
-  <text x="492" y="184" fill="#14eaff" font-family="Segoe UI, Arial, sans-serif" font-size="22">observed future</text>
-  <text x="704" y="184" fill="#f8fbff" font-family="Segoe UI, Arial, sans-serif" font-size="22">~</text>
-  <text x="748" y="184" fill="#b9a6ff" font-family="Segoe UI, Arial, sans-serif" font-size="22">already contains the past intervention</text>
+  <!-- Compact relation box. -->
+  <rect x="420" y="103" width="760" height="86" rx="14" fill="#050a16" fill-opacity="0.94" stroke="#264c7a"/>
+  <text x="486" y="140" fill="#14eaff" font-family="Segoe UI, Arial, sans-serif" font-size="21">past-directed travel</text>
+  <text x="706" y="140" fill="#f8fbff" font-family="Segoe UI, Arial, sans-serif" font-size="21">~</text>
+  <text x="748" y="140" fill="#c7c6f8" font-family="Segoe UI, Arial, sans-serif" font-size="21">closed causal loop</text>
+  <text x="966" y="140" fill="#f8fbff" font-family="Segoe UI, Arial, sans-serif" font-size="21">/</text>
+  <text x="1008" y="140" fill="#ff526b" font-family="Segoe UI, Arial, sans-serif" font-size="21">no branching</text>
+  <line x1="455" y1="153" x2="1145" y2="153" stroke="#34425d"/>
+  <text x="505" y="178" fill="#14eaff" font-family="Segoe UI, Arial, sans-serif" font-size="21">observed future</text>
+  <text x="706" y="178" fill="#f8fbff" font-family="Segoe UI, Arial, sans-serif" font-size="21">~</text>
+  <text x="748" y="178" fill="#b9a6ff" font-family="Segoe UI, Arial, sans-serif" font-size="21">already contains the past intervention</text>
 
-  <g opacity="0.10" stroke="#1a63bd" fill="none">
-    <path d="M160 244 H1440 V700 H160 Z"/>
-    <path d="M160 405 H1440"/>
-    <path d="M160 560 H1440"/>
-    <path d="M435 244 V700"/>
-    <path d="M695 244 V700"/>
-    <path d="M1010 244 V700"/>
-    <path d="M1270 244 V700"/>
-  </g>
+  <!-- Main realized history. -->
+  <text x="72" y="414" fill="#14eaff" font-family="Segoe UI, Arial, sans-serif" font-size="36">Past</text>
+  <text x="1480" y="414" fill="#ff5ee7" font-family="Segoe UI, Arial, sans-serif" font-size="36">Future</text>
+  <path d="M148 402H1450" fill="none" stroke="url(#history)" stroke-width="4.5" stroke-linecap="round"/>
+  <path d="M1450 402l-18-11M1450 402l-18 11" fill="none" stroke="#ff5ee7" stroke-width="3.8" stroke-linecap="round"/>
 
-  <text x="84" y="417" fill="#14eaff" font-family="Segoe UI, Arial, sans-serif" font-size="36">Past</text>
-  <text x="1475" y="417" fill="#ff5ee7" font-family="Segoe UI, Arial, sans-serif" font-size="36">Future</text>
+  <!-- Enriched interval is a luminous sheath around the same line. -->
+  <path d="M360 402H1240" fill="none" stroke="url(#enrichment)" stroke-width="14" stroke-linecap="round" filter="url(#lineGlow)"/>
+  <path d="M360 402H1240" fill="none" stroke="url(#history)" stroke-width="5.8" stroke-linecap="round"/>
 
-  <!-- Baseline realized history -->
-  <path d="M150 405 H1450" fill="none" stroke="url(#history)" stroke-width="5" stroke-linecap="round"/>
-  <path d="M1450 405 l-18 -11 M1450 405 l-18 11" fill="none" stroke="#ff5ee7" stroke-width="4" stroke-linecap="round"/>
+  <!-- Past-directed transit: broad oval with crisp tangent attachments and no arrow. -->
+  <path d="M1240 402L1292 402C1360 412 1404 451 1408 497C1418 611 1150 650 806 650C462 650 205 616 220 500C226 451 266 418 316 406L360 402"
+        fill="none" stroke="url(#loop)" stroke-width="10" stroke-opacity="0.10" filter="url(#lineGlow)"/>
+  <path d="M1240 402L1292 402C1360 412 1404 451 1408 497C1418 611 1150 650 806 650C462 650 205 616 220 500C226 451 266 418 316 406L360 402"
+        fill="none" stroke="url(#loop)" stroke-width="4.8" stroke-dasharray="13 12" stroke-linecap="butt" stroke-linejoin="round"/>
 
-  <!-- Parameter enrichment is a sheath around the same history, not a second line. -->
-  <path d="M455 405 H1145" fill="none" stroke="url(#enrichment)" stroke-width="15" stroke-linecap="round" filter="url(#lineGlow)"/>
-  <path d="M455 405 H1145" fill="none" stroke="url(#history)" stroke-width="6" stroke-linecap="round"/>
+  <!-- Frontal time plane: projected ruby rectangle crossing both trajectories. -->
+  <polygon points="790,246 858,207 858,707 790,668" fill="url(#plane)" stroke="#ff526b" stroke-width="2.6"/>
+  <line x1="858" y1="207" x2="858" y2="707" stroke="#ff687b" stroke-width="4.2"/>
 
-  <!-- Travel loop: short forward tangent, broad oval return, crisp reintegration. -->
-  <path d="M1145 405 L1202 405 C1268 411 1308 453 1308 512 C1308 635 1105 686 806 686 C507 686 310 636 310 520 C310 458 350 419 412 407 L455 405"
-        fill="none" stroke="url(#loop)" stroke-width="13" stroke-opacity="0.11" filter="url(#lineGlow)"/>
-  <path d="M1145 405 L1202 405 C1268 411 1308 453 1308 512 C1308 635 1105 686 806 686 C507 686 310 636 310 520 C310 458 350 419 412 407 L455 405"
-        fill="none" stroke="url(#loop)" stroke-width="6" stroke-dasharray="15 13" stroke-linecap="butt" stroke-linejoin="round"/>
-
-  <!-- Ruby frontal-time plane overlays the trajectories so they read as passing through it. -->
-  <polygon points="758,244 844,195 844,716 758,667" fill="url(#plane)" stroke="#ff4562" stroke-width="3"/>
-  <line x1="844" y1="195" x2="844" y2="716" stroke="#ff6b7d" stroke-width="5"/>
-
-  <!-- Key nodes are foreground landmarks; intermediate density nodes are intentionally omitted. -->
+  <!-- Key nodes only. -->
   <g filter="url(#nodeGlow)">
-    <circle cx="455" cy="405" r="18" fill="#07152a" stroke="#f8fbff" stroke-width="4"/>
-    <circle cx="455" cy="405" r="10" fill="#07152a" stroke="#14eaff" stroke-width="4"/>
-    <circle cx="1145" cy="405" r="18" fill="#07152a" stroke="#f8fbff" stroke-width="4"/>
-    <circle cx="1145" cy="405" r="10" fill="#07152a" stroke="#ff5ee7" stroke-width="4"/>
+    <circle cx="360" cy="402" r="18" fill="#07152a" stroke="#f8fbff" stroke-width="3.6"/>
+    <circle cx="360" cy="402" r="10" fill="#07152a" stroke="#14eaff" stroke-width="3.6"/>
+    <circle cx="1240" cy="402" r="18" fill="#07152a" stroke="#f8fbff" stroke-width="3.6"/>
+    <circle cx="1240" cy="402" r="10" fill="#07152a" stroke="#ff5ee7" stroke-width="3.6"/>
   </g>
 
-  <!-- Reintegration callout -->
-  <text x="330" y="277" fill="#14eaff" font-family="Segoe UI, Arial, sans-serif" font-size="24">reintegration into</text>
-  <text x="354" y="310" fill="#14eaff" font-family="Segoe UI, Arial, sans-serif" font-size="24">past history</text>
-  <path d="M390 323 H455 V374" fill="none" stroke="#14eaff" stroke-width="2"/>
-  <circle cx="455" cy="374" r="4" fill="#14eaff"/>
-  <!-- Enrichment callout -->
-  <path d="M585 306 H1015" fill="none" stroke="#8ea6c8" stroke-width="1.5"/>
-  <path d="M585 306 V321 M1015 306 V321" fill="none" stroke="#8ea6c8" stroke-width="1.5"/>
-  <text x="800" y="289" fill="#b9c5ff" font-family="Segoe UI, Arial, sans-serif" font-size="23" text-anchor="middle">parameter-enriched interval</text>
-  <!-- Departure and no-branch callout -->
-  <text x="1089" y="277" fill="#ff5ee7" font-family="Segoe UI, Arial, sans-serif" font-size="24">departure</text>
-  <text x="1075" y="310" fill="#ff5ee7" font-family="Segoe UI, Arial, sans-serif" font-size="24">from future</text>
-  <path d="M1145 323 V374" fill="none" stroke="#ff5ee7" stroke-width="2"/>
-  <circle cx="1145" cy="374" r="4" fill="#ff5ee7"/>
+  <!-- Reintegration callout. -->
+  <text x="278" y="269" fill="#14eaff" font-family="Segoe UI, Arial, sans-serif" font-size="22">reintegration into</text>
+  <text x="304" y="300" fill="#14eaff" font-family="Segoe UI, Arial, sans-serif" font-size="22">past history</text>
+  <path d="M360 316V367" fill="none" stroke="#14eaff" stroke-width="1.8"/>
+  <circle cx="360" cy="367" r="4" fill="#14eaff"/>
 
-  <rect x="1233" y="236" width="300" height="88" rx="14" fill="#090a18" stroke="#ff5ee7" stroke-width="2"/>
-  <circle cx="1270" cy="280" r="16" fill="#07152a" stroke="#c68cff" stroke-width="2"/>
-  <circle cx="1270" cy="280" r="4" fill="#ff5ee7"/>
-  <path d="M1247 280 H1254 M1286 280 H1293" stroke="#c68cff" stroke-width="2"/>
-  <text x="1308" y="272" fill="#ff79e8" font-family="Segoe UI, Arial, sans-serif" font-size="20">same primary timeline</text>
-  <text x="1308" y="301" fill="#ff79e8" font-family="Segoe UI, Arial, sans-serif" font-size="20">no branch created</text>
-  <path d="M1378 324 C1317 352 1232 382 1167 397" fill="none" stroke="#ff5ee7" stroke-width="2"/>
+  <!-- Parameter-enriched interval bracket. -->
+  <text x="800" y="292" fill="#c1c3f2" font-family="Segoe UI, Arial, sans-serif" font-size="22" text-anchor="middle">parameter-enriched interval</text>
+  <path d="M590 310H1050M590 310V323M1050 310V323" fill="none" stroke="#a6b1ce" stroke-width="1.5"/>
 
-  <!-- Transit and plane labels -->
-  <text x="800" y="614" fill="#a78bff" font-family="Segoe UI, Arial, sans-serif" font-size="22" text-anchor="middle">isolated past-directed transit</text>
-  <text x="884" y="728" fill="#ff5d73" font-family="Segoe UI, Arial, sans-serif" font-size="24">frontal time plane</text>
-  <path d="M872 716 L840 684" fill="none" stroke="#ff5d73" stroke-width="2"/>
+  <!-- Departure and no-branch callout. -->
+  <text x="1192" y="269" fill="#ff5ee7" font-family="Segoe UI, Arial, sans-serif" font-size="22">departure</text>
+  <text x="1173" y="300" fill="#ff5ee7" font-family="Segoe UI, Arial, sans-serif" font-size="22">from future</text>
+  <path d="M1240 316V367" fill="none" stroke="#ff5ee7" stroke-width="1.8"/>
+  <circle cx="1240" cy="367" r="4" fill="#ff5ee7"/>
 
-  <!-- Bottom note -->
-  <rect x="248" y="758" width="1104" height="106" rx="15" fill="#050a16" stroke="#29354f"/>
-  <g transform="translate(310 811)">
-    <circle cx="0" cy="0" r="34" fill="none" stroke="#526885" stroke-width="2"/>
-    <path d="M-27 5 A28 28 0 0 1 18 -22" fill="none" stroke="#14eaff" stroke-width="4" stroke-linecap="round"/>
-    <path d="M18 -22 l1 10 l9 -3" fill="none" stroke="#ff5ee7" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-    <path d="M0 -14 V2 L12 9" fill="none" stroke="#d7b0ff" stroke-width="3" stroke-linecap="round"/>
-    <circle cx="-28" cy="5" r="5" fill="#14eaff"/>
-    <circle cx="27" cy="8" r="5" fill="#ff5ee7"/>
+  <rect x="1322" y="222" width="238" height="76" rx="13" fill="#090a18" fill-opacity="0.96" stroke="#ff5ee7" stroke-width="1.8"/>
+  <circle cx="1352" cy="260" r="13" fill="#07152a" stroke="#c68cff" stroke-width="1.8"/>
+  <circle cx="1352" cy="260" r="3.5" fill="#ff5ee7"/>
+  <text x="1382" y="254" fill="#ff79e8" font-family="Segoe UI, Arial, sans-serif" font-size="17">same primary timeline</text>
+  <text x="1382" y="280" fill="#ff79e8" font-family="Segoe UI, Arial, sans-serif" font-size="17">no branch created</text>
+  <path d="M1442 299C1384 329 1316 362 1261 392" fill="none" stroke="#ff5ee7" stroke-width="1.7"/>
+
+  <!-- Transit and frontal-time labels. -->
+  <circle cx="596" cy="655" r="4" fill="#a78bff"/>
+  <path d="M596 659V684" fill="none" stroke="#a78bff" stroke-width="1.6"/>
+  <text x="596" y="710" fill="#a78bff" font-family="Segoe UI, Arial, sans-serif" font-size="20" text-anchor="middle">isolated past-directed transit</text>
+
+  <circle cx="886" cy="708" r="4" fill="#ff5d73"/>
+  <path d="M890 708H918" fill="none" stroke="#ff5d73" stroke-width="1.6"/>
+  <text x="930" y="715" fill="#ff5d73" font-family="Segoe UI, Arial, sans-serif" font-size="21">frontal time plane</text>
+
+  <!-- Compact explanatory panel. -->
+  <rect x="190" y="760" width="1220" height="92" rx="15" fill="#050a16" fill-opacity="0.96" stroke="#29354f"/>
+  <g transform="translate(257 806)">
+    <circle cx="0" cy="0" r="29" fill="none" stroke="#526885" stroke-width="1.8"/>
+    <path d="M-23 4A24 24 0 0 1 15-19" fill="none" stroke="#14eaff" stroke-width="3.4" stroke-linecap="round"/>
+    <path d="M15-19l1 9 8-3" fill="none" stroke="#ff5ee7" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M0-12V2L10 8" fill="none" stroke="#d7b0ff" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="-24" cy="4" r="4.5" fill="#14eaff"/>
+    <circle cx="23" cy="7" r="4.5" fill="#ff5ee7"/>
   </g>
-  <line x1="372" y1="780" x2="372" y2="842" stroke="#34425d"/>
-  <text x="405" y="796" fill="#f8fbff" font-family="Segoe UI, Arial, sans-serif" font-size="19">The trip does not rewrite the timeline: its past intervention is already one of the causes of the future departure.</text>
-  <text x="405" y="829" fill="#dfe8ff" font-family="Segoe UI, Arial, sans-serif" font-size="19">During transit the traveler is isolated; after reintegration, the same history carries the added state until departure closes the loop.</text>
+  <line x1="317" y1="780" x2="317" y2="832" stroke="#34425d"/>
+  <text x="350" y="798" fill="#f8fbff" font-family="Segoe UI, Arial, sans-serif" font-size="18">The trip does not rewrite the timeline: its past intervention is already one of the causes of the future departure.</text>
+  <text x="350" y="829" fill="#dfe8ff" font-family="Segoe UI, Arial, sans-serif" font-size="18">During transit the traveler is isolated; after reintegration, the same history carries the added state until departure closes the loop.</text>
 </svg>
