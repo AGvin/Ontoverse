@@ -4,7 +4,7 @@ Status: draft
 
 ![Uneven temporal density across history-space](../../assets/default/diagrams/uneven-temporal-density.svg)
 
-This diagram compares several representative temporal-density patterns inside Ontoverse history-space.
+This diagram compares representative temporal-density patterns across Historical Strands in the Ontoverse history bundle.
 
 ## Translations
 
@@ -13,7 +13,7 @@ This diagram compares several representative temporal-density patterns inside On
 
 ## What the Diagram Shows
 
-Each row represents a different pattern of significant event-node frequency before the same ruby current frontal-time frontier `S(F_max)`.
+Each row represents a different significant event-node frequency pattern before the same ruby current frontal-time frontier `S(F_max)`.
 
 Patterns shown:
 
@@ -23,39 +23,39 @@ Patterns shown:
 - **Burst cluster** — significant event-nodes are concentrated in a local interval.
 - **Uniform medium** — significant event-nodes occur at a relatively even medium frequency.
 
-## Global-Slice Interpretation
+## History-Bundle Interpretation
 
-The rows can be read as different branch-local responses across the same sequence of global frontal-time slices.
+The rows are different currently distinguishable Historical Strands sampled across the same global frontal-time progression.
 
 ```text
 shared progression: S(F0) -> S(F1) -> ... -> S(F_max)
-branch A:           fewer significant transitions
-branch B:           more significant transitions
-branch C:           transitions concentrated in a burst
+strand A:           fewer significant transitions
+strand B:           more significant transitions
+strand C:           transitions concentrated in a burst
 ```
 
-The visual spacing is a conceptual encoding of **temporal density**, not proof that frontal time itself is discrete.
+The visual spacing is a conceptual encoding of temporal density, not proof that frontal time is discrete.
+
+A represented strand may still stand for several admissible complete histories while they remain members of the same History Equivalence Class. Separate density paths are only needed once their current states or transition descriptions become distinguishable.
 
 ## Interpretation
 
-The purpose of this diagram is to show that temporal density does not have to be uniform across history-space.
+Different historical strands can accumulate different amounts of local time while sharing the same global frontal-time progression.
 
-Different trajectories can accumulate different amounts of local time while sharing the same global frontal-time progression.
-
-Temporal density here means significant event-node frequency per frontal-time interval. It is distinct from causal processing density.
+Temporal density here means significant event-node frequency per frontal-time interval. It is distinct from Causal Processing Density.
 
 ## Current Frontier
 
-Every trajectory ends at the frontal time plane because the plane represents `S(F_max)` in this visualization.
+Every represented strand ends at the frontal-time plane because the plane is `S(F_max)` in this visualization.
 
-The diagram intentionally avoids showing realized branches or event-nodes beyond the current maximal slice.
+The diagram intentionally avoids showing realized strand content beyond the current maximal slice.
 
 ## Documentation Role
 
 Use this visualization when explaining:
 
+- the history bundle;
 - global frontal-time slices;
 - uneven temporal density;
-- local time accumulation;
-- sparse, dense, and clustered event-node patterns;
-- why history-space should be treated as non-uniform rather than evenly gridded.
+- local-time accumulation;
+- sparse, dense, clustered, and changing significant-transition patterns.
